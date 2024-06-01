@@ -1,0 +1,6 @@
+:root {
+  /* 标题颜色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #a8e6ff, #42b983);
+  --vp-home-hero-name-font-size: 400px;
+}
