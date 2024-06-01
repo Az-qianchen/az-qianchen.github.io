@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@vite-pwa/vitepress": "^0.5.0",
+    "vitepress": "^1.2.2"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
