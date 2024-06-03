@@ -1,6 +1,9 @@
 {
   "devDependencies": {
+    "@iconify-json/ic": "^1.1.17",
+    "@unocss/preset-icons": "^0.60.4",
     "@vite-pwa/vitepress": "^0.5.0",
+    "unocss": "^0.60.4",
     "vitepress": "^1.2.2"
   },
   "scripts": {

@@ -3,5 +3,7 @@ import DefaultTheme from "vitepress/theme";
 // 引入 CSS 文件
 import "./custom.css";
 
+import "virtual:uno.css";
+
 // 再导出为默认注意
 export default DefaultTheme;

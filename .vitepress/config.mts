@@ -7,6 +7,9 @@ import sidebar from "./config/sidebar.mjs";
 import head from "./config/head.mjs";
 
 import { withPwa } from "@vite-pwa/vitepress";
+
+import UnoCSS from "unocss/vite";
+
 // https://vitepress.dev/reference/site-config
 export default withPwa(
   defineConfig({
@@ -101,6 +104,9 @@ export default withPwa(
         suppressWarnings: true,
         navigateFallback: "/",
       },
+    },
+    vite: {
+      plugins: [UnoCSS()],
     },
   })
 );

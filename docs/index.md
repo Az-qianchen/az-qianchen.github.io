@@ -40,3 +40,4 @@ features:
     # linkText: AA
 ---
 
+<div i-ic-camera text-6xl></div>
