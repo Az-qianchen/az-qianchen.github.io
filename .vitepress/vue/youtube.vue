@@ -29,7 +29,6 @@ const url = computed(() => `https://www.youtube.com/embed/${props.id}`);
 
 <style>
 .video-responsive {
-  /*设置圆角*/
   border-radius: 10px;
 }
 </style>

@@ -8,6 +8,7 @@ tags:
 
 <billbill id="BV1MR4y1Q738"/>
 <youtube id="tKjZuykKY1I"/>
+<sketchfab id="1c89cb9f2c224b78b6fea50f82e042c3"/>
 
 # Runtime API Examples
 
