@@ -18,15 +18,6 @@ hero:
     - theme: brand
       text: 🫤
       link: posts/api-examples
-    - theme: brand
-      text: tag1
-      link: tags/tag1
-    - theme: brand
-      text: tag1
-      link: tags/tag2
-    - theme: brand
-      text: tag1
-      link: tags/tag3
 
 # 展示卡片
 features:

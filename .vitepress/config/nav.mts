@@ -10,4 +10,8 @@ export default [
       },
     ],
   },
+  {
+    text: "标签",
+    link: "tags",
+  },
 ];

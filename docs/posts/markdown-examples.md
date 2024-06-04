@@ -1,4 +1,5 @@
 ---
+title: Markdown Extension Examples
 tags:
   - tag1
   - tag3
