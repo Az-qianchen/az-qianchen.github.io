@@ -34,7 +34,6 @@ const url = computed(
 
 <style>
 .video-responsive {
-  /*设置圆角*/
   border-radius: 10px;
   position: relative;
   padding-bottom: 56.25%;
