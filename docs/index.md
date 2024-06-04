@@ -14,23 +14,32 @@ hero:
   actions:
     - theme: brand # brand/alt 两种不同样式
       text: 😕
-      link: /markdown-examples
+      link: posts/markdown-examples
     - theme: brand
       text: 🫤
-      link: /api-examples
+      link: posts/api-examples
+    - theme: brand
+      text: tag1
+      link: tags/tag1
+    - theme: brand
+      text: tag1
+      link: tags/tag2
+    - theme: brand
+      text: tag1
+      link: tags/tag3
 
 # 展示卡片
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     icon: 🤨
-    link: /api-examples
+    link: posts/api-examples
     linkText: more
 
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     icon: 😯
-    link: /api-examples
+    link: posts/api-examples
     linkText: AA
 
   - title: Feature C

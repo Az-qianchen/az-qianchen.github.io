@@ -65,6 +65,7 @@ export default withPwa(
         provider: "local",
       },
     },
+    rewrites: {},
     pwa: {
       mode: "development",
       registerType: "autoUpdate",
