@@ -4,5 +4,19 @@ import DefaultTheme from "vitepress/theme";
 import "./custom.css";
 // 引入 UnoCSS
 import "virtual:uno.css";
+
+// 引入全局组件
+import BillBill from '../vue/billbill.vue';
+import YouTube from '../vue/youtube.vue';
+
+export default {
+    extends: DefaultTheme,
+    enhanceApp({ app }) {
+      // 注册全局组件
+      app.component('billbill', BillBill);
+      app.component('youtube', YouTube);
+    },
+  };
+
 // 再导出为默认主题
-export default DefaultTheme;
+// export default DefaultTheme;

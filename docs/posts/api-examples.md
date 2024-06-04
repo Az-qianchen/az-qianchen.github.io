@@ -5,6 +5,9 @@ tags:
   - tag2
 ---
 
+<billbill id="BV1MR4y1Q738"/>
+<youtube id="tKjZuykKY1I"/>
+
 # Runtime API Examples
 
 This page demonstrates usage of some of the runtime APIs provided by VitePress.
