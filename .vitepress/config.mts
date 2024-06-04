@@ -5,9 +5,10 @@ import nav from "./config/nav.mts";
 import sidebar from "./config/sidebar.mjs";
 // 导入头部配置
 import head from "./config/head.mjs";
-
+// 引入 PWA 插件
 import { withPwa } from "@vite-pwa/vitepress";
-
+import pwa from "./config/pwa.mts";
+// 导入 UnoCSS 插件
 import UnoCSS from "unocss/vite";
 
 // https://vitepress.dev/reference/site-config
@@ -65,47 +66,10 @@ export default withPwa(
         provider: "local",
       },
     },
+    // 路由重写
     rewrites: {},
-    pwa: {
-      mode: "development",
-      registerType: "autoUpdate",
-      injectRegister: "script-defer",
-      includeAssets: ["favicon.svg"],
-      manifest: {
-        name: "VitePress PWA",
-        short_name: "VitePressPWA",
-        theme_color: "#ffffff",
-        icons: [
-          {
-            src: "pwa-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "pwa-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-          {
-            src: "pwa-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "any maskable",
-          },
-        ],
-      },
-      workbox: {
-        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"],
-      },
-      experimental: {
-        includeAllowlist: true,
-      },
-      devOptions: {
-        enabled: true,
-        suppressWarnings: true,
-        navigateFallback: "/",
-      },
-    },
+    // pwz 配置
+    pwa: pwa,
     vite: {
       plugins: [UnoCSS()],
     },
