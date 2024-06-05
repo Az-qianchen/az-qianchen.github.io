@@ -2,4 +2,34 @@
   /* 标题颜色 */
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #a8e6ff, #42b983);
+  /* 图片背景颜色 */
+  --vp-home-hero-image-background-image: linear-gradient( 135deg, #a8e6ff 10%, #42b983 100%);
+  --vp-home-hero-image-filter: blur(150px);
+
+  /* 链接颜色 */
+  --vp-c-brand-1: #42b983;
+  /* 链接选中颜色 */
+  --vp-c-brand-2: #56e3a3;
+  /* 按钮颜色 */
+  --vp-c-brand-3: #3E63DD;
+/* 导航栏 */
+.VPNav {
+  /* 添加毛玻璃效果 */
+  background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  backdrop-filter: blur(10px); /* 毛玻璃效果 */
+}
+/* 页脚 */
+.VPFooter {
+  background: rgba(0, 0, 0, 0);
+  border-top: 0;
+}
+/* 介绍块 */
+.VPFeature{
+  /* 添加毛玻璃效果 */
+  background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  backdrop-filter: blur(10px); /* 毛玻璃效果 */
+}
+.content-body{
+  background: rgba(0, 0, 0, 0.0);
+}
 }

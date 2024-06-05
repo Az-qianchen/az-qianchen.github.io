@@ -31,7 +31,6 @@ const url = computed(
     `https://player.bilibili.com/player.html?bvid=${props.id}&p=1&autoplay=0`
 );
 </script>
-
 <style>
 .video-responsive {
   border-radius: 10px;

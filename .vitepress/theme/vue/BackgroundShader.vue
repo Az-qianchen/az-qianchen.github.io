@@ -76,7 +76,7 @@ onMounted(() => {
       uv = vec2(uv_len * cos(angle), uv_len * sin(angle)) * scale2;
       uv *= scale1;
       vec2 uv2 = vec2(uv.x + uv.y);
-      for (int i = 0; i < 5; i++) {
+      for (int i = 0; i < 2; i++) {
           uv2 += sin(uv);
           uv += vec2(cos(intensity * uv2.y + speed), sin(intensity * uv2.x - speed));
           uv -= cos(uv.x + uv.y) - sin(uv.x - uv.y);
@@ -216,8 +216,6 @@ onMounted(() => {
   width: 100vw;
   height: 100vh;
   z-index: -9999;
-  background: rgba(129, 22, 22, 0.1); /* 半透明背景 */
-  backdrop-filter: blur(100px); /* 毛玻璃效果 */
 }
 
 canvas {
