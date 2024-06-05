@@ -3,6 +3,7 @@ title: { { $params.tags } }
 sidebar: false
 prev: false
 next: false
+comments: false
 ---
 
 <script setup>
