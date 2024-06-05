@@ -1,43 +1,121 @@
+/* 亮色模式配色 */
 :root {
   /* 标题颜色 */
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #a8e6ff, #42b983);
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #8800ff,
+    #3e63dd
+  );
   /* 图片背景颜色 */
-  --vp-home-hero-image-background-image: linear-gradient( 135deg, #a8e6ff 10%, #42b983 100%);
+  --vp-home-hero-image-background-image: linear-gradient(
+    135deg,
+    #000000 10%,
+    #000000 100%
+  );
   --vp-home-hero-image-filter: blur(150px);
-
+  /* 链接颜色 */
+  --vp-c-brand-1: #3e63dd;
+  /* 链接选中颜色 */
+  --vp-c-brand-2: #5d00ff;
+  /* 按钮颜色 */
+  --vp-c-brand-3: #3e63ddbb;
+  --vp-02: rgba(255, 255, 255, 0.2);
+  --vp-06: rgba(255, 255, 255, 0.6);
+}
+/* 暗色模式配色 */
+.dark {
+  /* 标题颜色 */
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #a8e6ff,
+    #42b983
+  );
+  --vp-home-hero-name-color: transparent;
+  /* 图片背景颜色 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    135deg,
+    #42b983 10%,
+    #42b983 100%
+  );
+  --vp-home-hero-image-filter: blur(150px);
   /* 链接颜色 */
   --vp-c-brand-1: #42b983;
   /* 链接选中颜色 */
   --vp-c-brand-2: #56e3a3;
   /* 按钮颜色 */
-  --vp-c-brand-3: #3E63DD;
-/* 导航栏 */
-.VPNav {
-  /* 添加毛玻璃效果 */
-  background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
-  backdrop-filter: blur(10px); /* 毛玻璃效果 */
+  --vp-c-brand-3: #42b983bb;
+  --vp-02: rgba(0, 0, 0, 0.2);
+  --vp-06: rgba(0, 0, 0, 0.6);
 }
-/* 页脚 */
-.VPFooter {
-  background: rgba(0, 0, 0, 0);
-  border-top: 0;
-}
-/* 介绍块 */
-.VPFeature{
-  /* 添加毛玻璃效果 */
-  background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
-  backdrop-filter: blur(10px); /* 毛玻璃效果 */
-}
-/* 搜索页背景 */
-.backdrop{
-  /* 添加毛玻璃效果 */
-  backdrop-filter: blur(4px); /* 毛玻璃效果 */
-}
-/* 搜索框 */
-.DocSearch-Button{
-  /* 添加毛玻璃效果 */
-  background: rgba(0, 0, 0, 0.2); /* 半透明背景 */
-  backdrop-filter: blur(10px); /* 毛玻璃效果 */
-}
+
+:root {
+  /* 导航栏 */
+  .VPNavBar {
+    /* 添加毛玻璃效果 */
+    background: var(--vp-02);
+    backdrop-filter: blur(10px);
+  }
+  @media (min-width: 960px) {
+    .VPNavBar:not(.home) {
+      backdrop-filter: blur(0px);
+    }
+    .VPNavBar:not(.has-sidebar):not(.home.top) {
+      background: var(--vp-06);
+      backdrop-filter: blur(10px);
+    }
+  }
+  .content-body {
+    transition: background-color 0s;
+  }
+  /* 页脚 */
+  .VPFooter {
+    background: rgba(0, 0, 0, 0);
+    border-top: 0;
+  }
+  /* 介绍块 */
+  .VPFeature {
+    /* 添加毛玻璃效果 */
+    background: var(--vp-06);
+    backdrop-filter: blur(10px);
+  }
+  /* 搜索页背景 */
+  .backdrop {
+    /* 添加毛玻璃效果 */
+    backdrop-filter: blur(4px);
+  }
+  /* 搜索框 */
+  .DocSearch-Button {
+    /* 添加毛玻璃效果 */
+    background-color: rgba(0, 0, 0, 0);
+  }
+  @media (min-width: 768px) {
+    .DocSearch-Button {
+      background: var(--vp-02);
+    }
+  }
+  /* 主页name */
+  .clip {
+    font-size: 50px;
+  }
+  /* 主页text */
+  .main .text {
+    font-size: 30px;
+  }
+  @media (min-width: 640px) {
+    .clip {
+      font-size: 60px;
+    }
+    .main .text {
+      font-size: 40px;
+    }
+  }
+  @media (min-width: 960px) {
+    .clip {
+      font-size: 70px;
+    }
+    .main .text {
+      font-size: 50px;
+    }
+  }
 }
