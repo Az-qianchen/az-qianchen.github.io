@@ -13,8 +13,4 @@ export default defineConfig({
       ],
     },
   },
-  shortcuts: {
-    "sc-tagBtn":
-      "font-bold mx-2 px-4 py-2 rounded-lg bg-gray-200 hover:transform-scale-120 transition-duration-350",
-  },
 });

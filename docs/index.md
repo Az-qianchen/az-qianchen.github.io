@@ -13,10 +13,10 @@ hero:
     alt: VitePress
   actions:
     - theme: brand # brand/alt 两种不同样式
-      text: 😕
+      text: 😕AA
       link: posts/markdown-examples
     - theme: brand
-      text: 🫤
+      text: 🫤BB
       link: posts/api-examples
 
 # 展示卡片

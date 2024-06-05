@@ -21,6 +21,7 @@
   /* 按钮颜色 */
   --vp-c-brand-3: #3e63ddbb;
   --vp-02: rgba(255, 255, 255, 0.2);
+  --vp-04: rgba(255, 255, 255, 0.4);
   --vp-06: rgba(255, 255, 255, 0.6);
 }
 /* 暗色模式配色 */
@@ -46,6 +47,7 @@
   /* 按钮颜色 */
   --vp-c-brand-3: #42b983bb;
   --vp-02: rgba(0, 0, 0, 0.2);
+  --vp-04: rgba(0, 0, 0, 0.4);
   --vp-06: rgba(0, 0, 0, 0.6);
 }
 
@@ -68,6 +70,36 @@
   .content-body {
     transition: background-color 0s;
   }
+  /* 导航栏字体 */
+  .VPNavBarMenuLink {
+    font-weight: bold;
+    transition: color 0.5s;
+  }
+  .VPNavBarMenuLink:hover {
+    transition: color 0.25s;
+  }
+  .text {
+    transition: color 0.5s;
+    font-weight: bold;
+  }
+  .text:hover {
+    transition: color 0.25s;
+  }
+  /* 导航栏logo */
+  .title {
+    transition: color 0.5s;
+  }
+  .title:hover {
+    transition: color 0.25s;
+    color: var(--vp-c-brand-1);
+  }
+  .VPNavBarTitle {
+    transition: transform 0.5s;
+  }
+  .VPNavBarTitle:hover {
+    transition: transform 0.25s;
+    transform: scale(1.1);
+  }
   /* 页脚 */
   .VPFooter {
     background: rgba(0, 0, 0, 0);
@@ -75,18 +107,23 @@
   }
   /* 介绍块 */
   .VPFeature {
-    /* 添加毛玻璃效果 */
+    border: 2px solid var(--vp-06);
     background: var(--vp-06);
     backdrop-filter: blur(10px);
+    transition: transform 0.5s, background-color 0.5s, border-color 0.5s;
+  }
+  .VPFeature:hover {
+    transform: scale(1.05);
+    background: var(--vp-04);
+    border-color: rgba(0, 0, 0, 0);
+    transition: transform 0.25s, background-color 0.25s, border-color 0.25s;
   }
   /* 搜索页背景 */
   .backdrop {
-    /* 添加毛玻璃效果 */
     backdrop-filter: blur(4px);
   }
   /* 搜索框 */
   .DocSearch-Button {
-    /* 添加毛玻璃效果 */
     background-color: rgba(0, 0, 0, 0);
   }
   @media (min-width: 768px) {
@@ -120,17 +157,58 @@
   }
   /* 首页按钮 */
   .VPButton.brand {
+    border: 2px solid var(--vp-02);
     backdrop-filter: blur(10px);
     background-color: var(--vp-06);
+    transition: transform 0.5s, color 0.5s, border-color 0.5s, border-color 0.5s;
   }
-
   .VPButton.brand:hover {
+    border-color: var(--vp-c-brand-1);
     backdrop-filter: blur(10px);
-    background-color: var(--vp-02);
+    background-color: var(--vp-04);
+    transform: scale(1.1);
+    color: var(--vp-c-brand-1);
+    transition: transform 0.25s, color 0.25s, border-color 0.25s,
+      border-color 0.25s;
   }
-
   .VPButton.brand:active {
+    border-color: var(--vp-c-brand-2);
     backdrop-filter: blur(10px);
     background-color: var(--vp-06);
+    transform: scale(1.1);
+    color: var(--vp-c-brand-1);
+    transition: transform 0.25s, color 0.25s, border-color 0.25s,
+      border-color 0.25s;
+  }
+
+  /* 标签样式 */
+  .TagBtn {
+    /* border: 2px solid var(--vp-02); */
+    font-weight: bold;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.5s, color 0.5s, background-color 0.5s,
+      border-color 0.5s;
+    color: var(--vp-c-text-1);
+    background: var(--vp-02);
+  }
+  .TagBtn:hover {
+    /* border-color: var(--vp-c-brand-1); */
+    transition: transform 0.25s, color 0.25s, background-color 0.25s,
+      border-color 0.25s;
+    color: var(--vp-c-brand-1);
+    background: var(--vp-06);
+    transform: scale(1.1);
+  }
+  /* 社交标签 */
+  .VPSocialLink {
+    transition: transform 0.25s, color 0.25s;
+  }
+  .VPSocialLink:hover {
+    transform: scale(1.1);
+    color: var(--vp-c-brand-1);
+    transition: transform 0.5s, color 0.5s;
   }
 }

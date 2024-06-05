@@ -21,7 +21,7 @@ const clickHandler = (name) => {
     <button 
         v-for="tag in tags" 
         :key="tag.name" 
-        class="sc-tagBtn"
+        class="TagBtn"
         @click="clickHandler(tag.name)" >
         {{ tag.name }}
         <sup class="font-bold">{{ tag.posts.length }}</sup>
