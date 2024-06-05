@@ -4,14 +4,16 @@ import DefaultTheme from "vitepress/theme";
 import "./custom.css";
 // 引入 UnoCSS
 import "virtual:uno.css";
-
+// 引入自定义布局
+import Layout from './Layout.vue'
 // 引入全局组件
-import BillBill from '../vue/billbill.vue';
-import YouTube from '../vue/youtube.vue';
-import Sketchfab from '../vue/sketchfab.vue';
+import BillBill from './vue/billbill.vue';
+import YouTube from './vue/youtube.vue';
+import Sketchfab from './vue/sketchfab.vue';
 
 export default {
     extends: DefaultTheme,
+    Layout: Layout,
     enhanceApp({ app }) {
       // 注册全局组件
       app.component('billbill', BillBill);
