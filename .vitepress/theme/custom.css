@@ -29,7 +29,15 @@
   background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
   backdrop-filter: blur(10px); /* 毛玻璃效果 */
 }
-.content-body{
-  background: rgba(0, 0, 0, 0.0);
+/* 搜索页背景 */
+.backdrop{
+  /* 添加毛玻璃效果 */
+  backdrop-filter: blur(4px); /* 毛玻璃效果 */
+}
+/* 搜索框 */
+.DocSearch-Button{
+  /* 添加毛玻璃效果 */
+  background: rgba(0, 0, 0, 0.2); /* 半透明背景 */
+  backdrop-filter: blur(10px); /* 毛玻璃效果 */
 }
 }

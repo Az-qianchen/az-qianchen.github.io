@@ -40,8 +40,6 @@ features:
     # linkText: AA
 ---
 
-<div i-ic-camera text-6xl></div>
-
 <script setup>
   import BackgroundShader from "../.vitepress/theme/vue/BackgroundShader.vue";
 </script>
