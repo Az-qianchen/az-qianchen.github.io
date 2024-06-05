@@ -1,8 +1,8 @@
 <!--.vitepress/theme/MyLayout.vue-->
 <script setup>
 import DefaultTheme from "vitepress/theme";
-import Comments from "./vue/comments.vue";
-import Music from "./vue/music.vue";
+import Comments from "./vue/Comments.vue";
+import Music from "./vue/Music.vue";
 
 const { Layout } = DefaultTheme;
 </script>

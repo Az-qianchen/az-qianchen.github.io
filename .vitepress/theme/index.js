@@ -7,9 +7,9 @@ import "virtual:uno.css";
 // 引入自定义布局
 import Layout from './Layout.vue'
 // 引入全局组件
-import BillBill from './vue/billbill.vue';
-import YouTube from './vue/youtube.vue';
-import Sketchfab from './vue/sketchfab.vue';
+import BillBill from './vue/BillBill.vue';
+import YouTube from './vue/YouTube.vue';
+import Sketchfab from './vue/Sketchfab.vue';
 
 export default {
     extends: DefaultTheme,

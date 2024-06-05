@@ -5,15 +5,8 @@
 </template>
 
 <script setup>
+import { useData } from "vitepress";
 import { onMounted, ref, watch } from "vue";
-
-const props = defineProps({
-  theme: {
-    type: String,
-    required: true,
-    validator: (value) => ["dark", "light"].includes(value),
-  },
-});
 
 // 创建对 canvas 元素的引用
 const webglCanvas = ref(null);
@@ -186,16 +179,14 @@ onMounted(() => {
   gl.uniform1f(uniformLocations.canvas_width, canvas.width);
   gl.uniform1f(uniformLocations.canvas_height, canvas.height);
 
-  let themeValue = 0;
+  // 主题切换
+  const { isDark } = useData();
+  watch(isDark, (newTheme) => {
+    themeValue = newTheme ? 0 : 1;
+    console.log("Theme changed to:", themeValue);
+  });
+  let themeValue = isDark.value ? 0 : 1;
   let smoothedThemeValue = 0;
-
-  watch(
-    () => props.theme,
-    (newTheme) => {
-      console.log("Theme changed to:", newTheme);
-      smoothedThemeValue = newTheme === "dark" ? 0 : 1;
-    }
-  );
 
   function lerpi(a, b, t) {
     return a + (b - a) * t;
@@ -225,6 +216,8 @@ onMounted(() => {
   width: 100vw;
   height: 100vh;
   z-index: -9999;
+  background: rgba(129, 22, 22, 0.1); /* 半透明背景 */
+  backdrop-filter: blur(100px); /* 毛玻璃效果 */
 }
 
 canvas {
