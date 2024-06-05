@@ -3,6 +3,7 @@ sidebar: false
 aside: false
 prev: false
 next: false
+comments: false
 ---
 
 <script setup lang="ts">

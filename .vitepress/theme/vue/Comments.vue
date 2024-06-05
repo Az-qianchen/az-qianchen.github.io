@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// https://aiktb.dev/blog/giscus-with-vitepress
 import { useData } from "vitepress";
 
 const { title } = useData();

@@ -3,6 +3,8 @@
 import DefaultTheme from "vitepress/theme";
 import Comments from "./vue/Comments.vue";
 import Music from "./vue/Music.vue";
+import { useData } from "vitepress";
+const { frontmatter, title } = useData();
 
 const { Layout } = DefaultTheme;
 </script>
@@ -10,7 +12,9 @@ const { Layout } = DefaultTheme;
 <template>
   <Layout>
     <template #doc-after>
-      <Comments />
+      <div v-if="frontmatter.comments !== false" :key="title" class="giscus">
+        <Comments />
+      </div>
     </template>
     <template #layout-bottom>
       <Music />
