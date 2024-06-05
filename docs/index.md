@@ -41,3 +41,9 @@ features:
 ---
 
 <div i-ic-camera text-6xl></div>
+
+<script setup>
+  import BackgroundShader from "../.vitepress/theme/vue/background-shader.vue";
+</script>
+
+<BackgroundShader />
