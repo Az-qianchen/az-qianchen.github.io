@@ -118,4 +118,19 @@
       font-size: 50px;
     }
   }
+  /* 首页按钮 */
+  .VPButton.brand {
+    backdrop-filter: blur(10px);
+    background-color: var(--vp-06);
+  }
+
+  .VPButton.brand:hover {
+    backdrop-filter: blur(10px);
+    background-color: var(--vp-02);
+  }
+
+  .VPButton.brand:active {
+    backdrop-filter: blur(10px);
+    background-color: var(--vp-06);
+  }
 }
