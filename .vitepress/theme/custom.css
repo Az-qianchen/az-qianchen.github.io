@@ -211,4 +211,15 @@
     color: var(--vp-c-brand-1);
     transition: transform 0.5s, color 0.5s;
   }
+  /* 图片查看器 */
+  .medium-zoom-overlay {
+    z-index: 998;
+    backdrop-filter: blur(10px);
+  }
+  .medium-zoom-image {
+    z-index: 999;
+  }
+  img {
+    border-radius: 10px;
+  }
 }

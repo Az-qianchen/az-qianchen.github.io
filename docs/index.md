@@ -39,9 +39,44 @@ features:
     # link: /api-examples
     # linkText: AA
 ---
-
+---
 <script setup>
+  import { ref } from "vue";
   import BackgroundShader from "../.vitepress/theme/vue/BackgroundShader.vue";
+  import PhotoSwipe from "../.vitepress/theme/vue/PhotoSwipe.vue";
+
+  const images = ref([
+  {
+    largeURL:
+      'https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg',
+    thumbnailURL:
+      'https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg',
+    width: 1875,
+    height: 2500,
+  },
+  {
+    largeURL:
+      'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg',
+    thumbnailURL:
+      'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg',
+    width: 1669,
+    height: 2500,
+  },
+  {
+    largeURL:
+      'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
+    thumbnailURL:
+      'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
+    width: 2500,
+    height: 1666,
+  },
+]);
 </script>
 
 <BackgroundShader />
+
+<PhotoSwipe :images="images" />
+
+![](https://s2.loli.net/2024/05/29/3u6HrJnqkTmE2ZM.png)
+![](https://s2.loli.net/2024/05/11/AxytJQVb3EDwfiZ.jpg)
+![](https://i0.hdslb.com/bfs/article/3704e7940594cb6fc607e6a705c465ab293123360.png@0c.webp)

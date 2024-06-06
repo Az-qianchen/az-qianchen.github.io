@@ -12,5 +12,7 @@ const head: HeadConfig[] = [
       gtag('config', 'G-X1S233BKKP');
     `]
   ];
+  // 使用图床
+  head.push(['meta', { name: 'referrer', content: "no-referrer" }])
 
 export default head;

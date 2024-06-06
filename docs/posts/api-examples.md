@@ -5,7 +5,7 @@ tags:
   - tag1
   - tag2
 ---
-
+![](https://s2.loli.net/2024/05/11/AxytJQVb3EDwfiZ.jpg){zoom}
 <billbill id="BV1MR4y1Q738"/>
 <youtube id="tKjZuykKY1I"/>
 <sketchfab id="1c89cb9f2c224b78b6fea50f82e042c3"/>
