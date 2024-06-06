@@ -23,6 +23,8 @@
   --vp-02: rgba(255, 255, 255, 0.2);
   --vp-04: rgba(255, 255, 255, 0.4);
   --vp-06: rgba(255, 255, 255, 0.6);
+  --vp-08: rgba(255, 255, 255, 0.8);
+  --vp-10: rgba(255, 255, 255, 1);
 }
 /* 暗色模式配色 */
 .dark {
@@ -49,13 +51,15 @@
   --vp-02: rgba(0, 0, 0, 0.2);
   --vp-04: rgba(0, 0, 0, 0.4);
   --vp-06: rgba(0, 0, 0, 0.6);
+  --vp-08: rgba(0, 0, 0, 0.8);
+  --vp-10: rgba(0, 0, 0, 1);
 }
 
 :root {
   /* 导航栏 */
   .VPNavBar {
     /* 添加毛玻璃效果 */
-    background: var(--vp-02);
+    background: var(--vp-04);
     backdrop-filter: blur(10px);
   }
   @media (min-width: 960px) {
@@ -221,5 +225,22 @@
   }
   img {
     border-radius: 10px;
+  }
+  /* 顶栏展开选项菜单 */
+  .VPMenu {
+    background: var(--vp-08);
+  }
+  /* 顶栏展开菜单 */
+  .VPNavScreen {
+    background: var(--vp-04);
+    backdrop-filter: blur(10px);
+  }
+  /* 顶栏展开菜单主题切换面板 */
+  .VPNavScreenAppearance {
+    background: var(--vp-02);
+    backdrop-filter: blur(10px);
+  }
+  ::-webkit-scrollbar {
+    display: none;
   }
 }

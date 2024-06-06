@@ -13,7 +13,7 @@
         :src="image.thumbnailURL"
         alt=""
         style="width: 100%; height: auto"
-        zoom="防止 medium-zoom 一起触发"
+        no-zoom="防止 medium-zoom 一起触发"
       />
     </a>
   </div>
@@ -76,7 +76,7 @@ export default {
   margin: 0 0 4px 0;
 }
 #gallery img {
-  transition: transform 0.4s;
+  transition: transform 0.5s;
 }
 #gallery a:hover img {
   transform: scale(1.1);

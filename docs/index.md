@@ -71,12 +71,14 @@ features:
     height: 1666,
   },
 ]);
+import "overlayscrollbars/overlayscrollbars.css";
+import { OverlayScrollbarsComponent } from "overlayscrollbars-vue";
 </script>
 
 <BackgroundShader />
 
 <PhotoSwipe :images="images" />
 
-![](https://s2.loli.net/2024/05/29/3u6HrJnqkTmE2ZM.png)
-![](https://s2.loli.net/2024/05/11/AxytJQVb3EDwfiZ.jpg)
-![](https://i0.hdslb.com/bfs/article/3704e7940594cb6fc607e6a705c465ab293123360.png@0c.webp)
+![](https://s2.loli.net/2024/05/29/3u6HrJnqkTmE2ZM.png){zoom}
+![](https://s2.loli.net/2024/05/11/AxytJQVb3EDwfiZ.jpg){zoom}
+![](https://i0.hdslb.com/bfs/article/3704e7940594cb6fc607e6a705c465ab293123360.png@0c.webp){zoom}

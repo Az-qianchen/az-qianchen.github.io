@@ -27,8 +27,10 @@ export default {
   setup() {
     const route = useRoute();
     const initZoom = () => {
-      // mediumZoom("[zoom]", { background: "var(--vp-c-bg)" }); // 带标签的触发
-      mediumZoom("img:not([zoom])", { background: "rgba(0, 0, 0, 0.8)" }); // 不带标签的触发
+      mediumZoom("[zoom]", { background: "rgba(0, 0, 0, 0.8)" }); // 带标签的触发
+      mediumZoom(".main img:not([no-zoom])", {
+        background: "rgba(0, 0, 0, 0.8)",
+      }); // 不带标签的触发
     };
     onMounted(() => {
       initZoom();
