@@ -71,8 +71,6 @@ features:
     height: 1666,
   },
 ]);
-import "overlayscrollbars/overlayscrollbars.css";
-import { OverlayScrollbarsComponent } from "overlayscrollbars-vue";
 </script>
 
 <BackgroundShader />
