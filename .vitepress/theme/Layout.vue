@@ -7,21 +7,11 @@ import { useData } from "vitepress";
 const { frontmatter, title } = useData();
 
 const { Layout } = DefaultTheme;
-import { OverlayScrollbarsComponent } from "overlayscrollbars-vue";
-import "overlayscrollbars/overlayscrollbars.css";
 </script>
 
 <template>
   <OverlayScrollbarsComponent defer>
     <Layout>
-      <template>
-        <OverlayScrollbarsComponent
-          @os-initialized="onInitialized"
-          @os-updated="onUpdated"
-          @os-destroyed="onDestroyed"
-          @os-scroll="onScroll"
-        />
-      </template>
       <template #doc-after>
         <div v-if="frontmatter.comments !== false" :key="title" class="giscus">
           <Comments />
