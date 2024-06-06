@@ -1,23 +1,35 @@
 <!--.vitepress/theme/MyLayout.vue-->
 <script setup>
 import DefaultTheme from "vitepress/theme";
-import Comments from "./vue/comments.vue";
-import Music from "./vue/music.vue";
+import Comments from "./vue/Comments.vue";
+import Music from "./vue/Music.vue";
 import { useData } from "vitepress";
 const { frontmatter, title } = useData();
 
 const { Layout } = DefaultTheme;
+import { OverlayScrollbarsComponent } from "overlayscrollbars-vue";
+import "overlayscrollbars/overlayscrollbars.css";
 </script>
 
 <template>
-  <Layout>
-    <template #doc-after>
-      <div v-if="frontmatter.comments !== false" :key="title" class="giscus">
-        <Comments />
-      </div>
-    </template>
-    <template #layout-bottom>
-      <Music />
-    </template>
-  </Layout>
+  <OverlayScrollbarsComponent defer>
+    <Layout>
+      <template>
+        <OverlayScrollbarsComponent
+          @os-initialized="onInitialized"
+          @os-updated="onUpdated"
+          @os-destroyed="onDestroyed"
+          @os-scroll="onScroll"
+        />
+      </template>
+      <template #doc-after>
+        <div v-if="frontmatter.comments !== false" :key="title" class="giscus">
+          <Comments />
+        </div>
+      </template>
+      <template #layout-bottom>
+        <Music />
+      </template>
+    </Layout>
+  </OverlayScrollbarsComponent>
 </template>
