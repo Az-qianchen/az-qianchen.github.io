@@ -43,7 +43,11 @@ export default {
     onMounted(() => {
       initZoom();
       // 使用 OverlayScrollbars
-      OverlayScrollbars(document.body, {});
+      OverlayScrollbars(document.body, {}); // 全局
+      var asideElements = document.querySelectorAll(".VPSidebar"); // 侧边栏
+      asideElements.forEach(function (element) {
+        OverlayScrollbars(element, {});
+      });
     });
     watch(
       () => route.path,
