@@ -6,6 +6,10 @@ import DefaultTheme from "vitepress/theme";
 import "./custom.css";
 // 引入 UnoCSS
 import "virtual:uno.css";
+// 引入OverlayScrollBars CSS
+import "overlayscrollbars/overlayscrollbars.css";
+// 引入OverlayScrollBars
+import { OverlayScrollbars } from "overlayscrollbars";
 // 引入自定义布局
 import Layout from "./Layout.vue";
 // 引入图片查看组件
@@ -14,6 +18,7 @@ import mediumZoom from "medium-zoom";
 import BillBill from "./vue/BillBill.vue";
 import YouTube from "./vue/YouTube.vue";
 import Sketchfab from "./vue/Sketchfab.vue";
+
 export default {
   extends: DefaultTheme,
   Layout: Layout,
@@ -22,6 +27,9 @@ export default {
     app.component("billbill", BillBill);
     app.component("youtube", YouTube);
     app.component("sketchfab", Sketchfab);
+
+    // 注册 OverlayScrollbarsComponent
+    // app.component("OverlayScrollbarsComponent", OverlayScrollbarsComponent);
   },
   // 图片查看器
   setup() {
@@ -34,6 +42,8 @@ export default {
     };
     onMounted(() => {
       initZoom();
+      // 使用 OverlayScrollbars
+      OverlayScrollbars(document.body, {});
     });
     watch(
       () => route.path,

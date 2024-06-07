@@ -240,7 +240,7 @@
     background: var(--vp-02);
     backdrop-filter: blur(10px);
   }
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     display: none;
-  }
+  } */
 }
