@@ -2,11 +2,12 @@
   <div>
     <!-- 返回顶部链接 -->
     <a
-      v-if="show"
+      v-if="show || showTransition"
       href="#top"
       aria-label="go to top"
       title="Go to Top (Alt + G)"
       class="top-link"
+      :class="{ hidden: !show && showTransition }"
       id="top-link"
       accesskey="g"
       @click.prevent="handleBackToTop"
@@ -28,12 +29,12 @@
     </a>
   </div>
 </template>
-
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
 // 控制返回顶部按钮显示的状态
 const show = ref(false);
+const showTransition = ref(false);
 
 // 存储阅读进度的百分比
 const readProgress = ref(0);
@@ -51,7 +52,16 @@ function updateProgress() {
   );
   readProgress.value = Number(progress);
   // 如果滚动高度超过450px，显示返回顶部按钮，否则隐藏
-  show.value = scrollTop > 450;
+
+  if (scrollTop > 450) {
+    show.value = true;
+    showTransition.value = true;
+  } else {
+    show.value = false;
+    setTimeout(() => {
+      showTransition.value = false;
+    }, 500);
+  }
 }
 
 onMounted(() => {
@@ -62,15 +72,39 @@ onUnmounted(() => {
   window.removeEventListener("scroll", updateProgress);
 });
 </script>
-
 <style scoped>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.dark .top-link {
+  background-color: rgba(128, 128, 128, 0.2);
+  border: 2px solid rgba(128, 128, 128, 0.2);
+}
+.dark .top-link:hover {
+  background-color: rgba(128, 128, 128, 0.6);
+}
+
 .top-link {
   position: fixed;
   right: 40px;
   bottom: 60px;
   width: 44px;
   height: 44px;
-  background-color: var(--vp-02);
   backdrop-filter: blur(10px);
   color: var(--vp-c-text-2);
   border-radius: 50%;
@@ -81,12 +115,19 @@ onUnmounted(() => {
   transition: background-color 0.5s, opacity 0.5s;
   z-index: 9999;
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0));
-  border: 2px solid var(--vp-02);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(128, 128, 128, 0.2);
+  animation: fadeIn 0.5s;
+}
+
+.top-link.hidden {
+  animation: fadeOut 0.5s;
+  opacity: 0;
 }
 
 .top-link:hover {
-  background-color: var(--vp-06);
-  transition: background-color 0.25s;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: background-color 0.25s, opacity 0.5s;
 }
 
 .topInner {
