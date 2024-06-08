@@ -42,17 +42,27 @@ export default {
     };
     onMounted(() => {
       initZoom();
-      // 使用 OverlayScrollbars
-      OverlayScrollbars(document.body, {}); // 全局
-      var asideElements = document.querySelectorAll(".VPSidebar"); // 侧边栏
-      asideElements.forEach(function (element) {
-        OverlayScrollbars(element, {});
-      });
+      initializeOverlayScrollbars();
     });
+
+    // 监听路由变化
     watch(
       () => route.path,
-      () => nextTick(() => initZoom())
+      () => {
+        nextTick(() => {
+          initZoom(); // 重新初始化 mediumZoom
+          initializeOverlayScrollbars(); // 重新初始化 OverlayScrollbars
+        });
+      }
     );
+    // 初始化 OverlayScrollbars
+    const initializeOverlayScrollbars = () => {
+      OverlayScrollbars(document.body, {}); // 全局
+      var asideElements = document.querySelectorAll(".VPSidebar"); // 侧边栏
+      asideElements.forEach((element) => {
+        OverlayScrollbars(element, {});
+      });
+    };
   },
 };
 

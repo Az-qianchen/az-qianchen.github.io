@@ -142,6 +142,7 @@ onUnmounted(() => {
   color: var(--vp-c-text-2);
   height: 10px;
   padding: 1px;
+  margin-top: 4px;
   margin-bottom: -4px;
   transition: color 0.5s;
 }
