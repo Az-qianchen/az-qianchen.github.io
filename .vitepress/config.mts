@@ -19,8 +19,6 @@ export default withPwa(
     cleanUrls: true,
     // 页面 head 配置
     head: head,
-    // 国际化
-    // i18nRouting: true,
     // 语言
     lang: "zh",
     // 标题
@@ -29,8 +27,20 @@ export default withPwa(
     description: "Tuclink web",
     // 存储 Markdown 页面的目录
     srcDir: "docs",
+    // 多语言配置
+    locales: {
+      root: {
+        label: '简体中文',
+        lang: 'zh',
+      },
+      en: {
+        label: 'English',
+        lang: 'en'
+      }},
     // 主题配置
     themeConfig: {
+      // 国际化
+      i18nRouting: true,
       // 网站左上角标题
       siteTitle: "Tuclink",
       // 图标
@@ -40,6 +50,7 @@ export default withPwa(
       nav: nav,
       // 侧边栏配置
       sidebar: sidebar,
+      
       // 社交链接
       socialLinks: [
         // { icon: 'github', link: 'https://b23.tv/Dy49jbs'},

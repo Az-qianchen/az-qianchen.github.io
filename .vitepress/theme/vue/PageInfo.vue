@@ -1,3 +1,21 @@
+<script setup>
+import { data as posts } from "../utils/posts.data.mts";
+import { useData } from "vitepress";
+
+const { frontmatter, title, page } = useData();
+const post = posts.find((p) => p.url + ".md" === "/" + page._value.filePath);
+console.log(posts);
+console.log(page._value.filePath);
+// 格式化日期
+const formatDate = (dateStr) => {
+  const date = new Date(dateStr);
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+};
+</script>
+
 <template>
   <div class="article-meta">
     <span v-if="frontmatter.author" class="article-meta">
@@ -18,7 +36,7 @@
       >{{ frontmatter.author }}</span
     >
 
-    <span v-if="frontmatter.readingTime" class="article-meta">
+    <span v-if="post.frontmatter.read_time" class="article-meta">
       ·<svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -33,10 +51,10 @@
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
         <circle cx="12" cy="12" r="9"></circle>
         <polyline points="12 7 12 12 15 15"></polyline></svg
-      >{{ frontmatter.readingTime }} 分钟</span
+      >{{ post.frontmatter.read_time }} 分钟</span
     >
 
-    <span v-if="frontmatter.wordCount" class="article-meta">
+    <span v-if="post.frontmatter.word_count" class="article-meta">
       ·<svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -61,7 +79,7 @@
           points="10 9 9 9 8 9"
           style="user-select: text"
         ></polyline></svg
-      >{{ frontmatter.wordCount }} 字</span
+      >{{ post.frontmatter.word_count }} 字</span
     >
 
     <span v-if="frontmatter.writtenDate" class="article-meta">
@@ -98,22 +116,32 @@
         ></line></svg
       >{{ formatDate(frontmatter.writtenDate) }}
     </span>
+
+    <span v-if="frontmatter.Translated" class="article-meta">
+      ·<svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+        stroke="currentColor"
+        stroke-width="2"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M4 5h7"></path>
+        <path d="M7 4c0 4.846 0 7 .5 8"></path>
+        <path
+          d="M10 8.5c0 2.286 -2 4.5 -3.5 4.5s-2.5 -1.135 -2.5 -2c0 -2 1 -3 3 -3s5 .57 5 2.857c0 1.524 -.667 2.571 -2 3.143"
+        ></path>
+        <path d="M12 20l4 -9l4 9"></path>
+        <path d="M19.1 18h-6.2"></path>
+      </svg>
+      未实现
+    </span>
   </div>
 </template>
-
-<script setup>
-import { data as posts } from "../utils/posts.data.js";
-import { useData } from "vitepress";
-const { frontmatter, title } = useData();
-// 格式化日期
-const formatDate = (dateStr) => {
-  const date = new Date(dateStr);
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-};
-</script>
 
 <style scoped>
 .article-meta {

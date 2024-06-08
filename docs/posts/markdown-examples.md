@@ -6,8 +6,6 @@ tags:
 
 
 author: AA，BB
-readingTime: 5
-wordCount: 800
 writtenDate: 2023-04-01
 
 ---
