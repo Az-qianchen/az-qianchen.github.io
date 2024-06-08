@@ -39,23 +39,10 @@ jobs:
         with:
           node-version: 20
           cache: npm # 或 pnpm / yarn
-          
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
-      - name: Clean npm cache
-        run: npm cache clean --force
-      - name: Delete node_modules and package-lock.json
-        run: |
-          rm -rf node_modules
-          rm -f package-lock.json
       - name: Install dependencies
-        # run: npm ci # 或 pnpm install / yarn install / bun install
-        run: npm install
-
-      - name: Ensure overlayscrollbars is installed
-        run: npm install overlayscrollbars
-      
+        run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
