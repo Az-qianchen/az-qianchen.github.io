@@ -185,27 +185,6 @@
       border-color 0.25s;
   }
 
-  /* 标签样式 */
-  .TagBtn {
-    /* border: 2px solid var(--vp-02); */
-    font-weight: bold;
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
-    border-radius: 100px;
-    backdrop-filter: blur(10px);
-    transition: transform 0.5s, color 0.5s, background-color 0.5s,
-      border-color 0.5s;
-    color: var(--vp-c-text-1);
-    background: var(--vp-02);
-  }
-  .TagBtn:hover {
-    /* border-color: var(--vp-c-brand-1); */
-    transition: transform 0.25s, color 0.25s, background-color 0.25s,
-      border-color 0.25s;
-    color: var(--vp-c-brand-1);
-    background: var(--vp-06);
-    transform: scale(1.1);
-  }
   /* 社交标签 */
   .VPSocialLink {
     transition: transform 0.25s, color 0.25s;
@@ -240,7 +219,4 @@
     background: var(--vp-02);
     backdrop-filter: blur(10px);
   }
-  /* ::-webkit-scrollbar {
-    display: none;
-  } */
 }

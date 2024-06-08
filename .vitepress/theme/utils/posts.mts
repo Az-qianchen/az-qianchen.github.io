@@ -1,4 +1,4 @@
-import { data as posts } from "../posts.data.mts";
+import { data as posts } from "./posts.data.mts";
 
 interface Post {
   url: string;
