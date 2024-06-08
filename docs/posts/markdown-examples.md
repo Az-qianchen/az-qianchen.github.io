@@ -3,6 +3,13 @@ title: Markdown Extension Examples
 tags:
   - tag1
   - tag3
+
+
+author: AA，BB
+readingTime: 5
+wordCount: 800
+writtenDate: 2023-04-01
+
 ---
 ![](https://s2.loli.net/2024/05/29/3u6HrJnqkTmE2ZM.png)
 ![](https://s2.loli.net/2024/05/11/AxytJQVb3EDwfiZ.jpg)

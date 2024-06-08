@@ -9,6 +9,7 @@
     "overlayscrollbars": "^2.8.3",
     "photoswipe": "^5.4.4",
     "unocss": "^0.60.4",
+    "vite-plugin-vitepress-auto-nav": "^2.3.2",
     "vitepress": "^1.2.2"
   },
   "scripts": {
