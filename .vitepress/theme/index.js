@@ -7,9 +7,9 @@ import "./custom.css";
 // 引入 UnoCSS
 import "virtual:uno.css";
 // 引入OverlayScrollBars CSS
-import "overlayscrollbars/overlayscrollbars.css";
+// import "overlayscrollbars/overlayscrollbars.css";
 // 引入OverlayScrollBars
-import { OverlayScrollbars } from "overlayscrollbars";
+// import { OverlayScrollbars } from "overlayscrollbars";
 // 引入自定义布局
 import Layout from "./Layout.vue";
 // 引入图片查看组件
@@ -42,7 +42,7 @@ export default {
     };
     onMounted(() => {
       initZoom();
-      initializeOverlayScrollbars();
+      // initializeOverlayScrollbars();
     });
 
     // 监听路由变化
@@ -51,18 +51,18 @@ export default {
       () => {
         nextTick(() => {
           initZoom(); // 重新初始化 mediumZoom
-          initializeOverlayScrollbars(); // 重新初始化 OverlayScrollbars
+          // initializeOverlayScrollbars(); // 重新初始化 OverlayScrollbars
         });
       }
     );
     // 初始化 OverlayScrollbars
-    const initializeOverlayScrollbars = () => {
-      OverlayScrollbars(document.body, {}); // 全局
-      var asideElements = document.querySelectorAll(".VPSidebar"); // 侧边栏
-      asideElements.forEach((element) => {
-        OverlayScrollbars(element, {});
-      });
-    };
+    // const initializeOverlayScrollbars = () => {
+    //   OverlayScrollbars(document.body, {}); // 全局
+    //   var asideElements = document.querySelectorAll(".VPSidebar"); // 侧边栏
+    //   asideElements.forEach((element) => {
+    //     OverlayScrollbars(element, {});
+    //   });
+    // };
   },
 };
 

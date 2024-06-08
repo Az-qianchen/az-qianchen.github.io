@@ -219,4 +219,19 @@
     background: var(--vp-02);
     backdrop-filter: blur(10px);
   }
+  /* 滚动条样式 */
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--vp-c-brand-1);
+  }
 }
