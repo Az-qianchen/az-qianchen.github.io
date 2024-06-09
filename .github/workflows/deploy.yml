@@ -41,6 +41,8 @@ jobs:
           cache: npm # 或 pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      - name: Install @rollup/rollup-linux-x64-gnu
+        run: npm ci @rollup/rollup-linux-x64-gnu
       - name: Install dependencies
         #run: npm i
         run: npm ci # 或 pnpm install / yarn install / bun install
