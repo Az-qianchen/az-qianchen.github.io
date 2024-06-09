@@ -30,17 +30,20 @@ export default withPwa(
     // 多语言配置
     locales: {
       root: {
-        label: '简体中文',
-        lang: 'zh',
+        label: "简体中文",
+        lang: "zh",
+        link: "/zh/",
       },
       en: {
-        label: 'English',
-        lang: 'en'
-      }},
+        label: "English",
+        lang: "en",
+        link: "/en/",
+      },
+    },
     // 主题配置
     themeConfig: {
       // 国际化
-      i18nRouting: true,
+      i18nRouting: false,
       // 网站左上角标题
       siteTitle: "Tuclink",
       // 图标
@@ -50,7 +53,7 @@ export default withPwa(
       nav: nav,
       // 侧边栏配置
       sidebar: sidebar,
-      
+
       // 社交链接
       socialLinks: [
         // { icon: 'github', link: 'https://b23.tv/Dy49jbs'},
@@ -78,17 +81,20 @@ export default withPwa(
         provider: "local",
       },
     },
-    // 路由重写
-    rewrites: {},
+    // // 路由重写
+    rewrites: {
+      "zh/index.md": "index.md",
+      // "zh/posts/(.*)": "posts/(.*)",
+    },
     // pwz 配置
     pwa: pwa,
     vite: {
-      plugins: [UnoCSS(),      
+      plugins: [
+        UnoCSS(),
         AutoNav({
-        // 自定义配置
-      }),
-    ],
-
+          // 自定义配置
+        }),
+      ],
     },
   })
 );

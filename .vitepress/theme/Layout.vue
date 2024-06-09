@@ -14,7 +14,7 @@ const { Layout } = DefaultTheme;
 <template>
   <Layout>
     <template #doc-before>
-      <PageInfo />
+      <!-- <PageInfo /> -->
     </template>
     <template #doc-after>
       <BackToTop />
