@@ -83,7 +83,7 @@ export default withPwa(
     },
     // // 路由重写
     rewrites: {
-      "zh/index.md": "index.md",
+      // "zh/index.md": "index.md",
       // "zh/posts/(.*)": "posts/(.*)",
     },
     // pwz 配置
