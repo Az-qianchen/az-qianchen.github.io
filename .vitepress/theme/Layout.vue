@@ -12,10 +12,7 @@ const { Layout } = DefaultTheme;
 
 <template>
   <Layout>
-    <template
-      v-if="frontmatter.layout !== 'home' || frontmatter.layout != 'page'"
-      #doc-before
-    >
+    <template v-if="frontmatter.pageinfo !== false" #doc-before>
       <PageInfo />
     </template>
     <template #doc-after>

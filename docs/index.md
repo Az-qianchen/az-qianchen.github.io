@@ -38,6 +38,7 @@ features:
     icon: 😟
     # link: /api-examples
     # linkText: AA
+pageinfo: false
 ---
 
 ---
