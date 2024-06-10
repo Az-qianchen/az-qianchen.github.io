@@ -44,8 +44,8 @@ features:
 
 <script setup>
   import { ref } from "vue";
-  import BackgroundShader from "../../.vitepress/theme/vue/BackgroundShader.vue";
-  import PhotoSwipe from "../../.vitepress/theme/vue/PhotoSwipe.vue";
+  import BackgroundShader from "../.vitepress/theme/vue/BackgroundShader.vue";
+  import PhotoSwipe from "../.vitepress/theme/vue/PhotoSwipe.vue";
 
   const images = ref([
   {

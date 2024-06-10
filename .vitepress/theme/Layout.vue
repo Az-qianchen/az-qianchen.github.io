@@ -13,7 +13,7 @@ const { Layout } = DefaultTheme;
 
 <template>
   <Layout>
-    <template #doc-before>
+    <template v-if="frontmatter.layout === 'doc'" #doc-before>
       <PageInfo />
     </template>
     <template #doc-after>
