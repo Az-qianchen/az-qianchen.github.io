@@ -6,6 +6,8 @@ import DefaultTheme from "vitepress/theme";
 import "./custom.css";
 // 引入 UnoCSS
 import "virtual:uno.css";
+// 引入 APlayer CSS 文件
+import "APlayer/dist/APlayer.min.css";
 // 引入OverlayScrollBars CSS
 // import "overlayscrollbars/overlayscrollbars.css";
 // 引入OverlayScrollBars
