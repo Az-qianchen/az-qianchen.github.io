@@ -7,13 +7,15 @@ import BackToTop from "./vue/BackToTop.vue";
 import PageInfo from "./vue/PageInfo.vue";
 import { useData } from "vitepress";
 const { frontmatter, title } = useData();
-
 const { Layout } = DefaultTheme;
 </script>
 
 <template>
   <Layout>
-    <template v-if="frontmatter.layout === 'doc'" #doc-before>
+    <template
+      v-if="frontmatter.layout !== 'home' || frontmatter.layout != 'page'"
+      #doc-before
+    >
       <PageInfo />
     </template>
     <template #doc-after>

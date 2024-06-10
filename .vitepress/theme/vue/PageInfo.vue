@@ -5,7 +5,7 @@ import { useData } from "vitepress";
 const { frontmatter, title, page } = useData();
 const post = posts.find((p) => p.frontmatter.title === frontmatter.value.title);
 if (!post) {
-  console.error(`Post not found: ${frontmatter.value.title}`);
+  console.error(`Post not found: ${page.value.filePath}`);
 }
 // 格式化日期
 const formatDate = (dateStr) => {
