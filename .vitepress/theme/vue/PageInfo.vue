@@ -3,9 +3,10 @@ import { data as posts } from "../utils/posts.data.mts";
 import { useData } from "vitepress";
 
 const { frontmatter, title, page } = useData();
-const post = posts.find((p) => p.url + ".md" === "/" + page._value.filePath);
-console.log(posts);
-console.log(page._value.filePath);
+const post = posts.find((p) => p.frontmatter.title === frontmatter.value.title);
+if (!post) {
+  console.error(`Post not found: ${frontmatter.value.title}`);
+}
 // 格式化日期
 const formatDate = (dateStr) => {
   const date = new Date(dateStr);

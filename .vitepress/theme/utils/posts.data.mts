@@ -1,5 +1,5 @@
-import { createContentLoader } from 'vitepress';
-import readingTime from 'reading-time';
+import { createContentLoader } from "vitepress";
+import readingTime from "reading-time";
 
 // 计算阅读时间和字数的函数
 function getReadingTime(text: string) {
@@ -11,11 +11,11 @@ function getReadingTime(text: string) {
 }
 
 // 创建内容加载器
-export default createContentLoader('posts/*.md', {
+export default createContentLoader(["zh/posts/*.md", "en/posts/*.md"], {
   includeSrc: true, // 包含原始 markdown 源
   transform(rawData) {
     return rawData.map((page) => {
-      const src = page.src ?? ''; // 确保 src 是字符串
+      const src = page.src ?? ""; // 确保 src 是字符串
       const { read_time, word_count } = getReadingTime(src);
       return {
         ...page,
