@@ -15,9 +15,9 @@ const pwa: PwaOptions = {
     theme_color: "#ffffff",
     icons: [
       {
-        src: "ico/256.ico",
+        src: "ico/256.png",
         sizes: "256x256",
-        type: "image/ico",
+        type: "image/png",
       },
       {
         src: "ico/512.png",

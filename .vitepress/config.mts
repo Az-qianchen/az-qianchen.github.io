@@ -47,7 +47,7 @@ export default withPwa(
       // 网站左上角标题
       siteTitle: "Tuclink",
       // 图标
-      logo: "/ico/64.ico",
+      logo: "/ico/64.png",
       // https://vitepress.dev/reference/default-theme-config
       // 导航栏配置
       nav: nav,
