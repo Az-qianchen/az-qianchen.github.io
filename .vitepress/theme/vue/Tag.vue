@@ -31,8 +31,8 @@ selectedTag.value =
 <template>
   <div class="text-3xl font-bold">标签</div>
   <!-- 标签列表 -->
-  <div class="grid-auto-cols-1 gap-4 my-4">
-    <dev
+  <div class="flex flex-wrap">
+    <div
       v-for="tag in tags"
       :key="tag.name"
       :class="['TagBtn', tag.name === selectedTag.name ? 'selected' : '']"
@@ -40,7 +40,7 @@ selectedTag.value =
     >
       {{ tag.name }}
       <sup class="font-bold">{{ tag.posts.length }}</sup>
-    </dev>
+    </div>
   </div>
 
   <!-- 分割线 -->
@@ -113,7 +113,7 @@ selectedTag.value =
   /* border: 2px solid var(--vp-02); */
   font-weight: bold;
   margin: 0.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   border-radius: 100px;
   backdrop-filter: blur(10px);
   transition: transform 0.5s, color 0.5s, background-color 0.5s,
