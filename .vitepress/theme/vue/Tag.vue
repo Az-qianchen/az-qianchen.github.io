@@ -2,35 +2,37 @@
 import { VPButton } from "vitepress/theme";
 import { getTags } from "../utils/posts.mts";
 import { Tag } from "../utils/posts.mts";
-import { useRouter, useData } from "vitepress";
-import { ref } from "vue";
+import { useRouter, useData, useRoute } from "vitepress";
+import { ref, computed, watch } from "vue";
 import { useUrlSearchParams } from "@vueuse/core";
 
 const tags: Tag[] = getTags();
 const router = useRouter();
 const { lang } = useData();
+const route = useRoute();
 
-const selectedTag = ref<Tag>({ name: "", description: "", posts: [] });
+const queryParams = useUrlSearchParams("history");
+const selectedTag = ref<Tag>({
+  name: "",
+  description: "",
+  posts: [],
+});
+
 const setSelectedTag = (tag: Tag) => {
-  // selectedTag.value = tag;
+  selectedTag.value = tag;
   router.go(`${lang.value}/tags/?tag=${tag.name}`);
 };
 const goToPost = (path) => {
   router.go(path);
 };
-
-const params = useUrlSearchParams("history");
-selectedTag.value = tags.find((tag) => tag.name === params.tag) || {
-  name: "",
-  description: "",
-  posts: [],
-};
+selectedTag.value =
+  tags.find((tag) => tag.name === queryParams.tag) || selectedTag.value;
 </script>
 <template>
   <div class="text-3xl font-bold">标签</div>
   <!-- 标签列表 -->
-  <div class="grid-auto-cols-1 gap-4">
-    <button
+  <div class="grid-auto-cols-1 gap-4 my-4">
+    <dev
       v-for="tag in tags"
       :key="tag.name"
       :class="['TagBtn', tag.name === selectedTag.name ? 'selected' : '']"
@@ -38,7 +40,7 @@ selectedTag.value = tags.find((tag) => tag.name === params.tag) || {
     >
       {{ tag.name }}
       <sup class="font-bold">{{ tag.posts.length }}</sup>
-    </button>
+    </dev>
   </div>
 
   <!-- 分割线 -->
@@ -54,13 +56,15 @@ selectedTag.value = tags.find((tag) => tag.name === params.tag) || {
       ></div>
       <div class="text-3xl font-bold">{{ selectedTag.name }}</div>
     </div>
-    <div class="text-lg mt-1 mb-4 ml-10">{{ selectedTag.description }}</div>
+    <div class="text-lg mt-1 mb-4 ml-10">
+      {{ selectedTag.description }}
+    </div>
   </div>
 
   <!-- 文章列表 -->
   <div v-for="tag in tags" :key="tag.name">
     <div v-show="tag.name === selectedTag.name">
-      <button
+      <dev
         v-for="post in tag.posts"
         class="TagListItem flex flex-col w-full"
         @click="goToPost(post.url)"
@@ -99,7 +103,7 @@ selectedTag.value = tags.find((tag) => tag.name === params.tag) || {
             </div>
           </div>
         </div>
-      </button>
+      </dev>
     </div>
   </div>
 </template>
@@ -116,6 +120,7 @@ selectedTag.value = tags.find((tag) => tag.name === params.tag) || {
     border-color 0.5s;
   color: var(--vp-c-text-1);
   background: var(--vp-02);
+  cursor: pointer;
 }
 .TagBtn.selected {
   color: var(--vp-c-brand-1);
@@ -139,10 +144,11 @@ selectedTag.value = tags.find((tag) => tag.name === params.tag) || {
   color: var(--vp-c-text-1);
   margin: 0.5rem;
   box-shadow: 2px 5px 5px var(--vp-c-indigo-soft);
+  cursor: pointer;
 }
 .TagListItem:hover {
-  transition: transform 0.5s, color 0.5s, background-color 0.5s,
-    border-color 0.5s;
+  transition: transform 0.25s, color 0.25s, background-color 0.25s,
+    border-color 0.25s;
   transform: scale(1.03);
 }
 .TagListItem:hover .title {
