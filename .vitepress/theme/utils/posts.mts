@@ -1,12 +1,10 @@
+import type { ContentData } from "vitepress";
 import { data as posts } from "./posts.data.mts";
 
-interface Post {
-  url: string;
-  frontmatter: { title: string };
-}
-interface Tag {
+export interface Tag {
   name: string;
-  posts: Post[];
+  description: string;
+  posts: ContentData[];
 }
 const getTags = (): Tag[] => {
   let tags: Tag[] = [];
@@ -15,15 +13,14 @@ const getTags = (): Tag[] => {
     post.frontmatter.tags.map((tag) => {
       let tagIndex = tags.findIndex((t) => t.name === tag);
       if (tagIndex === -1) {
+        const tagDesc = tagsDesc.find((t) => t.name === tag);
         tags.push({
           name: tag,
-          posts: [{ url: post.url, frontmatter: post.frontmatter }],
+          description: tagDesc ? tagDesc.desc : "",
+          posts: [post],
         });
       } else {
-        tags[tagIndex].posts.push({
-          url: post.url,
-          frontmatter: post.frontmatter,
-        });
+        tags[tagIndex].posts.push(post);
       }
     });
   });
@@ -36,3 +33,18 @@ const getTag = (tagName: string) => {
 };
 
 export { getTags, getTag };
+
+const tagsDesc = [
+  {
+    name: "tag1",
+    desc: "tag1的描述",
+  },
+  {
+    name: "tag2",
+    desc: "tag2的描述",
+  },
+  {
+    name: "tag3",
+    desc: "tag3的描述",
+  },
+];

@@ -8,7 +8,7 @@ pageinfo: false
 ---
 
 <script setup>
-import TagList from "../../.vitepress/theme/vue/Tag.vue";
+import TagList from "../../../.vitepress/theme/vue/Tag.vue";
 </script>
 
 <TagList />

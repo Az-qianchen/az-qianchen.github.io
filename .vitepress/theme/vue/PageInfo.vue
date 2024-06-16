@@ -1,8 +1,8 @@
 <script setup>
 import { data as posts } from "../utils/posts.data.mts";
-import { useData } from "vitepress";
+import { useData, useRouter } from "vitepress";
 
-const { frontmatter, title, page } = useData();
+const { frontmatter, title, page, lang } = useData();
 const post = posts.find((p) => p.frontmatter.title === frontmatter.value.title);
 if (!post) {
   console.error(`Post not found: ${page.value.filePath}`);
@@ -14,6 +14,11 @@ const formatDate = (dateStr) => {
   const month = String(date.getMonth() + 1).padStart(2, "0");
   const day = String(date.getDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
+};
+
+const router = useRouter();
+const queryTag = (tag) => {
+  router.go(`${lang.value}/tags/?tag=${tag}`);
 };
 </script>
 
@@ -140,6 +145,14 @@ const formatDate = (dateStr) => {
         <path d="M19.1 18h-6.2"></path>
       </svg>
       未实现
+    </span>
+    <span v-if="frontmatter.tags" class="article-meta items-center">
+      <span class="i-mdi-tag-multiple-outline"></span>
+      <span v-for="tag in frontmatter.tags">
+        <button @click="queryTag(tag)" class="hover:underline-gray">
+          {{ tag }}
+        </button>
+      </span>
     </span>
   </div>
 </template>

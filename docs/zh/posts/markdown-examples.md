@@ -3,9 +3,9 @@ title: Markdown Extension Examples
 tags:
   - tag1
   - tag3
-
-author: AA，BB
-writtenDate: 2023-04-01
+author: N/A
+date: "2023-04-01"
+description: Description
 ---
 
 ![](https://s2.loli.net/2024/05/29/3u6HrJnqkTmE2ZM.png)
