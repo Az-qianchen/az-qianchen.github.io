@@ -10,8 +10,6 @@ import { withPwa } from "@vite-pwa/vitepress";
 import pwa from "./config/pwa.mts";
 // 导入 UnoCSS 插件
 import UnoCSS from "unocss/vite";
-// 自动生成 VitePress 的 nav 与 sidebar 配置
-import AutoNav from "vite-plugin-vitepress-auto-nav";
 // https://vitepress.dev/reference/site-config
 export default withPwa(
   defineConfig({
@@ -91,9 +89,6 @@ export default withPwa(
     vite: {
       plugins: [
         UnoCSS(),
-        AutoNav({
-          // 自定义配置
-        }),
       ],
     },
   })

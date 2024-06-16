@@ -13,7 +13,6 @@
     "photoswipe": "^5.4.4",
     "reading-time": "^1.5.0",
     "unocss": "^0.60.4",
-    "vite-plugin-vitepress-auto-nav": "^2.3.2",
     "vitepress": "^1.2.2"
   },
   "scripts": {

@@ -23,6 +23,7 @@ const queryTag = (tag) => {
 </script>
 
 <template>
+  <h1>{{ frontmatter.title }}</h1>
   <div class="article-meta">
     <span v-if="frontmatter.author" class="article-meta">
       <svg
@@ -88,7 +89,7 @@ const queryTag = (tag) => {
       >{{ post.frontmatter.word_count }} 字</span
     >
 
-    <span v-if="frontmatter.writtenDate" class="article-meta">
+    <span v-if="frontmatter.date" class="article-meta">
       ·<svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -120,7 +121,7 @@ const queryTag = (tag) => {
           y2="10"
           style="user-select: text"
         ></line></svg
-      >{{ formatDate(frontmatter.writtenDate) }}
+      >{{ formatDate(frontmatter.date) }}
     </span>
 
     <span v-if="frontmatter.Translated" class="article-meta">
@@ -146,8 +147,9 @@ const queryTag = (tag) => {
       </svg>
       未实现
     </span>
+
     <span v-if="frontmatter.tags" class="article-meta items-center">
-      <span class="i-mdi-tag-multiple-outline"></span>
+      ·<span class="i-mdi-tag-multiple-outline"></span>
       <span v-for="tag in frontmatter.tags">
         <button @click="queryTag(tag)" class="hover:underline-gray">
           {{ tag }}
@@ -155,14 +157,43 @@ const queryTag = (tag) => {
       </span>
     </span>
   </div>
+  <hr />
 </template>
 
 <style scoped>
+hr {
+  border: 1px solid var(--vp-c-divider);
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 .article-meta {
+  color: var(--vp-c-text-2);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   margin-bottom: 1rem;
+}
+.i-mdi-tag-multiple-outline {
+  margin: 0px 6px 0px 8px !important; /* 添加右边距 */
+  width: 16px; /* 减小宽度 */
+  height: 16px; /* 减小高度 */
+  transform: scale(1.3);
+}
+
+.article-meta button {
+  transform: scale(1.2) translateY(-0.8px);
+  margin: 0px 6px 0px 0px; /* 添加右边距 */
+  transition: color 0.5s;
+}
+
+.article-meta button:hover {
+  color: var(--vp-c-brand-1);
+  transition: color 0.25s;
 }
 .article-meta svg {
   width: 16px; /* 减小宽度 */

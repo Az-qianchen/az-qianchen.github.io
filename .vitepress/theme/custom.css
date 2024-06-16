@@ -234,4 +234,9 @@
     border-radius: 4px;
     background-color: var(--vp-c-brand-1);
   }
+
+  /* 容器样式 */
+  .body {
+    overflow: scroll; /* 强制显示滚动条 */
+  }
 }
