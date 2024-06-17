@@ -24,7 +24,7 @@ const queryTag = (tag) => {
 
 <template>
   <h1>{{ frontmatter.title }}</h1>
-  <div class="article-meta">
+  <div class="article-meta-container">
     <span v-if="frontmatter.author" class="article-meta">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,10 @@ const queryTag = (tag) => {
         <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg
       >{{ frontmatter.author }}</span
     >
+    ·
 
     <span v-if="post.frontmatter.read_time" class="article-meta">
-      ·<svg
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
@@ -60,9 +61,10 @@ const queryTag = (tag) => {
         <polyline points="12 7 12 12 15 15"></polyline></svg
       >{{ post.frontmatter.read_time }} 分钟</span
     >
+    ·
 
     <span v-if="post.frontmatter.word_count" class="article-meta">
-      ·<svg
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
@@ -88,9 +90,10 @@ const queryTag = (tag) => {
         ></polyline></svg
       >{{ post.frontmatter.word_count }} 字</span
     >
+    ·
 
     <span v-if="frontmatter.date" class="article-meta">
-      ·<svg
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
@@ -123,9 +126,10 @@ const queryTag = (tag) => {
         ></line></svg
       >{{ formatDate(frontmatter.date) }}
     </span>
+    ·
 
     <span v-if="frontmatter.Translated" class="article-meta">
-      ·<svg
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         width="24"
@@ -149,7 +153,7 @@ const queryTag = (tag) => {
     </span>
 
     <span v-if="frontmatter.tags" class="article-meta items-center">
-      ·<span class="i-mdi-tag-multiple-outline"></span>
+      <span class="i-mdi-tag-multiple-outline"></span>
       <span v-for="tag in frontmatter.tags">
         <button @click="queryTag(tag)" class="hover:underline-gray">
           {{ tag }}
@@ -171,7 +175,19 @@ h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
+.article-meta-container {
+  color: var(--vp-c-text-2);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
 .article-meta {
+  margin: 0px 6px 0px 0px !important;
   color: var(--vp-c-text-2);
   display: flex;
   flex-direction: row;

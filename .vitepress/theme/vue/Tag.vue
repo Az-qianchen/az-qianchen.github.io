@@ -77,7 +77,7 @@ selectedTag.value =
         <div class="my-1">
           {{ post.frontmatter.description }}
         </div>
-        <div class="flex flex-row gap-2">
+        <div class="article-container flex flex-row gap-2">
           <!-- 文章作者 -->
           <div class="flex flex-row items-center">
             <div class="article-meta">
@@ -99,10 +99,11 @@ selectedTag.value =
               {{ post.frontmatter.author }}
             </div>
           </div>
+          ·
           <!-- 文章阅读时长 -->
           <div class="flex flex-row items-center">
             <div class="article-meta">
-              ·<svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -119,10 +120,11 @@ selectedTag.value =
               >{{ post.frontmatter.read_time }}分钟
             </div>
           </div>
+          ·
           <!-- 文章字数 -->
           <div class="flex flex-row items-center">
             <div class="article-meta">
-              ·<svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -164,10 +166,11 @@ selectedTag.value =
               >{{ post.frontmatter.word_count }}字
             </div>
           </div>
+          ·
           <!-- 文章创建日 -->
           <div class="flex flex-row items-center">
             <div class="article-meta">
-              ·<svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -220,6 +223,10 @@ selectedTag.value =
 </template>
 
 <style scoped>
+.article-container {
+  flex-wrap: wrap;
+}
+
 .article-meta {
   display: flex;
   flex-direction: row;
@@ -228,7 +235,7 @@ selectedTag.value =
 .article-meta svg {
   width: 16px; /* 减小宽度 */
   height: 16px; /* 减小高度 */
-  margin: 4px 6px 0px 6px; /* 添加右边距 */
+  margin: 4px 6px 0px 0px; /* 添加右边距 */
 }
 .dark .TagBtn {
   background: rgba(128, 128, 128, 0.2);
@@ -239,6 +246,7 @@ selectedTag.value =
 }
 
 .TagBtn {
+  will-change: transform;
   /* border: 2px solid var(--vp-02); */
   font-weight: bold;
   margin: 1.2rem 0.5rem 1.2rem 0.5rem;
@@ -279,6 +287,7 @@ selectedTag.value =
 }
 
 .TagListItem {
+  will-change: transform;
   padding: 1.1rem;
   border-radius: 0.5rem;
   color: var(--vp-c-text-2);
