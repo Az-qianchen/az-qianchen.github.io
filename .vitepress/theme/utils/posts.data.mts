@@ -11,7 +11,7 @@ function getReadingTime(text: string) {
 }
 
 // 创建内容加载器
-export default createContentLoader(["zh/posts/*.md", "en/posts/*.md"], {
+export default createContentLoader(["zh/post/**/*.md", "en/post/**/*.md"], {
   includeSrc: true, // 包含原始 markdown 源
   transform(rawData) {
     return rawData.map((page) => {

@@ -161,19 +161,14 @@ const queryTag = (tag) => {
       </span>
     </span>
   </div>
-  <hr />
 </template>
 
 <style scoped>
-hr {
-  border: 1px solid var(--vp-c-divider);
-  margin-bottom: 1.5rem;
-}
-
 h1 {
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .article-meta-container {

@@ -1,9 +1,9 @@
 <template>
   <div v-if="url" class="modal-content">
-    <div style="width: 100%; overflow: hidden">
+    <div class="video-responsive">
       <iframe
         width="100%"
-        height="480"
+        height="400px"
         title="Madrona Invasives"
         frameborder="0"
         allowfullscreen="true"
@@ -41,7 +41,8 @@ const url = computed(
 <style>
 .modal-content {
   border-radius: 10px;
-  width: 100%;
+  position: relative;
   overflow: hidden;
+  width: 100%;
 }
 </style>

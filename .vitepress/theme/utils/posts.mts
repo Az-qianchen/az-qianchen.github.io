@@ -36,15 +36,43 @@ export { getTags, getTag };
 
 const tagsDesc = [
   {
-    name: "tag1",
-    desc: "tag1的描述",
+    name: "文章",
+    desc: "所谓浪漫，就是毫无意义的追寻",
   },
   {
-    name: "tag2",
-    desc: "tag2的描述",
+    name: "干货",
+    desc: "一些知识的整理",
   },
   {
-    name: "tag3",
-    desc: "tag3的描述",
+    name: "DEV-SB",
+    desc: "Super Ball 开发快照",
+  },
+  {
+    name: "图片",
+    desc: "收集&拍摄的图片&照片",
+  },
+  {
+    name: "工具",
+    desc: "分享各类优质的工具、网站",
+  },
+  {
+    name: "Hugo",
+    desc: "Hugo 相关的一些笔记",
+  },
+  {
+    name: "协议",
+    desc: "Super Ball 相关协议",
+  },
+  {
+    name: "故事",
+    desc: "一个科幻故事",
+  },
+  {
+    name: "Shader",
+    desc: "一些 Godot 着色器分享",
+  },
+  {
+    name: "技巧",
+    desc: "一些零碎的技巧和问题的解决方案",
   },
 ];

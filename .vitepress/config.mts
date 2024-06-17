@@ -10,6 +10,9 @@ import { withPwa } from "@vite-pwa/vitepress";
 import pwa from "./config/pwa.mts";
 // 导入 UnoCSS 插件
 import UnoCSS from "unocss/vite";
+// 导入 markdown-it-footnote 插件
+import MarkdownItFootnote from "markdown-it-footnote";
+import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 // https://vitepress.dev/reference/site-config
 export default withPwa(
   defineConfig({
@@ -25,12 +28,25 @@ export default withPwa(
     description: "Tuclink web",
     // 存储 Markdown 页面的目录
     srcDir: "docs",
+    // 最后更新
+    // lastUpdated: true,
     // 多语言配置
     locales: {
       root: {
         label: "简体中文",
         lang: "zh",
         link: "/zh/",
+        themeConfig: {
+          docFooter: {
+            prev: "«上一页",
+            next: "下一页»",
+          },
+          lastUpdatedText: "上次更新",
+          darkModeSwitchLabel: "切换暗黑模式",
+          lightModeSwitchTitle: "切换到明亮模式",
+          darkModeSwitchTitle: "切换到暗黑模式",
+          outlineTitle: "文章目录",
+        },
       },
       en: {
         label: "English",
@@ -40,6 +56,12 @@ export default withPwa(
     },
     // 主题配置
     themeConfig: {
+      outline: "deep",
+
+      docFooter: {
+        prev: "上一页",
+        next: "下一页",
+      },
       // 国际化
       i18nRouting: false,
       // 网站左上角标题
@@ -81,15 +103,28 @@ export default withPwa(
     },
     // // 路由重写
     rewrites: {
+      "docs/": "",
+      "docs/(.*)": "(.*)",
+      "docs/zh/(.*)": "zh/(.*)",
       // "zh/index.md": "index.md",
       // "zh/posts/(.*)": "posts/(.*)",
     },
     // pwz 配置
     pwa: pwa,
     vite: {
-      plugins: [
-        UnoCSS(),
-      ],
+      plugins: [UnoCSS()],
+    },
+    markdown: {
+      math: true,
+      image: {
+        // 默认禁用图片懒加载
+        lazyLoading: true,
+      },
+      config: (md) => {
+        // 使用更多的 Markdown-it 插件！
+        md.use(MarkdownItFootnote);
+        md.use(BiDirectionalLinks());
+      },
     },
   })
 );

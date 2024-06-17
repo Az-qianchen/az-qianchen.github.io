@@ -56,6 +56,30 @@
 }
 
 :root {
+  /* 翻页按键 */
+  .desc {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+    transition: color 0.5s;
+  }
+  .VPLink:hover .desc {
+    color: var(--vp-c-brand-1);
+    transition: color 0.25s;
+  }
+  .VPLink {
+    border: none;
+    transition: transform 0.5s;
+  }
+  .VPLink:hover {
+    border: none;
+    transform: scale(1.1);
+    transition: transform 0.25s;
+  }
+  /* 代码块 */
+  .shiki {
+    max-height: 30em;
+  }
   /* 导航栏 */
   .VPNavBar {
     /* 添加毛玻璃效果 */

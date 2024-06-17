@@ -13,6 +13,6 @@ const head: HeadConfig[] = [
     `]
   ];
   // 使用图床
-  head.push(['meta', { name: 'referrer', content: "no-referrer" }])
+  // head.push(['meta', { name: 'referrer', content: "no-referrer" }])
 
 export default head;

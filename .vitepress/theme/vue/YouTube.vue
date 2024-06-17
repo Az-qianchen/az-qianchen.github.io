@@ -1,13 +1,6 @@
 <template>
   <div v-if="url" class="video-responsive">
-    <iframe
-      width="100%"
-      height="400"
-      :src="url"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    />
+    <iframe width="100%" :src="url" frameborder="0" allowfullscreen />
   </div>
 </template>
 
@@ -29,6 +22,19 @@ const url = computed(() => `https://www.youtube.com/embed/${props.id}`);
 
 <style>
 .video-responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 56.25%;
   border-radius: 10px;
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 </style>

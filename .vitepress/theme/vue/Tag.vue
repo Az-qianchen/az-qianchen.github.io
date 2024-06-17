@@ -31,7 +31,7 @@ selectedTag.value =
 <template>
   <div class="text-3xl font-bold">标签</div>
   <!-- 标签列表 -->
-  <div class="flex flex-wrap">
+  <div class="flex flex-wrap mt-6 mb-6">
     <div
       v-for="tag in tags"
       :key="tag.name"
@@ -223,18 +223,22 @@ selectedTag.value =
 </template>
 
 <style scoped>
+.my-1 {
+  font-size: 14px;
+}
 .article-container {
   flex-wrap: wrap;
 }
 
 .article-meta {
+  font-size: 14px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 .article-meta svg {
-  width: 16px; /* 减小宽度 */
-  height: 16px; /* 减小高度 */
+  width: 14px; /* 减小宽度 */
+  height: 14px; /* 减小高度 */
   margin: 4px 6px 0px 0px; /* 添加右边距 */
 }
 .dark .TagBtn {
@@ -244,19 +248,18 @@ selectedTag.value =
 .dark .TagBtn:hover {
   background: rgba(128, 128, 128, 0.6);
 }
-
 .TagBtn {
   will-change: transform;
   /* border: 2px solid var(--vp-02); */
   font-weight: bold;
-  margin: 1.2rem 0.5rem 1.2rem 0.5rem;
-  padding: 0.4rem 0.8rem 0.6rem 1rem;
+  margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+  padding: 0rem 0.8rem 0.3rem 1rem;
   border-radius: 100px;
   backdrop-filter: blur(10px);
   transition: transform 0.5s, color 0.5s, background-color 0.5s,
     border-color 0.5s;
   color: var(--vp-c-text-1);
-  filter: drop-shadow(0px 5px 5px rgb(128, 128, 128));
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
   background: rgba(128, 128, 128, 0.2);
   cursor: pointer;
 }
@@ -292,9 +295,9 @@ selectedTag.value =
   border-radius: 0.5rem;
   color: var(--vp-c-text-2);
   margin: 0.5rem;
-  filter: drop-shadow(0px 5px 5px rgb(128, 128, 128));
-  cursor: pointer;
 
+  cursor: pointer;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
   border: 2px solid rgba(128, 128, 128, 0.2);
   background: rgba(128, 128, 128, 0.2);
   backdrop-filter: blur(10px);
@@ -304,7 +307,7 @@ selectedTag.value =
   transition: transform 0.25s, color 0.25s, background-color 0.25s,
     border-color 0.25s;
   transform: scale(1.04);
-  background: rgba(128, 128, 128, 0);
+  background: rgba(128, 128, 128, 0.1);
 }
 .TagListItem .title {
   color: var(--vp-c-text-1);
