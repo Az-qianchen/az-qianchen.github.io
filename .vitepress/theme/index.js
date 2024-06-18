@@ -1,5 +1,5 @@
 import { onMounted, watch, nextTick } from "vue";
-import { useRoute } from "vitepress";
+import { useRoute, useData } from "vitepress";
 // 引入默认主题
 import DefaultTheme from "vitepress/theme";
 // 引入 CSS 文件
@@ -36,14 +36,23 @@ export default {
   // 图片查看器
   setup() {
     const route = useRoute();
+    const { frontmatter } = useData();
+
     const initZoom = () => {
       mediumZoom("[zoom]", { background: "rgba(0, 0, 0, 0.8)" }); // 带标签的触发
       mediumZoom(".main img:not([no-zoom])", {
         background: "rgba(0, 0, 0, 0.8)",
       }); // 不带标签的触发
     };
+
+    const initializeZoomIfNeeded = () => {
+      if (frontmatter.value.zoom !== false) {
+        initZoom();
+      }
+    };
+
     onMounted(() => {
-      initZoom();
+      initializeZoomIfNeeded();
       // initializeOverlayScrollbars();
     });
 
@@ -52,7 +61,7 @@ export default {
       () => route.path,
       () => {
         nextTick(() => {
-          initZoom(); // 重新初始化 mediumZoom
+          initializeZoomIfNeeded(); // 重新初始化 mediumZoom
           // initializeOverlayScrollbars(); // 重新初始化 OverlayScrollbars
         });
       }

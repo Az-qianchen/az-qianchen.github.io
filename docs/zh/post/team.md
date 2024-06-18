@@ -6,6 +6,8 @@ next: false
 pageinfo: false
 comments: false
 lastUpdated: false
+
+zoom: false
 ---
 
 <script setup>
