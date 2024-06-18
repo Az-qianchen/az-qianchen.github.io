@@ -170,14 +170,14 @@
     font-size: 50px;
   }
   /* 主页text */
-  .main .text {
+  .container .main .text {
     font-size: 30px;
   }
   @media (min-width: 640px) {
     .clip {
       font-size: 60px;
     }
-    .main .text {
+    .container .main .text {
       font-size: 40px;
     }
   }
@@ -185,7 +185,7 @@
     .clip {
       font-size: 70px;
     }
-    .main .text {
+    .container .main .text {
       font-size: 50px;
     }
   }
