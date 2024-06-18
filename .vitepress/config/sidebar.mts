@@ -1,26 +1,39 @@
+import type { DefaultTheme } from "vitepress";
+import fs from "fs";
+import path from "path";
+import process from "process";
+
 export default {
   "/zh/post/shader/": [
     {
       text: "shader",
-      items: [
-        { text: "Shader-1", link: "/zh/post/shader/Shader-1" },
-        { text: "Shader-2", link: "/zh/post/shader/Shader-2" },
-        { text: "Shader-3", link: "/zh/post/shader/Shader-3" },
-        { text: "Shader-4", link: "/zh/post/shader/Shader-4" },
-        { text: "Shader-5", link: "/zh/post/shader/Shader-5" },
-      ],
+      items: searchFiles("/zh/post/shader"),
     },
   ],
-  "/post/dev/": [
+  "/zh/post/dev/": [
     {
-      text: "shader",
-      items: [{ text: "Markdown Examples", link: "post/shader/Shader-1" }],
+      text: "dev",
+      items: searchFiles("/zh/post/dev"),
     },
   ],
-  "/post/collect/": [
+  "/zh/post/collect/": [
     {
-      text: "shader",
-      items: [{ text: "Markdown Examples", link: "post/shader/Shader-1" }],
+      text: "collect",
+      items: searchFiles("/zh/post/collect"),
     },
   ],
 };
+
+function searchFiles(searchPath: string): DefaultTheme.SidebarItem[] {
+  const absolutePath = process.cwd() + "/docs" + searchPath;
+  const files = fs.readdirSync(absolutePath);
+  const items: DefaultTheme.SidebarItem[] = [];
+  files.forEach((file: string) => {
+    const name = path.parse(file).name;
+    items.push({
+      text: name,
+      link: `${searchPath}/${name}`,
+    });
+  });
+  return items;
+}
