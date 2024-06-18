@@ -75,7 +75,7 @@ selectedTag.value =
         </div>
         <!-- 文章描述 -->
         <div class="my-1">
-          {{ post.frontmatter.description }}
+          {{ post.frontmatter.description ?? post.excerpt ?? "" }}
         </div>
         <div class="article-container flex flex-row gap-2">
           <!-- 文章作者 -->
