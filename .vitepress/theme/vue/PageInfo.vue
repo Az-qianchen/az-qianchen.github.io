@@ -1,12 +1,19 @@
 <script setup>
+import { computed, watch, nextTick } from "vue";
 import { data as posts } from "../utils/posts.data.mts";
-import { useData, useRouter } from "vitepress";
+import { useData, useRouter, useRoute } from "vitepress";
 
 const { frontmatter, title, page, lang } = useData();
-const post = posts.find((p) => p.frontmatter.title === frontmatter.value.title);
-if (!post) {
+const route = useRoute();
+const router = useRouter();
+
+const post = computed(() =>
+  posts.find((p) => p.frontmatter.title === frontmatter.value.title)
+);
+if (!post.value) {
   console.error(`Post not found: ${page.value.filePath}`);
 }
+
 // 格式化日期
 const formatDate = (dateStr) => {
   const date = new Date(dateStr);
@@ -16,10 +23,25 @@ const formatDate = (dateStr) => {
   return `${year}-${month}-${day}`;
 };
 
-const router = useRouter();
 const queryTag = (tag) => {
   router.go(`${lang.value}/tags/?tag=${tag}`);
 };
+
+// 生成唯一的 pageId
+const pageId = computed(() => {
+  // 使用页面文件路径作为 pageId，移除无效字符
+  return page.value.filePath.replace(/[^a-zA-Z0-9]/g, "_");
+});
+
+// 监听 route.path 变化
+watch(
+  () => route.path,
+  () => {
+    nextTick(() => {
+      pageId.value = page.value.filePath.replace(/[^a-zA-Z0-9]/g, "_");
+    });
+  }
+);
 </script>
 
 <template>
@@ -161,6 +183,13 @@ const queryTag = (tag) => {
       </span>
     </span>
   </div>
+  <img
+    v-if="frontmatter.author"
+    class="visitor"
+    :src="`https://visitor-badge.laobi.icu/badge?page_id=tuclink.page.${pageId}&left_color=rgba(128, 128, 128, 0.5)&right_color=rgba(128, 128, 128, 0.5)&left_text= visitors`"
+    title="当前页面累计访问数"
+    onerror="this.style.display='none'"
+  />
 </template>
 
 <style scoped>

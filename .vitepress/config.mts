@@ -37,9 +37,9 @@ export default withPwa(
         link: "/zh/",
         themeConfig: {
           lastUpdated: {
-            text: "上次更新",
+            text: "更新时间",
             formatOptions: {
-              dateStyle: "full",
+              dateStyle: "medium",
               timeStyle: "medium",
             },
           },
@@ -58,11 +58,11 @@ export default withPwa(
           outlineTitle: "文章目录",
         },
       },
-      en: {
-        label: "English",
-        lang: "en",
-        link: "/en/",
-      },
+      // en: {
+      //   label: "English",
+      //   lang: "en",
+      //   link: "/en/",
+      // },
     },
     // 主题配置
     themeConfig: {
