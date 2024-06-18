@@ -5,6 +5,8 @@ prev: false
 next: false
 comments: false
 pageinfo: false
+
+lastUpdated: false
 ---
 
 <script setup>

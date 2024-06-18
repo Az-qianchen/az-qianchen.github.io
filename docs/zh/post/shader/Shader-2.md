@@ -1,7 +1,7 @@
 ---
 tags: ["Shader"] # 标签
 author: "仟尘" # 作者
-title: "Godot Shader 类小丑牌背景效果" # 标题
+title: "Shader 类小丑牌背景效果" # 标题
 date: "2024-04-19" # 日期
 
 description: "Godot Shader 分享" # 页面描述、面向搜索引擎用户
@@ -18,6 +18,7 @@ Keywords: "Godot,Shader,扭曲背景" # 网站关键词（SEO）
 <billbill id="BV1R1421d7ta"/>
 
 ## Godot Shader 代码
+
 ``` glsl
 shader_type canvas_item;
 

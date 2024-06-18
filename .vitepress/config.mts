@@ -28,7 +28,7 @@ export default withPwa(
     // 存储 Markdown 页面的目录
     srcDir: "docs",
     // 最后更新
-    // lastUpdated: true,
+    lastUpdated: true,
     // 多语言配置
     locales: {
       root: {
@@ -36,11 +36,22 @@ export default withPwa(
         lang: "zh",
         link: "/zh/",
         themeConfig: {
+          lastUpdated: {
+            text: "上次更新",
+            formatOptions: {
+              dateStyle: "full",
+              timeStyle: "medium",
+            },
+          },
+          // editLink: {
+          //   pattern:
+          //     "https://github.com/Az-qianchen/az-qianchen.github.io/tree/main/docs/:path",
+          //   text: "编辑此页",
+          // },
           docFooter: {
             prev: "«上一页",
             next: "下一页»",
           },
-          lastUpdatedText: "上次更新",
           darkModeSwitchLabel: "切换暗黑模式",
           lightModeSwitchTitle: "切换到明亮模式",
           darkModeSwitchTitle: "切换到暗黑模式",
@@ -91,8 +102,7 @@ export default withPwa(
       ],
       // 页脚内容
       footer: {
-        message:
-          'Tuclink <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>',
+        message: '<a href="https://post.tuclink.com/">Tuclink</a> - Old Page',
         copyright: "© 2024 突触递质 - Page",
       },
       // 搜索功能

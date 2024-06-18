@@ -1,7 +1,7 @@
 ---
 tags: ["Shader"] # 标签
 author: "仟尘" # 作者
-title: "Godot Shader 暗角 虚化 黑白 缩放 瓷砖动画(条纹 方形 扇形 斑点 棋盘 图片 旋转/平移动画)" # 标题
+title: "Shader 暗角 虚化 黑白 缩放 瓷砖动画(条纹 方形 扇形 斑点 棋盘 图片 旋转/平移动画)" # 标题
 date: "2024-04-18" # 日期
 
 description: "Godot Shader 分享" # 页面描述、面向搜索引擎用户

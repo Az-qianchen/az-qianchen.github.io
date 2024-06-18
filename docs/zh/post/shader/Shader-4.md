@@ -1,7 +1,7 @@
 ---
 tags: ["Shader"] # 标签
 author: "仟尘" # 作者
-title: "Godot Shader 面片草地效果" # 标题
+title: "Shader 面片草地效果" # 标题
 date: "2024-05-11" # 日期
 
 description: "Godot Shader 分享" # 页面描述、面向搜索引擎用户

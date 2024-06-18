@@ -56,6 +56,9 @@
 }
 
 :root {
+  .icon {
+    border-radius: 100px;
+  }
   /* 翻页按键 */
   .desc {
     font-size: 18px;
@@ -63,15 +66,16 @@
     margin-bottom: 0.4rem;
     transition: color 0.5s;
   }
-  .VPLink:hover .desc {
+  .pager-link:hover .desc {
     color: var(--vp-c-brand-1);
     transition: color 0.25s;
   }
-  .VPLink {
+  .pager-link {
+    will-change: transform;
     border: none;
     transition: transform 0.5s;
   }
-  .VPLink:hover {
+  .pager-link:hover {
     border: none;
     transform: scale(1.1);
     transition: transform 0.25s;

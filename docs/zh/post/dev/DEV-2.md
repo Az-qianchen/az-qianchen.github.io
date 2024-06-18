@@ -1,7 +1,7 @@
 ---
 tags: ["DEV-SB"] # 标签
 author: "仟尘" # 作者
-title: "Godot：SB 开发快照（游戏 UI 演示）" # 标题
+title: "（游戏 UI 演示）Godot：SB 开发快照" # 标题
 date: "2024-03-27" # 日期
 
 description: "游戏内的 UI 演示" # 页面描述、面向搜索引擎用户

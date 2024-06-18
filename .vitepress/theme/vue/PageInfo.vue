@@ -42,7 +42,7 @@ const queryTag = (tag) => {
         <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg
       >{{ frontmatter.author }}</span
     >
-    ·
+    <span v-if="frontmatter.author">·</span>
 
     <span v-if="post.frontmatter.read_time" class="article-meta">
       <svg
@@ -61,7 +61,7 @@ const queryTag = (tag) => {
         <polyline points="12 7 12 12 15 15"></polyline></svg
       >{{ post.frontmatter.read_time }} 分钟</span
     >
-    ·
+    <span v-if="post.frontmatter.read_time">·</span>
 
     <span v-if="post.frontmatter.word_count" class="article-meta">
       <svg
@@ -90,7 +90,7 @@ const queryTag = (tag) => {
         ></polyline></svg
       >{{ post.frontmatter.word_count }} 字</span
     >
-    ·
+    <span v-if="post.frontmatter.word_count">·</span>
 
     <span v-if="frontmatter.date" class="article-meta">
       <svg
@@ -126,7 +126,7 @@ const queryTag = (tag) => {
         ></line></svg
       >{{ formatDate(frontmatter.date) }}
     </span>
-    ·
+    <span v-if="frontmatter.date">·</span>
 
     <span v-if="frontmatter.Translated" class="article-meta">
       <svg

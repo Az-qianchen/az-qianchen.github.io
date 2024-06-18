@@ -13,31 +13,31 @@ hero:
     alt: VitePress
   actions:
     - theme: brand # brand/alt 两种不同样式
-      text: 😕AA
-      link: posts/markdown-examples
+      text: 😕 开发 »
+      link: /zh/post/dev/DEV-1
     - theme: brand
-      text: 🫤BB
-      link: posts/api-examples
+      text: 🫤 博客 »
+      link: /zh/post/shader/Shader-1
 
 # 展示卡片
 features:
-  - title: Feature A
+  - title: 游戏介绍
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    icon: 🤨
-    link: posts/api-examples
+    icon: 😶
+    link: zh/post/game
     linkText: more
 
-  - title: Feature B
+  - title: 期望规划
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    icon: 😯
-    link: posts/api-examples
-    linkText: AA
+    icon: 😶‍🌫️
+    link: zh/post/future
+    linkText: more
 
-  - title: Feature C
+  - title: 关于我们
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    icon: 😟
-    # link: /api-examples
-    # linkText: AA
+    icon: 🙃
+    link: zh/post/team
+    linkText: more
 pageinfo: false
 ---
 
