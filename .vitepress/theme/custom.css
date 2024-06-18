@@ -269,6 +269,8 @@
   }
 }
 /* 容器样式 */
-html {
-  overflow: scroll; /* 强制显示滚动条 */
+@media (min-width: 768px) {
+  html {
+    overflow: scroll; /* 强制显示滚动条 */
+  }
 }
