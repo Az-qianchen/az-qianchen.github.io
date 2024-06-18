@@ -12,7 +12,6 @@ import pwa from "./config/pwa.mts";
 import UnoCSS from "unocss/vite";
 // 导入 markdown-it-footnote 插件
 import MarkdownItFootnote from "markdown-it-footnote";
-import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 // https://vitepress.dev/reference/site-config
 export default withPwa(
   defineConfig({
@@ -103,9 +102,6 @@ export default withPwa(
     },
     // // 路由重写
     rewrites: {
-      "docs/": "",
-      "docs/(.*)": "(.*)",
-      "docs/zh/(.*)": "zh/(.*)",
       // "zh/index.md": "index.md",
       // "zh/posts/(.*)": "posts/(.*)",
     },
@@ -123,7 +119,6 @@ export default withPwa(
       config: (md) => {
         // 使用更多的 Markdown-it 插件！
         md.use(MarkdownItFootnote);
-        md.use(BiDirectionalLinks());
       },
     },
   })

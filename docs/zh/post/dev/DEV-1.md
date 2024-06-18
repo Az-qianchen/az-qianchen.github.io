@@ -33,7 +33,7 @@ Super Ball 功能开发切片
 
 因为 Audacity 无法进行批量化的转换，但是 ffmpeg 因为没有 UI 所以使用起来还是会麻烦一些
 
-[[ffmpeg|参考这篇博客]]
+[参考这篇博客](/zh/post/tips/ffmpeg)
 
 通过这个脚本可以一键对 comp_in 内的音频文件进行转换，总体来说也算比较方便
 
