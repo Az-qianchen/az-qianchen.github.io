@@ -41,10 +41,7 @@ jobs:
           cache: npm # 或 pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install @rollup/rollup-linux-x64-gnu
-        run: npm i @rollup/rollup-linux-x64-gnu
       - name: Install dependencies
-        #run: npm i
         run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
