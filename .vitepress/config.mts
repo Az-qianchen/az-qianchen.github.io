@@ -12,7 +12,7 @@ import pwa from "./config/pwa.mts";
 // 导入 UnoCSS 插件
 import UnoCSS from "unocss/vite";
 // 导入 sitemap 插件
-import sitemap from "vite-plugin-sitemap";
+import sitemap from "vuepress-plugin-sitemap";
 // 导入 markdown-it-footnote 插件
 import MarkdownItFootnote from "markdown-it-footnote";
 // https://vitepress.dev/reference/site-config
