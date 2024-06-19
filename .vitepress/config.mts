@@ -11,13 +11,14 @@ import { withPwa } from "@vite-pwa/vitepress";
 import pwa from "./config/pwa.mts";
 // 导入 UnoCSS 插件
 import UnoCSS from "unocss/vite";
-// 导入 sitemap 插件
-import sitemap from "vuepress-plugin-sitemap";
 // 导入 markdown-it-footnote 插件
 import MarkdownItFootnote from "markdown-it-footnote";
 // https://vitepress.dev/reference/site-config
 export default withPwa(
   defineConfig({
+    sitemap: {
+      hostname: "https://page.tuclink.com",
+    },
     // URL 不生成 .html 后缀
     cleanUrls: true,
     // 页面 head 配置
@@ -123,13 +124,7 @@ export default withPwa(
     // pwz 配置
     pwa: pwa,
     vite: {
-      plugins: [
-        UnoCSS(),
-        sitemap({
-          hostname: "https://page.tuclink.com",
-          // 其他配置选项
-        }),
-      ],
+      plugins: [UnoCSS()],
       resolve: {
         alias: [
           {
