@@ -1,5 +1,9 @@
 export default [
   {
+    text: "关于",
+    link: "/zh/post/about/",
+  },
+  {
     text: "标签",
     link: "/zh/tags/",
   },

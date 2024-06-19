@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { fileURLToPath, URL } from "node:url";
 // 导入导航栏配置文件
 import nav from "./config/nav.mts";
 // 导入侧边栏配置文件
@@ -119,6 +120,16 @@ export default withPwa(
     pwa: pwa,
     vite: {
       plugins: [UnoCSS()],
+      resolve: {
+        alias: [
+          {
+            find: /^.*\/VPFeature\.vue$/,
+            replacement: fileURLToPath(
+              new URL("./theme/components/VPFeature.vue", import.meta.url)
+            ),
+          },
+        ],
+      },
     },
     markdown: {
       math: true,
