@@ -16,24 +16,35 @@
 
 <script setup>
 import { onMounted } from "vue";
+// 引入 aplayer CSS 文件
+import "aplayer/dist/APlayer.min.css";
 // 组件挂载完成时
-onMounted(() => {
-  // 创建一个新的 <link>
-  const aplayerLink = document.createElement("link");
-  aplayerLink.rel = "stylesheet";
-  aplayerLink.href =
-    "https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css";
-  // 将元素添加到 <head>
-  document.head.appendChild(aplayerLink);
-
+onMounted(async () => {
+  // 加载 APlayer 脚本
   const aplayerScript = document.createElement("script");
-  aplayerScript.src =
-    "https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js";
+  aplayerScript.src = new URL(
+    "../../../node_modules/aplayer/dist/APlayer.min.js",
+    import.meta.url
+  ).href;
   document.body.appendChild(aplayerScript);
 
+  // 等待 APlayer 脚本加载完成
+  await new Promise((resolve) => {
+    aplayerScript.onload = resolve;
+  });
+
+  // 加载 Meting 脚本
   const metingScript = document.createElement("script");
-  metingScript.src = "https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js";
+  metingScript.src = new URL(
+    "../../../node_modules/meting/dist/Meting.min.js",
+    import.meta.url
+  ).href;
   document.body.appendChild(metingScript);
+
+  // 等待 Meting 脚本加载完成
+  await new Promise((resolve) => {
+    metingScript.onload = resolve;
+  });
 });
 </script>
 

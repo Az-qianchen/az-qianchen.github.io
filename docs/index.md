@@ -36,7 +36,7 @@ features:
   - title: 关于我们
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     icon: 🙃
-    link: zh/post/team
+    link: zh/post/about/team
     linkText: more
 pageinfo: false
 ---
