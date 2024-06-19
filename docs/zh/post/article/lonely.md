@@ -3,6 +3,10 @@ title: "热闹的孤寂-拥挤的城市与原子的个体"
 tags: ["文章"]
 author: "仟尘"
 date: "2024-01-01"
+head:
+  - - meta
+    - name: Keywords
+      content: "孤独" # 网站关键词（SEO）
 ---
 ### 章节导读
 你会感到孤独吗？

@@ -5,8 +5,10 @@ title: "Super Ball 隐私政策" # 标题
 date: "2024-04-13" # 日期
 
 description: "隐私政策" # 页面描述、面向搜索引擎用户
-Keywords: "Godot,Super Ball,隐私政策" # 网站关键词（SEO）
-
+head:
+  - - meta
+    - name: Keywords
+      content: "Godot,Super Ball,隐私政策" # 网站关键词（SEO）
 ---
 ---
 ### 用户隐私保护政策导言

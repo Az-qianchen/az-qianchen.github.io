@@ -5,8 +5,10 @@ title: "FFmpeg 音频转换脚本"  # 标题
 date: "2024-03-19"  # 日期
 
 description: "FFmpeg 音频转换" # 页面描述、面向搜索引擎用户
-Keywords: "FFmpeg,Audio,音频,教程" # 网站关键词（SEO）
-
+head:
+  - - meta
+    - name: Keywords
+      content: "FFmpeg,Audio,音频,教程" # 网站关键词（SEO）
 ---
 ---
 ```

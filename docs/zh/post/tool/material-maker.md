@@ -6,7 +6,10 @@ author: "仟尘" # 作者
 title: "Material Maker 种草" # 标题
 date: "2024-05-14" # 日期
 description: "1000+ 免费材质分享【Material Maker】（适用于 Godot、Unity、Unreal、Blender）"
-Keywords: "Material Maker,材质,种草" # 网站关键词（SEO）
+head:
+  - - meta
+    - name: Keywords
+      content: "Material Maker,材质,种草" # 网站关键词（SEO）
 ---
 ## 链接
 [**软件官网**](https://www.materialmaker.org/)

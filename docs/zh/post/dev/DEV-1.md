@@ -5,8 +5,10 @@ title: "游戏声音演示 - Godot：SB 开发快照" # 标题
 date: "2024-03-18" # 日期
 
 description: "游戏内的交互音效演示" # 页面描述、面向搜索引擎用户
-Keywords: "Godot,Audio,音频" # 网站关键词（SEO）
-
+head:
+  - - meta
+    - name: Keywords
+      content: "Godot,Audio,音频" # 网站关键词（SEO）
 ---
 ---
 Super Ball 功能开发切片

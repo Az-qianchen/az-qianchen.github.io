@@ -4,8 +4,10 @@ author: "仟尘" # 作者
 title: "数学知识" # 标题
 date: "2024-05-12" # 日期
 description: "主要是与着色器相关的一些数学知识点" # 页面描述、面向搜索引擎用户
-Keywords: "math,数学,干货" # 网站关键词（SEO）
-
+head:
+  - - meta
+    - name: Keywords
+      content: "math,数学,干货" # 网站关键词（SEO）
 ---
 ---
 ### 点乘

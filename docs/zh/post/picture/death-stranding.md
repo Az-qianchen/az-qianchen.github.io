@@ -6,8 +6,10 @@ date: "2024-05-11" # 日期
 
 description: "死亡搁浅官方摄影征集精选" # 页面描述、面向搜索引擎用户
 summary: "图片" # 页面描述、面向社交媒体用户
-Keywords: "图片,摄影,分享,死亡搁浅" # 网站关键词（SEO）
-
+head:
+  - - meta
+    - name: Keywords
+      content: "图片,摄影,分享,死亡搁浅" # 网站关键词（SEO）
 cover:
     # image: "https://s2.loli.net/2024/04/28/AYskmM68Eg4Cy7t.jpg" # 图片链接
     # hidden: false # 是否隐藏

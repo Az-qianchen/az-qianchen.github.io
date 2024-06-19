@@ -5,8 +5,10 @@ title: "Win 11 右下角设置面板无法打开" # 标题
 date: "2024-05-12" # 日期
 
 description: "解决 Win 11 右下角设置面板老是无法打开的问题" # 页面描述、面向搜索引擎用户
-Keywords: "tips,win11,bug,设置面板" # 网站关键词（SEO）
-
+head:
+  - - meta
+    - name: Keywords
+      content: "tips,win11,bug,设置面板" # 网站关键词（SEO）
 ---
 ---
 1. 打开任务管理器

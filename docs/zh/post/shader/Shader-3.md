@@ -5,8 +5,10 @@ title: "Shader 多层草地效果" # 标题
 date: "2024-05-07" # 日期
 
 description: "Godot Shader 分享" # 页面描述、面向搜索引擎用户
-Keywords: "Godot,Shader,草地" # 网站关键词（SEO）
-
+head:
+  - - meta
+    - name: Keywords
+      content: "Godot,Shader,草地" # 网站关键词（SEO）
 ---
 
 ## 使用演示

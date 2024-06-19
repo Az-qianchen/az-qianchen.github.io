@@ -5,8 +5,10 @@ author: "仟尘" # 作者
 title: "10万+ 免费商用模型【精选优质资产网站】" # 标题
 date: "2024-05-22" # 日期
 description: "10万+ 免费商用模型【精选优质资产网站】实现模型自由" # 页面描述、面向搜索引擎用户
-Keywords: "model,材质,种草" # 网站关键词（SEO）
-
+head:
+  - - meta
+    - name: Keywords
+      content: "model,材质,种草" # 网站关键词（SEO）
 ---
 ## Sketchfab
 直切主题，第一个要介绍的网站是 Sketchfab
