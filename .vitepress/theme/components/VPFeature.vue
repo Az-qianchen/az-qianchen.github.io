@@ -101,7 +101,7 @@ defineProps<{
   line-height: 24px;
   font-size: 16px;
   font-weight: 600;
-  margin-left: 12px;
+  margin-left: 12px !important;
 }
 
 .details {

@@ -271,6 +271,18 @@
     background-color: rgba(0, 0, 0, 0);
     border-radius: 10px;
   }
+  /* 顶栏背景 */
+  /* .content-body {
+    background-color: rgba(0, 0, 0, 0) !important;
+  } */
+  /* 顶部黑线 */
+  .divider-line {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  /* 左上图标去线 */
+  .title {
+    border-bottom: rgba(0, 0, 0, 0) !important;
+  }
 }
 /* 容器样式 */
 @media (min-width: 768px) {

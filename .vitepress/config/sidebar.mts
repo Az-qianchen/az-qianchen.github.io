@@ -5,6 +5,13 @@ import process from "process";
 import matter from "gray-matter";
 
 export default {
+  "/zh/nav/": [
+    {
+      collapsed: true,
+      text: "导航",
+      items: searchFiles("/zh/nav"),
+    },
+  ],
   "/zh/post/story/": [
     {
       collapsed: true,

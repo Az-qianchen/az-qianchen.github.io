@@ -58,6 +58,7 @@ export default withPwa(
             prev: "«上一页",
             next: "下一页»",
           },
+          returnToTopLabel: "回到顶部",
           darkModeSwitchLabel: "切换暗黑模式",
           lightModeSwitchTitle: "切换到明亮模式",
           darkModeSwitchTitle: "切换到暗黑模式",
