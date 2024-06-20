@@ -92,6 +92,7 @@ defineProps<{
   border-radius: 6px;
   background-color: var(--vp-c-default-soft);
   width: 48px;
+  min-width: 48px;
   height: 48px;
   font-size: 24px;
   transition: background-color 0.25s;

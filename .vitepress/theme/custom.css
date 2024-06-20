@@ -283,6 +283,35 @@
   .title {
     border-bottom: rgba(0, 0, 0, 0) !important;
   }
+  /* 移动端设置面板 */
+  .header {
+    will-change: transform;
+    border-bottom: 1px solid var(--vp-c-text-2);
+  }
+  .outline {
+    will-change: transform;
+    outline-style: none;
+  }
+  /* 播放器样式 */
+  .aplayer {
+    background: rgba(128, 128, 128, 0.4);
+  }
+  .aplayer.aplayer-withlist .aplayer-info {
+    border-bottom: 0px;
+  }
+  .aplayer .aplayer-lrc:before {
+    height: 1%;
+    background: rgba(128, 128, 128, 0.4);
+  }
+  .aplayer .aplayer-lrc:after {
+    background: rgba(0, 0, 0, 0);
+  }
+  .aplayer .aplayer-list ol li.aplayer-list-light {
+    background: rgba(128, 128, 128, 0.4);
+  }
+  .aplayer .aplayer-list ol li {
+    border-top: 1px solid rgba(128, 128, 128, 0.4);
+  }
 }
 /* 容器样式 */
 @media (min-width: 768px) {
