@@ -68,14 +68,14 @@ zoom: false
 - 相比剧集和电影，动画则是一种更为纯粹的创作，自由没有束缚，因此往往也更显风味
 
 <div class="VPFeature-item">
-<VPFeature icon = '<img src="https://n.sinaimg.cn/sinakd20112/0/w2048h1152/20211122/11e1-aa9e1db3e5e48ba76cd30cdeb6091b59.jpg" style = "max-width: 180%;transform: translate(0%, 0%);">'  title = "英雄联盟:双城之战" details = "完全超出预期的美术表现，和剧情编排，即使抛开 IP 也是一部极其优秀的作品" link = "https://movie.douban.com/subject/34867871/" linkText="Link" />
+<VPFeature icon = '<img src="https://n.sinaimg.cn/sinakd20112/0/w2048h1152/20211122/11e1-aa9e1db3e5e48ba76cd30cdeb6091b59.jpg" style = "max-width: 180%;transform: translate(0%, 0%);">'  title = "英雄联盟:双城之战" details = "完全超出预期的美术表现和剧情编排，即使抛开 IP 也是一部极其优秀的作品" link = "https://movie.douban.com/subject/34867871/" linkText="Link" />
 <VPFeature icon = '<img src="https://kido-1257686190.cos.ap-beijing.myqcloud.com/kido-kidding/images/movieCovers/蜘蛛侠：平行宇宙.jpg" style = "max-width: 150%;transform: translate(0%, 0%);">'  title = "蜘蛛侠:平行宇宙" details = "各种美术风格的完美混搭，商业语境下艺术创作的究极释放" link = "https://movie.douban.com/subject/26374197/" linkText="Link" />
 <VPFeature icon = '<img src="https://n.sinaimg.cn/sinakd20121/27/w2000h2827/20221016/3e0e-a7a0d3e6ceaa2aeefcc217cc99a30f99.jpg" style = "max-width: 150%;transform: translate(0%, 10%);">'  title = "间谍过家家" details = "深度或是严密的逻辑？<br>不不不，温馨美好，放空享受这就够了" link = "https://movie.douban.com/subject/35258427/" linkText="Link" />
 <VPFeature icon = '<img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.CG1DahHjgqfbJaRoeC_kVwHaKY?w=201&h=282&c=7&r=0&o=5&pid=1.7" style = "max-width: 150%;transform: translate(0%, -4%);">'  title = "疯狂动物城" details = "迪士尼献上的乌托邦，妥妥没有短板的六边形战士" link = "https://movie.douban.com/subject/25662329/" linkText="Link" />
 </div>
 
 ## 🎮 游戏推荐
-- 游戏在很长一段时间被认为是电子鸦片，但事实上其有着很高的门槛，它需要学习，需要思考，但拨开坚硬外壳后你将开启另外一段人生
+- 游戏在很长一段时间被认为是电子鸦片，但事实上其有着很高的门槛，它需要学习，需要思考，拨开坚硬外壳后你将开启另外一段人生
 <div class="VPFeature-item">
 <VPFeature icon = '<img src="https://img2.doubanio.com/lpic/s29435861.jpg">'  title = "艾迪芬奇的记忆" details = "谈到游戏艺术必定绕不开的一个作品，对体验性叙事进行了完美的呈现" link = "https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/?l=schinese&curator_clanid=29227165" linkText="Link" />
 <VPFeature icon = '<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1717621627" style = "max-width: 220%;">'  title = "最后生还者" details = "可以说是游戏这一媒介叙事的巅峰之作，直到出了第二部。。。" link = "https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/" linkText="Link" />
