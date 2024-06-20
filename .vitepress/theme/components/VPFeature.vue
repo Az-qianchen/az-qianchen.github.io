@@ -85,6 +85,7 @@ defineProps<{
 }
 
 .icon {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
