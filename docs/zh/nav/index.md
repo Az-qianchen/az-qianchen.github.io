@@ -87,7 +87,7 @@ zoom: false
 - 作为最为原始的心理补剂，在当今的时代早已显得没有那般诱人，但其就像是未经加工的食材，保留了最为存粹的原味
 
 <div class="VPFeature-item">
-<VPFeature icon = '<img src="https://th.bing.com/th/id/OIP.lzGU700C_t63swkedH7LewAAAA?w=199&h=288&c=7&r=0&o=5&pid=1.7" style = "transform: translate(0%, 10%)">'  title = "黄金时代" details = "是心甘情愿的接受来自外界的阉割，还是进行一下徒劳的挣扎呢" link = "https://book.douban.com/subject/27013741/" linkText="Link" />
+<VPFeature icon = '<img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.fB902zQ5uhfszJyYIfs__QHaKq?rs=1&pid=ImgDetMain" style = "transform: translate(0%, 10%)">'  title = "黄金时代" details = "是心甘情愿的接受来自外界的阉割，还是进行一下徒劳的挣扎呢" link = "https://book.douban.com/subject/27013741/" linkText="Link" />
 <VPFeature icon = '<img src="https://img.zcool.cn/community/01wymtahcacnzw5j2tbmuw3433.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100/quality,q_100" style = "max-width: 200%; transform: translate(-24%, 0%)">'  title = "献给阿尔吉侬的花束" details = "如果可以的话，是应该选择成为痛苦的智者，还是一个快乐的傻子" link = "https://book.douban.com/subject/26362836/" linkText="Link" />
 <VPFeature icon = '<img src="https://ts4.cn.mm.bing.net/th?id=ODL.00bb6dc71048daa1d585abc9f9e1c5ea&w=192&h=300&c=10&rs=1&qlt=99&bgcl=fffffe&r=0&o=6&pid=WrapstarImage" style = "max-width: 110%; transform: translate(2%, 14%);">'  title = "一个陌生女人的来信" details = "一场孤独的爱，被动而又主动的爱，只因你让我至死无法忘怀" link = "https://book.douban.com/subject/2154960/" linkText="Link" />
 <VPFeature icon = '<img src="https://ts2.cn.mm.bing.net/th?id=OIP.qAJ8S1zB5xeMI_Q_JrSD4QHaHa&w=298&h=298&c=10&rs=1&qlt=99&bgcl=fffffe&r=0&o=6&pid=MultiSMRSV2Source" style = "max-width: 110%;">'  title = "生死疲劳" details = "魔幻现实主义的中国乡土，挥之不去的是深深的时代烙印" link = "https://book.douban.com/subject/35587028/" linkText="Link" />
