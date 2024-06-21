@@ -3,7 +3,7 @@ import { VPButton } from "vitepress/theme";
 import { getTags } from "../utils/posts.mts";
 import { Tag } from "../utils/posts.mts";
 import { useRouter, useData, useRoute } from "vitepress";
-import { ref, computed, watch } from "vue";
+import { ref } from "vue";
 import { useUrlSearchParams } from "@vueuse/core";
 
 const tags: Tag[] = getTags();
@@ -65,7 +65,9 @@ selectedTag.value =
   <div v-for="tag in tags" :key="tag.name">
     <div v-show="tag.name === selectedTag.name">
       <dev
-        v-for="post in tag.posts"
+        v-for="post in tag.posts.filter((post) =>
+          post.url.startsWith(`/${lang}`)
+        )"
         class="TagListItem flex flex-col w-full"
         @click="goToPost(post.url)"
       >
