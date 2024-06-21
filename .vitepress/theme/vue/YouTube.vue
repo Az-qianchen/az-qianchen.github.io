@@ -20,7 +20,7 @@ const props = defineProps({
 const url = computed(() => `https://www.youtube.com/embed/${props.id}`);
 </script>
 
-<style>
+<style scoped>
 .video-responsive {
   position: relative;
   overflow: hidden;

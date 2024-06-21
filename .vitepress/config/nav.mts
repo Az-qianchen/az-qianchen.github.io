@@ -4,12 +4,12 @@ export default [
     link: "/zh/nav/",
   },
   {
-    text: "关于",
-    link: "/zh/post/about/",
-  },
-  {
     text: "标签",
     link: "/zh/tags/",
+  },
+  {
+    text: "关于",
+    link: "/zh/post/about/",
   },
   {
     text: "分类",
@@ -20,7 +20,7 @@ export default [
       },
       {
         text: "分享 Share",
-        link: "/zh/post/shader/Shader-1",
+        link: "/zh/post/shader/shader-1",
       },
       {
         text: "故事 Story",

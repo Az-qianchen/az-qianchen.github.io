@@ -1,11 +1,9 @@
 ---
 title: "心灵补剂"
 
-prev: false
-next: false
+
 pageinfo: false
 
-lastUpdated: false
 
 pageClass: custom-page-class
 

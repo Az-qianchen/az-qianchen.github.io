@@ -3,7 +3,7 @@
 tags:
   - 工具
 author: "仟尘" # 作者
-title: "Material Maker 种草" # 标题
+title: "1000+ 免费材质分享【Material Maker】" # 标题
 date: "2024-05-14" # 日期
 description: "1000+ 免费材质分享【Material Maker】（适用于 Godot、Unity、Unreal、Blender）"
 head:

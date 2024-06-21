@@ -48,7 +48,7 @@ onMounted(async () => {
 });
 </script>
 
-<style>
+<style scoped>
 .musice-container {
   /* 控制堆叠顺序，置顶 */
   z-index: 1000;

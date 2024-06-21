@@ -50,33 +50,6 @@ export default {
       items: searchFiles("/zh/post/policy"),
     },
   ],
-  "/zh/post/tips/": [
-    {
-      collapsed: true,
-      text: "材质",
-      items: searchFiles("/zh/post/shader"),
-    },
-    {
-      collapsed: true,
-      text: "干货",
-      items: searchFiles("/zh/post/collect"),
-    },
-    {
-      collapsed: true,
-      text: "技巧",
-      items: searchFiles("/zh/post/tips"),
-    },
-    {
-      collapsed: true,
-      text: "工具",
-      items: searchFiles("/zh/post/tool"),
-    },
-    {
-      collapsed: true,
-      text: "图片",
-      items: searchFiles("/zh/post/picture"),
-    },
-  ],
   "/zh/post/tool/": [
     {
       collapsed: true,
@@ -87,11 +60,6 @@ export default {
       collapsed: true,
       text: "干货",
       items: searchFiles("/zh/post/collect"),
-    },
-    {
-      collapsed: true,
-      text: "技巧",
-      items: searchFiles("/zh/post/tips"),
     },
     {
       collapsed: true,
@@ -117,11 +85,6 @@ export default {
     },
     {
       collapsed: true,
-      text: "技巧",
-      items: searchFiles("/zh/post/tips"),
-    },
-    {
-      collapsed: true,
       text: "工具",
       items: searchFiles("/zh/post/tool"),
     },
@@ -141,11 +104,6 @@ export default {
       collapsed: true,
       text: "干货",
       items: searchFiles("/zh/post/collect"),
-    },
-    {
-      collapsed: true,
-      text: "技巧",
-      items: searchFiles("/zh/post/tips"),
     },
     {
       collapsed: true,
@@ -171,12 +129,7 @@ export default {
     },
     {
       collapsed: true,
-      text: "技巧",
-      items: searchFiles("/zh/post/tips"),
-    },
-    {
-      collapsed: true,
-      text: "工具",
+      text: "分享",
       items: searchFiles("/zh/post/tool"),
     },
     {

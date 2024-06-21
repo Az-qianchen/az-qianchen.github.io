@@ -31,13 +31,16 @@ const url = computed(
     `https://player.bilibili.com/player.html?bvid=${props.id}&p=1&autoplay=0`
 );
 </script>
-<style>
+
+<style scoped>
 .video-responsive {
-  border-radius: 10px;
   position: relative;
-  padding-bottom: 56.25%;
-  width: 100%;
-  height: 0;
   overflow: hidden;
+  width: 100%;
+  height: 56.25%;
+  border-radius: 10px;
+}
+.video-iframe {
+  border-radius: 10px;
 }
 </style>
