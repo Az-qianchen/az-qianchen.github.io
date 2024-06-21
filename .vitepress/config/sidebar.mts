@@ -138,6 +138,13 @@ export default {
       items: searchFiles("/zh/post/picture"),
     },
   ],
+  "/zh/post/tips/": [
+    {
+      collapsed: true,
+      text: "技巧",
+      items: searchFiles("/zh/post/tips"),
+    },
+  ],
 };
 
 function searchFiles(searchPath: string): DefaultTheme.SidebarItem[] {
@@ -146,23 +153,24 @@ function searchFiles(searchPath: string): DefaultTheme.SidebarItem[] {
   const items: DefaultTheme.SidebarItem[] = [];
 
   files.forEach((file: string) => {
-    const filePath = path.join(absolutePath, file);
-    const fileContent = fs.readFileSync(filePath, "utf-8");
-    const { data } = matter(fileContent);
-    let title = data.title || path.parse(file).name; // 使用 frontmatter 中的 title，如果没有则使用文件名
-    const maxTitleLength = 14; // 设置最大标题长度
-    // 截断标题并添加省略号
-    if (title.length > maxTitleLength) {
-      title = title.substring(0, maxTitleLength) + "...";
-    }
+    // 只处理 .md 文件
+    if (path.extname(file) === ".md") {
+      const filePath = path.join(absolutePath, file);
+      const fileContent = fs.readFileSync(filePath, "utf-8");
+      const { data } = matter(fileContent);
+      let title = data.title || path.parse(file).name; // 使用 frontmatter 中的 title，如果没有则使用文件名
+      const maxTitleLength = 14; // 设置最大标题长度
+      // 截断标题并添加省略号
+      if (title.length > maxTitleLength) {
+        title = title.substring(0, maxTitleLength) + "...";
+      }
 
-    const name = path.parse(file).name;
-    items.push({
-      // text: name,
-      // link: `${searchPath}/${name}`,
-      text: title,
-      link: `${searchPath}/${path.parse(file).name}`,
-    });
+      const name = path.parse(file).name;
+      items.push({
+        text: title,
+        link: `${searchPath}/${name}`,
+      });
+    }
   });
   return items;
 }

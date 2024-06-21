@@ -1,7 +1,7 @@
 ---
 tags: ["Shader"] # 标签
 author: "仟尘" # 作者
-title: "Godot Shader 范围指示器" # 标题
+title: "Shader 范围指示器" # 标题
 date: "2024-05-12" # 日期
 
 description: "Shader 分享" # 页面描述、面向搜索引擎用户

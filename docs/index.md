@@ -17,7 +17,7 @@ hero:
       link: /zh/post/dev/DEV-1
     - theme: brand
       text: 🫤 博客 »
-      link: /zh/post/shader/Shader-1
+      link: /zh/post/shader/shader-1
 
 # 展示卡片
 features:
