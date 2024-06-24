@@ -7,140 +7,140 @@ import matter from "gray-matter";
 export default {
   "/zh/nav/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "导航",
       items: searchFiles("/zh/nav"),
     },
   ],
   "/zh/post/story/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "故事",
       items: searchFiles("/zh/post/story"),
     },
   ],
   "/zh/post/article/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "文章",
       items: searchFiles("/zh/post/article"),
     },
   ],
   "/zh/post/dev/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "开发",
       items: searchFiles("/zh/post/dev"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "政策",
       items: searchFiles("/zh/post/policy"),
     },
   ],
   "/zh/post/policy/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "开发",
       items: searchFiles("/zh/post/dev"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "政策",
       items: searchFiles("/zh/post/policy"),
     },
   ],
   "/zh/post/tool/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "材质",
       items: searchFiles("/zh/post/shader"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "干货",
       items: searchFiles("/zh/post/collect"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "工具",
       items: searchFiles("/zh/post/tool"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "图片",
       items: searchFiles("/zh/post/picture"),
     },
   ],
   "/zh/post/shader/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "材质",
       items: searchFiles("/zh/post/shader"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "干货",
       items: searchFiles("/zh/post/collect"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "工具",
       items: searchFiles("/zh/post/tool"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "图片",
       items: searchFiles("/zh/post/picture"),
     },
   ],
   "/zh/post/collect/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "材质",
       items: searchFiles("/zh/post/shader"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "干货",
       items: searchFiles("/zh/post/collect"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "工具",
       items: searchFiles("/zh/post/tool"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "图片",
       items: searchFiles("/zh/post/picture"),
     },
   ],
   "/zh/post/picture/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "材质",
       items: searchFiles("/zh/post/shader"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "干货",
       items: searchFiles("/zh/post/collect"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "分享",
       items: searchFiles("/zh/post/tool"),
     },
     {
-      collapsed: true,
+      collapsed: false,
       text: "图片",
       items: searchFiles("/zh/post/picture"),
     },
   ],
   "/zh/post/tips/": [
     {
-      collapsed: true,
+      collapsed: false,
       text: "技巧",
       items: searchFiles("/zh/post/tips"),
     },

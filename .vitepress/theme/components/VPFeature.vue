@@ -11,6 +11,14 @@ defineProps<{
   linkText?: string;
   rel?: string;
   target?: string;
+  badges?: Array<{
+    type: string;
+    text: string;
+  }>;
+  extraLinks?: Array<{
+    link: string;
+    text: string;
+  }>;
 }>();
 </script>
 
@@ -43,6 +51,16 @@ defineProps<{
         <div v-else-if="icon" class="icon" v-html="icon"></div>
         <h2 class="title" v-html="title"></h2>
       </div>
+
+      <div v-if="badges" class="badges">
+        <Badge
+          v-for="(badge, index) in badges"
+          :key="index"
+          :type="badge.type"
+          :text="badge.text"
+        />
+      </div>
+
       <p v-if="details" class="details" v-html="details"></p>
 
       <div v-if="linkText" class="link-text">
@@ -50,11 +68,43 @@ defineProps<{
           {{ linkText }} <span class="vpi-arrow-right link-text-icon" />
         </p>
       </div>
+
+      <div v-if="extraLinks && extraLinks.length" class="extra-links">
+        <a
+          v-for="(extraLink, index) in extraLinks"
+          :key="index"
+          :href="extraLink.link"
+          class="extra-link-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ extraLink.text }} <span class="vpi-arrow-right link-text-icon" />
+        </a>
+      </div>
     </article>
   </VPLink>
 </template>
 
 <style scoped>
+.extra-links {
+  display: flex;
+  flex-direction: row; /* 水平排列 */
+  gap: 8px; /* 间距 */
+}
+
+.extra-link-button {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.extra-link-button:hover {
+  text-decoration: underline;
+}
+
 .icon-title {
   display: flex;
   align-items: center;
@@ -129,5 +179,10 @@ defineProps<{
 
 .link-text-icon {
   margin-left: 6px;
+  margin-right: 8px;
+}
+
+.badges {
+  margin: 10px 0px 0px 0px;
 }
 </style>
