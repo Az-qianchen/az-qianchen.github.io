@@ -39,7 +39,9 @@ selectedTag.value =
       @click="setSelectedTag(tag)"
     >
       {{ tag.name }}
-      <sup class="font-bold">{{ tag.posts.length }}</sup>
+      <sup class="font-bold">{{
+        tag.posts.filter((post) => post.url.startsWith(`/${lang}`)).length
+      }}</sup>
     </div>
   </div>
 
