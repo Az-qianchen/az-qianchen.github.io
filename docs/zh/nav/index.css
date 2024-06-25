@@ -55,19 +55,19 @@
     flex-basis: calc(100% - 10px);
     max-width: calc(100% - 10px);
   }
-  @media (min-width: 400px) {
+  @media (min-width: 800px) {
     .VPFeature-item > * {
       flex-basis: calc(50% - 10px);
       max-width: calc(50% - 10px);
     }
   }
-  @media (min-width: 800px) {
+  @media (min-width: 1200px) {
     .VPFeature-item > * {
       flex-basis: calc(33.333% - 10px);
       max-width: calc(33.333% - 10px);
     }
   }
-  @media (min-width: 1400px) {
+  @media (min-width: 1600px) {
     .VPFeature-item > * {
       flex-basis: calc(25% - 10px);
       max-width: calc(25% - 10px);
