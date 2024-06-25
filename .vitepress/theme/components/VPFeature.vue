@@ -89,7 +89,8 @@ defineProps<{
 .extra-links {
   display: flex;
   flex-direction: row; /* 水平排列 */
-  gap: 8px; /* 间距 */
+  column-gap: 8px; /* 间距 */
+  flex-wrap: wrap; /* 自动换行 */
 }
 
 .extra-link-button {
@@ -159,6 +160,7 @@ defineProps<{
 .details {
   flex-grow: 1;
   padding-top: 8px;
+  padding-bottom: 6px;
   line-height: 24px;
   font-size: 14px;
   font-weight: 500;
