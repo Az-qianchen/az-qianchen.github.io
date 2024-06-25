@@ -76,7 +76,6 @@
   /* 样式修复 */
   .VPFeature-item a {
     font-weight: 500;
-    color: var(--vp-c-text-1);
     text-decoration: none;
     text-underline-offset: 0px;
   }

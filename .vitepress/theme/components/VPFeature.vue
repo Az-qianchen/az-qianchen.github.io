@@ -115,7 +115,6 @@ defineProps<{
   display: block;
   border: 1px solid var(--vp-c-bg-soft);
   border-radius: 12px;
-  height: 100%;
   background-color: var(--vp-c-bg-soft);
   transition: border-color 0.25s, background-color 0.25s;
 }
