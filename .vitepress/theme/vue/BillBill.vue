@@ -3,19 +3,17 @@
     <iframe
       :src="url"
       scrolling="no"
-      border="0"
       frameborder="no"
-      framespacing="0"
       allowfullscreen="true"
-      style="position:absolute; height: 100%; width: 100%;high_quality=1;danmaku=0"
-    >
-    </iframe>
+      class="video-iframe"
+    ></iframe>
   </div>
 </template>
 
 <script setup>
 // 接收参数
 import { computed } from "vue";
+
 // 传递参数
 const props = defineProps({
   id: {
@@ -25,6 +23,7 @@ const props = defineProps({
     required: true,
   },
 });
+
 // 处理返回值
 const url = computed(
   () =>
@@ -37,10 +36,16 @@ const url = computed(
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 56.25%;
-  border-radius: 10px;
+  padding-top: 56.25%;
+  border-radius: 14px;
 }
+
 .video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 </style>

@@ -81,7 +81,7 @@ selectedTag.value =
         <div class="my-1">
           {{ post.frontmatter.description ?? post.excerpt ?? "" }}
         </div>
-        <div class="article-container flex flex-row gap-2">
+        <div class="article-container flex flex-row">
           <!-- 文章作者 -->
           <div class="flex flex-row items-center">
             <div class="article-meta">
@@ -232,6 +232,7 @@ selectedTag.value =
 }
 .article-container {
   flex-wrap: wrap;
+  column-gap: 8px; /* 间距 */
 }
 
 .article-meta {
@@ -246,11 +247,11 @@ selectedTag.value =
   margin: 4px 6px 0px 0px; /* 添加右边距 */
 }
 .dark .TagBtn {
-  background: rgba(128, 128, 128, 0.2);
+  background: rgba(40, 40, 40, 1);
 }
 .dark .TagBtn.selected,
 .dark .TagBtn:hover {
-  background: rgba(128, 128, 128, 0.6);
+  background: rgba(80, 80, 80, 1);
 }
 .TagBtn {
   will-change: transform;
@@ -264,12 +265,12 @@ selectedTag.value =
     border-color 0.5s;
   color: var(--vp-c-text-1);
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-  background: rgba(128, 128, 128, 0.2);
+  background: rgba(220, 220, 220, 1);
   cursor: pointer;
 }
 .TagBtn.selected {
   color: var(--vp-c-brand-1);
-  background: rgba(128, 128, 128, 0.1);
+  background: rgba(240, 240, 240, 1);
   transition: transform 0.25s, color 0.25s, background-color 0.25s,
     border-color 0.25s;
 }
@@ -278,7 +279,7 @@ selectedTag.value =
   transition: transform 0.25s, color 0.25s, background-color 0.25s,
     border-color 0.25s;
   color: var(--vp-c-brand-1);
-  background: rgba(128, 128, 128, 0.1);
+  background: rgba(240, 240, 240, 1);
   transform: scale(1.1);
 }
 .divider {
@@ -296,7 +297,7 @@ selectedTag.value =
 .TagListItem {
   will-change: transform;
   padding: 1.1rem;
-  border-radius: 0.5rem;
+  border-radius: 10px;
   color: var(--vp-c-text-2);
   margin: 0.5rem;
 

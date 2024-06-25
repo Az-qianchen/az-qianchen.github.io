@@ -11,6 +11,10 @@ head:
     - name: Keywords
       content: "Material Maker,材质,种草" # 网站关键词（SEO）
 ---
+## 视频介绍
+
+<billbill id="BV1dT421S7v8"/>
+
 ## 链接
 [**软件官网**](https://www.materialmaker.org/)
 
@@ -36,5 +40,3 @@ Material Maker 本身就带有非常多的预设节点，且随着更新还在�
 其制作的材质可以以贴图或是着色器脚本的格式，导入到其他的软件中直接使用，例如 Godot、Unity、Unreal、Blender
 
 不过值得注意的是着色器脚本并不直接支持 Blender 的导出，因为 Blender 并不支持着色器脚本的使用
-
-<billbill id="BV1dT421S7v8"/>

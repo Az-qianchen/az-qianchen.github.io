@@ -1,6 +1,6 @@
 <template>
   <div v-if="url" class="video-responsive">
-    <iframe width="100%" :src="url" frameborder="0" allowfullscreen />
+    <iframe :src="url" frameborder="0" allowfullscreen></iframe>
   </div>
 </template>
 
@@ -25,7 +25,7 @@ const url = computed(() => `https://www.youtube.com/embed/${props.id}`);
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 56.25%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
   border-radius: 10px;
 }
 
