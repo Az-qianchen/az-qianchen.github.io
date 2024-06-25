@@ -7,5 +7,3 @@ pageinfo: false
 comments: false
 lastUpdated: false
 ---
-
-[github](@:https://github.com)
