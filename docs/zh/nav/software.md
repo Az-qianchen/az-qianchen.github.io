@@ -26,6 +26,7 @@ zoom: false
 
 - 行走互联网不免会需要用到一些称手的兵器，也正是这些工具赋予了冰冷硬件灵魂，才使其发挥出强大的功能
 - 推荐的大部分软件都会以开源为主，故此也做到了真正的绿色、免费、无广，不过相应功能也很难有商业软件那般全面，但已能满足大部分基础需求
+- 将代码仓库放在 GitHub 上的软件，我通过徽章显示了其 Stars 数量，对于不明白 Stars 数量含义的小伙伴，可以理解为收藏数，越多也意味着其越受欢迎
 
 ## 💻 装机必备
 
@@ -44,6 +45,8 @@ zoom: false
     <Badge type="warning" text="开源" />
     <Badge type="tip" text="文件查看" />
     <img alt="Static Badge" src="https://img.shields.io/github/stars/QL-Win/QuickLook?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+    <!-- <img alt="Static Badge" src="https://img.shields.io/github/created-at/QL-Win/QuickLook?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;"> -->
+    <!-- <img alt="Static Badge" src="https://img.shields.io/github/last-commit/QL-Win/QuickLook?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;"> -->
   </template>
 </VPFeature>
 
@@ -659,58 +662,120 @@ details = "原型设计工具，类似 Figma、Pixso、XD、MasterGo的开源版
 </VPFeature>
 
 <VPFeature 
-icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = ""
-details = "" 
+icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAARVBMVEVHcEysl7TzhXfzhXfzhXfzhXeDufXzhXdSfrJSfrJ/kr6DufVSfrJSfrKDufWDufVSfrKDufVSfrJSfrKDufVSfrKDufVRdbtIAAAAF3RSTlMACzD/oe7dvjPdFz3/WjL7u0XvdYGTUduEewQAAACeSURBVHgBzdHRDoMgDIXhozhEYAJz8v6POkroTBqCt37Xzd9Q8DjTTDCgigUDs1IvDC1qtEFrYIXZLJjgXB3w/o2ePQTdBnxET0qtUHyMXB8IF8gh1ifChSpOaL6BiALhNTYxLrATRSCywDYAuegW+C1E9wsRLBeyIO+ZZEH+yFQT18B5c0kDwWXChYie/C8c6LLO7TQAi5EVNyye5wdxlw5HerXoEgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Kdenlive"
+details = "视频剪辑软件，不过剪映和达芬奇因该会是更好的选择" 
 :extraLinks="[
-  { text: '官网', link: '' },
-  { text: 'GitHub', link: '' },
+  { text: '官网', link: 'https://kdenlive.org/zh/' },
+  { text: 'GitLab', link: 'https://invent.kde.org/multimedia/kdenlive' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="音频" />
+  <Badge type="tip" text="剪辑" />
 </template>
 </VPFeature>
 
 <VPFeature 
-icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = ""
-details = "" 
-:extraLinks="[
-  { text: '官网', link: '' },
-  { text: 'GitHub', link: '' },
-]">
+icon = '<img src="https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Scrcpy "
+details = "实现 Android 设备的电脑投屏" 
+link = "https://github.com/Genymobile/scrcpy" 
+linkText="GitHub" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="音频" />
+  <Badge type="tip" text="投屏" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Genymobile/scrcpy?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
 <VPFeature 
-icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = ""
-details = "" 
-:extraLinks="[
-  { text: '官网', link: '' },
-  { text: 'GitHub', link: '' },
-]">
+icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADE0lEQVR4Ad2WA5AkQRBFN2ze9ljnu9DZtm3btm3btm3b5tq2G9PT/a+iNtYexl5GtPUys/+vckv+VSaJ93CHixbZje64cCndANxfujgXgPOqCiFsJsT40xCTH8GS/Axi4jUIURvA+bcF56F0FIAKfMhEyBKHwsIcfx6sZzn7AnCeJpLxWcgyj6JDhsR5gPdrbi8AhpYXkFCSsLC/wHlVsh2AC+gKWWJz5igLZBFRVJgTLoDzUFkPwHloIKY8y+fFN5Hq0xbm5KeAbC64GWIMeN86NgB4Vyfvj0SuoH99OqAWaYEjIVkSC0IAHzzOBgC/lvSvLwggY0nzqgk+5nC+9wqxh20ACOgGQCoSIGNJ9qwHSQjP2a6kO+D+Wgvg3yGjx0UDkF6LCUSqUlouX7hoPQDvWx+yJaFwAC8ThLDJkMU45BdCxHIbZOhVHhLvWQAAAyGwB6S0j0D+kqTyJfZsmw8IkasByDlNJvUDxNj9QBHOKLHfSBLlbANgPXTkg+9z54aigpgVyb67ncYC4uuSEIRihyxACF9k39GQ9awAS9p3FBFUBVzwKPKMwv7zAc6rYvpcIPkpZEs8yIosEjUgC/cb5pid4HybOHxGRHXN/lGDJQ7I+tRH2l8TOfc/zglfnFdi3Twtti3V4vUlJb7eUuDCLrXzAPau1mDLYi2enVOibq2y2L9Wg4nDDfh+R4FVs3U4tF4D76cMnpxRIv4rg8Mb1Qh4qcDGhVqc3qZG/Dd3XNmnxuW9KkR/YqwDmDZKjx3LNejQyogTW9SYMMyAnSs0uLhbhbYtTDhHKtKlrRFPz6jQp4sBi6boaNX6dzdQwBaNTTSJhG9WVoC8jGSspBlcO0AAhhowdaQeW5do0bG1kVRHhR4dDRg9QI/nZH/MQD19bs9KDc4TuPYtjYj7yljXglPb1LSEGccPTqqweKoOM8focIC0Y3AvA95eUeLCbjWaNTIh6ac7zu5UY+4EHV3eXFZiRD8DEr8zjpBh+n7sFwY7lmkwfbQuQ4r0Gtl3jgwTvjF4fFqF4DdM6fUB2ZUA/wASlikasPOXhgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Potplayer"
+details = "视频播放器，大部分情况下系统自带播放器足够" 
+link = "https://potplayer.daum.net/?lang=zh_CN" 
+linkText="官网" >
 <template #badgeImage>
-  <Badge type="warning" text="开源" />
-  <Badge type="tip" text="音频" />
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="播放器" />
 </template>
 </VPFeature>
 
 <VPFeature 
-icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = ""
-details = "" 
+icon = '<img src="https://img.itch.zone/aW1nLzU3NjY3NTEucG5n/315x250%23c/B6bQeh.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Flowframes"
+details = "AI 视频插值工具" 
+link = "https://nmkd.itch.io/flowframes" 
+linkText="Itch" >
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="视频" />
+</template>
+</VPFeature>
+</div>
+
+
+## 🍎 Mac 相关
+
+- 这部分软件要么就是没有深入了解过，要么就是存在一些问题，但确实又值得列出来用作存储
+
+<div class="VPFeature-item">
+<VPFeature 
+icon = '<img src="https://brew.sh/assets/img/homebrew.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Homebrew"
+details = "包管理器，通过命令行安装、更新、卸载软件" 
 :extraLinks="[
-  { text: '官网', link: '' },
-  { text: 'GitHub', link: '' },
+  { text: '官网', link: 'https://brew.sh/zh-cn/' },
+  { text: 'GitHub', link: 'https://github.com/Homebrew/brew' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="音频" />
+  <Badge type="tip" text="软件管理" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Homebrew/brew?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature 
+icon = '<img src="https://github.com/iina/iina/raw/master/iina/Assets.xcassets/AppIcon.appiconset/iina-icon-256.png" style = "max-width: 70%;transform: translate(0%, 0%);">'  
+title = "IINA"
+details = "提供更优的解码能力" 
+:extraLinks="[
+  { text: '官网', link: 'https://iina.io/' },
+  { text: 'GitHub', link: 'https://github.com/iina/iina' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="播放器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/iina/iina?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature 
+icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAkFBMVEVHcExPWWpVYnM0O0YTCQhITlwGlc1RXGwKksUgP08XOVxZaXsygJ5BWnU/VGwHfskfJCgTnsIPh7tYaHoygp8Do8kGocoHn8YiMD4gKTMRT4gcmr5Fd5VWZXZMVGVPWmsBnsdTX3ABl8cBj8kAk8oAhcwAfc8BddEufKkMZrgrb6gyhaghlLUXmLtAfpgyU3r918dJAAAAHXRSTlMAw8TGKfzFJygLxr9TnSDBVsYj6Hnou56gferHxF8U//4AAADdSURBVCiRpdLLEoIgFIDhrCwtNbWrmkFkRaH2/m8XlwPi5LSoH3DhN6w4o9Gf+dFc5slS36YgXMqOSZEURbLbB4b9zbpUsbplrK0x3m60BtpKhuumqRvMNYCLobYzw6a9uhoth3CXSpyPDVJMMBGb4Jmn8QxRTRby36XYSCBkowxR8g0rHrkQ/u0QcRCLCqrEslF1otWFR/g26KA+ygZQ03UAn1dThyfIwpWN/CD3eTMBRo6+2MMInqzDuymE147dT8xjPSaZC70eUJ51QxQfJqqF6hD35m/ay6afegO9/Thm6xQ4+QAAAABJRU5ErkJggg==" style = "max-width: 100%;transform: translate(0%, 0%);">'  
+title = "Rectangle"
+details = "分屏工具" 
+:extraLinks="[
+  { text: '官网', link: 'https://rectangleapp.com/' },
+  { text: 'GitHub', link: 'https://github.com/rxhanson/Rectangle' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="优化" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/rxhanson/Rectangle?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature 
+icon = '<img src="https://mos.caldis.me/resources/image/logo-big.png" style = "max-width: 80%;transform: translate(0%, 0%);">'  
+title = "Mos"
+details = "如果你受不了非线性的鼠标滚轮和 Win 相反的方向，可以试试这款工具" 
+:extraLinks="[
+  { text: '官网', link: 'https://mos.caldis.me/' },
+  { text: 'GitHub', link: 'https://github.com/Caldis/Mos' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="优化" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Caldis/Mos?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>

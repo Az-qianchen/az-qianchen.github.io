@@ -178,6 +178,8 @@ defineProps<{
 .badges-container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   margin: 10px 0px 0px 0px;
+  row-gap: 8px; /* 垂直间距 */
 }
 </style>

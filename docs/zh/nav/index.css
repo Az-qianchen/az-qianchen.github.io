@@ -40,7 +40,7 @@
   }
   /* 顶栏左右空隙 */
   @media (min-width: 1440px) {
-    .VPNavBar.has-sidebar .content[data-v-cf6e7c5e] {
+    .VPNavBar.has-sidebar .content {
       padding-right: 60px !important;
       padding-left: 300px !important;
     }
