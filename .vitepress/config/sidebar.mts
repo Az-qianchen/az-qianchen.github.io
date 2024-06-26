@@ -150,7 +150,7 @@ export default {
 function searchFiles(searchPath: string): DefaultTheme.SidebarItem[] {
   const absolutePath = process.cwd() + "/docs" + searchPath;
   const files = fs.readdirSync(absolutePath);
-  const items: DefaultTheme.SidebarItem[] = [];
+  const items: { text: string; link: string; weight: number }[] = [];
 
   files.forEach((file: string) => {
     // 只处理 .md 文件
@@ -165,12 +165,18 @@ function searchFiles(searchPath: string): DefaultTheme.SidebarItem[] {
         title = title.substring(0, maxTitleLength) + "...";
       }
 
+      const weight = data.weight !== undefined ? data.weight : Infinity; // 默认 weight 为 Infinity
       const name = path.parse(file).name;
       items.push({
         text: title,
         link: `${searchPath}/${name}`,
+        weight: weight,
       });
     }
   });
-  return items;
+
+  // 按照 weight 进行排序，数字越小排越前
+  items.sort((a, b) => a.weight - b.weight);
+
+  return items.map((item) => ({ text: item.text, link: item.link }));
 }

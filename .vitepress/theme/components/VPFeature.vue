@@ -11,10 +11,7 @@ defineProps<{
   linkText?: string;
   rel?: string;
   target?: string;
-  badges?: Array<{
-    type: string;
-    text: string;
-  }>;
+  badgeImage?: string;
   extraLinks?: Array<{
     link: string;
     text: string;
@@ -52,13 +49,8 @@ defineProps<{
         <h2 class="title" v-html="title"></h2>
       </div>
 
-      <div v-if="badges" class="badges">
-        <Badge
-          v-for="(badge, index) in badges"
-          :key="index"
-          :type="badge.type"
-          :text="badge.text"
-        />
+      <div v-if="$slots.badgeImage" class="badges-container">
+        <slot name="badgeImage"></slot>
       </div>
 
       <p v-if="details" class="details" v-html="details"></p>
@@ -183,7 +175,9 @@ defineProps<{
   margin-right: 8px;
 }
 
-.badges {
+.badges-container {
+  display: flex;
+  align-items: center;
   margin: 10px 0px 0px 0px;
 }
 </style>

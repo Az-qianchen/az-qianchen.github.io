@@ -4,7 +4,7 @@ title: "心灵补剂"
 tags: ["导航"] # 标签
 author: "仟尘" # 作者
 date: "2024-06-20" # 日期
-
+weight: 0 # 权重用于排序
 description: "文娱作品推荐" # 页面描述、面向搜索引擎用户
 head:
   - - meta

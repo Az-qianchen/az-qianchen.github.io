@@ -16,7 +16,7 @@ head:
 
 ![](https://files.getquicker.net/_sitefiles/home/%E4%B8%BA%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%88%9B%E5%BB%BA%E6%8D%B7%E5%BE%84.gif)
 
-拥有一个庞大的动作库生态，动作的安装也十分的简单便捷
+其拥有一个庞大的动作库生态，动作的安装也十分的简单便捷
 
 除了动作，还可以用于应用的快速开启，网站的快速开启，快捷键的模拟等
 

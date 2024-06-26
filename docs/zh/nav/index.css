@@ -1,33 +1,34 @@
 .custom-page-class {
   /* 容器设置 */
   .VPFeature-item {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex; /* 水平排列 */
-    justify-content: flex-start; /* 居左 */
-    flex-wrap: wrap; /* 换行 */
-    gap: 10px; /* 空隙 */
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    display: flex !important; /* 水平排列 */
+    justify-content: flex-start !important; /* 居左 */
+    flex-wrap: wrap !important; /* 换行 */
+    gap: 10px !important; /* 空隙 */
   }
   .VPLink {
-    height: auto; /* 确保高度自动适应内容 */
+    height: auto !important; /* 确保高度自动适应内容 */
   }
   /* 标题换行 */
   .title {
     line-height: 1.2 !important;
+    color: var(--vp-c-brand-1) !important;
   }
 
   /* 两边空隙 */
   @media (min-width: 1440px) {
     .VPContent.has-sidebar {
-      padding-right: 0px;
-      padding-left: 300px;
+      padding-right: 0px !important;
+      padding-left: 300px !important;
     }
   }
   /* 左栏 */
   @media (min-width: 1440px) {
     .VPSidebar {
-      padding-left: 60px;
-      width: 300px;
+      padding-left: 60px !important;
+      width: 300px !important;
     }
   }
   /* 顶部左上标志 */
@@ -40,8 +41,8 @@
   /* 顶栏左右空隙 */
   @media (min-width: 1440px) {
     .VPNavBar.has-sidebar .content[data-v-cf6e7c5e] {
-      padding-right: 60px;
-      padding-left: 300px;
+      padding-right: 60px !important;
+      padding-left: 300px !important;
     }
   }
   /* 内容铺满填充 */
@@ -52,49 +53,49 @@
 
   /* 密度宽度自适应 */
   .VPFeature-item > * {
-    flex-basis: calc(100% - 10px);
-    max-width: calc(100% - 10px);
+    flex-basis: calc(100% - 10px) !important;
+    max-width: calc(100% - 10px) !important;
   }
   @media (min-width: 800px) {
     .VPFeature-item > * {
-      flex-basis: calc(50% - 10px);
-      max-width: calc(50% - 10px);
+      flex-basis: calc(50% - 10px) !important;
+      max-width: calc(50% - 10px) !important;
     }
   }
   @media (min-width: 1200px) {
     .VPFeature-item > * {
-      flex-basis: calc(33.333% - 10px);
-      max-width: calc(33.333% - 10px);
+      flex-basis: calc(33.333% - 10px) !important;
+      max-width: calc(33.333% - 10px) !important;
     }
   }
   @media (min-width: 1600px) {
     .VPFeature-item > * {
-      flex-basis: calc(25% - 10px);
-      max-width: calc(25% - 10px);
+      flex-basis: calc(25% - 10px) !important;
+      max-width: calc(25% - 10px) !important;
     }
   }
   /* 样式修复 */
   .VPFeature-item a {
-    font-weight: 500;
-    text-decoration: none;
-    text-underline-offset: 0px;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    text-underline-offset: 0px !important;
   }
   .icon-title h2 {
     margin: 0;
-    border-top: 0px solid var(--vp-c-divider);
-    padding-top: 0px;
-    letter-spacing: 0em;
-    line-height: 0px;
-    font-size: 16px;
+    border-top: 0px solid var(--vp-c-divider) !important;
+    padding-top: 0px !important;
+    letter-spacing: 0em !important;
+    line-height: 0px !important;
+    font-size: 16px !important;
   }
   ._zh_nav_ p {
-    margin: 0;
+    margin: 0 !important;
   }
   .box .link-text {
-    padding-top: 0px;
+    padding-top: 0px !important;
   }
   .vp-doc p.link-text-value,
   .vp-doc p.details {
-    margin: 0px;
+    margin: 0px !important;
   }
 }
