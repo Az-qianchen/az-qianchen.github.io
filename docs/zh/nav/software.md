@@ -544,10 +544,11 @@ linkText="官网" >
 <VPFeature 
 icon = '<img src="https://www.audacityteam.org/_astro/Audacity_Logo.63b57726.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Audacity"
-details = "轻量快捷的音频编辑工具" 
+details = "轻量快捷的音频编辑工具，还有一个分叉项目 Tenacity" 
 :extraLinks="[
   { text: '官网', link: 'https://www.audacityteam.org/' },
   { text: 'GitHub', link: 'https://github.com/audacity/audacity' },
+  { text: 'Tenacity', link: 'https://tenacityaudio.org/' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -657,7 +658,8 @@ details = "原型设计工具，类似 Figma、Pixso、XD、MasterGo的开源版
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="音频" />
+  <Badge type="tip" text="设计" />
+    <img alt="Static Badge" src="https://img.shields.io/github/stars/penpot/penpot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -720,7 +722,7 @@ linkText="Itch" >
 
 <div class="VPFeature-item">
 <VPFeature 
-icon = '<img src="https://brew.sh/assets/img/homebrew.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+icon = '<img src="https://brew.sh/assets/img/homebrew.svg" style = "max-width: 24px;transform: translate(0%, 0%);">'  
 title = "Homebrew"
 details = "包管理器，通过命令行安装、更新、卸载软件" 
 :extraLinks="[
