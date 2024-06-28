@@ -1,12 +1,13 @@
 ---
-sidebar: false
-aside: false
-prev: false
-next: false
 pageinfo: false
 comments: false
-lastUpdated: false
-
+title: 团队成员
+date: "2024-06-28" # 日期
+description: "团队成员" # 页面描述、面向搜索引擎用户
+head:
+  - - meta
+    - name: Keywords
+      content: "介绍" # 网站关键词（SEO）
 zoom: false
 ---
 
@@ -43,4 +44,9 @@ const members = [
 ]
 </script>
 
+# 团队成员
+
 <VPTeamMembers size="small" :members="members" />
+
+## 仟尘
+目前主要在进行 Super Ball 的游戏制作

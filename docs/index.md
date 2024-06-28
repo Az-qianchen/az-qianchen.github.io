@@ -22,19 +22,19 @@ hero:
 # 展示卡片
 features:
   - title: 游戏介绍
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
     icon: 😶
-    link: zh/post/game
+    link: zh/post/dev
     linkText: more
 
   - title: 期望规划
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
     icon: 😶‍🌫️
-    link: zh/post/future
+    link: zh/post/about/future
     linkText: more
 
   - title: 关于我们
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
     icon: 🙃
     link: zh/post/about/team
     linkText: more
@@ -45,7 +45,11 @@ pageinfo: false
 
 <script setup>
   import { ref } from "vue";
-  import BackgroundShader from "../.vitepress/theme/vue/BackgroundShader.vue";
+  import BackgroundShader from "../../.vitepress/theme/vue/BackgroundShader.vue";
+import TagList from "../../.vitepress/theme/vue/Tag.vue";
 </script>
 
 <BackgroundShader />
+
+
+<TagList />

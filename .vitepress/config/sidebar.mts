@@ -138,6 +138,13 @@ export default {
       items: searchFiles("/zh/post/picture"),
     },
   ],
+  "/zh/post/about/": [
+    {
+      collapsed: false,
+      text: "关于",
+      items: searchFiles("/zh/post/about"),
+    },
+  ],
   "/zh/post/tips/": [
     {
       collapsed: false,

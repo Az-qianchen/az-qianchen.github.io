@@ -61,30 +61,6 @@ title = "Cloudflare"
 details = "提供 10 GB 免费存储额度，不限下行流量，1000万每月请求次数"
 link = "https://developers.cloudflare.com/r2/pricing" 
 linkText="文档" />
-
-<!-- <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = "" 
-details = "" 
-link = "" 
-linkText="Link" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = "" 
-details = "" 
-link = "" 
-linkText="Link" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = "" 
-details = "" 
-link = "" 
-linkText="Link" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = "" 
-details = "" 
-link = "" 
-linkText="Link" /> -->
 </div>
 
 ## 🖼️ 图片处理
@@ -107,8 +83,9 @@ details = "一个图片压缩网站，可以使用多种不同的压缩算法，
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEXU6vLe7vTl8vft9fnk4uDz8O/5+vrMy8pUUlHt6unZ19UCAQEXFhWmop+LjYt2dHMwLi29u7nlSsjdAAABZUlEQVR4AV3RB24DMRADQN9ptV3t/58NdUqzmbgOSGDh11+u1/UTvH/L9Zl3uu/n6S7lftPHqHIp5RJVuv94d24jJ6u1skZkwcDBW1qnSg+aGY+Y6yisR0zG9wTc8YgbiGCzZ6xaoeiRozukIN84Y/eGVKpT3apw4a3AS2aw8VA159HVbDEvAe9muRow+yCv5ooXKjMcXeB9M76MTr3NaE4iUiIaA2GlcNVmphGoiazlEbiHv/G5sLZhvtpqTTMiw4EFCHNcQatra23mzMjUH6x1qY6xrWvMiebMb2S0mDC4nknUYv7iYnMIViE4WTPRfh3DSJyMVRkZ6AKhPM9UxqiGv4rHQn03uT00I9v+fjNuk43QSBh6wpDKlcE4rO1mi5x7WM7mEwP7buZBP9+d35V8CbCsAIaeDuOFTMjJN7IGDlZmBu0uOYREXDCLYgaxQJnM7CmBFXe2BOrIKQ2TGETwJBr5BehrFbRzJ8dAAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "TinyPNG" 
 details = "因该是最优质的图片压缩网站，还可以调用 API 进行压缩" 
-link = "https://tinypng.com/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://tinypng.com/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc1Nzc3N//AABEIABwAHAMBEQACEQEDEQH/xAAYAAEAAwEAAAAAAAAAAAAAAAAGAwQFB//EACoQAAIBAgYBAwMFAAAAAAAAAAECAwQRAAUGEiExQRMiYRRRkQcyM4HR/8QAGgEAAwADAQAAAAAAAAAAAAAAAwQFAAIGAf/EAC0RAAICAQIDBAsBAAAAAAAAAAECAAMRBCEFEkExUXGxExQVgYKRocHR8PFh/9oADAMBAAIRAxEAPwDtksiRRvLKwVEUszHoAdnCoXJwJ6zBQSeyFBreiNMszR/yOfTjv7tl/aTxa57t84c9lM43OJIv41TUxVBzES1kupKbN6+ejSNopUjEsd+d6dHxYENfjnix8kCNruFPQOY7yho9fVqkDJ1zt4Yz5ibJGIhUg4j0H64zla/M6DSlJIVNdOqVkinkRDllB+5H+Y67kNdfpD17JHtvF1/q69gxnzx+f7KGb5LBl1VVxzzrEJgz0i+hvAAvzYckC4uPuAejjY6yxyCP8H774Wnh+mRSGxnLHxzt9AR3bjMu0WUVGS0EGblg8kE5baDfdAwCkEjzwD5A+e8Ee8au30TdRj39uftEfVfZ9JtTflbPwnYj5b+IjGnmiqoI54GDxyKGVh5GObvoKWFWG4lyqxbEDqdjMCl0jQQ6jnzyqkeWp9cyU43ELGCDe48m7H8D5xVs1BdQvdFatIldjWdScw7qoZtk+o5M2p5VraepVYo3mlsKRt3CFVQ+y9rHsluSOySm6sJyMJu6MH517sRfnC11ZpapihSOTMJKfZtRgFLnu1zwP7wvXaqXBgdgZ7dWbKWQ9RiZ/wCnn1aaeP16NETO5iRxZgnHYPXu3HGcTure/K90Bw2l6tOFeJrA9gYnLY0fxIZqKmnt60KPYgjcL8jkH84LzGZJBGirtVQB9sDdiJgkZhjv+3CDOczef//Z" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "BigJpg" 
@@ -121,14 +98,16 @@ details = "AI 图片放大，SmartUpscaler 也是一个类似功能的网站"
 <VPFeature icon = '<img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%0D%0A%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%234E3764%3B%7D.cls-2%2C.cls-3%7Bfill%3A%23fff%3B%7D.cls-2%7Bopacity%3A0.51%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%0D%0A%3Ctitle%3Epixian%20logo%3C%2Ftitle%3E%0D%0A%3Crect%20class%3D%22cls-1%22%20width%3D%2216%22%20height%3D%2216%22%20rx%3D%222%22%20ry%3D%222%22%2F%3E%0D%0A%3Cg%20class%3D%22cls-2%22%3E%0D%0A%09%3Crect%20x%3D%222%22%20y%3D%222%22%20width%3D%225%22%20height%3D%225%22%20rx%3D%221%22%20ry%3D%221%22%2F%3E%0D%0A%09%3Crect%20x%3D%229%22%20y%3D%222%22%20width%3D%225%22%20height%3D%225%22%20rx%3D%221%22%20ry%3D%221%22%2F%3E%0D%0A%09%3Crect%20x%3D%222%22%20y%3D%229%22%20width%3D%225%22%20height%3D%225%22%20rx%3D%221%22%20ry%3D%221%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3Cg%20class%3D%22cls-3%22%20transform%3D%22translate%2811.5%2011.5%29%20rotate%2845%29%22%3E%0D%0A%09%3Crect%20x%3D%22-0.5%22%20y%3D%22-3.25%22%20width%3D%221%22%20height%3D%226.5%22%20rx%3D%22.5%22%20ry%3D%22.5%22%2F%3E%0D%0A%09%3Crect%20x%3D%22-3.25%22%20y%3D%22-0.5%22%20width%3D%226.5%22%20height%3D%221%22%20rx%3D%22.5%22%20ry%3D%22.5%22%2F%3E%0D%0A%3C%2Fg%3E%0D%0A%3C%2Fsvg%3E" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Pixian.AI" 
 details = "AI 图片去背景" 
-link = "https://pixian.ai/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://pixian.ai/' },
+]"/>
 
 <VPFeature icon = '<img src="https://zh.pixfix.com/cf/pf/images/pix-fix-logo_5c1a1fb511a02582851d6978a26e4173.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "PixFix" 
 details = "AI 图片去噪修复" 
-link = "https://zh.pixfix.com/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://zh.pixfix.com/' },
+]"/>
 
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/287255?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Squoosh" 
@@ -161,8 +140,9 @@ details = "一些大家常用的地图服务"
 <VPFeature icon = '<img src="https://s2.loli.net/2024/06/27/Ws7RZFX4YkxS2dM.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Google Earth"
 details = "因该是地表最强的地图工具，三维还原整个地球" 
-link = "https://www.google.com/intl/zh-CN/earth/about/" 
-linkText="Link" >
+:extraLinks="[
+  { text: 'Link', link: 'https://www.google.com/intl/zh-CN/earth/about/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="国内被墙" />
 </template>
@@ -171,62 +151,72 @@ linkText="Link" >
 <VPFeature icon = '<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nys3Nzc3Nzc4LTc3Nzc3Nzc3NzA3LS0yNTctNys3LDUrKysuK//AABEIABwAHAMBIgACEQEDEQH/xAAZAAEAAgMAAAAAAAAAAAAAAAAHBAYBAgX/xAAuEAABAwMCAwYGAwAAAAAAAAABAgMEAAURBhIhMUEHUWFicYEyQlJykaETFCL/xAAXAQADAQAAAAAAAAAAAAAAAAACBAUD/8QAHxEAAQQCAgMAAAAAAAAAAAAAAgABAwQRMSFBEhMU/9oADAMBAAIRAxEAPwA/0jpedqq5GJCKWmmwFSJCxlLSTy4dSeOB1we6lFns50hAaDcxmXNX8zy5KkH2SjArTsxQLfoBuRGSP7E2Q6tavtVsH6SOHjUC73aYzLKC6peD/rI4VYo0Po5dR7VqQTcR6UfVfZawiCu46TkOvBCd6oTp3KUPIrnnynOe/pRYCCARyNP2mJ7wjtpJO5SiUp9TRDr+E1b9a3iMwAlsSN4A5DekLI/KjStut6DwmKk5SZYlbuyTUUZLDmnbg6lsrdLsJazgKKvib9cjI78nwq1XSxYmrU63ubWcg/SaByARgjIrvQtZ6mgsBiNepQaAwEubXcDwKwTRVrhQaTBQgT5dMzbts0xbnLpcF/xtNjgVHKlq6JSOpNA94uL13usy5SQA9KeU6pI5JyeCR6DA9qxcrlPur4fucx+U6BhKnV52juA5D2qJWM8xTF5OiCMQ0v/Z" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "ZOOM EARTH" 
 details = "实时更新的宏观清晰度的世界卫星地图，带有气象或是热源信息覆盖" 
-link = "https://zoom.earth/maps/satellite/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://zoom.earth/maps/satellite/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAkFBMVEWkBACkBQCkAwClAwClBQClBACkAACkAQCeAACsHhucAAChAACkAgDozMv////q0tG6X167bWyxREOsIyHjxcXgtrX38vHXrq26ZGPSqKioExGwLCnCg4PLk5K+W1i1VVTVm5qZAADYpaTEfn2tMzLQjYzEc3HFe3rSoaHgvr3t29uwS0r46+r9+fmsLSzx4eGlVIQNAAABkUlEQVR4AWVRBaIjIRRDH5Q3zXfXurf3v90GhvUgGQiSDMYYa63pcNZ6y66TsaF+s+u9C00k9T2x9//BNXjX4VvpZFqJ4msn3vUNI5lESJ4U71WCJj/EwadO9S6Xp7gqeg3cpBhj3faLbLoFcFfugYfMDD6GYFwlpgwij8BtFZ+0iiGIukrMGUKh+FzFFw3BUpu8vqVAsdovU+C9PAAf2lLo591XomAGIn9zfjYHFuoG50QXN0txw9Ci6HsVV8BaB4p5PpsX51IyFdXufLYGNhqNlfzwtlXbE0VfgKvZcz3WRlvuX3dvQttcWO3O9nicHYAtRX3eleMs2paWxegWp3M6MqeRfDnvVjr+20gYWfJIbn/IPu92dyhS5ynT/OAp7Gn3OMubU9m/ZNdgRtIv4Iueyw2+tlBxznbRM3e+pyU+DrYfWOkQKXpn6tEh0scRpylwuseuSKDXX1GstaIPp9PlcsI8Cyd+R2Fx3Jsmpdxpljr6I0ocA4n3IuP4jyjsRvobpvNvxXb6LXpvGrkxQ6cf444ax2gQAnMAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Windy" 
 details = "实时的气象地图" 
-link = "https://www.windy.com/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://www.windy.com/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Ny03Nzc3N//AABEIABwAHAMBIgACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAEBQYHA//EAC0QAAIBAgUCAgsBAAAAAAAAAAECAwQRAAUSITEGQRNRFSIyQkNhgZGxweEH/8QAFwEAAwEAAAAAAAAAAAAAAAAAAgMEBf/EACARAAEEAgEFAAAAAAAAAAAAAAIAAREhAxJhBBMjMUH/2gAMAwEAAhEDEQA/AMOxX9E9J+lWWtrbClvaND8Ug7mw5Awj6dyl84zJKcXWIevM491Rz9e2NfllTLaMJl+hXIESBdrdtI247YVlyPs2MPbpOU4pBZ3BBllNpgi06bEE8m/yGwG3meML4ihQFxpY83AOC+pvWeGiDBmWyu697WufLk4Gjy9nQMmrSeOP3irpR8LOT282okD/AJ9QpS5fJObeNKolJuNlB2H2ucUUNOUlNXVEiKEFoQ43drbG34/mBumwEpXcAExRqVBUHvbnna2OPUFTL4axlifEILEnffbEQiR9Q4D9qeOERFs8ug/SKCukqHGphstu2OT1ElaxmN/IWa2HQy+mhyZHSMamW7E8kk2xMewSBxfGzg7Zzo0RSFf/2Q==" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Earth" 
 details = "实时的风，天气，海洋和污染地图" 
-link = "https://earth.nullschool.net/zh-cn/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://earth.nullschool.net/zh-cn/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAET0lEQVR4AcSW45ImTRCF6xL2Sj7b9re2bdu2bdu27d3By7HttXPr+dEV1T09a2TEmezOczJPdb8R2aOIGiNiqjUYFRqpUaYhbxlleOFpzOuPDMXU1+S7BJ54q3ojAiPrjQzK+wDequ7QYFndEUF5H8Bb1RkelNdB8/ER2XSiUOZuz36lflV7WFCeh97zkqvk9pwvlmX78+T49TKZuD7DxTUdF3nubFVraED80GRsWIYuS5XU3LsyYV2Gr2b2tmzDob8UrnDxHA70mpfEvS9UzSEB8UMg9ZYUlD0Avjw4dr3Mdb/7XLHrvv3UBDNjw7EC3xmq+uCAeLF0b64UlD4Q4mKoohJ/7FqZcMBZW7NddWpeLW+QYN74tRmVePX/4Hix0WZy1Gq6Lw1Hh1z84CUpsv5ogew6VyQYdp+TZLij10rJLnSfnSS37j4S4oJ+GC+v/hsULzZmbMlCaxq8fLfZibLrbBFgq9kaXz3gQZwYtDjFxal/B8aLA72dZN2RAnPigVps860mRQ1/5GqpjFmdLuv029ipD4OWGpk5dh89TkzXD2hz6p8B8eJgwKIUiU+5ZcQ2B7rOSsSMA8haPRSc10+dr5+wnjblAMxYtCeXa2pmrhMpuXddM9Vf/ePEQZeZiXLrziMghM2NWpXGUDmsgWGLCRHDLdydA6cPlO/S91+YwjW5yrnqz35xYoPhBJlNRW3qpkxgNAxaczjf3KM7H6yQOP32uEa740yR4ZvrwxL0obP91B9948RGcs4dIW5q8ciVadRkwa4c6bsgxWgwP6cHHb5SKp2mJ9Ij208XSVzyLa6N1tKbB6PP5tTv+o8NBmB+SA9ffSjf1KdszKQGGKbNbqIlo6eGnhor2DXzXKDC6Om3OfVbn1ixMXlDJgMRA5szWKWNnMwK7jAtQbadLpRYbUK/ra05NMDhzJvtMz/Zxatfe8eKDdZnXsl9IcjzduaIV4MxuYZepQcvlwCuqftpOZj5Wb28+qVXrHiRlH1HzgbKyRxCGo0Ju/itpwrN9bBlaZKsdb3mJbvqgD5M4TkE8Hqpn3vGiBd8VonYpJvmTbSdEjX8wUsl5vpsfDnrWubuyCa7ZmBOoCd6zk2q5KV+7BEjfjigm5zgTTCM1QvXQ+//M9oY8O3w9lJDz8GdmLM929dH/dA9RvzQepIZIjG8CREM4Z4LegB6MnPYen5a9b3+UwXY/cacYNDy/Xn6i5gqyw/k8aWTv/VgsgN4O+hnJVflob7rdl2ehW56/28+USin48qd35QwT7b/YomrTiRm3wFw9D9zvvq263V5HlivfOWW7csjy6ytWbJPD2eVwpM5IP+cwqEj0/e82eqbLtflZTFmTbq3xlrlq/fSs9RXna/J+4T6ssPlsi87XZP3AbzV5x2ujfyi4zV5H8BbfdgjptonHa7G6Bt5l8AT76djAAH9+PMCxumnG0zST743ST/zn5YYZAfILv14iOUAjtkqtUmtUcAAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "MARIS" 
 details = "来自国际原子能机构的海洋放射性污染地图" 
-link = "https://maris.iaea.org/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://maris.iaea.org/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADVElEQVR4Ae2XA7QcQRBFN7Zt27adrGLbtm3btm3btm3bvJnNizn5Meqct+Pp272vq6csXp249+ogq1cba73a4SdorzcrRbxbn3m0uMI4yKcLP1lWrIbcW7zYn+38JQA2VhvybNGJXyavfy5A6KIQrsQvBEhbD7I0/skAvnJB0IJS9qaQs9Wb4wB5wYfjBwL4ygmp60Lr8R9XoxEQv8oPAohcGlqPg0XbYM3eT0nXi3eBgPm/M0CsCjBkAWw7Im03tP8UbDwAK3aBzkvV++sv+SEAu47B6cvw4CHcf6Qet58E/ebCnI2w6eAPAkhUDRZugfsPARQCeNcHvWdDia4QrNB3BIhWDiauBMXnAKSGIyBTIwiQzw0A3hwQuhikb6Bhd5lv7HIA8wCS3uE3DySuDgL6IoBuajwCbt+DgfMgQwMAtwFU7e96XsYESFgN8wAPH8OsDcp2t++7HcDeQsY9dxXiVDIB4MOp9Aqw7bDMN2MdPHoMe09CvzkweD4cPvsuQK1BkKu1Gqw1SOdszaFafzhxUe8yvGTOhDHKw817cPIiVOkLZXtC/aGQohY4W0GOZpCuHrSfCB0MZW2iDJmvHRTqCLEq6t4oZWTe+w+h7XgIWsgkQPDCMGgePHgE09dBxFJQe7BGYPE2WL0H1u6DGgMhdkUo1kXHq3bD+v2w5bCr5wI/eAYA8rTROmIKwLtDPbp1DwAePYGNB8HZUtcD5oPCHWHtXjh/DRZsBkdL8K0GcI3Eyl1w9wEALNgKUct+ZR4IUQR6zQCAg6chd2vzC4z/vNB7Jty8KwN3nioDBiuozplMRKJesAVAQ1mo45cbj1AKRi2BO/fVeMfJ0HgkrN0Pxy5oFH3lMgmgLKhZAHrp7A1gbfZuqvWbG+JW1nJ86Mybe6v116pYtgecuQKg6DVT091kKtZnV6dJcOkGKGTQC9c1xa7fgTehVbJQB/CXR8+HKaaRfPgYQNFijDxjdjEyXqap1XkKnLrEB3HvIew5AfWGKJW//3zY4jB22Rtj1h4EvswDvCODXLnC2hzytoVMDSFkUXPP1hwAdYeAv7w6FsD/usDGyl/RuBc7Ow0ZpZmVzL8CwJv1WSGjQnZv8Wz8eLZSwChSd/+konS9KmNelOfPAXEXYQEQhJ8qAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Shipfinder" 
 details = "艘船网，实时的船位跟踪和水文数据地图" 
-link = "https://www.shipfinder.com/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://www.shipfinder.com/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAz0lEQVR4AWJwL/ABtFfHRhCCQABFjS2C8Lq4udAarIMeqIFCqMImSLcCUu4HywXnoARIRPAyxz+rsg41JjSDMyjvl0fA+miQgMGBrARb96DGPiX2R2Bbp12ECwU3sR0RuSLBwWCtKUEHrxwsdrXBQpAbBPgLdqncLEEQkZA7iYtOkAdx5R3KoKD5fRQjpivHokwZHoxFmBIs0e3BR2tPB1+ndEidYwHmFNSo6fNo66uvti99p/e2N+9S3Z0eAQciBOliSRwIsDDzBzyDM9jkC5wgd7kRh9dpAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "船讯网" 
 details = "实时的船位跟踪、水文数据、海上临时军事禁区地图" 
-link = "https://www.shipxy.com/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://www.shipxy.com/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAVFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODiHh4eqqqrExMR/f3/g4OD///93d3cAAABLS0vt7e34+PhmZmYpKSkZGRlERES+vr7U1NSampq1tbVZWVmo2tEjAAAAEHRSTlMBfOP+/yHv//////////9/Nyw1oQAAAVNJREFUeAF9kgWS2DAUxQLaNcQ/zLn/Pes3cbldDUeOjFWmblra36Bt6kp8fPLifIgxeMfL50eWxXXJCqkvtqoGxChlU0qTSY+IumrQb/qioOIa1wE0VXGzp7DgZzOlW8kxB0fEusK4sef4WGSyWW4PRyYovs+WJFFUTR8XVI2dJlJYMtkpFygEjz4mSae1MR6wXvd9rXDs6FeXpTdb4b669V5gOVaeAKuZzzLYBNvhuB7INsCxwWQhy6gpXWDTeAc33A5Oi3/IZYSzJxSpbILthrDuEfbbcW+QlMXbvMmwh3Tgjl0Zttn8u5UengtNcN0jhAf6dyski8DVX2Z+BboLTZkox7cAh+m0XX/JLcqVg582P85ZhuuOD7BOln5e2bkn08Xt6rKln1emsNBo8UyKSja/2OO9s5/P5LcHFmOaf31g/3iaXXmaXz9qMTT8RTNk8Q1tlhwI7HRLzwAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Flight Tracker" 
 details = "实时的航班跟踪地图" 
-link = "https://www.flightradar24.com/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://www.flightradar24.com/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA3ElEQVR4Aa2SIQyDQAxFv5jBYhAkp+YzNx8EDjOPwuAuITmNwee8wRM8XqCRpxGnz6K6XZaJUQ5FVZPX9v+0BZ3EhXCWtQnA9QUhsDI4Em0d0gipqBhUakjjW7ZsXQIGW1lEYvLZHSvTnDL9TRqYP2imnzIstbtOU7W+enlGH1jsNG0ta21KJOjJodwZ2oa6yWNI5yVn5tbqZ+5HD8iPNuRtOAXYwPp6JH4oh5bmRxynCx3B3pvVRMcwR+MoAF1nQsd2Z59QjkSkA7CSahRRAC6qKW53Btk9r/1bHm/l0LaBBFegqgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Pudding" 
 details = "人口地图" 
-link = "https://pudding.cool/2018/10/city_3d/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://pudding.cool/2018/10/city_3d/' },
+]"/>
 
 <VPFeature icon = '<img src="https://s2.loli.net/2024/06/27/tBuc2EC8w7qMkFr.jpg" style = "max-width: 200%;transform: translate(0%, 0%);">'  
 title = "Relief Map" 
 details = "全球地势地图" 
-link = "https://maps-for-free.com/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://maps-for-free.com/' },
+]"/>
 
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEVHcEwsMU0rMUwtM08sMU0sMk0qLkstMk4pLkssMU4zPVYpLUstNE8vNlEqLks4RV1MPVY/U2ZqaGxCYnNMdHteioR7jXyJrIimmns7MlCruIHGrnrLk3V6TWKWYGplRV7AdXMDGnT2AAAAD3RSTlMADh9MhbbP6Wv///+k/zgo3k0kAAABbElEQVR4AW3SB3bEIAwE0MUNj4Qstvdy/1NmgPRk3P3fuLL6lhC6LoTVP+n6YZxinMah/+1hHiEC5awx/eRugGpFA8Ti0H3ZMrpqAVVaaY+f2o3mpUGkuql+aRgEcCUyMCFBMYSKcxRTEZVqragW+3ZRuEHchMQt1LKJeyrVPkIE4us1td184yIWF+Kg5ZRvmbW7mLm7mUFnYlJjbbvd7feHw6a4sM058VknWLPj8XQ6HTb5nFHUxtBwu9sdjsfL9Xq9ne45n81UdSqosmbvUI36uOezsmgFx4bHC5F2ezwz2DMZQ3mgL6S92ISaqqTygVS8XZZGfD2e5YEVM3GJqE97OJ2aERmpHyEkEef32RyItPs9m5gIP1/9fgawvXk8KM/n86xm4IevGQzK43x/5jNclAcZQ2jYpXKM8+N+hhkV0NQ1Kwoy2APUHMCXUYeoqDFAJA60r4Q+RdQ6/gzNwsucJibNC+mfhBB+wBtpcx9yg47pRAAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "光污染地图" 
 details = "光污染地图，可以查看各个地区的天文观测相关数据" 
-link = "https://www.darkmap.cn/" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://www.darkmap.cn/' },
+]"/>
 
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/7859012?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "OpenRailwayMap" 
@@ -259,8 +249,9 @@ details = "来自国家地理信息公共服务平台，地表覆盖地图可进
 <VPFeature icon = '<img src="https://image.tuclink.com/image/2024.06/logo.1719499357" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "OpenStreetMap" 
 details = "世界最大的开源地图数据平台，可以进行地理数据的下载" 
-link = "https://www.openstreetmap.org/" 
-linkText="Link" >
+:extraLinks="[
+  { text: 'Link', link: 'https://www.openstreetmap.org/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="国内被墙" />
 </template>
@@ -281,18 +272,50 @@ details = "绘制城市道路地图可以导出成 png 或 svg 格式图片"
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAv0lEQVR4AWNwL/AZUDx4HDDqgFEH/M9iCADiC0D8nwB2wGUYSI6QfqgdATA9MI0LwJKE8QRCPgKpIdKsBSD1IA0JRCj+ANNAECM89IEIcxNAih/gkHwA9U0AWfGLiNYJ+OxgwOUyKic2nCGNzQEbaJXiQWYT4wABGjpAgKADaJ3vyXMAIo83EIkdaOGABpA8kbhhWDpAARS0RGIFihxASzzYsyH9C6IBL4oHvDIa8Op4oBskA98kG20Vjzpg1AEAOiepTO7/eKwAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "DataV" 
 details = "来自阿里云的国内行政区域地图 SVG 导出" 
-link = "https://datav.aliyun.com/portal/school/atlas/area_selector" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://datav.aliyun.com/portal/school/atlas/area_selector' },
+]"/>
 
 <VPFeature icon = '<img src="https://static.allhistory.com/online/common/img/logo-ah.5721.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "全历史" 
 details = "公元前3200-公元1900的历史地图，重要人物事件标注" 
-link = "https://www.allhistory.com/map" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: 'https://www.allhistory.com/map' },
+]"/>
 
 <VPFeature icon = '<img src="https://www.ageeye.cn/statics/logo-small-3.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "观沧海" 
 details = "地图分享网站，从各种朝代，到电视剧小说等虚拟世界的地图" 
-link = "https://www.ageeye.cn/" 
+:extraLinks="[
+  { text: 'Link', link: 'https://www.ageeye.cn/' },
+]"/>
+</div>
+
+
+
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+link = "" 
+linkText="Link" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+link = "" 
+linkText="Link" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+link = "" 
+linkText="Link" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+link = "" 
 linkText="Link" />
 </div>

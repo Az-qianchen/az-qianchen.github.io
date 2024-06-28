@@ -30,13 +30,13 @@ features:
   - title: 期望规划
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     icon: 😶‍🌫️
-    link: zh/post/future
+    link: zh/post/about/future
     linkText: more
 
   - title: 关于我们
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     icon: 🙃
-    link: zh/post/team
+    link: zh/post/about/team
     linkText: more
 pageinfo: false
 ---

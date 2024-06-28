@@ -93,8 +93,9 @@ linkText="Apple Music" />
 icon = '<img src="https://s2.loli.net/2024/06/24/wvb5qZGDt6CRmka.jpg" style = "max-width: 100%;transform: translate(0%, -20%);">'  
 title = "切尔诺贝利" 
 details = "一段需要铭记的历史，需要反思的历史，但显然灾难终将反复" 
-link = "https://www.bilibili.com/bangumi/play/ep775939" 
-linkText="BiliBili" />
+:extraLinks="[
+  { text: 'BiliBili', link: 'https://www.bilibili.com/bangumi/play/ep775939' },
+]"/>
 
 <VPFeature 
 icon = '<img src="https://s2.loli.net/2024/06/24/TtplcmxrhVfgzSH.webp" style = "max-width: 150%;transform: translate(-10%, 0%);">'  

@@ -20,10 +20,11 @@ const selectedTag = ref<Tag>({
 
 const setSelectedTag = (tag: Tag) => {
   selectedTag.value = tag;
-  router.go(`${lang.value}/tags/?tag=${tag.name}`);
+  // ?tag=
+  router.push({ path: route.path, query: { tag: tag.name } });
 };
 const goToPost = (path) => {
-  router.go(path);
+  router.push(path);
 };
 selectedTag.value =
   tags.find((tag) => tag.name === queryParams.tag) || selectedTag.value;
@@ -46,7 +47,7 @@ selectedTag.value =
   </div>
 
   <!-- 分割线 -->
-  <div class="divider"></div>
+  <hr />
 
   <!-- 当前选择的标签名和描述 -->
   <div v-if="selectedTag.name !== ''">

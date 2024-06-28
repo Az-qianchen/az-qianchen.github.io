@@ -148,7 +148,7 @@ watch(
         ></line></svg
       >{{ formatDate(frontmatter.date) }}
     </span>
-    <span v-if="frontmatter.date">·</span>
+    <span v-if="frontmatter.Translated">·</span>
 
     <span v-if="frontmatter.Translated" class="article-meta">
       <svg

@@ -89,6 +89,7 @@
     /* 添加毛玻璃效果 */
     background: var(--vp-04);
     backdrop-filter: blur(10px);
+    transition: background-color 0s;
   }
   @media (min-width: 960px) {
     .VPNavBar:not(.home) {

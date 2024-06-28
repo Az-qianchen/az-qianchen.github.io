@@ -53,8 +53,9 @@ zoom: false
 <VPFeature icon = '<img src="https://cn.bandisoft.com/img.front/bandizip_logo.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Bandizip" 
 details = "相对强大干净美观的压缩工具" 
-link = "https://cn.bandisoft.com/bandizip/" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://cn.bandisoft.com/bandizip/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="有限免费" />
   <Badge type="tip" text="压缩工具" />
@@ -64,8 +65,9 @@ linkText="官网" >
 <VPFeature icon = '<img src="https://pixpinapp.com/logo.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "PixPin" 
 details = "可以说是目前最强大的截图、贴图工具" 
-link = "https://pixpinapp.com/" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://pixpinapp.com/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="截图工具" />
@@ -108,8 +110,9 @@ details = "包含各类小工具，且随着开发还在不断添加，但使用
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABW0lEQVR4AX1TQ3YEURR94YJi2840djKMzU30KLathcScxLaTn3dP/WoUenBbF09dZAkgM4QxJhnnjB/GJWOaEWWvMzK6MSwjUfS3WUziuZHEbweJF37fKiHBvwvmexgeZgGWlVQSX60kRKceX20kwLOu1yggDJU/pfmggsRYDEEsRqNJ7JUpv3+3WTuJ0wZMom1phuBY7sKTEczY35UhO6UEflEbcI6ZIZCVwzW8/3Ckwr83g6d7bcAPFsYCkEJW1ml+2m0aLXn5IjvAzGhbw3sPqR20gKdHbcA0TgUBFoaZGX6qmbG9LfldhV/WBjTMJ0FgE2FmtI3KqhlXGFM6TLI3ZzA+r6v1t1dnVs3r6TDTMMPYfF9HAp3gVNi2nBljqZVH1AXDnKY1y/9+F2ORcS8v8oiZGUnaZ+H0skpnztPsxt3+uzbg4ooD7mrNzM6Bl0zGDeOOke3coMc/f2SEwq1P70gAAAAASUVORK5CYII=" style = "max-width: 150%;">'  
 title = "Everything" 
 details = "通过文件名进行快速的文件搜索，真的非常快" 
-link = "https://www.voidtools.com/zh-cn/" 
-linkText="下载" >
+:extraLinks="[
+  { text: '下载', link: 'https://www.voidtools.com/zh-cn/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="文件搜索" />
@@ -119,8 +122,9 @@ linkText="下载" >
 <VPFeature icon = '<img src="data:image/png;base64,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" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "WizTree" 
 details = "最高效的磁盘分析工具，以此进行手动的磁盘清理，并不适合小白食用" 
-link = "https://diskanalyzer.com/" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://diskanalyzer.com/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="磁盘分析" />
@@ -130,8 +134,9 @@ linkText="官网" >
 <VPFeature icon = '<img src="https://content.kaspersky-labs.com/se/com/content/en-global/images/b2c/icons/icon-kfa/icon-kfa.png" style = "max-width: 60%;">'  
 title = "卡巴斯基" 
 details = "干净，强大，免费，无捆绑，如果你需要一个杀毒软件的话就选它吧" 
-link = "https://www.kaspersky.com.cn/free-antivirus" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://www.kaspersky.com.cn/free-antivirus' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="杀毒软件" />
@@ -211,8 +216,9 @@ details = "超好看的下载器，不过鉴于当前资源生态，用到的不
 <VPFeature icon = '<img src="https://www.iobit.com/tpl/images/product-icons/unlocker_60.png" style = "max-width: 60%;">'  
 title = "IObit Unlocker" 
 details = "用于强制删除正在被访问，无法删除的文件，不过当前 PowerToys 中也带有了类似功能的工具" 
-link = "https://www.iobit.com/en/iobit-unlocker.php" 
-linkText="下载" >
+:extraLinks="[
+  { text: '下载', link: 'https://www.iobit.com/en/iobit-unlocker.php' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="删除" />
@@ -236,8 +242,9 @@ details = "视频音频转码编码工具，无 GUI 不适合小白食用，配�
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/9134003?s=48&v=4" style = "max-width: 60%;">'  
 title = "Lux" 
 details = "视频下载工具，无 GUI 不适合小白食用，配合 GPT 食用风味更佳" 
-link = "https://github.com/iawia002/lux" 
-linkText="GitHub" >
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/iawia002/lux' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="视频下载" />
@@ -296,8 +303,9 @@ details = "轻量强大的代码编辑器，伟大无需多言"
 <VPFeature icon = '<div class="i-logos:sourcetree w-28px h-28px"></div>'  
 title = "Sourcetree" 
 details = "一款非常优秀的 Git GUI" 
-link = "https://www.sourcetreeapp.com/" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://www.sourcetreeapp.com/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="Git" />
@@ -431,8 +439,9 @@ details = "基于物理的材质编辑器，旗下还有一个基于 AI 的贴�
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAD80lEQVR4AWJwL/ChKx4YC73zvWS8o7x58Sn8Xf2dB1BtPQBHsoVhGC7dUsrXtm3btq21bdu2bSu2bdvJJN0Tp/XtfrV1JjmDNavqzajnPPn7jPAY7sBP+jN4AC8zXud9fOyMQUIvvPTCmhdffHHeY++8+qBb6BN8jvcwA2/iMF5FWud4Hx/jMaeFCXp5eV1D7JVXX7ZOXIa/9NJLf4lpOYH1u7Xe/Bkl+AE4ZT+bJTyWzzntKT0BXS/QV15+ReHEK35e8yf6mVl6L8A5q7fpCL10KT4HI5vfPhXogrL33/8Au/85CG2M5TGMaXXfuMYST6h0Q+ynQJ964Sn8/013hA2PQ+tcU8qc2+YIc+1uqs92d3pdXiBrB+xb/cdn/xsE33jrLYhplw5egdgl8WhfpUlhlepUdUdrKtZzTY+gukv5LGtTW8nucb74/utfIFARp+VjtRsU6NuaHGFrhfu2F5RyTRdQTJd6GNMzDlgW2zojBF9+/g0IcUKBimnr9tTBOGCTwsE81w6nTxdTSuCKSNtdMYE4nOQPiFYu9JZQkUBb/G1gWngpLL8CMPinyYWFh9giV97lAm5J1Z73jkNaeATA4iJ15hHlfdxTYiKEJXUUFwRGsDV501MeQZ80gEUkgQmUeyqhQ4aNRKB/ANSUPDAjMVFEqKOMXblG+raX3YKr8ozMHfkAE3BUrgW21zcBRDgZcWIsPjIKBLXcBDBkH5Q7HbiyDBCod7kORjCytBmM8Kpd+4hJBXnvQ1HCNpjFB8BQvg5MK1iY4vaU8kUzprjZb3q1gcU1OghvU9okmGCyWguWUJ6DsPgwEOLk/JD4949viJ7EameANZeM9XP7ouGnTNei2sVDFANEBUyUedvrRRLKabmnt958B9j8Rf+h2VgOYqYyCLairou5tgSKPkrJ+PWrenttN8MA4SGVLR7hrbZCLI3PRf/NmXjt1wkOsHffL6FhMrT2bmhRf6rZvP3Drh4/afhF/HZ+vu83loXO6Ng8BWx6ug1sfHQlhhwrR+/dFfh3YyW+m+zLV7CY0AGWlLxxiGt6BNl1mzZ9/ayiVAmU4NBsO9jwGNvJAssdoEA5JT8KkyuntRAsU3vUzVry7k9n9Jvm1pUre76uqnYZdQ8SY13m74Z3+jxw/4iJU3lGIH8F3L1oUT+xn2xkW5M4tRLKS+5lnHYUjBMS4xpnDAr04Rkz/uKedlFr7QTn6/WO+KJhx7QkEAq377IfyZwbwtMoY2cIivjDqseexYP+jI/cNyAvJX1CeUbl3Jp0ZU11VC3bkH8wfXX82n08hsdekN+l/I+52JfjB73+16pZf3SO9/ExHnPRfghzcXZV/PI+DsOOluE/YbwqAAAAAElFTkSuQmCC" style = "max-width: 100%;transform: translate(0%, 0%);">'  
 title = "Krita"
 details = "一款类似于 PS 的开源替代品，但平心而论功能性上相比 PS 还有很多的不足" 
-link = "https://krita.org/zh-cn/" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://krita.org/zh-cn/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="绘画" />
@@ -442,8 +451,9 @@ linkText="官网" >
 <VPFeature icon = '<img src="https://www.pureref.com/images/PureRef.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "PureRef"
 details = "一款图片参考软件，可以将图片整理在一张画布上，以便于创作时进行参考" 
-link = "https://www.pureref.com/" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://www.pureref.com/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="绘画" />
@@ -453,8 +463,9 @@ linkText="官网" >
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADl0lEQVR4AWIgGuQ/4WQofJvIUPR+FkMhoPVygJWji+L4fLaN8GMb1Q3qxmlUI06j2rZt27Zt27Y5s8+cPZ3ffbnFvru3O317kvOws/f8/8d3vJOBPnPauBJofqCPAz0UPJvttPVqOS3dX5xkSQBaDMMAAZigRjijzr6z1PE+DAz1wGARNCvQrspWKOnw9HdCipEk6b7E09L6yd/BgTscTLLeVLat0irjNxv4d1096bw+U7ZeyRM3MypIni9y+akvq87lS505GfJFJ89CwrtGJGw532c6+HF7V0bszgHsrXLtWVQazc+wkdhurAmKxXTg7wER5WEYgcRvvSK2dLQ0tJqbbgJ/khaVMAJZwEnFgG3Z2DARyFeFroXhYsr30Tv5EkaoCwA/bOfK7KM5gtyN+PJnHwOJtt4IR0lH9xs91V5Xii2s9Nqcpc62W5strwlFa4pCekEttHJrmLx/kBIu9GkBJp7+2CNiPFt+VGphEmAHoRgV84B2Sjjk+25GZcnpPO29AiJ1kaw3SVAPhQi0jvRzaIvYBxi0CYU5/XCudFqfKz235MrgnXmKNGdpQcCarsiGlCaCTQMBdx3tdyn2wYl78dtu9w1fum3Klb7b8mT03lyZfMiXOcd9qTG9gEDxISmkQdsiLdhjUBUmADarNPZBvPxvvJQnrddkK49nHPVl2Rlf1l6MKtURiDfIGi/JMo9nAwFj70Nq4oEcPFHg/N56VZSO3Z8v1Semv9N+MKbgzEM/bqUT7gUnAScdigj51h6G09bucYdCiH2ApyahkMg5Iaf6D92JUogodWEeODYFm1ZIpA1PP4iykMg74Lqw8B5w1FwHdu0RpOBpVf6xFSJbkLYj9IQdMucfC4SYegqcdqQzSo5ICxOBio7TSN7jDhf7kH5G9DwnLYxUwFk4bDwdfg1Od/C3eRMa7gZ6LZvSgNJ2COHGe3IO8G1PUFpSea/BR+7NpyP4W49em3Z1Xkrz519zgYz9EisVIIAhg/f8fy8FVQTw+HVwipQ2pVts6Xhc+GbU2m1o+jLhZOJBgtC/RkCH3gRunwu8OxgEEgvjTTIqnAIEWCuFCYHXwSlKezt6s61vP7brOCnBM5YNM4FLB2lgCLEL9A6w6D6FYRUuKPpymlzdh+3E3wMJVbLAufJhM7RQLK3du0UAj6hbT5GEdmn9vD1LK9SW4wyDJmnCxGz5rCx3+oJu8Xbxmo7yN2EGNOwb8Qvx90ePwV6w0QAAAABJRU5ErkJggg==" style = "max-width: 150%;transform: translate(0%, 0%);">'  
 title = "Eagle"
 details = "一款素材管理软件，可以将网上的图片或是其他类型文件保存到本地图库，并进行分类存储查看" 
-link = "https://eagle.cool/" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://eagle.cool/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="付费" />
   <Badge type="tip" text="管理" />
@@ -527,8 +538,9 @@ details = "无损的视频剪辑工具，不会对视频重新进行编码，因
 <VPFeature icon = '<img src="https://maruko.appinn.me/image/wan.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "小丸工具箱"
 details = "一款轻量好用的视频压制软件" 
-link = "https://maruko.appinn.me/" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://maruko.appinn.me/' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="视频压制" />
@@ -576,8 +588,9 @@ details = "可以选择多种 AI 模型进行人声提取，贝斯鼓等音频�
 icon = '<img src="https://s2.loli.net/2024/06/24/UgPaEcjCdhz7iYr.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "RX"
 details = "通过 AI 进行音频修复，降噪、齿音、喷麦、风噪、摩擦等等等等" 
-link = "https://www.izotope.com/en/products/rx.html" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://www.izotope.com/en/products/rx.html' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="付费" />
   <Badge type="tip" text="音频" />
@@ -681,8 +694,9 @@ details = "视频剪辑软件，不过剪映和达芬奇因该会是更好的选
 icon = '<img src="https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Scrcpy "
 details = "实现 Android 设备的电脑投屏" 
-link = "https://github.com/Genymobile/scrcpy" 
-linkText="GitHub" >
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Genymobile/scrcpy' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="投屏" />
@@ -694,8 +708,9 @@ linkText="GitHub" >
 icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADE0lEQVR4Ad2WA5AkQRBFN2ze9ljnu9DZtm3btm3btm3b5tq2G9PT/a+iNtYexl5GtPUys/+vckv+VSaJ93CHixbZje64cCndANxfujgXgPOqCiFsJsT40xCTH8GS/Axi4jUIURvA+bcF56F0FIAKfMhEyBKHwsIcfx6sZzn7AnCeJpLxWcgyj6JDhsR5gPdrbi8AhpYXkFCSsLC/wHlVsh2AC+gKWWJz5igLZBFRVJgTLoDzUFkPwHloIKY8y+fFN5Hq0xbm5KeAbC64GWIMeN86NgB4Vyfvj0SuoH99OqAWaYEjIVkSC0IAHzzOBgC/lvSvLwggY0nzqgk+5nC+9wqxh20ACOgGQCoSIGNJ9qwHSQjP2a6kO+D+Wgvg3yGjx0UDkF6LCUSqUlouX7hoPQDvWx+yJaFwAC8ThLDJkMU45BdCxHIbZOhVHhLvWQAAAyGwB6S0j0D+kqTyJfZsmw8IkasByDlNJvUDxNj9QBHOKLHfSBLlbANgPXTkg+9z54aigpgVyb67ncYC4uuSEIRihyxACF9k39GQ9awAS9p3FBFUBVzwKPKMwv7zAc6rYvpcIPkpZEs8yIosEjUgC/cb5pid4HybOHxGRHXN/lGDJQ7I+tRH2l8TOfc/zglfnFdi3Twtti3V4vUlJb7eUuDCLrXzAPau1mDLYi2enVOibq2y2L9Wg4nDDfh+R4FVs3U4tF4D76cMnpxRIv4rg8Mb1Qh4qcDGhVqc3qZG/Dd3XNmnxuW9KkR/YqwDmDZKjx3LNejQyogTW9SYMMyAnSs0uLhbhbYtTDhHKtKlrRFPz6jQp4sBi6boaNX6dzdQwBaNTTSJhG9WVoC8jGSspBlcO0AAhhowdaQeW5do0bG1kVRHhR4dDRg9QI/nZH/MQD19bs9KDc4TuPYtjYj7yljXglPb1LSEGccPTqqweKoOM8focIC0Y3AvA95eUeLCbjWaNTIh6ac7zu5UY+4EHV3eXFZiRD8DEr8zjpBh+n7sFwY7lmkwfbQuQ4r0Gtl3jgwTvjF4fFqF4DdM6fUB2ZUA/wASlikasPOXhgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Potplayer"
 details = "视频播放器，大部分情况下系统自带播放器足够" 
-link = "https://potplayer.daum.net/?lang=zh_CN" 
-linkText="官网" >
+:extraLinks="[
+  { text: '官网', link: 'https://potplayer.daum.net/?lang=zh_CN' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="播放器" />
@@ -706,8 +721,9 @@ linkText="官网" >
 icon = '<img src="https://img.itch.zone/aW1nLzU3NjY3NTEucG5n/315x250%23c/B6bQeh.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Flowframes"
 details = "AI 视频插值工具" 
-link = "https://nmkd.itch.io/flowframes" 
-linkText="Itch" >
+:extraLinks="[
+  { text: 'Itch', link: 'https://nmkd.itch.io/flowframes' },
+]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="视频" />

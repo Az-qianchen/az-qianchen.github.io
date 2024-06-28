@@ -15,17 +15,17 @@ const pwa: PwaOptions = {
     theme_color: "#ffffff",
     icons: [
       {
-        src: "ico/256.png",
+        src: "ico/logo.png",
         sizes: "256x256",
         type: "image/png",
       },
       {
-        src: "ico/512.png",
+        src: "ico/logo.png",
         sizes: "512x512",
         type: "image/png",
       },
       {
-        src: "ico/512.png",
+        src: "ico/logo.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "any maskable",
