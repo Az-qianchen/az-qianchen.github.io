@@ -45,8 +45,8 @@ pageinfo: false
 
 <script setup>
   import { ref } from "vue";
-  import BackgroundShader from "../../.vitepress/theme/vue/BackgroundShader.vue";
-import TagList from "../../.vitepress/theme/vue/Tag.vue";
+  import BackgroundShader from "../.vitepress/theme/vue/BackgroundShader.vue";
+import TagList from "../.vitepress/theme/vue/Tag.vue";
 </script>
 
 <BackgroundShader />
