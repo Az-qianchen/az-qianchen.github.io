@@ -49,4 +49,6 @@ const members = [
 <VPTeamMembers size="small" :members="members" />
 
 ## 仟尘
-目前主要在进行 Super Ball 的游戏制作
+- 目前主要在进行 Super Ball 的游戏制作
+- 图文类的内容会在[网站](https://post.tuclink.com/)上更新
+- 视频类内容主要会在发布 [billbill](https://space.bilibili.com/3493262625081631)
