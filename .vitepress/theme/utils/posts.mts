@@ -24,6 +24,23 @@ const getTags = (): Tag[] => {
       }
     });
   });
+  // 找出最近10篇文章（按date），放到“最近文章”标签下
+  let recentPosts = posts
+    .concat()
+    .filter((post) => post.frontmatter.hidden !== true)
+    .sort((a, b) => {
+      return (
+        new Date(b.frontmatter.date).getTime() -
+        new Date(a.frontmatter.date).getTime()
+      );
+    })
+    .slice(0, 10);
+  tags.unshift({
+    name: "最近文章",
+    description: "最近发布的文章",
+    posts: recentPosts,
+  });
+
   return tags;
 };
 

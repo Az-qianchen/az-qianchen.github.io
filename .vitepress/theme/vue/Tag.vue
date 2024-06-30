@@ -21,11 +21,14 @@ const selectedTag = ref<Tag>({
 const setSelectedTag = (tag: Tag) => {
   selectedTag.value = tag;
   // ?tag=
-  router.push({ path: route.path, query: { tag: tag.name } });
+  const newUrl = `${window.location.pathname}?tag=${tag.name}`;
+  window.history.pushState({ path: newUrl }, "", newUrl);
 };
+
 const goToPost = (path) => {
-  router.push(path);
+  router.go(path);
 };
+
 selectedTag.value =
   tags.find((tag) => tag.name === queryParams.tag) || selectedTag.value;
 </script>
@@ -67,7 +70,7 @@ selectedTag.value =
   <!-- 文章列表 -->
   <div v-for="tag in tags" :key="tag.name">
     <div v-show="tag.name === selectedTag.name">
-      <dev
+      <div
         v-for="post in tag.posts.filter((post) =>
           post.url.startsWith(`/${lang}`)
         )"
@@ -222,7 +225,7 @@ selectedTag.value =
             </div>
           </div>
         </div>
-      </dev>
+      </div>
     </div>
   </div>
 </template>

@@ -5,7 +5,7 @@ export default [
   },
   {
     text: "标签",
-    link: "/zh/tags/",
+    link: "/zh/tags/?tag=最近文章",
   },
   {
     text: "关于",
