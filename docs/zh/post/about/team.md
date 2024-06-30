@@ -32,7 +32,7 @@ const members = [
   },
   {
     avatar: 'https://avatars.githubusercontent.com/u/38809414?v=4',
-    name: 'ikamusume7',
+    name: '伊卡',
     title: '开发者',
     links: [
       { icon: {

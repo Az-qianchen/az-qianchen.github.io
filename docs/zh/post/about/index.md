@@ -49,7 +49,7 @@ Hugo 编译非常快也更简单，但 VitePress 依托于 Vue 框架有着更�
 ---
 
 #### 建站人员
-本站主要由 [仟尘](/zh/post/about/team) 和 [ikamusume7](/zh/post/about/team) 共同搭建，成员信息可见 [成员页面](/zh/post/about/team)
+本站主要由 [仟尘](/zh/post/about/team) 和 [伊卡](/zh/post/about/team) 共同搭建，成员信息可见 [成员页面](/zh/post/about/team)
 
 ## 其它
 如果发现错误，或是有任何建议，疑问，合作相关的事宜
