@@ -4,6 +4,7 @@ comments: false
 title: 团队成员
 date: "2024-06-28" # 日期
 description: "团队成员" # 页面描述、面向搜索引擎用户
+hidden: true # 最近文章页隐藏
 head:
   - - meta
     - name: Keywords

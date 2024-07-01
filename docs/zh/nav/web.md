@@ -26,6 +26,49 @@ zoom: false
 
 - 网站可以说是互联网的基础单位，但其又像是散落的星，隐匿在互联网的各个的角落，收集整理这些散落的碎片，就像是串起一串由星星组成的项链
 
+## 🧭 聚合导航
+
+- 一些托管平台，你能在上面找到很多有价值的项目
+- 一些我认为不错的导航网站，收录内容会比较全，但相应的就会存在较大的二次筛选成本
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUjHyAiHyAjHiAiHiAgHB0UDRAAAAAaFReEgoPBwMDf39/v7++2trb///+xsLBzcnL+/v5qaGmWlZWMiosJAAAMAAUeGRtCP0Chn6BZV1hRT1A2MjPZ2dlfXV08OTpKSEjQz89lY2MXEhR9e3z19fXHxsbn5+cqJifS2g27AAABfElEQVR4AWVRBaLkUAjjGUzdfdz2/jdcoLLyU6PQlBAAwDBgg9nuZousBef47gMqgge7Fvgra53lEtIpipMkjk4BvZO03X7kgk+zAzmFo40xDovsb5QVMscpzWHNCcHxaHDntqfsB4rOqqx+4JdxivZ8Oud8X3pVjGeOLx3OxZXoWtywqzhxR6HSxJ2yBwE9e+/7Zw9PlXcjZmIkxeqpUyueLx2oBXD4Xn8iNTnd1ijhlF+E+Aq7rzJeOHEqAw/9LIE2gN11umSMoRc9jInU6b1ppYp66G/CPAWrTutpQyPFaw++l+CD8AcG72Jw5zj6CnXmcF9iqy3PyGE3bovoVBS124pqGcD/YvN4LfHILgFV+TdTkJd1IvusXkvxuW92bLWJwySLu/GeomhF3Wn2RY6ZCXQtsxGf6MUfVN576Xe/nsM7K7+JyFuLyfUJByh8OIU7M+rIbIM5Pj1OH2YaywI+M3ony1nL1lggRH13iLTayGqMAGA95eb22JjfaOUa5/ipzPYAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "GithHub" 
+details = "最大的代码托管平台，大部分的开源项目你都可以在这里找到" 
+:extraLinks="[
+  { text: 'Link', link: 'https://github.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "HuggingFace" 
+details = "最大的 AI 托管平台" 
+:extraLinks="[
+  { text: 'Link', link: 'https://huggingface.co/' },
+]" />
+
+<VPFeature icon = '<img src="https://dirms4qsy6412.cloudfront.net/assets/favicon-81bff16cada05fcff11e5711f7e6212bdc2e0a32ee57cd640a8cf66c87a6cbe6.ico" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "NVIDIA" 
+details = "作为 AI 产业绕不开的公司，除了卖铲子，相关应用也是多到溢出" 
+:extraLinks="[
+  { text: '项目集合', link: 'https://developer.nvidia.com/solutions-and-industries' },
+  { text: '开源集合', link: 'https://developer.nvidia.com/open-source' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAIVBMVEX+/f/8+P/48f/27f+sge+YePGCb/PFiOrr2/vPvvjOnu/QtHhqAAAAw0lEQVQokc3PURLDIAgEUARE8f4H7oLWmqbT6WfRMQnPdSLRv1X5MvaW+1v4Wd3lbNA5R9OaOr/PJElTtUGX5C5WreafkcjNrPROB3JO6t5JOg2tunFSYYRMsaXhp2o0MGgGBVQrMolWZ5eYp9UwbQXXgRosECvPGExHKNDjXCS5uCVpQ3V+Ii/cNprgukDhhVzw+0NIRmt5nHvaRMbN4xhej1w2vpVslD1WX/IRLyRnRTPmKpJX8rInxjUpZ07uKL/iA6wtBsAwNi40AAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "AI 工具集" 
+details = "AI 类相关网站工具导航" 
+:extraLinks="[
+  { text: 'Link', link: 'https://ai-bot.cn/' },
+]" />
+
+<VPFeature icon = '<span style="font-size: 12px;">KIDO</span>'  
+title = "KIDO" 
+details = "一个大佬的博客网站，列出的电影清单真的非常优质，哦，还有隐藏的书单" 
+:extraLinks="[
+  { text: 'Link', link: 'https://kido.site/' },
+]" />
+</div>
+
 ## 💾 储存服务（图床）
 
 - 最安全也最自由的自然是选择腾讯云COS或是阿里云OSS进行图片托管，但相应的就需要自行承担费用
@@ -68,6 +111,13 @@ linkText="文档" />
 - 这是一些图片处理相关的工具，图片作为日常生活接触最多的文件之一，免不了产生各种处理需求，除了使用本地工具之外，在线工具也是一个更普适的选择
 
 <div class="VPFeature-item">
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEVHcEypqKjj4uL09PTt7e39/P3z8fHq6unW4d8mnYwAlH+20Mu5uLgApZGfx8BiraEAoIsGmofj4+N+uK4+opNWp5tOBW1dAAAAE3RSTlMAGFVhvv////3///8w//////93WLAGNgAAAPxJREFUeAGEzVGOwyAMRVGSxjYxBexA97/VMXQYpVBp7lfw0VNca9sfU/vWweiALx1vg+9hQwLwJ8+Fvn2acVziBODcAyDHkajKUIDdXQDneOfkfSj8fuAdNSP0qMqMnLogWOeE2ixUZg225YHY8WWjqlEksmn+QPUAVURL0qgAQQxxYLWDSgaAJEz2HZkGSrKhTRCg2MaWdwyILMWIxX6PacWEwFGU2mUg/mIsiCEnRBtOSNzeLQgcB9IfxtObUWm2LGPUmitLs3V5y5D+wZ0wG9KMivR0G5FnXZDt4pw7TF8N9Va1w+UsTz38iOhwvYvWbDfanj9DA5DcAAD96BxZPS0OGQAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Photopea" 
+details = "在线图片处理，类似轻量级 PS" 
+:extraLinks="[
+  { text: 'Link', link: 'https://www.photopea.com/' },
+]" />
+
 <VPFeature icon = '<img src="https://squoosh.app/c/icon-demo-logo-326ed9b6.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "Squoosh" 
 details = "一个图片压缩网站，可以使用多种不同的压缩算法，还能直观的进行对比" 
@@ -118,6 +168,18 @@ details = "使用深度卷积神经网络的动漫风格图片放大，也支持
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/nagadomi/waifu2x?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/112148288?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Upscayl" 
+details = "AI 图像放大" 
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/upscayl/upscayl' },
+  { text: 'Link', link: 'https://upscayl.org/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/badges/shields?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>
@@ -262,7 +324,7 @@ title = "Draw all roads in a city"
 details = "绘制城市道路地图可以导出成 png 或 svg 格式图片" 
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/anvaka/city-roads' },
-  { text: 'Link', link: 'https://anvaka.github.io/' },
+  { text: 'Link', link: 'https://anvaka.github.io/city-roads/' },
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/anvaka/city-roads?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
@@ -289,33 +351,157 @@ details = "地图分享网站，从各种朝代，到电视剧小说等虚拟世
 :extraLinks="[
   { text: 'Link', link: 'https://www.ageeye.cn/' },
 ]"/>
+
+<VPFeature icon = '<img src="https://github.com/ProbableTrain/MapGenerator/raw/master/docs/images/logo.png" style = "max-width: 100%;transform: translate(0%, 0%);">'  
+title = "Map Generator" 
+details = "一个拟真地图生成网站，可以导出图片和模型" 
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/ProbableTrain/MapGenerator' },
+  { text: 'Link', link: 'https://probabletrain.itch.io/city-generator' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/ProbableTrain/MapGenerator?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
 </div>
 
 
-
+## 🎚️ 音频处理
 
 <div class="VPFeature-item">
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
-title = "" 
-details = "" 
-link = "" 
-linkText="Link" />
+
+<VPFeature icon = '<img src="https://img.itch.zone/aW1nLzM3NzY1NDIucG5n/315x250%23c/69srB3.png" style = "max-width: 100%;transform: translate(0%, 0%);">'  
+title = "ChipTone " 
+details = "音效（SFX）生成器，与之相似的还有 rFXGen、sfxia、Bfxr、LabChirp" 
+:extraLinks="[
+  { text: '在线/下载', link: 'https://sfbgames.itch.io/chiptone' },
+  { text: 'rFXGen', link: 'https://raylibtech.itch.io/rfxgen' },
+  { text: 'sfxia', link: 'https://rxi.itch.io/sfxia' },
+  { text: 'Bfxr', link: 'https://iznaut.itch.io/bfxr' },
+  { text: 'LabChirp', link: 'https://labbed.net/software/labchirp/' },
+]" />
+
+<VPFeature icon = '<img src="https://audiomass.co/about/audiomass_top.jpg" style = "max-width: 300%;transform: translate(0%, 0%);">'  
+title = "AudioMass" 
+details = "在线音频编辑，如剪辑和效果器添加" 
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/pkalogiros/audiomass' },
+  { text: 'Link', link: 'https://audiomass.co/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/pkalogiros/audiomass?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+</div>
+
+## ✒️ 写作相关
+
+<div class="VPFeature-item">
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/01/bnlc8VKhI1EqQFt.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "百度作家平台" 
+details = "完全免费，该有的功能基本都有" 
+:extraLinks="[
+  { text: 'Link', link: 'https://zuojia.baidu.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/01/HtlEu49PDIQKZ8a.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "秘塔写作猫" 
+details = "校阅的质量最好，每天 8000 免费额度，其余基本都需要付费也不推荐"
+:extraLinks="[
+  { text: 'Link', link: 'https://xiezuocat.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/01/WCkLejBiaKhY7bS.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "星火网文助手" 
+details = "推荐AI拆书和AI扫榜功能，对热门小说进行了拆解，可用做资料参考" 
+:extraLinks="[
+  { text: 'Link', link: 'https://writersdesk.net/?from=aibot#/homepage' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/01/6zBmbMYfErI9AOP.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "火山写作" 
+details = "目前有较大免费额度，AI改写润色的选项非常丰富" 
+:extraLinks="[
+  { text: 'Link', link: 'https://writingo.net/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEVHcEw/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz////87OzvU1NU3Nzfk5OQxMTElJSXFxcZiYmK3t7f39/epqarv7++CgoKZmZlLS0tycnNUVFTxRa7cAAAACnRSTlMAyR7L6k+mEZTv/e+NBgAAAZFJREFUOI2Nk8mWhDAIRWsuDQmSwQxW/f93diAatU8vmk2OcgMPApfLbs/hPio13ofn5Q97v9TBXu/f/kFpduiODOfrD6U/pJX1SycehyC3+m1h+pIDv8dQt36fv+w8xTydALXFeGxAFIBogx6bPgFSagAF97X6oPS94tbHkKuHAoBD3JNs9SMpT1ypngHmbyNeFWhubT8xloVj41IJWFqW2t923fNPAKNQL/VMMFlxPJtEjbCZt1VDtBkKNpl3PijCTpSChBmShLheRqlgmudOUJVKBVrPxqaRIJlpAzi7NbDmEEB7SJNJHJ8DBUs+zRBIgLEDjquQGC67igswishaGQOmy0imZowkIqVMC/NkjEtwtIxSpjSKjIQIJ4Bao0QlfhpgDn7XNK6PVRtRARd3wsh8vrbn1ouICLF1I5T81X2mhpZEcsQiMUL2eBhtGTnyHKESkcdhwcPIrTOFVByHKDmsPehDK2PPb04+5/zxaBfpQR97WZyVQdSaz/Pi9NE+2Hn1/rG8bM/hyut/Pa3/D+3BKZCuI9JXAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "深言达意" 
+details = "通过句子搜索词汇或是类似含义语句，旧产品为据意查句，反向词典" 
+:extraLinks="[
+  { text: 'Link', link: 'https://www.shenyandayi.com/?ref=ai-bot.cn' },
+  { text: '据意查句', link: 'https://wantquotes.net/' },
+  { text: '反向词典', link: 'https://wantwords.net/' },
+]" />
 
 <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "" 
 details = "" 
-link = "" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'Link', link: '' },
+]" />
 
 <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "" 
 details = "" 
-link = "" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
 
 <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
 title = "" 
 details = "" 
-link = "" 
-linkText="Link" />
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "免费照片" 
+:extraLinks="[
+  { text: 'Link', link: 'https://www.shopify.com/stock-photos' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "" 
+details = "" 
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
 </div>

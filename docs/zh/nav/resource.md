@@ -28,8 +28,6 @@ zoom: false
 
 ## 📦 Blender
 
-- Blender 相关一些精选免费的优质资源
-
 <div class="VPFeature-item">
 <VPFeature icon = '<div class="i-logos:blender w-28px h-28px"></div>'  
 title = "Blender" 
@@ -45,6 +43,13 @@ details = "Blender 官方制作或是精选的示例项目和资源"
 :extraLinks="[
   { text: 'Link', link: 'https://www.blender.org/download/demo-files/' },
 ]"/>
+
+<VPFeature icon = '<img src="https://ddz4ak4pa3d19.cloudfront.net/cache/cf/8f/cf8f6ace7f3a92f28538f86943767a67.jpg" style = "max-width: 250%;transform: translate(15%, 0%);">'  
+title = "Blender Studio" 
+details = "来自 Blender Studio 制作开源电影时的角色绑定资源" 
+:extraLinks="[
+  { text: 'Link', link: 'https://studio.blender.org/characters/' },
+]" />
 
 <VPFeature icon = '<img src="https://s2.loli.net/2024/06/27/QpXETWnzxgCtDRc.png" style = "max-width: 80%;transform: translate(0%, 0%);">'  
 title = "BlenderMarket" 
@@ -168,4 +173,62 @@ details = "程序化眼球资源"
   <Badge type="warning" text="国内被墙" />
 </template>
 </VPFeature>
+</div>
+
+## 🕹️ Godot
+
+<div class="VPFeature-item">
+<VPFeature icon = '<div class="i-devicon:godot w-28px h-28px"></div>'  
+title = "Godot" 
+details = "godot 官方的相关链接" 
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/godotengine/godot' },
+  { text: '官网', link: 'https://godotengine.org/' },
+  { text: '文档', link: 'https://docs.godotengine.org/zh-cn/4.x/' },
+  { text: '插件', link: 'https://godotengine.org/asset-library/asset' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/godotengine/godot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+</div>
+
+## 🙂 图标
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAS1BMVEVHcEwxdZUwdZQvdZQudJQpcpIwdZQjcJAVa41Kg55kk6oydpaNrb7Z4+n///8udJQEZYn6+/zO2+Lr8fTa4+mowM3C0ttvma93nrNpvXQxAAAADHRSTlMANIO/5fld/////xRUDA7PAAAA8klEQVR4AX1T0RKDIAxDRRsUoYiq//+lY2C34e3MkzYkV9KiPmjaTve97tpG3TFoAsw4GoD0UFFTouzsMmab6OnH0bMN7oNg2TdfDoursEDYySO6GiHCF2fNRVdrWec+ybo/sDS8hQjFScqx/CNJm0tIYr4wXdJGtVjzcaatkBtxNpnRqg7uP+nQKW1KzbAkxFLRqh/lbu72MfZCVhBSbCuIrTRUQxpq8W7kFm4sV7lC2P38Qx2mhCDxHTzuWR72gyle8UnwJwNkDAFsggQvI0vOoAT4TUZWDXux52lL/DLs5zV5XDBZzbVQa72aD0v98Bxe8eQfgWCXD4sAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "iconify" 
+details = "开源图标集，拥有 20万+ 矢量图标" 
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/iconify/iconify' },
+  { text: 'Link', link: 'https://icon-sets.iconify.design/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/iconify/iconify?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/6254238?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Shields.io" 
+details = "各类徽章生成" 
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/badges/shields' },
+  { text: 'Link', link: 'https://shields.io/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/badges/shields?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+</div>
+
+## 🤖 模型
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAARVBMVEX////d7/i33vGp1u7v+PyMy+oeqNwApNsYptyg0+0rqt1lvOTH5fSY0OxrvuXP6fY/sN8Antn5/f6Cx+hMtOHF5PTo9fs7wbtAAAAAy0lEQVR4Aa2SBQLEMAgEexGWuvf/T70QOHehukx0Q/GX2Dnv3e4eCZHAKUAxXLMSXFkwyktWGzJc32PMt7TUHFdNU9nvceQA0YRWRAsShWAwsrDOZOiEcjQoguqzFeSE7T2PiqpX2Veq1Q0no3I/jN1UFFM3Dn1OuAy9/CN9AeeAlIRAfwYnWQowS+8z6AymWGZ5K3S2oHvQFlTQPUjnJshOFK6VmXBmH7ogcKtVhUvjid0ym7Vc3hwZE7H+1M8P+3mZPC+w56X5Q+wBeOsNsHxhsskAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "Sketchfab" 
+details = "最大的 3D 模型发布平台" 
+:extraLinks="[
+  { text: 'Link', link: 'https://sketchfab.com/' },
+  { text: '介绍文章', link: '/zh/post/tool/model-asset' },
+]" />
 </div>

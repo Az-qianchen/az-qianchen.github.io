@@ -729,6 +729,31 @@ details = "AI 视频插值工具"
   <Badge type="tip" text="视频" />
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/06/29/8p7OHoBuVkaJjEG.png" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "RealityScan" 
+details = "使用手机进行 3D 模型扫描" 
+:extraLinks="[
+  { text: 'Link', link: 'https://www.unrealengine.com/en-US/realityscan' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="建模" />
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://dirms4qsy6412.cloudfront.net/assets/favicon-81bff16cada05fcff11e5711f7e6212bdc2e0a32ee57cd640a8cf66c87a6cbe6.ico" style = "max-width: 60%;transform: translate(0%, 0%);">'  
+title = "NVIDIA TTE" 
+details = "英伟达纹理压缩工具，可实时预览效果" 
+:extraLinks="[
+  { text: 'Link', link: 'https://developer.nvidia.com/texture-tools-exporter' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="建模" />
+</template>
+</VPFeature>
+
 </div>
 
 

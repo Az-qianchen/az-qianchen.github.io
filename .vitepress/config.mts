@@ -55,8 +55,8 @@ export default withPwa(
           //   text: "编辑此页",
           // },
           docFooter: {
-            prev: "«上一页",
-            next: "下一页»",
+            prev: "« 上一页",
+            next: "下一页 »",
           },
           returnToTopLabel: "回到顶部",
           darkModeSwitchLabel: "切换暗黑模式",
@@ -75,10 +75,6 @@ export default withPwa(
     themeConfig: {
       outline: "deep",
 
-      docFooter: {
-        prev: "上一页",
-        next: "下一页",
-      },
       // 国际化
       i18nRouting: false,
       // 网站左上角标题
