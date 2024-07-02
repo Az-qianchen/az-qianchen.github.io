@@ -100,3 +100,9 @@ head:
   <img src="https://files.getquicker.net/_icons/B08D3EEE61E5F9FD3CAEA311403FCA521B249F90.png" alt="示例图片" width="28" style="float:left; margin: 16px 10px 0px 0px;">
 
 这个插件可以对网页直接进行编辑，主要用于恶搞
+
+### [**解除网页复制限制**](https://getquicker.net/Sharedaction?code=94b3ea0b-ba36-4226-5d9f-08dc207356cf)
+
+  <img src="https://helperservice.getquicker.cn/favicon/get/junglescout.cn" alt="示例图片" width="28" style="float:left; margin: 16px 10px 0px 0px;">
+
+测试可以复制 CSDN 内容，需要安装 Quicker 浏览器插件
