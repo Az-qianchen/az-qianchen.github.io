@@ -35,6 +35,9 @@ VS Code 是一款轻量的代码编辑器，且通过插件支持可以提供强
 | 代码格式化  | Shift + Alt + F       |
 | 代码上下移动 | Alt + Up/Down         |
 | 复制一行代码 | Shift + Alt + UP/Down |
+| 删除左边内容 | Ctrl + Backspace     |
+| 删除右边内容 | Ctrl + Delete       |
+| 快速选中内容 | Ctrl + Shift + Lift/Right       |
 > 注：`Shift + Ctrl + F` 会和微软拼音输入法快捷键冲突
 > 1. 右下角输入法切换按钮右键打开面板
 > 2. `设置 > 按键 > 简体/繁体中文输入切换` 进行关闭
@@ -124,6 +127,14 @@ VS Code 是一款轻量的代码编辑器，且通过插件支持可以提供强
 或是右键菜单找到 `MPE:打开侧边预览`
 
 VS Code 提供了基础的 Markdown 预览功能，想要更强大的 Markdown 支持可以安装 [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) 和 [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) 插件
+
+---
+### 禁用预览
+VS Code 打开新的文件页时，如果旧文件页没有进行过编辑会被覆盖，会造成标签页管理混乱因此最好禁用
+1. 打开设置
+2. 搜索 workbench.editor.enable preview
+3. 进行关闭
+
 
 ---
 

@@ -208,6 +208,17 @@ details = "开源图标集，拥有 20万+ 矢量图标"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://github.com/microsoft/fluentui-emoji/raw/main/art/readme_banner.webp" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "Fluent Emoji"
+details = "软件开源的一套 Emoji 表情"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/microsoft/fluentui-emoji' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/microsoft/fluentui-emoji?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/6254238?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Shields.io"
 details = "各类徽章生成"
@@ -231,4 +242,20 @@ details = "最大的 3D 模型发布平台"
   { text: 'Link', link: 'https://sketchfab.com/' },
   { text: '介绍文章', link: '/zh/post/tool/model-asset' },
 ]" />
+</div>
+
+## 🔤 字体
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://github.com/atelier-anchor/smiley-sans/raw/main/docs/images/smiley-sans.dark.svg" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "得意黑"
+details = "中文斜体字体"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/atelier-anchor/smiley-sans' },
+  { text: 'Link', link: 'https://atelier-anchor.com/typefaces/smiley-sans' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/atelier-anchor/smiley-sans?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
 </div>
