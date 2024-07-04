@@ -45,7 +45,7 @@
   }
   /* 顶部左上标志 */
   @media (min-width: 1440px) {
-    .VPNavBar.has-sidebar .title {
+    .VPNavBar.has-sidebar .container > .title {
       padding-left: max(
         32px,
         calc((100% - (var(--vp-layout-max-width) - 64px)) / 4)
