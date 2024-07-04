@@ -1,14 +1,14 @@
 import { defineConfig } from "vitepress";
 import { fileURLToPath, URL } from "node:url";
 // 导入导航栏配置文件
-import nav from "./config/nav.mts";
+import nav from "./theme/config/nav.mts";
 // 导入侧边栏配置文件
-import sidebar from "./config/sidebar.mjs";
+import sidebar from "./theme/config/sidebar.mjs";
 // 导入头部配置
-import head from "./config/head.mjs";
+import head from "./theme/config/head.mjs";
 // 引入 PWA 插件
 import { withPwa } from "@vite-pwa/vitepress";
-import pwa from "./config/pwa.mts";
+import pwa from "./theme/config/pwa.mts";
 // 导入 UnoCSS 插件
 import UnoCSS from "unocss/vite";
 // 导入 markdown-it-footnote 插件

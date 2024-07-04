@@ -145,10 +145,11 @@ details = "干净，强大，免费，无捆绑，如果你需要一个杀毒软
 
 <VPFeature icon = '<img src="https://pot-app.com/logo/icon.svg" style = "max-width: 60%;">'
 title = "Pot"
-details = "一款强大美观的跨平台翻译工具，依旧维持活跃的开发，拥有插件生态，可以进行功能扩展"
+details = "一款强大美观的跨平台翻译工具，依旧维持活跃的开发，拥有插件生态，可以进行功能扩展，类似的软件还有 Easydict"
 :extraLinks="[
   { text: '官网', link: 'https://pot-app.com/' },
   { text: 'GitHub', link: 'https://github.com/pot-app/pot-desktop' },
+  { text: 'Easydict GitHub', link: 'https://github.com/tisfeng/Easydict' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -225,54 +226,6 @@ details = "用于强制删除正在被访问，无法删除的文件，不过当
 </template>
 </VPFeature>
 
-<VPFeature icon = '<div class="i-logos:ffmpeg-icon w-28px h-28px"></div>'
-title = "FFmpeg"
-details = "视频音频转码编码工具，无 GUI 不适合小白食用，配合 GPT 食用风味更佳"
-:extraLinks="[
-  { text: '官网', link: 'https://ffmpeg.org/download.html' },
-  { text: 'GitHub', link: 'https://github.com/FFmpeg/FFmpeg' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="开源" />
-  <Badge type="tip" text="转码" />
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/9134003?s=48&v=4" style = "max-width: 60%;">'
-title = "Lux"
-details = "视频下载工具，无 GUI 不适合小白食用，配合 GPT 食用风味更佳"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/iawia002/lux' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="开源" />
-  <Badge type="tip" text="视频下载" />
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/iawia002/lux?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-</div>
-
-
-## 📖 专项工具
-
-- 这些软件更针对一些特定的生产需求
-
-<div class="VPFeature-item">
-<VPFeature icon = '<div class="i-logos:godot-icon w-28px h-28px"></div>'
-title = "Godot"
-details = "最强开源的游戏引擎，发展势头迅猛，上手容易，本体轻量，游戏开发入门的不二之选"
-:extraLinks="[
-  { text: '官网', link: 'https://godotengine.org/' },
-  { text: 'GitHub', link: 'https://github.com/godotengine/godot' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="开源" />
-  <Badge type="tip" text="游戏引擎" />
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/godotengine/godot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
 <VPFeature icon = '<div class="i-logos:obsidian-icon w-28px h-28px"></div>'
 title = "Obsidian"
 details = "本地存储加双链跳转，可以说是最好用也最安全的文本编辑工具和知识整理工具，没有之一，我说的"
@@ -285,6 +238,14 @@ details = "本地存储加双链跳转，可以说是最好用也最安全的文
   <Badge type="tip" text="文本编辑" />
 </template>
 </VPFeature>
+</div>
+
+
+## ⌨️ 编程相关
+
+- 编程时或是相关场景会用到的软件
+
+<div class="VPFeature-item">
 
 <VPFeature icon = '<div class="i-logos:visual-studio-code w-28px h-28px"></div>'
 title = "VS Code"
@@ -311,6 +272,43 @@ details = "一款非常优秀的 Git GUI"
   <Badge type="tip" text="Git" />
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://jagt.github.io/clumsy/cn/clumsy-icon.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Clumsy "
+details = "网络环境模拟，丢包、延迟等"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/jagt/clumsy' },
+  { text: 'Link', link: 'https://jagt.github.io/clumsy/cn/index.html' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/jagt/clumsy?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/kubernetes/minikube/raw/master/images/logo/logo.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "minikube"
+details = "本地运行 Kubernetes"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/kubernetes/minikube' },
+  { text: '文档', link: 'https://minikube.sigs.k8s.io/docs/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/kubernetes/minikube?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://sniffnet.net/assets/img/icon.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Sniffnet"
+details = "网络监控工具"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/GyulyVGC/sniffnet' },
+  { text: 'Link', link: 'https://sniffnet.net/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 📦 3D 相关
@@ -429,6 +427,19 @@ details = "基于物理的材质编辑器，旗下还有一个基于 AI 的贴�
   <img alt="Static Badge" src="https://img.shields.io/github/stars/armory3d/armortools?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://dirms4qsy6412.cloudfront.net/assets/favicon-81bff16cada05fcff11e5711f7e6212bdc2e0a32ee57cd640a8cf66c87a6cbe6.ico" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "NVIDIA TTE"
+details = "英伟达纹理压缩工具，可实时预览效果"
+:extraLinks="[
+  { text: 'Link', link: 'https://developer.nvidia.com/texture-tools-exporter' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="建模" />
+</template>
+</VPFeature>
+
 </div>
 
 ## 🖌️ 2D 相关
@@ -486,6 +497,64 @@ details = "可以进行像素画和动画的制作，Aseprite 是更受欢迎的
   <img alt="Static Badge" src="https://img.shields.io/github/stars/Orama-Interactive/Pixelorama?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature
+icon = '<div class="i-devicon:gimp w-28px h-28px"></div>'
+title = "GIMP"
+details = "图像处理程序，绘画需求请使用 krita"
+:extraLinks="[
+  { text: '官网', link: 'https://www.gimp.org/' },
+  { text: 'GitLab', link: 'https://gitlab.gnome.org/GNOME/gimp' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="绘画" />
+</template>
+</VPFeature>
+
+<VPFeature
+icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABmUlEQVR4AcXXAUQDUQDG8SRJkmQCJIRJEpIkkCQwhAwJCZUQkgwICWEChCRJCCSBJElCGBiAmQmEycxMztcfD+dh3rZ7u+OHe+7e9znP3buuqA/tTI6htyuug/A1ZOIssI9fDMZV4AbCZhzhgyhDuI6jwBlkvHQ6PI0AMp46Gb6FPyjk1EfQACat80vIhtmowxeRRbc5X0YRgu0jyuBunCCHfjOWQQDBFmDWmiOJFNJIYaiZR/6EOibM2AHUQDZ0/xLykFHGumt4Al8Qzs3YlLXYbHn0mWtXrGsLGHcNH0IOMmbM+F2D8ABzoSf3DRk1JF3De/AMhUwhgVqDAm+hOTJQyFUzi+4YspRQgBp4NffPowKF7LqGJ1GHWlSFgNYK3EEenLiED6MOeXDvUmAV8iTnUuAQ8uTHpcAR5EndpcA25EnNpcAK5EnR9d0fQB48ur4HPiEP9lwLbEARqyLRzIfoC4pQppV/uxIUgQf0tLING21zPQQ4R2+7e8E03hFADiq4xXTUO+IRpHCILC5xjQucYhsL6Gt27n9UWOp2rU+SCQAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = "一款类似 sai 的绘画软件"
+:extraLinks="[
+  { text: '官网', link: 'https://firealpaca.com/cn/?tmp=new' },
+  { text: '下载', link: 'https://firealpaca.com/cn/download/' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="绘画" />
+</template>
+</VPFeature>
+
+<VPFeature
+icon = '<div class="i-devicon:inkscape w-28px h-28px"></div>'
+title = "Inkscape"
+details = "一款矢量图编辑器"
+:extraLinks="[
+  { text: '官网', link: 'https://inkscape.org/' },
+  { text: 'GitLab', link: 'https://gitlab.com/inkscape' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="矢量" />
+</template>
+</VPFeature>
+
+<VPFeature
+icon = '<img src="https://avatars.githubusercontent.com/u/30179644?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Penpot"
+details = "原型设计工具，类似 Figma、Pixso、XD、MasterGo的开源版本"
+:extraLinks="[
+  { text: '官网', link: 'https://penpot.app/collaboration' },
+  { text: 'GitHub', link: 'https://github.com/penpot/penpot' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="设计" />
+    <img alt="Static Badge" src="https://img.shields.io/github/stars/penpot/penpot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 🎞️ 视频相关
@@ -546,6 +615,104 @@ details = "一款轻量好用的视频压制软件"
   <Badge type="tip" text="视频压制" />
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://mularahul.github.io/keyviz/img/icon.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Keyviz"
+details = "Win 软件，用于显示当前操作按键，类似软件还有  Carnac、Input Overlay"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/mulaRahul/keyviz' },
+  { text: 'Link', link: 'https://mularahul.github.io/keyviz/' },
+  { text: 'Carnac', link: 'https://github.com/Code52/carnac' },
+  { text: 'Input Overlay', link: 'https://github.com/univrsal/input-overlay?tab=readme-ov-file' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="录制" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/mulaRahul/keyviz?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature
+icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADE0lEQVR4Ad2WA5AkQRBFN2ze9ljnu9DZtm3btm3btm3b5tq2G9PT/a+iNtYexl5GtPUys/+vckv+VSaJ93CHixbZje64cCndANxfujgXgPOqCiFsJsT40xCTH8GS/Axi4jUIURvA+bcF56F0FIAKfMhEyBKHwsIcfx6sZzn7AnCeJpLxWcgyj6JDhsR5gPdrbi8AhpYXkFCSsLC/wHlVsh2AC+gKWWJz5igLZBFRVJgTLoDzUFkPwHloIKY8y+fFN5Hq0xbm5KeAbC64GWIMeN86NgB4Vyfvj0SuoH99OqAWaYEjIVkSC0IAHzzOBgC/lvSvLwggY0nzqgk+5nC+9wqxh20ACOgGQCoSIGNJ9qwHSQjP2a6kO+D+Wgvg3yGjx0UDkF6LCUSqUlouX7hoPQDvWx+yJaFwAC8ThLDJkMU45BdCxHIbZOhVHhLvWQAAAyGwB6S0j0D+kqTyJfZsmw8IkasByDlNJvUDxNj9QBHOKLHfSBLlbANgPXTkg+9z54aigpgVyb67ncYC4uuSEIRihyxACF9k39GQ9awAS9p3FBFUBVzwKPKMwv7zAc6rYvpcIPkpZEs8yIosEjUgC/cb5pid4HybOHxGRHXN/lGDJQ7I+tRH2l8TOfc/zglfnFdi3Twtti3V4vUlJb7eUuDCLrXzAPau1mDLYi2enVOibq2y2L9Wg4nDDfh+R4FVs3U4tF4D76cMnpxRIv4rg8Mb1Qh4qcDGhVqc3qZG/Dd3XNmnxuW9KkR/YqwDmDZKjx3LNejQyogTW9SYMMyAnSs0uLhbhbYtTDhHKtKlrRFPz6jQp4sBi6boaNX6dzdQwBaNTTSJhG9WVoC8jGSspBlcO0AAhhowdaQeW5do0bG1kVRHhR4dDRg9QI/nZH/MQD19bs9KDc4TuPYtjYj7yljXglPb1LSEGccPTqqweKoOM8focIC0Y3AvA95eUeLCbjWaNTIh6ac7zu5UY+4EHV3eXFZiRD8DEr8zjpBh+n7sFwY7lmkwfbQuQ4r0Gtl3jgwTvjF4fFqF4DdM6fUB2ZUA/wASlikasPOXhgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Potplayer"
+details = "视频播放器，大部分情况下系统自带播放器足够"
+:extraLinks="[
+  { text: '官网', link: 'https://potplayer.daum.net/?lang=zh_CN' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="播放器" />
+</template>
+</VPFeature>
+
+<VPFeature
+icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAARVBMVEVHcEysl7TzhXfzhXfzhXfzhXeDufXzhXdSfrJSfrJ/kr6DufVSfrJSfrKDufWDufVSfrKDufVSfrJSfrKDufVSfrKDufVRdbtIAAAAF3RSTlMACzD/oe7dvjPdFz3/WjL7u0XvdYGTUduEewQAAACeSURBVHgBzdHRDoMgDIXhozhEYAJz8v6POkroTBqCt37Xzd9Q8DjTTDCgigUDs1IvDC1qtEFrYIXZLJjgXB3w/o2ePQTdBnxET0qtUHyMXB8IF8gh1ifChSpOaL6BiALhNTYxLrATRSCywDYAuegW+C1E9wsRLBeyIO+ZZEH+yFQT18B5c0kDwWXChYie/C8c6LLO7TQAi5EVNyye5wdxlw5HerXoEgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Kdenlive"
+details = "视频剪辑软件，不过剪映和达芬奇因该会是更好的选择"
+:extraLinks="[
+  { text: '官网', link: 'https://kdenlive.org/zh/' },
+  { text: 'GitLab', link: 'https://invent.kde.org/multimedia/kdenlive' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="剪辑" />
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://www.shotcut.org//assets/img/favicon.ico" style="width: 24px">'
+title = "Shotcut"
+details = "视频剪辑"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/mltframework/shotcut' },
+  { text: 'Link', link: 'https://www.shotcut.org/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="剪辑" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/mltframework/shotcut?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<div class="i-logos:ffmpeg-icon w-28px h-28px"></div>'
+title = "FFmpeg"
+details = "视频音频转码编码工具，无 GUI 不适合小白食用，配合 GPT 食用风味更佳"
+:extraLinks="[
+  { text: '官网', link: 'https://ffmpeg.org/download.html' },
+  { text: 'GitHub', link: 'https://github.com/FFmpeg/FFmpeg' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="转码" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/9134003?s=48&v=4" style = "max-width: 60%;">'
+title = "Lux"
+details = "视频下载工具，无 GUI 不适合小白食用，配合 GPT 食用风味更佳"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/iawia002/lux' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="视频下载" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/iawia002/lux?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature
+icon = '<img src="https://img.itch.zone/aW1nLzU3NjY3NTEucG5n/315x250%23c/B6bQeh.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Flowframes"
+details = "AI 视频插值工具"
+:extraLinks="[
+  { text: 'Itch', link: 'https://nmkd.itch.io/flowframes' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="视频" />
+</template>
+</VPFeature>
+
 </div>
 
 ## 🎙️ 音频相关
@@ -612,133 +779,53 @@ details = "8-bit 风格音乐编辑器，想要更强大的功能可以试试 LM
   <img alt="Static Badge" src="https://img.shields.io/github/stars/BleuBleu/FamiStudio?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/380563?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "MuseScore "
+details = "乐谱编辑软件"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/musescore/MuseScore' },
+  { text: 'Link', link: 'https://musescore.org/zh-hans' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="编谱" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/musescore/MuseScore?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
-## 🧷 其他杂项
+## 🎮 游戏相关
 
-- 这部分软件要么就是没有深入了解过，要么就是存在一些问题，但确实又值得列出来用作存储
+- 游戏制作或是游戏相关的软件
 
 <div class="VPFeature-item">
-<VPFeature
-icon = '<div class="i-devicon:gimp w-28px h-28px"></div>'
-title = "GIMP"
-details = "图像处理程序，绘画需求请使用 krita"
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/79355691?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Watt Toolkit"
+details = "原名 Steam++，主要用于Steam、GitHub 等服务的加速，官网有各个加速器的免费时长可以白嫖"
 :extraLinks="[
-  { text: '官网', link: 'https://www.gimp.org/' },
-  { text: 'GitLab', link: 'https://gitlab.gnome.org/GNOME/gimp' },
-]">
+  { text: 'GitHub', link: 'https://github.com/BeyondDimension/SteamTools' },
+  { text: 'Link', link: 'https://shop.steampp.net/' },
+]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="绘画" />
+  <Badge type="tip" text="加速" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/BeyondDimension/SteamTools?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
-<VPFeature
-icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABmUlEQVR4AcXXAUQDUQDG8SRJkmQCJIRJEpIkkCQwhAwJCZUQkgwICWEChCRJCCSBJElCGBiAmQmEycxMztcfD+dh3rZ7u+OHe+7e9znP3buuqA/tTI6htyuug/A1ZOIssI9fDMZV4AbCZhzhgyhDuI6jwBlkvHQ6PI0AMp46Gb6FPyjk1EfQACat80vIhtmowxeRRbc5X0YRgu0jyuBunCCHfjOWQQDBFmDWmiOJFNJIYaiZR/6EOibM2AHUQDZ0/xLykFHGumt4Al8Qzs3YlLXYbHn0mWtXrGsLGHcNH0IOMmbM+F2D8ABzoSf3DRk1JF3De/AMhUwhgVqDAm+hOTJQyFUzi+4YspRQgBp4NffPowKF7LqGJ1GHWlSFgNYK3EEenLiED6MOeXDvUmAV8iTnUuAQ8uTHpcAR5EndpcA25EnNpcAK5EnR9d0fQB48ur4HPiEP9lwLbEARqyLRzIfoC4pQppV/uxIUgQf0tLING21zPQQ4R2+7e8E03hFADiq4xXTUO+IRpHCILC5xjQucYhsL6Gt27n9UWOp2rU+SCQAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = "一款类似 sai 的绘画软件"
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/9ea041a3795d315d60fd707db7a2163514b89fca730e3b29a97c874970e73030/68747470733a2f2f706c61796e6974652e6c696e6b2f6170706c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Playnite"
+details = "游戏库管理器，可以将各个平台如  Steam、Epic 添加到一个页面进行管理"
 :extraLinks="[
-  { text: '官网', link: 'https://firealpaca.com/cn/?tmp=new' },
-  { text: '下载', link: 'https://firealpaca.com/cn/download/' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="免费" />
-  <Badge type="tip" text="绘画" />
-</template>
-</VPFeature>
-
-<VPFeature
-icon = '<div class="i-devicon:inkscape w-28px h-28px"></div>'
-title = "Inkscape"
-details = "一款矢量图编辑器"
-:extraLinks="[
-  { text: '官网', link: 'https://inkscape.org/' },
-  { text: 'GitLab', link: 'https://gitlab.com/inkscape' },
-]">
+  { text: 'GitHub', link: 'https://github.com/JosefNemec/Playnite' },
+  { text: 'Link', link: 'https://playnite.link/' },
+]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="矢量" />
-</template>
-</VPFeature>
-
-<VPFeature
-icon = '<img src="https://avatars.githubusercontent.com/u/30179644?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Penpot"
-details = "原型设计工具，类似 Figma、Pixso、XD、MasterGo的开源版本"
-:extraLinks="[
-  { text: '官网', link: 'https://penpot.app/collaboration' },
-  { text: 'GitHub', link: 'https://github.com/penpot/penpot' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="开源" />
-  <Badge type="tip" text="设计" />
-    <img alt="Static Badge" src="https://img.shields.io/github/stars/penpot/penpot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature
-icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAARVBMVEVHcEysl7TzhXfzhXfzhXfzhXeDufXzhXdSfrJSfrJ/kr6DufVSfrJSfrKDufWDufVSfrKDufVSfrJSfrKDufVSfrKDufVRdbtIAAAAF3RSTlMACzD/oe7dvjPdFz3/WjL7u0XvdYGTUduEewQAAACeSURBVHgBzdHRDoMgDIXhozhEYAJz8v6POkroTBqCt37Xzd9Q8DjTTDCgigUDs1IvDC1qtEFrYIXZLJjgXB3w/o2ePQTdBnxET0qtUHyMXB8IF8gh1ifChSpOaL6BiALhNTYxLrATRSCywDYAuegW+C1E9wsRLBeyIO+ZZEH+yFQT18B5c0kDwWXChYie/C8c6LLO7TQAi5EVNyye5wdxlw5HerXoEgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Kdenlive"
-details = "视频剪辑软件，不过剪映和达芬奇因该会是更好的选择"
-:extraLinks="[
-  { text: '官网', link: 'https://kdenlive.org/zh/' },
-  { text: 'GitLab', link: 'https://invent.kde.org/multimedia/kdenlive' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="开源" />
-  <Badge type="tip" text="剪辑" />
-</template>
-</VPFeature>
-
-<VPFeature
-icon = '<img src="https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Scrcpy "
-details = "实现 Android 设备的电脑投屏"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/Genymobile/scrcpy' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="开源" />
-  <Badge type="tip" text="投屏" />
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/Genymobile/scrcpy?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature
-icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADE0lEQVR4Ad2WA5AkQRBFN2ze9ljnu9DZtm3btm3btm3b5tq2G9PT/a+iNtYexl5GtPUys/+vckv+VSaJ93CHixbZje64cCndANxfujgXgPOqCiFsJsT40xCTH8GS/Axi4jUIURvA+bcF56F0FIAKfMhEyBKHwsIcfx6sZzn7AnCeJpLxWcgyj6JDhsR5gPdrbi8AhpYXkFCSsLC/wHlVsh2AC+gKWWJz5igLZBFRVJgTLoDzUFkPwHloIKY8y+fFN5Hq0xbm5KeAbC64GWIMeN86NgB4Vyfvj0SuoH99OqAWaYEjIVkSC0IAHzzOBgC/lvSvLwggY0nzqgk+5nC+9wqxh20ACOgGQCoSIGNJ9qwHSQjP2a6kO+D+Wgvg3yGjx0UDkF6LCUSqUlouX7hoPQDvWx+yJaFwAC8ThLDJkMU45BdCxHIbZOhVHhLvWQAAAyGwB6S0j0D+kqTyJfZsmw8IkasByDlNJvUDxNj9QBHOKLHfSBLlbANgPXTkg+9z54aigpgVyb67ncYC4uuSEIRihyxACF9k39GQ9awAS9p3FBFUBVzwKPKMwv7zAc6rYvpcIPkpZEs8yIosEjUgC/cb5pid4HybOHxGRHXN/lGDJQ7I+tRH2l8TOfc/zglfnFdi3Twtti3V4vUlJb7eUuDCLrXzAPau1mDLYi2enVOibq2y2L9Wg4nDDfh+R4FVs3U4tF4D76cMnpxRIv4rg8Mb1Qh4qcDGhVqc3qZG/Dd3XNmnxuW9KkR/YqwDmDZKjx3LNejQyogTW9SYMMyAnSs0uLhbhbYtTDhHKtKlrRFPz6jQp4sBi6boaNX6dzdQwBaNTTSJhG9WVoC8jGSspBlcO0AAhhowdaQeW5do0bG1kVRHhR4dDRg9QI/nZH/MQD19bs9KDc4TuPYtjYj7yljXglPb1LSEGccPTqqweKoOM8focIC0Y3AvA95eUeLCbjWaNTIh6ac7zu5UY+4EHV3eXFZiRD8DEr8zjpBh+n7sFwY7lmkwfbQuQ4r0Gtl3jgwTvjF4fFqF4DdM6fUB2ZUA/wASlikasPOXhgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Potplayer"
-details = "视频播放器，大部分情况下系统自带播放器足够"
-:extraLinks="[
-  { text: '官网', link: 'https://potplayer.daum.net/?lang=zh_CN' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="免费" />
-  <Badge type="tip" text="播放器" />
-</template>
-</VPFeature>
-
-<VPFeature
-icon = '<img src="https://img.itch.zone/aW1nLzU3NjY3NTEucG5n/315x250%23c/B6bQeh.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Flowframes"
-details = "AI 视频插值工具"
-:extraLinks="[
-  { text: 'Itch', link: 'https://nmkd.itch.io/flowframes' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="免费" />
-  <Badge type="tip" text="视频" />
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://dirms4qsy6412.cloudfront.net/assets/favicon-81bff16cada05fcff11e5711f7e6212bdc2e0a32ee57cd640a8cf66c87a6cbe6.ico" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "NVIDIA TTE"
-details = "英伟达纹理压缩工具，可实时预览效果"
-:extraLinks="[
-  { text: 'Link', link: 'https://developer.nvidia.com/texture-tools-exporter' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="免费" />
-  <Badge type="tip" text="建模" />
+  <Badge type="tip" text="游戏库" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/JosefNemec/Playnite?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -750,64 +837,27 @@ details = "游戏远程串流方案，远程玩电脑上的游戏"
   { text: 'Link', link: 'https://moonlight-stream.org/' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="串流" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/moonlight-stream/moonlight-qt?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/380563?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "MuseScore "
-details = "乐谱编辑软件"
+<VPFeature icon = '<div class="i-logos:godot-icon w-28px h-28px"></div>'
+title = "Godot"
+details = "最强开源的游戏引擎，发展势头迅猛，上手容易，本体轻量，游戏开发入门的不二之选"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/musescore/MuseScore' },
-  { text: 'Link', link: 'https://musescore.org/zh-hans' },
-]" >
+  { text: '官网', link: 'https://godotengine.org/' },
+  { text: 'GitHub', link: 'https://github.com/godotengine/godot' },
+]">
 <template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/musescore/MuseScore?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="游戏引擎" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/godotengine/godot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://jagt.github.io/clumsy/cn/clumsy-icon.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Clumsy "
-details = "网络环境模拟，丢包、延迟等"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/jagt/clumsy' },
-  { text: 'Link', link: 'https://jagt.github.io/clumsy/cn/index.html' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/jagt/clumsy?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/79355691?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Watt Toolkit"
-details = "原名 Steam++，主要用于Steam、GitHub 等服务的加速，官网有各个加速器的免费时长可以白嫖"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/BeyondDimension/SteamTools' },
-  { text: 'Link', link: 'https://shop.steampp.net/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/BeyondDimension/SteamTools?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://mularahul.github.io/keyviz/img/icon.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Keyviz"
-details = "Win 软件，用于显示当前操作按键，类似软件还有  Carnac、Input Overlay"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/mulaRahul/keyviz' },
-  { text: 'Link', link: 'https://mularahul.github.io/keyviz/' },
-  { text: 'Carnac GitHub', link: 'https://github.com/Code52/carnac' },
-  { text: 'Input Overlay GitHub', link: 'https://github.com/univrsal/input-overlay?tab=readme-ov-file' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/mulaRahul/keyviz?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/Code52/carnac?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/univrsal/input-overlay?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
 </div>
-
 
 ## 🍎 Mac 相关
 
@@ -881,7 +931,23 @@ details = "Mac 软件，用于显示当前操作按键"
   { text: 'GitHub', link: 'https://github.com/keycastr/keycastr' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="录屏" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/keycastr/keycastr?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/dwarvesf/hidden/raw/develop/img/icon_512%402x.png?raw=true" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Hidden Bar"
+details = "隐藏菜单栏图标"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/dwarvesf/hidden' },
+  { text: 'Link', link: 'https://dwarves.foundation/opensource/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="美观" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/dwarvesf/hidden?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -899,6 +965,8 @@ details = "安卓离线的语言实时翻译 APP"
   { text: 'GitHub', link: 'https://github.com/niedev/RTranslator' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="翻译" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/niedev/RTranslator?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
@@ -911,6 +979,8 @@ details = "安卓电子书阅读器，可以添加书源订阅内容"
   { text: '书源', link: 'https://www.yckceo.com/yuedu/shuyuan' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="阅读" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/gedoor/legado?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
@@ -926,4 +996,61 @@ details = "使用手机进行 3D 模型扫描"
   <Badge type="tip" text="建模" />
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/topjohnwu/Magisk/raw/master/docs/images/logo.png" style = "max-width: 200%;transform: translate(28%, 0%);">'
+title = "Magisk"
+details = "魔改安卓设备"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/topjohnwu/Magisk' },
+  { text: 'Link', link: 'https://topjohnwu.github.io/Magisk/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="玩机" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/topjohnwu/Magisk?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature
+icon = '<img src="https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Scrcpy "
+details = "实现 Android 设备的电脑投屏"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Genymobile/scrcpy' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="投屏" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Genymobile/scrcpy?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/8104776?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Termux"
+details = "安卓运行 Linux 虚拟机"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/termux/termux-app#github' },
+  { text: 'Link', link: 'https://termux.dev/cn/index.html' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="虚拟机" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/termux/termux-app?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://i0.wp.com/winlator.com/wp-content/uploads/2024/03/cropped-winlator-icon.png?fit=512%2C512&ssl=1" style = "max-width: 80%;transform: translate(0%, 0%);">'
+title = "Winlator "
+details = "安卓运行 Windows 虚拟机"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/brunodev85/winlator' },
+  { text: 'Link', link: 'https://winlator.com/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="虚拟机" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/brunodev85/winlator?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>

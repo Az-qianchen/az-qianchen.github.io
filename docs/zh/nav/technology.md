@@ -26,7 +26,9 @@ zoom: false
 
 - 这些项目相对更加专业需要一定的技术门槛
 
-## 💾 相关项目
+## 💾 自行部署
+
+- 这些项目不是开箱即用的软件，而是需要进行部署的项目
 
 <div class="VPFeature-item">
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/97389433?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
@@ -38,41 +40,6 @@ details = "网盘文件聚合挂载"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/alist-org/alist?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/14957082?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Whisper"
-details = "Open AI 的语言识别翻译模型"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/openai/whisper' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/openai/whisper?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/8104776?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Termux"
-details = "安卓运行 Linux 虚拟机"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/termux/termux-app#github' },
-  { text: 'Link', link: 'https://termux.dev/cn/index.html' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/termux/termux-app?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://i0.wp.com/winlator.com/wp-content/uploads/2024/03/cropped-winlator-icon.png?fit=512%2C512&ssl=1" style = "max-width: 80%;transform: translate(0%, 0%);">'
-title = "Winlator "
-details = "安卓运行 Windows 虚拟机"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/brunodev85/winlator' },
-  { text: 'Link', link: 'https://winlator.com/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/brunodev85/winlator?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -109,4 +76,70 @@ details = "私人图库"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/photoprism/photoprism?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/00f6057edb432f366a88363e7b378562d04fa8e3f8974af23ab53d701da25442/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f73796e6374762d6f72672f646f6373406d61696e2f6c6f676f2f6c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "SyncTV"
+details = "与朋友和家人一起观看视频和直播"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/synctv-org/synctv' },
+  { text: 'Link', link: 'https://demo.synctv.wiki/web/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/synctv-org/synctv?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/12508788?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Rocket Chat"
+details = "自建通讯平台"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/RocketChat/Rocket.Chat' },
+  { text: 'Link', link: 'https://rocket.chat/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+</div>
+
+
+## 💾 AI 相关
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/311638c663a2138cf6081e970ee8d60d87444afc71213ee63a539459c7ef97d6/68747470733a2f2f78696e6e74616f2e6769746875622e696f2f70726f6a656374732f47465047414e5f7372632f67667067616e5f7465617365722e6a7067" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "GFPGAN"
+details = "老照片人脸修复"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/TencentARC/GFPGAN' },
+  { text: 'HuggingFace', link: 'https://huggingface.co/spaces/Xintao/GFPGAN' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/TencentARC/GFPGAN?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/XingangPan/DragGAN/raw/main/DragGAN.gif" style = "max-width: 180%;transform: translate(-15%, 0%);">'
+title = "DragGAN "
+details = "AI 绘图，对图像进行更精确的控制，如控制姿态"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/XingangPan/DragGAN' },
+  { text: 'Link', link: 'https://vcai.mpi-inf.mpg.de/projects/DragGAN/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/XingangPan/DragGAN?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/14957082?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Whisper"
+details = "Open AI 的语言识别翻译模型"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/openai/whisper' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/openai/whisper?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
