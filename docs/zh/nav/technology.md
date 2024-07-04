@@ -43,28 +43,6 @@ details = "网盘文件聚合挂载"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://github.com/AUTOMATIC1111/stable-diffusion-webui/raw/master/screenshot.png" style = "max-width: 150%;transform: translate(0%, 0%);">'
-title = "Stable Diffusion Web UI"
-details = "Stable Diffusion 网页形式的编辑器"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/AUTOMATIC1111/stable-diffusion-webui' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://github.com/comfyanonymous/ComfyUI/raw/master/comfyui_screenshot.png" style = "max-width: 250%;transform: translate(0%, 0%);">'
-title = "ComfyUI"
-details = "Stable Diffusion 节点形式的编辑器，可以创建更为复杂的工作流"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/comfyanonymous/ComfyUI' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/32436079?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "PhotoPrism"
 details = "私人图库"
@@ -128,6 +106,28 @@ details = "AI 绘图，对图像进行更精确的控制，如控制姿态"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/XingangPan/DragGAN?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/AUTOMATIC1111/stable-diffusion-webui/raw/master/screenshot.png" style = "max-width: 150%;transform: translate(0%, 0%);">'
+title = "Stable Diffusion Web UI"
+details = "Stable Diffusion 网页形式的编辑器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/AUTOMATIC1111/stable-diffusion-webui' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/comfyanonymous/ComfyUI/raw/master/comfyui_screenshot.png" style = "max-width: 250%;transform: translate(0%, 0%);">'
+title = "ComfyUI"
+details = "Stable Diffusion 节点形式的编辑器，可以创建更为复杂的工作流"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/comfyanonymous/ComfyUI' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
