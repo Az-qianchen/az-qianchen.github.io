@@ -22,10 +22,10 @@
     .VPContent.has-sidebar {
       /* padding-right: 0px !important; */
       /* padding-left: 300px !important; */
-      padding-right: calc((100vw - var(--vp-layout-max-width)) / 4);
+      padding-right: calc((100vw - var(--vp-layout-max-width)) / 4) !important;
       padding-left: calc(
         (100vw - var(--vp-layout-max-width)) / 4 + var(--vp-sidebar-width)
-      );
+      ) !important;
     }
   }
   /* 左栏 */
@@ -36,11 +36,11 @@
       padding-left: max(
         32px,
         calc((100% - (var(--vp-layout-max-width) - 64px)) / 4)
-      );
+      ) !important;
       width: calc(
         (100% - (var(--vp-layout-max-width) - 64px)) / 4 +
           var(--vp-sidebar-width) - 32px
-      );
+      ) !important;
     }
   }
   /* 顶部左上标志 */
@@ -49,11 +49,11 @@
       padding-left: max(
         32px,
         calc((100% - (var(--vp-layout-max-width) - 64px)) / 4)
-      );
+      ) !important;
       width: calc(
         (100% - (var(--vp-layout-max-width) - 64px)) / 4 +
           var(--vp-sidebar-width) - 32px
-      );
+      ) !important;
     }
     /* .wrapper .container .title {
       padding-left: 30px !important;
@@ -65,10 +65,12 @@
     .VPNavBar.has-sidebar .content {
       /* padding-right: 60px !important; */
       /* padding-left: 300px !important; */
-      padding-right: calc((100vw - var(--vp-layout-max-width)) / 2 + 32px);
+      padding-right: calc(
+        (100vw - var(--vp-layout-max-width)) / 2 + 32px
+      ) !important;
       padding-left: calc(
         (100vw - var(--vp-layout-max-width)) / 4 + var(--vp-sidebar-width)
-      );
+      ) !important;
     }
   }
   /* 内容铺满填充 */
