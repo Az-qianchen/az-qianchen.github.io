@@ -79,6 +79,30 @@ details = "自建通讯平台"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/19211038?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Server"
+details = "个人数据服务器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/nextcloud/server' },
+  { text: 'Link', link: 'https://nextcloud.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/nextcloud/server?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/86002201?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "AppFlowy"
+details = "类似 Notion 笔记工具，自己部署确保隐私，可以结合 AI 服务"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/AppFlowy-IO/AppFlowy' },
+  { text: 'Link', link: 'https://www.appflowy.io/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 
@@ -142,4 +166,65 @@ details = "Open AI 的语言识别翻译模型"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://github.com/hzwer/ICCV2019-LearningToPaint/raw/master/demo/sunrise.gif" style = "max-width: 200%;transform: translate(0%, 0%);">'
+title = "Learning to Paint"
+details = "AI 模拟人类用笔触绘画"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/hzwer/ICCV2019-LearningToPaint' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/hzwer/ICCV2019-LearningToPaint?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/CMU-Perceptual-Computing-Lab/openpose/raw/master/.github/media/pose_face_hands.gif" style = "max-width: 200%;transform: translate(0%, 0%);">'
+title = "OpenPose"
+details = "AI 动作捕捉"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/CMU-Perceptual-Computing-Lab/openpose' },
+  { text: 'Link', link: 'https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/index.html' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/CMU-Perceptual-Computing-Lab/openpose?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<span style="font-size: 12px;">Voice</span>'
+title = "Real-Time Voice Cloning"
+details = "AI 声音克隆"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/CorentinJ/Real-Time-Voice-Cloning' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/CorentinJ/Real-Time-Voice-Cloning?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+</div>
+
+## 🔗 网络工具
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://ehang-io.github.io/nps/logo.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "NPS"
+details = "内网穿透代理服务器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/ehang-io/nps' },
+  { text: 'Link', link: 'https://ehang-io.github.io/nps/#/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/ehang-io/nps?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<span style="font-size: 18px;">IP</span>'
+title = "Ip2region"
+details = "离线 IP 地址定位库"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/lionsoul2014/ip2region' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/lionsoul2014/ip2region?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
 </div>

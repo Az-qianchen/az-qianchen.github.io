@@ -405,6 +405,17 @@ details = "通过 OpenStreetMap 的数据绘制地图"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://github.com/antct/city-vein/raw/master/png/beijing.png" style = "max-width: 200%;transform: translate(0%, 0%);">'
+title = "City Vein"
+details = "通过公交线路绘制城市脉络"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/antct/city-vein' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/antct/city-vein?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 
@@ -434,6 +445,9 @@ details = "在线音频编辑，如剪辑和效果器添加"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/pkalogiros/audiomass?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+
+
 </div>
 
 ## ✒️ 写作相关
@@ -475,40 +489,10 @@ details = "通过句子搜索词汇或是类似含义语句，旧产品为据意
   { text: 'Link', link: 'https://www.shenyandayi.com/?ref=ai-bot.cn' },
   { text: '据意查句', link: 'https://wantquotes.net/' },
   { text: '反向词典', link: 'https://wantwords.net/' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'Link', link: '' },
-]" />
-
-
-
-
-<VPFeature icon = '<img src="https://github.com/zhanglun/lettura/raw/master/src/logo.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Lettura"
-details = "RSS 订阅，订阅一些源或是文章进行阅读"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/zhanglun/lettura' },
-  { text: 'Link', link: 'https://zhanglun.github.io/lettura/' },
+  { text: 'GitHub', link: 'https://github.com/thunlp/WantWords' },
 ]" >
 <template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/zhanglun/lettura?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="data:image/png;base64,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" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Simple Mind Map"
-details = "在线思维导图"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/wanglin2/mind-map' },
-  { text: '官网', link: 'https://wanglin2.github.io/mind-map/#/index' },
-  { text: '在线', link: 'https://wanglin2.github.io/mind-map/#/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/wanglin2/mind-map?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/thunlp/WantWords?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -542,8 +526,6 @@ details = "后端系统，管理用户账户"
 </template>
 </VPFeature>
 
-
-
 <VPFeature icon = '<img src="https://camo.githubusercontent.com/6e5e9e734b245af142ccc5dcd9b994f8a26c3a24d65814cb4c43fe353615b8b0/68747470733a2f2f736c692e6465762f6c6f676f2d7469746c652e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Slides"
 details = "基于 Markdown 的幻灯片演示工具"
@@ -553,6 +535,37 @@ details = "基于 Markdown 的幻灯片演示工具"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/slidevjs/slidev?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/8908513?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Cypress"
+details = "Web 测试框架"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/cypress-io/cypress' },
+  { text: 'Link', link: 'https://www.cypress.io/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/cypress-io/cypress?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/3b1b/manim/master/logo/cropped.png" style = "max-width: 250%;transform: translate(20%, 0%);">'
+title = "Manim"
+details = "来自3Blue1Brown 著名的数学动画绘制引擎"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/3b1b/manim' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/3b1b/manim?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -620,16 +633,161 @@ details = ""
   { text: 'Link', link: '' },
 ]" />
 
-<VPFeature icon = ''
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = ""
 details = ""
 :extraLinks="[
   { text: 'GitHub', link: '' },
   { text: 'Link', link: '' },
 ]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
 </div>
 
-## 🤖 效果展示
+## 🎉 效果展示
 
 <div class="VPFeature-item">
 <VPFeature icon = '<img src="https://poke-holo.simey.me/favicon.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
@@ -645,3 +803,59 @@ details = "神奇宝贝卡全息效果展示"
 </VPFeature>
 </div>
 
+## 🤖 在线游戏
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/0710a74523d23728708a341142b145664bccbd333c48b9757235155fb326eb02/68747470733a2f2f692e696d6775722e636f6d2f6b6465373630792e706e67" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "信任的进化"
+details = "关于博弈论的小游戏"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/ncase/trust' },
+  { text: 'Link', link: 'https://dccxi.com/trust/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/ncase/trust?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+</div>
+
+## 🔧 在线工具
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/1742280ab5f2ffc1093d7ecb4a99c279ac76a472534dfe32ccb3cf381b7815d1/68747470733a2f2f736974652e6c6f6769632d666c6f772e636e2f6c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "LogicFlow"
+details = "在线流程图绘制"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/didi/LogicFlow' },
+  { text: 'Link', link: 'https://site.logic-flow.cn/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/didi/LogicFlow?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/Yqnn/svg-path-editor/raw/master/doc/screenshot.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "SvgPathEditor"
+details = "SVG 在线编辑"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Yqnn/svg-path-editor' },
+  { text: 'Link', link: 'https://yqnn.github.io/svg-path-editor/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Yqnn/svg-path-editor?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="data:image/png;base64,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" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Simple Mind Map"
+details = "在线思维导图"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/wanglin2/mind-map' },
+  { text: '官网', link: 'https://wanglin2.github.io/mind-map/#/index' },
+  { text: '在线', link: 'https://wanglin2.github.io/mind-map/#/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/wanglin2/mind-map?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+</div>

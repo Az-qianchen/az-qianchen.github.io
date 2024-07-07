@@ -226,18 +226,6 @@ details = "用于强制删除正在被访问，无法删除的文件，不过当
 </template>
 </VPFeature>
 
-<VPFeature icon = '<div class="i-logos:obsidian-icon w-28px h-28px"></div>'
-title = "Obsidian"
-details = "本地存储加双链跳转，可以说是最好用也最安全的文本编辑工具和知识整理工具，没有之一，我说的"
-:extraLinks="[
-  { text: '官网', link: 'https://obsidian.md/' },
-  { text: '下载', link: 'https://obsidian.md/download' },
-]">
-<template #badgeImage>
-  <Badge type="warning" text="免费" />
-  <Badge type="tip" text="文本编辑" />
-</template>
-</VPFeature>
 </div>
 
 
@@ -796,6 +784,55 @@ details = "乐谱编辑软件"
 
 </div>
 
+## 📖 文本相关
+
+- 用于文本编辑或阅读相关的软件
+
+<div class="VPFeature-item">
+
+<VPFeature icon = '<div class="i-logos:obsidian-icon w-28px h-28px"></div>'
+title = "Obsidian"
+details = "本地存储加双链跳转，可以说是最好用也最安全的文本编辑工具和知识整理工具，没有之一，我说的"
+:extraLinks="[
+  { text: '官网', link: 'https://obsidian.md/' },
+  { text: '下载', link: 'https://obsidian.md/download' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="文本编辑" />
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/marktext/marktext/raw/develop/static/logo-small.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "MarkText"
+details = "Markdown 编辑器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/marktext/marktext' },
+  { text: 'Link', link: 'https://www.marktext.cc/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="文本编辑" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/marktext/marktext?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/zhanglun/lettura/raw/master/src/logo.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Lettura"
+details = "RSS 订阅，订阅一些源或是文章进行阅读"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/zhanglun/lettura' },
+  { text: 'Link', link: 'https://zhanglun.github.io/lettura/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="阅读" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/zhanglun/lettura?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+</div>
+
 ## 🎮 游戏相关
 
 - 游戏制作或是游戏相关的软件
@@ -951,6 +988,17 @@ details = "隐藏菜单栏图标"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://github.com/kyleneideck/BackgroundMusic/raw/master/Images/README/FermataIcon.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Background Music"
+details = "MacOS 音量控制增强，单独控制每个应用，智能暂停背景音乐"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/kyleneideck/BackgroundMusic' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/kyleneideck/BackgroundMusic?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 📱 Android 相关
@@ -1050,6 +1098,20 @@ details = "安卓运行 Windows 虚拟机"
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="虚拟机" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/brunodev85/winlator?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/pppscn/SmsForwarder/raw/main/pic/SmsForwarder.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "SmsForwarder"
+details = "监控 Android 手机短信、来电、APP通知，并根据指定规则转发到其他手机"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/pppscn/SmsForwarder' },
+  { text: 'Link', link: '' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="消息" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/pppscn/SmsForwarder?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
