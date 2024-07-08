@@ -103,6 +103,30 @@ details = "类似 Notion 笔记工具，自己部署确保隐私，可以结合 
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/71636191?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Rustdesk"
+details = "远程桌面"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/rustdesk/rustdesk' },
+  { text: 'Link', link: 'https://rustdesk.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/rustdesk/rustdesk?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/3220138?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Discussion"
+details = "自建论坛"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/discourse/discourse' },
+  { text: 'Link', link: 'https://www.discourse.org/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/discourse/discourse?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 
@@ -200,6 +224,17 @@ details = "AI 声音克隆"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png" style = "max-width: 500%;transform: translate(46%, 0%);">'
+title = "Spleeter"
+details = "伴奏分离"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/deezer/spleeter' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/deezer/spleeter?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 🔗 网络工具
@@ -225,6 +260,34 @@ details = "离线 IP 地址定位库"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/lionsoul2014/ip2region?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+</div>
+
+## 🔖 博客相关
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/29385237?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Hugo"
+details = "编译最快的博客框架"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/gohugoio/hugo' },
+  { text: 'Link', link: 'https://gohugo.io/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/gohugoio/hugo?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/6e5e9e734b245af142ccc5dcd9b994f8a26c3a24d65814cb4c43fe353615b8b0/68747470733a2f2f736c692e6465762f6c6f676f2d7469746c652e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Slides"
+details = "基于 Markdown 的幻灯片演示工具"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/slidevjs/slidev' },
+  { text: 'Link', link: 'https://sli.dev/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/slidevjs/slidev?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>

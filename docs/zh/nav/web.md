@@ -97,6 +97,13 @@ details = "开源项目聚合网站，查看搜索开源项目"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/521xueweihan/HelloGitHub?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://www.30aitool.com/wp-content/uploads/2024/07/af2d24f64df7fff.webp" style = "max-width: 220%;transform: translate(0%, 0%);">'
+title = "30aitool"
+details = "工具聚合网站"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.30aitool.com/' },
+]" />
 </div>
 
 ## 💾 储存服务（图床）
@@ -210,6 +217,42 @@ details = "AI 图像放大"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/badges/shields?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://user-images.githubusercontent.com/35218826/40895380-0b9f4cd6-67ea-11e8-982f-18121daa3a04.png" style = "max-width: 250%;transform: translate(32%, 0%);">'
+title = "Image-editor"
+details = "在线图片处理"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/nhn/tui.image-editor' },
+  { text: 'Link', link: 'https://ui.toast.com/tui-image-editor' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/nhn/tui.image-editor?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/FaceAdapter/Face-Adapter/raw/main/__assets__/toonyou.gif" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "Face Adapter"
+details = "将一个角色的脸移植到另一个角色上"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/FaceAdapter/Face-Adapter' },
+  { text: 'HuggingFace', link: 'https://huggingface.co/spaces/FaceAdapter/FaceAdapter' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/FaceAdapter/Face-Adapter?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/ali-vilab/MimicBrush/raw/main/assets/teaser.png" style = "max-width: 300%;transform: translate(0%, 20%);">'
+title = "MimicBrush"
+details = "对局部图像进行替换或是编辑"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/ali-vilab/MimicBrush' },
+  { text: 'Link', link: 'https://huggingface.co/spaces/xichenhku/MimicBrush' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/ali-vilab/MimicBrush?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>
@@ -526,18 +569,6 @@ details = "后端系统，管理用户账户"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/6e5e9e734b245af142ccc5dcd9b994f8a26c3a24d65814cb4c43fe353615b8b0/68747470733a2f2f736c692e6465762f6c6f676f2d7469746c652e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Slides"
-details = "基于 Markdown 的幻灯片演示工具"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/slidevjs/slidev' },
-  { text: 'Link', link: 'https://sli.dev/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/slidevjs/slidev?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/8908513?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Cypress"
 details = "Web 测试框架"
@@ -550,26 +581,38 @@ details = "Web 测试框架"
 </template>
 </VPFeature>
 
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAwFBMVEVHcEyOM/2PMv2abqTIcXncc13rdUfwdj16Qv2DO/2XK/yqbae6b4/KcXbsdUZjUv53Rf6SMPxaXP+HadmYa8BrTv5nZv92Z/OIadlaVv5jVP6APf0XYP+RbbBIX/9QWP5ZZv+Aa80AZv8ZZP9GWv9JXP9MZf9kZ/UAZv82X/88W/9AZf9XZv8HZf8zXf81Zf9OZv8BZv8lY/8qY/8iYv8NZP8ZY/8GZf8KZf8BZv8QZP8AZv8QZP8IZf8AZv8AZv8Oj5LuAAAAQHRSTlMAjv8WwP3FHab/aP7//+2l/rwU+P///f////33DtCo///NbxP/9//KXqX//shp/v7FTqX+/pH/9KX//yS8w9jc2AMFiwAAAOlJREFUeAHVzAOSRFEMQNG0bVvftrH/XU2S8RL6Fh5OKvC+NZrNBnCtdqfb+2f9waDZHLKNxpPO9K/N5nPUBd6WqzVp749tNqQNtO1uT9r6tcOR9HRG27Jezt92vR1Yl7C83++kj+fr24Qb6RFNlAi3svKNqiaQor10XSI1FMU8f5qlkYpots3quIqivMg83yIl833Wq4spZ7IgICXDG+kVXDN8uohhFLEu4RzjFVUFSNI0TQBeWcb6wjG++h7AOaVekKdZhogGRUaKBjljDhCTkoGZYQlQMVoMAK8yLtl4bwhcXqV1Du/VB6E5K5qEVJ1oAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "MarsCode"
+details = "在线 IDE 结合 AI 编程"
 :extraLinks="[
-  { text: 'Link', link: '' },
+  { text: 'Link', link: 'https://www.marscode.cn/' },
 ]" />
 
-<VPFeature icon = '<img src="https://raw.githubusercontent.com/3b1b/manim/master/logo/cropped.png" style = "max-width: 250%;transform: translate(20%, 0%);">'
-title = "Manim"
-details = "来自3Blue1Brown 著名的数学动画绘制引擎"
+<VPFeature icon = '<img src="https://github.com/NationalSecurityAgency/ghidra/raw/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Ghidra"
+details = "软件逆向工程框架，来自美国国家安全局"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/3b1b/manim' },
+  { text: 'GitHub', link: 'https://github.com/NationalSecurityAgency/ghidra' },
 ]" >
 <template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/3b1b/manim?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '🧰'
+title = "Hackingtool"
+details = "黑客多合一工具"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Z4nzu/hackingtool' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Z4nzu/hackingtool?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+
+
+<!-- <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = ""
 details = ""
 :extraLinks="[
@@ -591,199 +634,7 @@ details = ""
 :extraLinks="[
   { text: 'GitHub', link: '' },
   { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
+]" /> -->
 
 </div>
 
@@ -815,6 +666,18 @@ details = "关于博弈论的小游戏"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/ncase/trust?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<span style="font-size: 18px;">Life</span>'
+title = "人生重开模拟器"
+details = "人生模拟小游戏"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/VickScarlet/lifeRestart' },
+  { text: 'Link', link: 'https://liferestart.syaro.io/public/index.html' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/VickScarlet/lifeRestart?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>
@@ -856,6 +719,31 @@ details = "在线思维导图"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/wanglin2/mind-map?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/pipipi-pikachu/PPTist/raw/master/public/icons/android-chrome-192x192.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "PPTist"
+details = "在线 PPT 演示、制作"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/pipipi-pikachu/PPTist' },
+  { text: 'Link', link: 'https://pipipi-pikachu.github.io/PPTist/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/pipipi-pikachu/PPTist?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/86724562?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "tldraw"
+details = "在线数字白板，可共享"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/tldraw/tldraw' },
+  { text: '文档', link: 'https://tldraw.dev/examples/basic/basic' },
+  { text: 'Link', link: 'https://www.tldraw.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/tldraw/tldraw?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>

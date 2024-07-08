@@ -226,6 +226,33 @@ details = "用于强制删除正在被访问，无法删除的文件，不过当
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://geekuninstaller.pro/wp-content/uploads/2021/01/geek-uninstaller-60.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "GEEK UNINSTALLER"
+details = "软件卸载工具，类似的软件还有 Uninstall Tool"
+:extraLinks="[
+  { text: 'Link', link: 'https://geekuninstaller.pro/' },
+  { text: 'Uninstall Tool', link: 'https://crystalidea.com/uninstall-tool' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="卸载" />
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://www.rocksdanister.com/lively/assets/logo.webp" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "LIVELY WALLPAPER"
+details = "动态桌面壁纸"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/rocksdanister/lively' },
+  { text: 'Link', link: 'https://www.rocksdanister.com/lively/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="壁纸" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/rocksdanister/lively?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 
@@ -269,6 +296,8 @@ details = "网络环境模拟，丢包、延迟等"
   { text: 'Link', link: 'https://jagt.github.io/clumsy/cn/index.html' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="模拟" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/jagt/clumsy?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
@@ -281,6 +310,8 @@ details = "本地运行 Kubernetes"
   { text: '文档', link: 'https://minikube.sigs.k8s.io/docs/' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="测试" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/kubernetes/minikube?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
@@ -293,6 +324,8 @@ details = "网络监控工具"
   { text: 'Link', link: 'https://sniffnet.net/' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="网络" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
@@ -636,28 +669,16 @@ details = "视频播放器，大部分情况下系统自带播放器足够"
 <VPFeature
 icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAARVBMVEVHcEysl7TzhXfzhXfzhXfzhXeDufXzhXdSfrJSfrJ/kr6DufVSfrJSfrKDufWDufVSfrKDufVSfrJSfrKDufVSfrKDufVRdbtIAAAAF3RSTlMACzD/oe7dvjPdFz3/WjL7u0XvdYGTUduEewQAAACeSURBVHgBzdHRDoMgDIXhozhEYAJz8v6POkroTBqCt37Xzd9Q8DjTTDCgigUDs1IvDC1qtEFrYIXZLJjgXB3w/o2ePQTdBnxET0qtUHyMXB8IF8gh1ifChSpOaL6BiALhNTYxLrATRSCywDYAuegW+C1E9wsRLBeyIO+ZZEH+yFQT18B5c0kDwWXChYie/C8c6LLO7TQAi5EVNyye5wdxlw5HerXoEgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Kdenlive"
-details = "视频剪辑软件，不过剪映和达芬奇因该会是更好的选择"
+details = "视频剪辑软件，不过剪映和达芬奇因该会是更好的选择，类似的软件还有 Shotcut"
 :extraLinks="[
   { text: '官网', link: 'https://kdenlive.org/zh/' },
   { text: 'GitLab', link: 'https://invent.kde.org/multimedia/kdenlive' },
+  { text: 'Shotcut GitHub', link: 'https://github.com/mltframework/shotcut' },
+  { text: 'Shotcut', link: 'https://www.shotcut.org/' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="剪辑" />
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://www.shotcut.org//assets/img/favicon.ico" style="width: 24px">'
-title = "Shotcut"
-details = "视频剪辑"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/mltframework/shotcut' },
-  { text: 'Link', link: 'https://www.shotcut.org/' },
-]" >
-<template #badgeImage>
-  <Badge type="warning" text="开源" />
-  <Badge type="tip" text="剪辑" />
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/mltframework/shotcut?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -698,6 +719,33 @@ details = "AI 视频插值工具"
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="视频" />
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/199122?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Kodi"
+details = "家庭影院，音视频播放器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/xbmc/xbmc' },
+  { text: 'Link', link: 'https://kodi.tv/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="播放" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/xbmc/xbmc?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/3b1b/manim/master/logo/cropped.png" style = "max-width: 250%;transform: translate(20%, 0%);">'
+title = "Manim"
+details = "来自3Blue1Brown 著名的数学动画绘制引擎"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/3b1b/manim' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="动画" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/3b1b/manim?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -805,15 +853,17 @@ details = "本地存储加双链跳转，可以说是最好用也最安全的文
 
 <VPFeature icon = '<img src="https://github.com/marktext/marktext/raw/develop/static/logo-small.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "MarkText"
-details = "Markdown 编辑器"
+details = "Markdown 编辑器，类似的软件还有 Joplin"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/marktext/marktext' },
   { text: 'Link', link: 'https://www.marktext.cc/' },
+  { text: 'Joplin', link: 'https://github.com/laurent22/joplin' },
 ]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="文本编辑" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/marktext/marktext?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+    <img alt="Static Badge" src="https://img.shields.io/github/stars/laurent22/joplin?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -828,6 +878,20 @@ details = "RSS 订阅，订阅一些源或是文章进行阅读"
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="阅读" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/zhanglun/lettura?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/31e67e9ba1ff28338e207365a16d0a0401c4e8320de45cbce4cff1888f24261a/68747470733a2f2f646c2e6b6f6f646f7265616465722e636f6d2f73637265656e73686f74732f6c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Koodo Reader"
+details = "电子书阅读器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/koodo-reader/koodo-reader' },
+  { text: 'Link', link: 'https://www.koodoreader.com/zh' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="阅读" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/koodo-reader/koodo-reader?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -891,6 +955,18 @@ details = "最强开源的游戏引擎，发展势头迅猛，上手容易，本
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="游戏引擎" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/godotengine/godot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://www.ppsspp.org/static/img/platform/ppsspp-icon.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "PPSSPP"
+details = "PSP 模拟器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/hrydgard/ppsspp' },
+  { text: 'Link', link: 'https://www.ppsspp.org/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/hrydgard/ppsspp?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -995,7 +1071,36 @@ details = "MacOS 音量控制增强，单独控制每个应用，智能暂停背
   { text: 'GitHub', link: 'https://github.com/kyleneideck/BackgroundMusic' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="设置" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/kyleneideck/BackgroundMusic?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/MonitorControl/MonitorControl/raw/main/.github/Icon-cropped.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "MonitorControl "
+details = "外部显示器音量和亮度控制"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/MonitorControl/MonitorControl' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="设置" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/MonitorControl/MonitorControl?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/08/P4gd8uqWrGHQVCv.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "腾讯柠檬清理"
+details = "系统清理工具"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Tencent/lemon-cleaner' },
+  { text: 'Link', link: 'https://lemon.qq.com/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="清理" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Tencent/lemon-cleaner?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 

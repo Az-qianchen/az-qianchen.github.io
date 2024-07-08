@@ -230,6 +230,30 @@ details = "各类徽章生成"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/badges/shields?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/35471246?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Tabler Icons"
+details = "5300+ SVG 图标"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/tabler/tabler-icons' },
+  { text: 'Link', link: 'https://tabler.io/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/tabler/tabler-icons?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEX///+91cwVgWDZ5+Lk+fJb5sCA6sqn8NoA3qmlxroAckyV7tMAe1gGfFrI9ugH360AfVsehGQQ4K8FfVsphmhOmH81yb3nAAAAeklEQVR4AdXJRQIDMQwDQG1Qy/z/rzaOy21uRQUMg7emMlYb5wM0kVpr0zRWiVRsSWbqmq4XHBKNgi6kZhScEvWCUTYZpVGcxRTHE47/hmQoIdkCBVwiUEKhIuIT2DWNUyTbW+yatQYEyeBwHdNsFSD4QMCeSbDFZ3IAOQoQuhAXp7oAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "IconPark"
+details = "2000+ 图标"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/bytedance/IconPark' },
+  { text: 'Link', link: 'https://iconpark.oceanengine.com/official' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/bytedance/IconPark?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
 </div>
 
 ## 🤖 模型
@@ -258,4 +282,27 @@ details = "中文斜体字体"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/atelier-anchor/smiley-sans?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/lxgw/LxgwWenKai/main/documentation/wenkai-1.png" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "霞鹜文楷"
+details = "开源字体"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/lxgw/LxgwWenKai' },
+  { text: 'Link', link: 'https://lxgw.github.io/2021/01/28/Klee-Simpchin/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/lxgw/LxgwWenKai?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+</div>
+
+## 🎵 音频
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://eadn-wc01-3423425.nxedge.io/cdn/wp-content/uploads/2019/10/sonniss-logo-small.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "GDC"
+details = "来自 Sonniss 27GB+ 高品质音效，可商用"
+:extraLinks="[
+  { text: 'Link', link: 'https://gdc.sonniss.com/' },
+]" />
 </div>
