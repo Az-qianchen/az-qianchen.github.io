@@ -127,6 +127,29 @@ details = "自建论坛"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/10058586?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "SyncClipboard "
+details = "剪贴板同步"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Jeric-X/SyncClipboard' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Jeric-X/SyncClipboard?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/26692192?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Navidrome"
+details = "个人音乐服务器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/navidrome/navidrome' },
+  { text: 'Link', link: 'https://www.navidrome.org/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/navidrome/navidrome?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 
@@ -235,6 +258,29 @@ details = "伴奏分离"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://github.com/xinntao/Real-ESRGAN/raw/master/assets/realesrgan_logo.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Real-ESRGAN"
+details = "图像视频修复"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/xinntao/Real-ESRGAN' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/xinntao/Real-ESRGAN?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/25720743?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Diffusers"
+details = "用于 AI 图像生成、图像编辑、音频生成等的工具库"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/huggingface/diffusers' },
+  { text: 'Link', link: 'https://huggingface.co/docs/diffusers/index' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/huggingface/diffusers?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 🔗 网络工具
@@ -262,6 +308,14 @@ details = "离线 IP 地址定位库"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/lionsoul2014/ip2region?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAJ1BMVEVHcEwfHh4fHh4fHh4fHh4fHh4REBB5eHgfHh7///8bGhoAAAA/Pj674jT1AAAABnRSTlMA6fyVyB0cL0CkAAAAs0lEQVQ4jZVT0RLDIAgTUKTa///euaFO2w5uecj1JA2IEEJDogiAKBOIAJFS6CBZg1ODQhqPt+BE1P8NNI9kxUWSbSBIVgVaBfSvwlx2/jjAEJQz57OsrOcQegc4N/DK3cIXiJ1ChuBHkYuAa+WddwHn43hn//JFUI+GuvK/AjeFW2S/moaerqnNUfO9UVurtTzjLZ4EYKeAy8DcigRn5DA6Q9vm3h17d3H81TM8aKy3tf4vj+gdfVwX+HsAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Tailscale"
+details = "内网穿透点对点连接，与之相似的服务还有 zerotier"
+:extraLinks="[
+  { text: 'Link', link: 'https://tailscale.com/' },
+  { text: 'Zerotier', link: 'https://www.zerotier.com/' },
+]" />
 </div>
 
 ## 🔖 博客相关
@@ -288,6 +342,18 @@ details = "基于 Markdown 的幻灯片演示工具"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/slidevjs/slidev?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/65394810?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "WangEditor"
+details = "Web 富文本编辑器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/wangeditor-team/wangEditor' },
+  { text: 'Link', link: 'https://www.wangeditor.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/wangeditor-team/wangEditor?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>

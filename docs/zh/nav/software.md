@@ -330,6 +330,47 @@ details = "网络监控工具"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/7454271?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "DB Browser for SQLite"
+details = "SQLite 数据库编辑，浏览"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/sqlitebrowser/sqlitebrowser' },
+  { text: 'Link', link: 'https://sqlitebrowser.org/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="数据库" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/sqlitebrowser/sqlitebrowser?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/pbatard/rufus/master/res/icons/rufus-128.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Rufus"
+details = "USB 系统启动盘创建工具"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/pbatard/rufus' },
+  { text: 'Link', link: 'https://rufus.ie/zh/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="启动盘" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/pbatard/rufus?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://www.wireshark.org/assets/icons/wireshark-fin.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Wireshark"
+details = "网络抓包工具"
+:extraLinks="[
+  { text: 'GitLab', link: 'https://gitlab.com/wireshark/wireshark' },
+  { text: 'Link', link: 'https://www.wireshark.org/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="抓包" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/wireshark/wireshark?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
 </div>
 
 ## 📦 3D 相关
@@ -899,9 +940,37 @@ details = "电子书阅读器"
 
 ## 🎮 游戏相关
 
-- 游戏制作或是游戏相关的软件
+- 游戏制作或是游戏相关的软件，更多模拟器相关信息可在这个网站查看 [WiKi](https://emulation.gametechwiki.com/index.php/Main_Page)
 
 <div class="VPFeature-item">
+<VPFeature icon = '<div class="i-logos:godot-icon w-28px h-28px"></div>'
+title = "Godot"
+details = "最强开源的游戏引擎，发展势头迅猛，上手容易，本体轻量，游戏开发入门的不二之选"
+:extraLinks="[
+  { text: '官网', link: 'https://godotengine.org/' },
+  { text: 'GitHub', link: 'https://github.com/godotengine/godot' },
+]">
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="游戏引擎" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/godotengine/godot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/60047606?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Bevy"
+details = "Rust 游戏引擎"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/bevyengine/bevy' },
+  { text: 'Link', link: 'https://bevyengine.org/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="游戏引擎" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/bevyengine/bevy?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/79355691?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Watt Toolkit"
 details = "原名 Steam++，主要用于Steam、GitHub 等服务的加速，官网有各个加速器的免费时长可以白嫖"
@@ -944,17 +1013,61 @@ details = "游戏远程串流方案，远程玩电脑上的游戏"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<div class="i-logos:godot-icon w-28px h-28px"></div>'
-title = "Godot"
-details = "最强开源的游戏引擎，发展势头迅猛，上手容易，本体轻量，游戏开发入门的不二之选"
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/39036280?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Ryujinx"
+details = "Nintendo Switch 模拟器"
 :extraLinks="[
-  { text: '官网', link: 'https://godotengine.org/' },
-  { text: 'GitHub', link: 'https://github.com/godotengine/godot' },
-]">
+  { text: 'GitHub', link: 'https://github.com/Ryujinx/Ryujinx' },
+  { text: 'Link', link: 'https://ryujinx.org/' },
+]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="游戏引擎" />
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/godotengine/godot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <Badge type="tip" text="模拟器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Ryujinx/Ryujinx?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/40145098?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Cemu"
+details = "Wii U 模拟器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/cemu-project/Cemu' },
+  { text: 'Link', link: 'https://cemu.info/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="模拟器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/cemu-project/Cemu?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/10085927?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "mGBA "
+details = "Game Boy Advance 模拟器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/mgba-emu/mgba' },
+  { text: 'Link', link: 'https://mgba.io/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="模拟器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/mgba-emu/mgba?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/8070735?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "rpcs3"
+details = "Playstation3 模拟器，相关还有 Pcsx2 为 Playstation 2 模拟器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/RPCS3/rpcs3' },
+  { text: 'Link', link: 'https://rpcs3.net/' },
+  { text: 'Pcsx2 GitHub', link: 'https://github.com/PCSX2/pcsx2' },
+  { text: 'Pcsx2', link: 'https://pcsx2.net/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="模拟器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/RPCS3/rpcs3?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -966,7 +1079,39 @@ details = "PSP 模拟器"
   { text: 'Link', link: 'https://www.ppsspp.org/' },
 ]" >
 <template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="模拟器" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/hrydgard/ppsspp?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/12565762?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Xenia"
+details = "Xbox 360 模拟器，相关还有 Xemu 为初代 Xbox 模拟器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/xenia-project/xenia' },
+  { text: 'Link', link: 'https://xenia.jp/' },
+  { text: 'Xemu GitHub', link: 'https://github.com/xemu-project/xemu' },
+  { text: 'Xemu', link: 'https://xemu.app/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="模拟器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/xenia-project/xenia?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/528189?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "OpenEmu"
+details = "MacOS 的复古视频游戏模拟"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/OpenEmu/OpenEmu' },
+  { text: 'Link', link: 'https://openemu.org/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="模拟器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/OpenEmu/OpenEmu?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -974,7 +1119,7 @@ details = "PSP 模拟器"
 
 ## 🍎 Mac 相关
 
-- Mac 独占的软件
+- Mac 独占的软件，更多的也可以看下 [Better365](https://www.better365.cn/apps.html) 这家公司的软件作为补充
 
 <div class="VPFeature-item">
 <VPFeature
@@ -1104,6 +1249,49 @@ details = "系统清理工具"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/09/ltAJonSBG8LqKUd.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "KeepingYouAwake"
+details = "阻止 Mac 休眠，可以设定时间"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/newmarcel/KeepingYouAwake' },
+  { text: 'Link', link: 'https://keepingyouawake.app/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="设置" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/newmarcel/KeepingYouAwake?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/sindresorhus/System-Color-Picker/raw/main/Stuff/AppIcon-readme.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "System Color Picker"
+details = "取色工具"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/sindresorhus/System-Color-Picker' },
+  { text: 'Link', link: 'https://sindresorhus.com/system-color-picker' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="取色" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/sindresorhus/System-Color-Picker?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<div class="i-logos:apple w-28px h-28px"></div>'
+title = "Awesome Mac"
+details = "再这里可以找到更多的 Mac 软件推荐"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/jaywcjlove/awesome-mac?tab=readme-ov-file' },
+  { text: 'Link', link: 'https://wangchujiang.com/awesome-mac/README-zh.html' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="导航" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/jaywcjlove/awesome-mac?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+
 </div>
 
 ## 📱 Android 相关
@@ -1194,7 +1382,7 @@ details = "安卓运行 Linux 虚拟机"
 
 <VPFeature icon = '<img src="https://i0.wp.com/winlator.com/wp-content/uploads/2024/03/cropped-winlator-icon.png?fit=512%2C512&ssl=1" style = "max-width: 80%;transform: translate(0%, 0%);">'
 title = "Winlator "
-details = "安卓运行 Windows 虚拟机"
+details = "安卓运行 Windows 虚拟机，运行 PC 游戏"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/brunodev85/winlator' },
   { text: 'Link', link: 'https://winlator.com/' },

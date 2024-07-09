@@ -37,6 +37,7 @@ title = "GithHub"
 details = "最大的代码托管平台，大部分的开源项目你都可以在这里找到"
 :extraLinks="[
   { text: 'Link', link: 'https://github.com/' },
+  { text: '趋势', link: 'https://github.com/trending' },
 ]" />
 
 <VPFeature icon = '<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
@@ -141,6 +142,14 @@ title = "Cloudflare"
 details = "提供 10 GB 免费存储额度，不限下行流量，1000万每月请求次数"
 link = "https://developers.cloudflare.com/r2/pricing"
 linkText="文档" />
+
+<VPFeature icon = '<img src="https://simgbb.com/images/logo.png" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "imgbb"
+details = "最大 32 MB 图片大小"
+:extraLinks="[
+  { text: 'Link', link: 'https://imgbb.com/' },
+]" />
+
 </div>
 
 ## 🖼️ 图片处理
@@ -539,6 +548,13 @@ details = "通过句子搜索词汇或是类似含义语句，旧产品为据意
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACjElEQVR4AWIwyPjPYpIFaL8ct7SJgSA8t/TZtm3btm3btm3btm1jjWenTtY7ec/aP2rc6Up1p3tCcReHXPxxQRrDL19XduXvQn75dnTh4olepiuMz+JOvi7s0oMMQReOOJIkAwn8EQEyEpmTQO2R0HKKHQ3GQvHeMd/rWs982dQcAQW6JYJAwe6w6SR8+G7Hi49w7Ab0WgDd58Hha3rm22bjCSjcI5EK1Bhun0nj8e55Miw/aAYOCoYDV6DNVGg8wWanMRMZgiI9Ycc5+0wevZFD46z9DPj8E9Yfh90X4P4ru93W01I3kQrUGyN5E6LjLElunL39Cv2XGPz+L1J6p2+8bTVmihVQnDUTJemmU/D8I1QaDFceSQW90zepoIBIlB8YF3KkWF64D/deQaNx7vklDF1hnIeGwcWH0GxiQluhVN9UqgP1x8CTd9BvMRy6CmuPwpL98PQ9NByXDoVIMp68JaeSVdC1lmU6VkI5yyUQl4DCovCkA4E6o5SExunmk7DzHAxZDo/eanmmnIB1GQpycPwmBIeYpTdti1mW1YcZAmfu6BtvW42ZKALFesFOSyFS9VPFk+wqPqrveq6+UG807Dirb7xsZadakAgCapn1LaVYpVY4cFnl1zwbsQreuU5XHYbW06DNNO9mJIKJqYRqmWqdlqaigqOEi2nZ7aeb7qii9OyD3U4hSxQBKVBzhO+fkYYuRMA/MCYEUk3lOcXtWDmw5wL8/OuNb7/h9WekggnBapN8b77A9z92OxFWIiZCAc1EbdUb7WbopyRuQum6yQToMNNmJ+VsIcj9K+7CnwzcmPiJwJGMIqBNqpO3K8XzZcDmVD7zdiG/oy2yLrRJTad9okJ+RBOX7whdv0u8jaWdagAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "天工 AI"
+details = "通过 AI 进行文档阅读"
+:extraLinks="[
+  { text: 'Link', link: 'https://work.tiangong.cn/' },
+]" />
+
 </div>
 
 ## ⌨️ 编程相关
@@ -612,7 +628,104 @@ details = "黑客多合一工具"
 
 
 
-<!-- <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+
+
+
+
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/58ae6b08a0e23bb6e352be5b7005603ef3d1e3bd60e27639e6afcf9684b93bb0/68747470733a2f2f776562746f7272656e742e696f2f696d672f576562546f7272656e742e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "WebTorrent"
+details = "种子客户端，可以边下边播"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/webtorrent/webtorrent' },
+  { text: 'Link', link: 'https://webtorrent.io/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/webtorrent/webtorrent?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+
+
+
+
+
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/50478857?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "SuperTokens"
+details = "类似 Auth0 的身份验证方案"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/supertokens/supertokens-core' },
+  { text: 'Link', link: 'https://supertokens.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/supertokens/supertokens-core?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjsBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3LzU3Nzc3Nzc3NzU3Nzc3NzU3NzU3NTc1ODc3LTc3Nzc1L//AABEIABwAHAMBEQACEQEDEQH/xAAZAAEAAwEBAAAAAAAAAAAAAAAGBAUHAgH/xAArEAACAgECAwUJAAAAAAAAAAABAgMEBQARITFBBhJRYXITFTRCQ2Shs9H/xAAaAQACAwEBAAAAAAAAAAAAAAAFBgMEBwIB/8QAKhEAAQMCBAUDBQAAAAAAAAAAAQACAwQREiExQRMyUZGhBTOxJEJhcXL/2gAMAwEAAhEDEQA/AC+ZjkmzDRQI8krsFREG5Yk8AB1OlykBMYstHpnhkALjYBS6mD7QxOD7kyg2+zk/mmGhq5YTZ4Nl4a2kcPcb3CQx170MCtfoW6wJ7oaeBkBPhuRz4HTPDUMlFrqmZInOtG8H9EFSI5ii7DUE1Cx7r2UTmAm6PUVI7d4knrfg/YNIdIwsLWnqrUo+gk/k/CcCP2s8SCJrFm3bvlpJ8nYhSNIZOHBCRyPh00TtfzuUAxYQTewaGaNaTmPyqjNXKpr11r2KEjGcbitlZ7Lbd1uayDYDz58h11PBViE6jvdEaRj8Ti4HTdjW7jcfC8WIsoI0wRV7XMvdSYwFTSlKOcx+SkVmjrWY5XCDiVVgTt58NCaqgwnE0aK2GmWnfENSCPCsE7a42OzXkaC5tE+QLDuL9dt0+bp1/G+hXGDTmOvlUH+lTYSLjPB1+0Z7dkJxh2uRerQ+bkJRt/tlapj6vfqo23TQ5nrDoxhJSvLNZ5CPXI1khIYb61qRocM0YjcQ7JD7saq528dKnqkDGnEEUGYXGP8AjYfVoDLyFcS8hW2YONWxsRI0kVJPEKRKpx4pX//Z" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Replicate"
+details = "大模型微调部署演示平台"
+:extraLinks="[
+  { text: 'Link', link: 'https://replicate.com/' },
+]" />
+
+<VPFeature icon = '<span style="font-size: 18px;">Dev</span>'
+title = "free-for.dev"
+details = "免费互联网服务"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/ripienaar/free-for-dev' },
+]" />
+
+
+
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/78ff76029ad956975f413b198a7ad64d73a8d7e07d127a98a5f8388950f4379b/68747470733a2f2f676974666c75656e63652e636f6d2f6170692f6f67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "GitFluence"
+details = "借助 AI 找到 Git 正确的命令"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/geovanesantana/gitfluence' },
+  { text: 'Link', link: 'https://www.gitfluence.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/geovanesantana/gitfluence?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAcCAAAAABARBCBAAABFElEQVR4AW3KIYizABiA4a/366zZLq5du7Rwi8MO62BcNl1aWjIbTObBomC+YrZYhCVBEJ4/yZB/b3x4w9te3DfLGy4c/+PlXqhyG26v1X2ZstyGj6Xpujv1Nlzf3KO51/WW02VMlHX3vG74oGyXny4exYbzbj59+8gc8MiL8lYghh3KxFfPpYEpnYQ28p+kfKaNfU83mhwE/nq7Zp4PDbqzZKzaAJ4RN9amS4Aqaly/uBX2nALOOWgbDGbSQF5ae4CmCPp0xaVaQExB1huiUAwwP+rfaAUJvmMfJ4xRN+1i5T7iCNkEBB+MEREdcitLB/J2jD+m+sXt2Vq9vFi6Pn3txZyyCeNvacOaY/L5eRlt+E3/AMWfDzhMnXJJAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Game UI Database"
+details = "游戏 UI 数据库"
+:extraLinks="[
+  { text: 'Link', link: 'https://gameuidatabase.com/' },
+]" />
+
+
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "mpv"
+details = "命令行控制的媒体播放器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/mpv-player/mpv' },
+  { text: 'Link', link: 'https://mpv.io/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/microsoft/fluentui-system-icons?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+
+
+
+
+
+
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = ""
 details = ""
 :extraLinks="[
@@ -634,8 +747,87 @@ details = ""
 :extraLinks="[
   { text: 'GitHub', link: '' },
   { text: 'Link', link: '' },
-]" /> -->
+]" />
 
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
+
+<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = ""
+:extraLinks="[
+  { text: 'GitHub', link: '' },
+  { text: 'Link', link: '' },
+]" />
 </div>
 
 ## 🎉 效果展示
@@ -744,6 +936,72 @@ details = "在线数字白板，可共享"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/tldraw/tldraw?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/68179154?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Graphite"
+details = "矢量和光栅图形编辑器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/GraphiteEditor/Graphite' },
+  { text: 'Link', link: 'https://graphite.rs/' },
+  { text: '在线', link: 'https://editor.graphite.rs/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/1769238?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "draw.io"
+details = "流程图绘制"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/jgraph/drawio' },
+  { text: 'Link', link: 'https://www.drawio.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/jgraph/drawio?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+</div>
+
+## 📖 在线教程
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/d1a84674f4cb4664ac169d7eb4a2fc0d8dd405d1c80b4fbb894d787886ee087a/68747470733a2f2f687a70742d696e65742d636c75622e6769746875622e696f2f656e676c6973682d6e6f74652f6c6f676f2f6c6f676f2e737667" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "英语语法笔记"
+details = "简单的英语语法笔记，更详细的可以看语法俱乐部"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/hzpt-inet-club/english-note' },
+  { text: 'Link', link: '' },
+  { text: '语法俱乐部', link: 'https://llwslc.github.io/grammar-club/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/hzpt-inet-club/english-note?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/sunface/rust-course/raw/main/assets/banner.jpg?raw=true" style = "max-width: 500%;transform: translate(3%, -20%);">'
+title = "Rust语言圣经"
+details = "Rust 中文学习教程"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/sunface/rust-course' },
+  { text: 'Link', link: 'https://course.rs/basic/intro.html' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/sunface/rust-course?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/kamranahmedse/design-patterns-for-humans/raw/master/.github/banner.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Design Patterns for Humans"
+details = "设计模式解释"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/kamranahmedse/design-patterns-for-humans' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/kamranahmedse/design-patterns-for-humans?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>

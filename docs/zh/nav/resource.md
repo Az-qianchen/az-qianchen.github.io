@@ -254,6 +254,29 @@ details = "2000+ 图标"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/bytedance/IconPark?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/UD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3ODc3Mjc3Nzc3NzcvNzU3Nzc3NzcyNy43Nzc1LTUrNzUtOP/AABEIACAAIAMBEQACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAFBgcEAf/EADQQAAECBQEDCAoDAAAAAAAAAAECAwAEBQYRExIhQQcWMVFhcaSyUlVldJKhscHS4iIjVP/EABoBAQEBAAMBAAAAAAAAAAAAAAUGBAECBwD/xAAwEQABAgQDBQUJAAAAAAAAAAABAAQCAwUREiExFVGhwdFBUnFy4RQjJEJTYWKRsf/aAAwDAQACEQMRAD8AptxXWmiVFuTMprFbQcCtXZ6SRjoPVCTSnFzKMzFbO2iKfVMtJggwXyvrbkh3P72Z4j9Y0bH/AD4eqw7fP0uPot/Ohx62Z6qsyqW3GFbCUFe3vOzvO4el8oOet/ZosIN8lQUOaKlMAiGEXtr9r7kGs666nUK0iSnnEvNupVg7ASUEAnh3RggiivmqmqUxvJbmZKFiLduqFcqitm4ZfH+RPnXFjQxdtF5uQXmlZF548OZS7JzYcwhw/wA+B64QmSsOYRGBMNCrJpmsy8wmYk3xh1lXHtEGPGcLmHcQkKe9mMo8UOiZrVmqCqp6dJpi2HloJU4s5wOobz9oFn0+ORBjiIVOK7MfxCVETw5JU5WlYuOW9zT51w/QR8NF5j/Ag6sPfjw5lJQXjeDDlkXZFqfPB7DTp/s4H0oxzpOHMaLtCLql2NRXZRLk/NIKFuJ2W0KGCE9JJ790TNTdQx2lwHTVPU1qZd5kWpQblHtms1muMTNMk9ZlMqltStVCcKClHGFEcCI20d+2byDBNisb30O4bgur9rNnTRFALi3VKvMK6PVniGvyhbbDHv8AA9Fi2e47vELqbEupCgpNNKVA5BEy0CD8UcGrsCLGPgei+2e4Hy8R1VStJ6uqktC4pItPtABL+ohQdHaEk4P1iVfwNRHibRXB7LHL9jRNtjOw2mjPev/Z" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Remix Icon"
+details = "17万+ 矢量图标"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Remix-Design/RemixIcon' },
+  { text: 'Link', link: 'https://remixicon.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Remix-Design/RemixIcon?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/microsoft/fluentui-system-icons/raw/main/art/readme-banner.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Fluent UI System Icons"
+details = "微软开源图标"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/microsoft/fluentui-system-icons?tab=readme-ov-file' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/microsoft/fluentui-system-icons?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
 </div>
 
 ## 🤖 模型
