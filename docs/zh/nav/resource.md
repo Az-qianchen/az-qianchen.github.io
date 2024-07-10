@@ -72,13 +72,15 @@ details = "可以进行 Blender 版本管理，配合 ComfyUI 进行 AI 绘图�
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/bd80f9d8fb3f037a3dbc962506ccf60713b063c07b9548e6914f8a02c1c3976c/68747470733a2f2f72616e646f6d7265706f696d672e666c792e6465762f61676d6d6e6e2f617765736f6d652d626c656e6465722f696d6773" style = "max-width: 500%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://randomrepoimg.fly.dev/agmmnn/awesome-blender/imgs" style = "max-width: 500%;transform: translate(0%, 0%);">'
 title = "Awesome Blender"
 details = "一张精选的 Blender 插件、工具、资源列表"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/agmmnn/awesome-blender?tab=readme-ov-file' },
+  { text: 'Link', link: 'https://awesome-blender.netlify.app/' },
 ]">
 <template #badgeImage>
+<img alt="Awesome Blender"src="https://img.shields.io/badge/awesome-gray?logo=blender&style=flat-square" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/agmmnn/awesome-blender?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>

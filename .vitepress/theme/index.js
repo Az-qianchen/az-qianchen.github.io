@@ -18,6 +18,7 @@ import mediumZoom from "medium-zoom";
 import BillBill from "./vue/BillBill.vue";
 import YouTube from "./vue/YouTube.vue";
 import Sketchfab from "./vue/Sketchfab.vue";
+import Music from "./vue/Music.vue";
 
 export default {
   extends: DefaultTheme,
@@ -27,6 +28,7 @@ export default {
     app.component("billbill", BillBill);
     app.component("youtube", YouTube);
     app.component("sketchfab", Sketchfab);
+    app.component("music", Music);
 
     // 注册 OverlayScrollbarsComponent
     // app.component("OverlayScrollbarsComponent", OverlayScrollbarsComponent);

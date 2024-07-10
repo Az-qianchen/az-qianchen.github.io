@@ -317,6 +317,12 @@
   .aplayer .aplayer-list ol li {
     border-top: 1px solid rgba(128, 128, 128, 0.4);
   }
+  .aplayer,
+  .aplayer-info,
+  .aplayer-pic {
+    border-radius: 10px;
+  overflow: hidden;
+  }
 }
 /* 容器样式 */
 @media (min-width: 768px) {

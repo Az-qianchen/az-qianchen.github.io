@@ -384,6 +384,7 @@ details = "开源界标杆一样的存在，从建模、动画到渲染可以在
 :extraLinks="[
   { text: '官网', link: 'https://www.blender.org/' },
   { text: '下载', link: 'https://www.blender.org/download/' },
+  { text: '相关资源整理', link: '/zh/nav/resource#📦-blender' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -949,6 +950,7 @@ details = "最强开源的游戏引擎，发展势头迅猛，上手容易，本
 :extraLinks="[
   { text: '官网', link: 'https://godotengine.org/' },
   { text: 'GitHub', link: 'https://github.com/godotengine/godot' },
+  { text: '相关资源整理', link: '/zh/nav/resource#🕹%EF%B8%8F-godot' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -1279,7 +1281,7 @@ details = "取色工具"
 
 <VPFeature icon = '<div class="i-logos:apple w-28px h-28px"></div>'
 title = "Awesome Mac"
-details = "再这里可以找到更多的 Mac 软件推荐"
+details = "在这里可以找到更多的 Mac 软件推荐"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/jaywcjlove/awesome-mac?tab=readme-ov-file' },
   { text: 'Link', link: 'https://wangchujiang.com/awesome-mac/README-zh.html' },
