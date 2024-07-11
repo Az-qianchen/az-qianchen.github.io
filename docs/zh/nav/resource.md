@@ -325,9 +325,10 @@ details = "开源字体"
 
 <div class="VPFeature-item">
 <VPFeature icon = '<img src="https://eadn-wc01-3423425.nxedge.io/cdn/wp-content/uploads/2019/10/sonniss-logo-small.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "GDC"
+title = "Sonniss"
 details = "来自 Sonniss 27GB+ 高品质音效，可商用"
 :extraLinks="[
   { text: 'Link', link: 'https://gdc.sonniss.com/' },
+  { text: 'Link', link: 'https://sonniss.com/gameaudiogdc' },
 ]" />
 </div>

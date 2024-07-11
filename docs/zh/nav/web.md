@@ -105,6 +105,13 @@ details = "工具聚合网站"
 :extraLinks="[
   { text: 'Link', link: 'https://www.30aitool.com/' },
 ]" />
+
+<VPFeature icon = '<span style="font-size: 18px;">Dev</span>'
+title = "free-for.dev"
+details = "免费互联网服务"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/ripienaar/free-for-dev' },
+]" />
 </div>
 
 ## 💾 储存服务（图床）
@@ -264,6 +271,21 @@ details = "对局部图像进行替换或是编辑"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/ali-vilab/MimicBrush?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/11/SZf5ukv7nt4IVsr.jpg" style = "max-width: 140%;transform: translate(0%, 0%);">'
+title = "蒸気機"
+details = "图片蒸汽波滤镜处理"
+:extraLinks="[
+  { text: 'Link', link: 'https://magiconch.com/vaporwave/?from=patina' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/11/JH9Cir7BgOGYmZo.jpg" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "电子包浆"
+details = "图片赛博做旧"
+:extraLinks="[
+  { text: 'Link', link: 'https://magiconch.com/patina/' },
+]" />
+
 </div>
 
 ## 🗺️ 地图网站
@@ -427,6 +449,13 @@ details = "公元前3200-公元1900的历史地图，重要人物事件标注"
   { text: 'Link', link: 'https://www.allhistory.com/map' },
 ]"/>
 
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAwFBMVEX28u318ez08Ovz7+ry7unx7ejt2Mv39/L29fHz3cjGVQDZqJjs29Lx6OHw4tXkhSG7QQC6PwC5OQDRkHjs0sHnhxjWciLIeF7Ry8LDvbLv0LftsHrSgVjarZ3FakfetqW6tKjd2dHKxLrw7OfpoF7olkfvyanlyb3IdFW+uKyfl4bt6eSyAADsuI3miirXgkjuwpz1/P7lp3fv6+bSaRC9SxSspJbnkDq+UB/iiDa7Sh3qp23Tci2xqpzu6uXgrpDpm/UtAAABpklEQVR4AV3R1WIrIRCAYWBm2jmNW+NCiC6nMeL6/m9VWOr/5X6Li89kSPkgDUO/UIW+jEjEnujZs/imb5T87yWT5VyWo0WK6IfkC8VStlSusIoWMa7G1dprPVMslZ8bTQnSG0SUAXOtdqfbgz4PtNRDiZD1alIUudF4Up3OsizmKBMLPP2fI2PiwLfFYvy2LPcZpNINYQYyC+YTV7XVerF4mTIzKKETDWgiKqV4MmG52nQr9YxRqJ0Ciqh8wo+A9Wq72xV3WUCwDe3ViWCU7IdSVguH4/G46zHopGnJuIhKWK24vTiczsdjKYsowVtEACUE8OVwOFzPx+ITEkp0n6jssOm3vPB6PBYN2SRpYooAgLeGBcgFPJUzbECh9XYXEBJKGIT8uLBYPJhsQ5pgERFFcy8QOf/k2BANEmu8pYjM87lQGn1krDWgtbkHDFbJsFTDubR3smgTcCZYRNmdKv9NqJsWicPGDV1qVoSHl4rIWpQJqIE2qJlSswJDFDLYBPKrOSj2yVtEimYMGL+ac9TPOm/fGCxAej7yFpH+Wsh+4zd9W+gdvHpAkz6je6kAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "OldMapsOnline"
+details = "历史地图，-4000年到2010年的国家演变"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.oldmapsonline.org/zh#position=6/22.336/114.2' },
+]" />
+
 <VPFeature icon = '<img src="https://www.ageeye.cn/statics/logo-small-3.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "观沧海"
 details = "地图分享网站，从各种朝代，到电视剧小说等虚拟世界的地图"
@@ -467,38 +496,6 @@ details = "通过公交线路绘制城市脉络"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/antct/city-vein?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
-
-</div>
-
-
-## 🎚️ 音频处理
-
-<div class="VPFeature-item">
-
-<VPFeature icon = '<img src="https://img.itch.zone/aW1nLzM3NzY1NDIucG5n/315x250%23c/69srB3.png" style = "max-width: 100%;transform: translate(0%, 0%);">'
-title = "ChipTone "
-details = "音效（SFX）生成器，与之相似的还有 rFXGen、sfxia、Bfxr、LabChirp"
-:extraLinks="[
-  { text: '在线/下载', link: 'https://sfbgames.itch.io/chiptone' },
-  { text: 'rFXGen', link: 'https://raylibtech.itch.io/rfxgen' },
-  { text: 'sfxia', link: 'https://rxi.itch.io/sfxia' },
-  { text: 'Bfxr', link: 'https://iznaut.itch.io/bfxr' },
-  { text: 'LabChirp', link: 'https://labbed.net/software/labchirp/' },
-]" />
-
-<VPFeature icon = '<img src="https://audiomass.co/about/audiomass_top.jpg" style = "max-width: 300%;transform: translate(0%, 0%);">'
-title = "AudioMass"
-details = "在线音频编辑，如剪辑和效果器添加"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/pkalogiros/audiomass' },
-  { text: 'Link', link: 'https://audiomass.co/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/pkalogiros/audiomass?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-
 
 </div>
 
@@ -615,23 +612,6 @@ details = "软件逆向工程框架，来自美国国家安全局"
 </template>
 </VPFeature>
 
-<VPFeature icon = '🧰'
-title = "Hackingtool"
-details = "黑客多合一工具"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/Z4nzu/hackingtool' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/Z4nzu/hackingtool?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-
-
-
-
-
-
 <VPFeature icon = '<img src="https://camo.githubusercontent.com/58ae6b08a0e23bb6e352be5b7005603ef3d1e3bd60e27639e6afcf9684b93bb0/68747470733a2f2f776562746f7272656e742e696f2f696d672f576562546f7272656e742e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "WebTorrent"
 details = "种子客户端，可以边下边播"
@@ -643,12 +623,6 @@ details = "种子客户端，可以边下边播"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/webtorrent/webtorrent?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
-
-
-
-
-
-
 
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/50478857?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "SuperTokens"
@@ -668,15 +642,6 @@ details = "大模型微调部署演示平台"
 :extraLinks="[
   { text: 'Link', link: 'https://replicate.com/' },
 ]" />
-
-<VPFeature icon = '<span style="font-size: 18px;">Dev</span>'
-title = "free-for.dev"
-details = "免费互联网服务"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/ripienaar/free-for-dev' },
-]" />
-
-
 
 <VPFeature icon = '<img src="https://camo.githubusercontent.com/78ff76029ad956975f413b198a7ad64d73a8d7e07d127a98a5f8388950f4379b/68747470733a2f2f676974666c75656e63652e636f6d2f6170692f6f67" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "GitFluence"
@@ -717,13 +682,62 @@ details = "命令行控制的媒体播放器"
 
 
 
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
+
+
+
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/848102?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "NASA 3D Resources"
+details = "NASA 内部的 3D 模型"
 :extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
+  { text: 'GitHub', link: 'https://github.com/nasa/NASA-3D-Resources' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/nasa/NASA-3D-Resources?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEVHcEwAAACfKoRRAAAAAXRSTlMAQObYZgAAABpJREFUeAFjYLD/w0AsQQD8P8D8n3gCCIggAH65Q70oXRndAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Unsplash"
+details = "非常著名的一个免费图片网站，几乎每次推荐都有他"
+:extraLinks="[
+  { text: 'Link', link: 'https://unsplash.com/' },
 ]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/11/VGm4A7RpdDEWlBx.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Palettemaker"
+details = "AI 配色网站"
+:extraLinks="[
+  { text: 'Link', link: 'https://palettemaker.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/45698031?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "jellyfin"
+details = "媒体服务器，存储分享电影，音乐，图片，图书等等"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/jellyfin/jellyfin' },
+  { text: 'Link', link: 'https://jellyfin.org/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/jellyfin/jellyfin?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://wikimedia.org/static/images/project-logos/commonswiki.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "wikimedia Images"
+details = "来自 WIKI 的共享艺术品图像库"
+:extraLinks="[
+  { text: 'Link', link: 'https://commons.wikimedia.org/wiki/Category:Artworks_with_digital_representation_of_different_depicts?uselang=zh-cn' },
+]" />
+
+<VPFeature icon = '<img src="https://wikimedia.org/static/images/project-logos/commonswiki.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "wikimedia Audio"
+details = "来自 WIKI 的共享音频库"
+:extraLinks="[
+  { text: 'Link', link: 'https://commons.wikimedia.org/wiki/Category:Audio_files' },
+]" />
+
+
 
 <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = ""
@@ -829,6 +843,7 @@ details = ""
   { text: 'Link', link: '' },
 ]" />
 </div>
+
 
 ## 🎉 效果展示
 
@@ -964,6 +979,18 @@ details = "流程图绘制"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://audiomass.co/about/audiomass_top.jpg" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "AudioMass"
+details = "在线音频编辑，如剪辑和效果器添加"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/pkalogiros/audiomass' },
+  { text: 'Link', link: 'https://audiomass.co/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/pkalogiros/audiomass?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 📖 在线教程
@@ -1004,4 +1031,12 @@ details = "设计模式解释"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/kamranahmedse/design-patterns-for-humans?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/82f5fc62e2e202c52823f16f83a585a68ed26e4a9551a164189d8351ffaa514e/68747470733a2f2f63646e2e6265656b6b612e636f6d2f626c6f67696d672f61737365742f3230323330382f6267323032333038303730352e77656270" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "typescript tutorial"
+details = "来自阮一峰的 TypeScript 教程"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/wangdoc/typescript-tutorial' },
+  { text: 'Link', link: 'https://wangdoc.com/typescript/' },
+]" />
 </div>

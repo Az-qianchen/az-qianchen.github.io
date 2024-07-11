@@ -281,6 +281,18 @@ details = "用于 AI 图像生成、图像编辑、音频生成等的工具库"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://lllyasviel.github.io/pages/paints_undo/01showcase/i1.png" style = "max-width: 140%;transform: translate(0%, 0%);">'
+title = "Paints-Undo"
+details = "模仿人类作画过程"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/lllyasviel/Paints-UNDO' },
+  { text: 'Link', link: 'https://lllyasviel.github.io/pages/paints_undo/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/lllyasviel/Paints-UNDO?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 🔗 网络工具
@@ -316,6 +328,18 @@ details = "内网穿透点对点连接，与之相似的服务还有 zerotier"
   { text: 'Link', link: 'https://tailscale.com/' },
   { text: 'Zerotier', link: 'https://www.zerotier.com/' },
 ]" />
+
+<VPFeature icon = '🧰'
+title = "Hackingtool"
+details = "黑客多合一工具"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Z4nzu/hackingtool' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Z4nzu/hackingtool?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 🔖 博客相关
@@ -330,6 +354,66 @@ details = "编译最快的博客框架"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/gohugoio/hugo?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/hexojs/logo/master/hexo-logo-avatar.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Hexo "
+details = "一个比较老的博客框架，不过主题会比较丰富"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/hexojs/hexo' },
+  { text: 'Link', link: 'https://hexo.io/zh-cn/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/hexojs/hexo?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/44914786?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Astro"
+details = "号称是最快的 Web 框架"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/withastro/astro' },
+  { text: 'Link', link: 'https://astro.build/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/withastro/astro?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://vitepress.dev/vitepress-logo-large.webp" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "VitePress"
+details = "由 Vite 和 Vue 驱动的静态站点生成器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/vuejs/vitepress' },
+  { text: 'Link', link: 'https://vitepress.dev/zh/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/vuejs/vitepress?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://marked.js.org/img/logo-black.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Marked"
+details = "Markdown 解析器和编译器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/markedjs/marked' },
+  { text: 'Link', link: 'https://marked.js.org/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/markedjs/marked?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Mermaid"
+details = "以 Markdown 类似的方式从文本生成流程图或序列图等图表"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/mermaid-js/mermaid' },
+  { text: 'Link', link: 'https://mermaid.js.org/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/mermaid-js/mermaid?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -356,4 +440,5 @@ details = "Web 富文本编辑器"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/wangeditor-team/wangEditor?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
 </div>

@@ -503,6 +503,49 @@ details = "英伟达纹理压缩工具，可实时预览效果"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/9333123?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Meshroom"
+details = "通过照片进行建模"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/alicevision/meshroom' },
+  { text: 'Link', link: 'https://alicevision.org/#meshroom' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="建模" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/alicevision/meshroom?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/93085409?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "F3D"
+details = "3D 查看器，不过正常来说，微软的 3D Viewer 是更好的选择，还有一款 FBX Review 是 autodesk 自家的 FBX 查看器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/f3d-app/f3d' },
+  { text: 'Link', link: 'https://f3d.app/' },
+  { text: '3D Viewer', link: 'https://apps.microsoft.com/detail/9nblggh42ths?hl=zh-cn&gl=CN' },
+  { text: 'FBX Review', link: 'https://www.autodesk.com/products/fbx/fbx-review#free-download' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="查看器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/f3d-app/f3d?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://www.bentley.com/wp-content/uploads/eon-software-logo-white-100x100-1.svg" style = "max-width: 80%;transform: translate(0%, 0%);">'
+title = "e-on software"
+details = "VUE 为程序环境生成软件，PlantFactory 为程序植物生成软件，停止更新后转为免费软件开放下载"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.bentley.com/software/e-on-software-free-downloads/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="地形" />
+  <Badge type="tip" text="植物" />
+</template>
+</VPFeature>
+
 </div>
 
 ## 🖌️ 2D 相关
@@ -548,11 +591,12 @@ details = "一款素材管理软件，可以将网上的图片或是其他类型
 
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/58638157?s=48&v=4" style = "max-width: 80%;transform: translate(0%, 0%);">'
 title = "Pixelorama"
-details = "可以进行像素画和动画的制作，Aseprite 是更受欢迎的选择，但想要免费使用需要自行编译"
+details = "可以进行像素画和动画的制作，Aseprite 是更受欢迎的选择，但想要免费使用需要自行编译，亦或使用 Aseprite 免费分支 LIBRESPRITE"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/Orama-Interactive/Pixelorama?tab=readme-ov-file' },
   { text: '在线/下载', link: 'https://orama-interactive.itch.io/pixelorama/' },
   { text: 'Aseprite', link: 'https://github.com/aseprite/aseprite?tab=readme-ov-file' },
+  { text: 'LIBRESPRITE', link: 'https://libresprite.github.io/#!/downloads' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -845,11 +889,10 @@ details = "通过 AI 进行音频修复，降噪、齿音、喷麦、风噪、�
 <VPFeature
 icon = '<img src="https://s2.loli.net/2024/06/25/W71lIwJDBdU4OzH.jpg" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "FamiStudio"
-details = "8-bit 风格音乐编辑器，想要更强大的功能可以试试 LMMS"
+details = "8-bit 风格音乐编辑器"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/BleuBleu/FamiStudio' },
   { text: '下载', link: 'https://bleubleu.itch.io/famistudio' },
-  { text: 'LMMS', link: 'https://github.com/LMMS/lmms' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -872,6 +915,50 @@ details = "乐谱编辑软件"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/6363159?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "LMMS"
+details = "DAW，数字音频工作站，定位为 FL Studio 的开源替代品"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/LMMS/lmms' },
+  { text: 'Link', link: 'https://lmms.io/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="音频" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/LMMS/lmms?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/1402482?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Ardour"
+details = "DWA，专业级的开源数字音频工作站"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://ardour.org/' },
+  { text: 'Link', link: 'https://github.com/Ardour/ardour' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="音频" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Ardour/ardour?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://img.itch.zone/aW1nLzM3NzY1NDIucG5n/315x250%23c/69srB3.png" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "ChipTone "
+details = "音效（SFX）生成器，与之相似的还有 rFXGen、sfxia、Bfxr、LabChirp"
+:extraLinks="[
+  { text: '在线/下载', link: 'https://sfbgames.itch.io/chiptone' },
+  { text: 'rFXGen', link: 'https://raylibtech.itch.io/rfxgen' },
+  { text: 'sfxia', link: 'https://rxi.itch.io/sfxia' },
+  { text: 'Bfxr', link: 'https://iznaut.itch.io/bfxr' },
+  { text: 'LabChirp', link: 'https://labbed.net/software/labchirp/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="音频" />
+</template>
+</VPFeature>
+
 </div>
 
 ## 📖 文本相关
@@ -889,7 +976,7 @@ details = "本地存储加双链跳转，可以说是最好用也最安全的文
 ]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
-  <Badge type="tip" text="文本编辑" />
+  <Badge type="tip" text="写作" />
 </template>
 </VPFeature>
 
@@ -903,7 +990,7 @@ details = "Markdown 编辑器，类似的软件还有 Joplin"
 ]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="文本编辑" />
+  <Badge type="tip" text="写作" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/marktext/marktext?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
     <img alt="Static Badge" src="https://img.shields.io/github/stars/laurent22/joplin?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
@@ -937,6 +1024,62 @@ details = "电子书阅读器"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/LinuxIcons/256x256.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Joplin"
+details = "类似 Obsidian 的笔记软件"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/laurent22/joplin' },
+  { text: 'Link', link: 'https://joplinapp.org/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="写作" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/laurent22/joplin?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/63385289?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Logseq"
+details = "类似 Obsidian 的笔记软件"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/logseq/logseq' },
+  { text: 'Link', link: 'https://logseq.com/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="写作" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/logseq/logseq?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAUVBMVEX////+/v7////////////////39/f///////////90dHRoaGgoKCgwMDBTU1PY2NgBAQEYGBitra2VlZWFhYXo6OjJyck7Ozu9vb3///////+xoTbsAAAAG3RSTlMBSXY7R//9H9pJ////////////////////wL7+wmDnAAABJUlEQVR4AYXPB4KEIBBEUSYUs9LQFNnd+99zJ+f0zfpUMPsWy5etzLE13mU3n5/v2gt86seYCXc5Zx8+scRt4oPitvU9iIy7FTdN9yA4wCXctLgDmbSwzG8BpRAofAcKM2oAUn0NGr1aiKKzvQSqXpghAtVXs+jMrFEVUhr7iy+kWkZIroZZcuEzyIR3KRYfKGNmeQSWOYqor2WIkpX2AdSEmrUSdkR2Id09aOyg9aW6KqNryoPtDqgiJnAujiJpBuDHLeg7XyoYVZN2tOxIzjeAFWC0bJScHZPkiMIryAQadyv9kNJPE2C5gOpzdkNILflaqBdgxfswwhgj7PKntJ3Ax6ZvYG1W+JgxxuJDvzuw+fyBvfjBm/7Mqc16Wtw0Hfdrs28LGbId6ZDTvxkAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "AFFiNE"
+details = "类似于 Notion，拥有无边白板功能，且可以嵌入各种内容，文本、网页、幻灯片，可以本地保存数据，可以远程合作，可以自托管"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/toeverything/AFFiNE' },
+  { text: 'Link', link: 'https://affine.pro/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="写作" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/toeverything/AFFiNE?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://gottcode.org/focuswriter/icon64.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "FocusWriter"
+details = "很纯粹的一个码字工具，没有任何额外的干扰"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/gottcode/focuswriter' },
+  { text: 'Link', link: 'https://gottcode.org/focuswriter/#download' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="写作" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/gottcode/focuswriter?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 🎮 游戏相关
@@ -950,6 +1093,7 @@ details = "最强开源的游戏引擎，发展势头迅猛，上手容易，本
 :extraLinks="[
   { text: '官网', link: 'https://godotengine.org/' },
   { text: 'GitHub', link: 'https://github.com/godotengine/godot' },
+  { text: '在线', link: 'https://editor.godotengine.org/releases/latest/' },
   { text: '相关资源整理', link: '/zh/nav/resource#🕹%EF%B8%8F-godot' },
 ]">
 <template #badgeImage>
