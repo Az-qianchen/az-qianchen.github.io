@@ -1,9 +1,11 @@
 import { HeadConfig } from 'vitepress';
 
 const head: HeadConfig[] = [
+    // 360
+    ['meta', { name: '360-site-verification', content: '6227b6e532c8318807ec71867eb9dd8c' }],
     // 必应
     ['meta', { name: 'msvalidate.01', content: '662F3B692D411C9C438E1C1AEC50A1BE' }],
-    // 百度
+    // 百度 https://ziyuan.baidu.com/site/index#/
     ['meta', { name: 'baidu-site-verification', content: 'codeva-iq9dT9bqP9' }],
     // 网站图标
     ['link', { rel: 'icon', href: '/ico/64.png' }],
