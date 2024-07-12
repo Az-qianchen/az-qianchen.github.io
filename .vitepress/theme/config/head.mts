@@ -1,6 +1,8 @@
 import { HeadConfig } from 'vitepress';
 
 const head: HeadConfig[] = [
+    // 必应
+    ['meta', { name: 'msvalidate.01', content: '662F3B692D411C9C438E1C1AEC50A1BE' }],
     // 百度
     ['meta', { name: 'baidu-site-verification', content: 'codeva-iq9dT9bqP9' }],
     // 网站图标
