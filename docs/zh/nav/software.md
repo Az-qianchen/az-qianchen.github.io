@@ -50,7 +50,7 @@ zoom: false
   </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://cn.bandisoft.com/img.front/bandizip_logo.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/12/TLyRkNxECb7S9ci.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Bandizip"
 details = "相对强大干净美观的压缩工具"
 :extraLinks="[
@@ -264,10 +264,11 @@ details = "动态桌面壁纸"
 
 <VPFeature icon = '<div class="i-logos:visual-studio-code w-28px h-28px"></div>'
 title = "VS Code"
-details = "轻量强大的代码编辑器，伟大无需多言"
+details = "轻量强大的代码编辑器，伟大无需多言，还有一个基于其的 AI 增强，AI 可以读取到整个代码库"
 :extraLinks="[
   { text: '官网', link: 'https://code.visualstudio.com/' },
   { text: 'GitHub', link: 'https://github.com/Microsoft/vscode/' },
+  { text: 'Cursor', link: 'https://www.cursor.com/' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
@@ -784,14 +785,16 @@ details = "视频音频转码编码工具，无 GUI 不适合小白食用，配�
 
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/9134003?s=48&v=4" style = "max-width: 60%;">'
 title = "Lux"
-details = "视频下载工具，无 GUI 不适合小白食用，配合 GPT 食用风味更佳"
+details = "视频下载工具，无 GUI 不适合小白食用，配合 GPT 食用风味更佳，还有一款专门的 Youtube 下载器 youtube-dl "
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/iawia002/lux' },
+  { text: 'youtube-dl', link: 'https://github.com/ytdl-org/youtube-dl' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="视频下载" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/iawia002/lux?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/ytdl-org/youtube-dl?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -1040,15 +1043,17 @@ details = "类似 Obsidian 的笔记软件"
 
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/63385289?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Logseq"
-details = "类似 Obsidian 的笔记软件"
+details = "类似 Obsidian 的笔记软件，类似的还有 Trilium Notes"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/logseq/logseq' },
   { text: 'Link', link: 'https://logseq.com/' },
+  { text: 'Trilium', link: 'https://github.com/zadam/trilium' },
 ]" >
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="写作" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/logseq/logseq?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/zadam/trilium?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 

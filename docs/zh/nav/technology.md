@@ -150,6 +150,31 @@ details = "个人音乐服务器"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/45698031?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "jellyfin"
+details = "媒体服务器，存储分享电影，音乐，图片，图书等等"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/jellyfin/jellyfin' },
+  { text: 'Link', link: 'https://jellyfin.org/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/jellyfin/jellyfin?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/6656686?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Gogs"
+details = "自托管 Git 服务，当然更出名的还有 GitLab"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/gogs/gogs' },
+  { text: 'Link', link: 'https://gogs.io/' },
+  { text: 'GitLab', link: 'https://about.gitlab.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/gogs/gogs?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 
@@ -438,6 +463,56 @@ details = "Web 富文本编辑器"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/wangeditor-team/wangEditor?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/2386673?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "GSAP "
+details = "JavaScript 动画库"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/greensock/GSAP' },
+  { text: 'Link', link: 'https://gsap.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/greensock/GSAP?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/43250847?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Meilisearch"
+details = "搜索 API"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/meilisearch/meilisearch' },
+  { text: 'Link', link: 'https://www.meilisearch.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/meilisearch/meilisearch?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/93899228?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "UnoCSS"
+details = "CSS 框架"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/unocss/unocss' },
+  { text: 'Link', link: 'https://unocss.dev/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/unocss/unocss?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/12/GYlUvqZc84QTRpy.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "PhotoSwipe"
+details = "图片查看灯箱，简化版的有 medium-zoom"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/dimsemenov/PhotoSwipe' },
+  { text: 'Link', link: 'https://photoswipe.com/' },
+  { text: 'Medium Zoom', link: 'https://github.com/francoischalifour/medium-zoom' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/dimsemenov/PhotoSwipe?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/francoischalifour/medium-zoom?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 

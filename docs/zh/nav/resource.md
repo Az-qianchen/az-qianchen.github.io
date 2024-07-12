@@ -223,10 +223,11 @@ details = "软件开源的一套 Emoji 表情"
 
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/6254238?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Shields.io"
-details = "各类徽章生成"
+details = "各类徽章生成，另有 visitor-badge 为页面访问者数量计数"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/badges/shields' },
   { text: 'Link', link: 'https://shields.io/' },
+  { text: 'Visitor Badge', link: 'https://visitor-badge.laobi.icu/' },
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/badges/shields?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
@@ -269,7 +270,7 @@ details = "17万+ 矢量图标"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://github.com/microsoft/fluentui-system-icons/raw/main/art/readme-banner.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://github.com/microsoft/fluentui-system-icons/raw/main/art/readme-banner.png" style = "max-width: 600%;transform: translate(0%, 0%);">'
 title = "Fluent UI System Icons"
 details = "微软开源图标"
 :extraLinks="[
@@ -291,6 +292,17 @@ details = "最大的 3D 模型发布平台"
   { text: 'Link', link: 'https://sketchfab.com/' },
   { text: '介绍文章', link: '/zh/post/tool/model-asset' },
 ]" />
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/848102?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "NASA 3D Resources"
+details = "NASA 内部的 3D 模型"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/nasa/NASA-3D-Resources' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/nasa/NASA-3D-Resources?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
 </div>
 
 ## 🔤 字体
@@ -330,5 +342,62 @@ details = "来自 Sonniss 27GB+ 高品质音效，可商用"
 :extraLinks="[
   { text: 'Link', link: 'https://gdc.sonniss.com/' },
   { text: 'Link', link: 'https://sonniss.com/gameaudiogdc' },
+]" />
+
+<VPFeature icon = '<img src="https://www.adobe.com/federal/assets/svgs/adobe-logo.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Adobe"
+details = "来自 Adobe 的免费音效库"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.adobe.com/products/audition/offers/adobeauditiondlcsfx.html' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/12/viChnFelJ7sDkRQ.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "wikimedia Audio"
+details = "来自 WIKI 的共享音频库"
+:extraLinks="[
+  { text: 'Link', link: 'https://commons.wikimedia.org/wiki/Category:Audio_files' },
+]" />
+</div>
+
+## 🖼️ 图像
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAaVBMVEVMqExJp0k9oz03oTc8ozw6ojpBpEFer17G4Mb2+vb///9ksmRZrlnz+fNFpUWUyJSgzaArnivA3cDP5c9/vX+x1rGOxI7Y6thzuHOIwoiq0qo2oTa52rnR5tHs9ezE38Qbmhvj8ONwt3AGhavnAAAA60lEQVR4AdSNhZHEMBAEBda+1WZmP+Qf5JvrLoQb0Wh7QX2itLHWGq1U4NzxD5y5mXyFHh9GJobEbCwFLmYyTuXF5kqnbAV1erC0BqpmC9AWHfRmgNCpQy6ByImLPRgFSQBe1FM47F56aINsI09TJSOcPSbPLNPCMfeCDd4ezq6UMn0DzSs8vcBoW3b16XulnmaIFPj9pPqBhTEuLmH5+YU/M2xuuuEt70YYA2VLyOQddrqH373ErRDpq22zKY+c5E0T7zEdNU2W3jNl0xZNj3unIv/jQ3gFKyAsyYVTkk9ERooNhxzYFdROdgA8cQ7XdPt/aQAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Pixabay"
+details = "非常著名的免费资源网站，拥有 450 万张高质量库存图片、视频和音乐"
+:extraLinks="[
+  { text: 'Link', link: 'https://pixabay.com/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEVHcEwAAACfKoRRAAAAAXRSTlMAQObYZgAAABpJREFUeAFjYLD/w0AsQQD8P8D8n3gCCIggAH65Q70oXRndAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Unsplash"
+details = "非常著名的一个免费图片网站，几乎每次推荐都有他"
+:extraLinks="[
+  { text: 'Link', link: 'https://unsplash.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/12/viChnFelJ7sDkRQ.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "wikimedia Images"
+details = "来自 WIKI 的共享艺术品图像库"
+:extraLinks="[
+  { text: 'Link', link: 'https://commons.wikimedia.org/wiki/Category:Artworks_with_digital_representation_of_different_depicts?uselang=zh-cn' },
+]" />
+</div>
+
+## 🎨 贴图
+
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://public-files.gumroad.com/x1um653wa2r8hw9pn64drm8aljvv" style = "max-width: 200%;transform: translate(0%, 0%);">'
+title = "Earth"
+details = "免费 42k 地球贴图"
+:extraLinks="[
+  { text: 'Link', link: 'https://assetsvfx.gumroad.com/l/uHyhPT' },
+]" />
+
+<VPFeature icon = '<img src="https://public-files.gumroad.com/4disiuvegwbcni03xsmissq85ahw" style = "max-width: 200%;transform: translate(0%, 0%);">'
+title = "Moon"
+details = "免费 46k 月球贴图"
+:extraLinks="[
+  { text: 'Link', link: 'https://assetsvfx.gumroad.com/l/MOON_46K' },
 ]" />
 </div>
