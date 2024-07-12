@@ -1,9 +1,12 @@
 import { HeadConfig } from 'vitepress';
 
 const head: HeadConfig[] = [
-    // 360
+    // 谷歌 https://search.google.com/search-console/about
+    // 搜狗 https://zhanzhang.sogou.com/
+    ['meta', { name: 'sogou_site_verification', content: '5vwKJFOtyL' }],
+    // 360 https://zhanzhang.so.com/
     ['meta', { name: '360-site-verification', content: '6227b6e532c8318807ec71867eb9dd8c' }],
-    // 必应
+    // 必应 https://www.bing.com/webmasters
     ['meta', { name: 'msvalidate.01', content: '662F3B692D411C9C438E1C1AEC50A1BE' }],
     // 百度 https://ziyuan.baidu.com/site/index#/
     ['meta', { name: 'baidu-site-verification', content: 'codeva-iq9dT9bqP9' }],
