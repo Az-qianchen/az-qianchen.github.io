@@ -365,6 +365,51 @@ details = "黑客多合一工具"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<span style="font-size: 16px;">NAT</span>'
+title = "NatTypeTester"
+details = "测试当前网络的 NAT 类型（STUN）"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/HMBSbige/NatTypeTester' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/HMBSbige/NatTypeTester?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<span style="font-size: 16px;">FRP</span>'
+title = "Frp"
+details = "反向代理服务器，将内网服务器暴露给公网"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/fatedier/frp' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/fatedier/frp?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/528860?s=200&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Bitcoin"
+details = "网络技术学习，比特币，去中心化虚拟货币"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/bitcoin/bitcoin' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/bitcoin/bitcoin?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/152534467?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Verge"
+details = "网络技术学习，网络代理，安卓项目有 FlClash"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/clash-verge-rev/clash-verge-rev' },
+  { text: 'FlClash', link: 'https://github.com/chen08209/FlClash' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/clash-verge-rev/clash-verge-rev?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 🔖 博客相关
