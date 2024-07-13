@@ -1428,19 +1428,20 @@ details = "取色工具"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/952dc92c8eeaf0cb292f581579924cb1d719d67bd3c170c2d524cdab046cc620/68747470733a2f2f6d616363792e6170702f696d672f6d616363792f4c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Maccy"
-details = "历史剪贴板"
+<VPFeature icon = '<div class="i-logos:apple w-28px h-28px"></div>'
+title = "Awesome Mac"
+details = "在这里可以找到更多的 Mac 软件推荐"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/p0deje/Maccy?tab=readme-ov-file' },
-  { text: 'Link', link: 'https://maccy.app/' },
+  { text: 'GitHub', link: 'https://github.com/jaywcjlove/awesome-mac?tab=readme-ov-file' },
+  { text: 'Link', link: 'https://wangchujiang.com/awesome-mac/README-zh.html' },
 ]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
-  <Badge type="tip" text="剪贴板" />
+  <Badge type="tip" text="导航" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/jaywcjlove/awesome-mac?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
 
 </div>
 
