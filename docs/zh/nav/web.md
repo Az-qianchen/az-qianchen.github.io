@@ -544,7 +544,6 @@ details = "AI 配色网站"
   { text: 'Link', link: 'https://palettemaker.com/' },
 ]" />
 
-
 <VPFeature icon = '<img src="https://openclipart.org/assets/images/openclipart-logo-2019.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Openclipart"
 details = "矢量剪贴画"
@@ -565,7 +564,6 @@ details = "方便的生成各种矢量的背景"
 :extraLinks="[
   { text: 'Link', link: 'https://www.fffuel.co/' },
 ]" />
-</div>
 
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/80581028?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "symmetric nat test"
@@ -582,7 +580,6 @@ details = ""
   { text: 'GitHub', link: '' },
   { text: 'Link', link: '' },
 ]" />
-</div>
 
 <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = ""
@@ -591,7 +588,7 @@ details = ""
   { text: 'GitHub', link: '' },
   { text: 'Link', link: '' },
 ]" />
-</div> -->
+-->
 
 
 ## 🎉 效果展示
