@@ -594,9 +594,9 @@ details = "一款素材管理软件，可以将网上的图片或是其他类型
 title = "Pixelorama"
 details = "可以进行像素画和动画的制作，Aseprite 是更受欢迎的选择，但想要免费使用需要自行编译，亦或使用 Aseprite 免费分支 LIBRESPRITE"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/Orama-Interactive/Pixelorama?tab=readme-ov-file' },
+  { text: 'GitHub', link: 'https://github.com/Orama-Interactive/Pixelorama' },
   { text: '在线/下载', link: 'https://orama-interactive.itch.io/pixelorama/' },
-  { text: 'Aseprite', link: 'https://github.com/aseprite/aseprite?tab=readme-ov-file' },
+  { text: 'Aseprite', link: 'https://github.com/aseprite/aseprite' },
   { text: 'LIBRESPRITE', link: 'https://libresprite.github.io/#!/downloads' },
 ]">
 <template #badgeImage>
@@ -731,7 +731,7 @@ details = "Win 软件，用于显示当前操作按键，类似软件还有  Car
   { text: 'GitHub', link: 'https://github.com/mulaRahul/keyviz' },
   { text: 'Link', link: 'https://mularahul.github.io/keyviz/' },
   { text: 'Carnac', link: 'https://github.com/Code52/carnac' },
-  { text: 'Input Overlay', link: 'https://github.com/univrsal/input-overlay?tab=readme-ov-file' },
+  { text: 'Input Overlay', link: 'https://github.com/univrsal/input-overlay' },
 ]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -1432,7 +1432,7 @@ details = "取色工具"
 title = "Maccy"
 details = "历史剪贴板"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/p0deje/Maccy?tab=readme-ov-file' },
+  { text: 'GitHub', link: 'https://github.com/p0deje/Maccy' },
   { text: 'Link', link: 'https://maccy.app/' },
 ]" >
 <template #badgeImage>
@@ -1466,7 +1466,7 @@ details = "安卓离线的语言实时翻译 APP"
 title = "开源阅读"
 details = "安卓电子书阅读器，可以添加书源订阅内容"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/gedoor/legado?tab=readme-ov-file' },
+  { text: 'GitHub', link: 'https://github.com/gedoor/legado' },
   { text: '书源', link: 'https://www.yckceo.com/yuedu/shuyuan' },
 ]" >
 <template #badgeImage>

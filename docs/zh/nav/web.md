@@ -4,7 +4,7 @@ title: "网站推荐"
 tags: ["导航"] # 标签
 author: "仟尘" # 作者
 date: "2024-06-27" # 日期
-weight: 4 # 权重用于排序
+weight: 6 # 权重用于排序
 description: "各类网站推荐" # 页面描述、面向搜索引擎用户
 head:
   - - meta
@@ -117,7 +117,7 @@ details = "免费互联网服务"
 title = "Awesome Mac"
 details = "在这里可以找到更多的 Mac 软件推荐"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/jaywcjlove/awesome-mac?tab=readme-ov-file' },
+  { text: 'GitHub', link: 'https://github.com/jaywcjlove/awesome-mac' },
   { text: 'Link', link: 'https://wangchujiang.com/awesome-mac/README-zh.html' },
 ]" >
 <template #badgeImage>
@@ -571,7 +571,57 @@ details = "在线测试 NAT 类型"
 :extraLinks="[
   { text: 'Link', link: 'https://tomchen.github.io/symmetric-nat-test/' },
 ]" />
-</div>
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/Fp1UoiPDsLgzACH.jpg" style = "max-width: 200%;transform: translate(-20%, -5%);">'
+title = "Biodiversity Heritage Library"
+details = "精美的动物插画"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.flickr.com/photos/biodivlibrary/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/SZVuvD2C6KMqXPr.jpg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Pexels"
+details = "拥有数以百万的免费图片和视频"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.shopify.com/stock-photos' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEUomNEhltBfrNpAoNUAkc7////r9PoAj81irdrN4/I3ndOv0+oTk8/4/P6Iv+Gr0erj7/ibyOXE3u+mzuhRp9cAisxM41EEAAAAhklEQVR4Ac3RVRbEIBQD0EFSx2H/W50wLo//ppZzbg24nDWK+W0v01obdWuG9VstgGnubZ5Y7R9i4QNqgYwrH53XAWJTasMI9+PYhwjLq4wO8J4XEQMQIy8ipgwmJxFLBVOLjC0CsQ1w9oCfB3jMwHzIGDgFnIbQUVgyZfrBqqTF5vFo58wVKRwGM1g6vFYAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "musopen"
+details = "免费古典乐曲库"
+:extraLinks="[
+  { text: 'Link', link: 'https://musopen.org/music/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAADPUlEQVRIibWWXVPjNhSG9RXLH4kYHCfGO9CSkr3osr9+pz9ie9P2KgTCMuywJbshiYkTO5ZkW71QMSFQB0I5V7KlOY/Oq68XKqXAWwZ60+wAAPL412pNz68PQvhk+wFAKVXcxXbSIYQghAgh3XgAKLNLKaWUmvGiCiCEeZ7XajVKaa1W0wxYpiiKQndvMfEyer0eIWR3d5cxphlkdfpSylcCzs/PTdMEAFBKMcYQwnuJ8jyXUr4mOwBgMBg4jsMYc13XsixQroGWuyiKVwImk4kQIkmSPM+1+A/OwX8B9FCllJCybD85Mk1Tznme52WqJ87B4+xpml5efo3jhRACQdRg7PDw0Lat1f1eTnFti28AKKUmk+lgMMiktGwbYZzLfPh9OJvddrvdVqv1mLEWVQClVBzHZ2dnGKOW3266LqWmEHw8nsxms37/lFKTsUY1o+oughBefLmQUliWdXn51bbtOI7TNN0L9jzPgxBeXHzZWEEVIEmS8DaEEBkGxQh9+vTbH3/+VRTq6uoqCPZs2+ZcxHG8PWAynTpO/eDgABOSZRnbYe+Cvc+ff1/MF73eSbPZrNfrYXi7PaBGSCZlksTvgqDb7QIFoihijDUa9f39/SiaLRZzhDZc+FWL7Hnet29/c86Xy6TVbgkhAISjH9+n01ApqBTAGLda3vYVEELqdcdxnOFwiBHa2dn5+aeDoih8v8350jSpbTsb764qgALq6OgojuNwGp6ennHOZ1HU6fwShreCi/l8/v59tzo7qJYIAkgIOT4+HgzOoyi6vr6m1CiKQsrMsqyPH4+fc/VuOMkQQsMwPnz4dToNR6MfQohazWj77abr6hfmtQBw91R5XtPzmhsHP443dxX/P2BNN1TRt0UYhkEI0Y+l/nO/BtoAjEaj8Xg8Ho+TJMmy7EWuQm+qRqNhGEbJIGW3/h4Oh/1+/+Tk5ObmZrlcPtMgaS/kOI7v+0EQMMYIIeu+CGNMKXVdt9PpmKY5n8+FEC+qgFLKGPN933VdSqm+pu59kVIqyzLOeZIkcRwLIV7qATDGhmHYtm3btmmaWiW4Okf9ouZ5nmXZFg5DC4XvQksE10Qo7eJ23vTfpCuH/B8xiNBNzCw2qgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Sheet Music International"
+details = "最大的免费乐谱库，多为古典乐"
+:extraLinks="[
+  { text: 'Link', link: 'https://sheetmusicinternational.com/' },
+]" />
+
+
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAL0lEQVR4AWMAgv9g0N7ezgACCBE4FygFFxmEGkY1OMAARATOxdSAALi4w0gDGQAA+mGKzOd3mC0AAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Free Pats"
+details = "免费乐器音乐包"
+:extraLinks="[
+  { text: 'Link', link: 'https://freepats.zenvoid.org/index.html' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAApklEQVR4AWJwL/AhiK/JaQB6rYMTgEEYjMLjuIbLOJGrZQZH8Jr+QguhlCqlvsN37QNJNVmqmHTxUxeTKnnlW7NQkSa+qElZDoZQEhP/yCTNgvH4/Cf5NRhju6L3Y/RN0lPQNgYtBq9p9M1KDDYg2EYrDAoij2AFgzUMC8JGsIPBPoJO4oP8kcJDg/8W+I+PXm345U0/T/wDzK8Y/BLFr4n8Ioyv+gcpVr+ctYJoNwAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = ""
+details = "由爱乐乐团音乐家录制的数千个乐器声音样本"
+:extraLinks="[
+  { text: 'Link', link: 'https://philharmonia.co.uk/resources/sound-samples/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/4ohdspEjvYCPFOf.jpg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Karoryfer"
+details = "免费乐器音乐包"
+:extraLinks="[
+  { text: 'Link', link: 'https://shop.karoryfer.com/pages/free-samples' },
+]" />
 
 <!-- <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = ""
@@ -587,9 +637,8 @@ details = ""
 :extraLinks="[
   { text: 'GitHub', link: '' },
   { text: 'Link', link: '' },
-]" />
--->
-
+]" /> -->
+</div>
 
 ## 🎉 效果展示
 

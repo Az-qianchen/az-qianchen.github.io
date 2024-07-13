@@ -32,7 +32,7 @@ list-max-height=列表最大高度,默认340px
 storage-name=本地存储存储密钥，用于存储播放器设置,默认metingjs
 -->
 <script setup>
-import { onMounted, defineProps } from "vue";
+import { onMounted } from "vue";
 // 引入 aplayer CSS 文件
 import "aplayer/dist/APlayer.min.css";
 
@@ -40,31 +40,31 @@ import "aplayer/dist/APlayer.min.css";
 const props = defineProps({
   lrcType: {
     type: Number,
-    default: 0
+    default: 0,
   },
   listFolded: {
     type: Boolean,
-    default: true
+    default: true,
   },
   // fixed = 启用固定模式，固定在左下角
   fixed: {
     type: Boolean,
-    default: false
+    default: false,
   },
   // server=[netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐]
   server: {
     type: String,
-    default: "netease"
+    default: "netease",
   },
   // type=[song=单曲, playlist=歌单, album=专辑, search=搜索结果, artist=艺术家]
   type: {
     type: String,
-    default: "playlist"
+    default: "playlist",
   },
   id: {
     type: String,
-    default: "6806979872"
-  }
+    default: "6806979872",
+  },
 });
 
 // 组件挂载完成时

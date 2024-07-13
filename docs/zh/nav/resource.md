@@ -76,7 +76,7 @@ details = "可以进行 Blender 版本管理，配合 ComfyUI 进行 AI 绘图�
 title = "Awesome Blender"
 details = "一张精选的 Blender 插件、工具、资源列表"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/agmmnn/awesome-blender?tab=readme-ov-file' },
+  { text: 'GitHub', link: 'https://github.com/agmmnn/awesome-blender' },
   { text: 'Link', link: 'https://awesome-blender.netlify.app/' },
 ]">
 <template #badgeImage>
@@ -193,6 +193,27 @@ details = "godot 官方的相关链接"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/godotengine/godot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://raw.githubusercontent.com/TokisanGames/Terrain3D/5f5837542a6fff32d8e60c1cca4760afd2f836f6/doc/docs/images/terrain3d.png" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "Terrain3D"
+details = "Godot 4 地形编辑系统"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/TokisanGames/Terrain3D' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/eKEW7BMtboc4RsQ.jpg" style = "max-width: 120%;transform: translate(0%, 0%);">'
+title = "Godot Cloud Worlds"
+details = "Godot 4 光线步进体积云"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Platinguin/Godot-Cloud-Worlds' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/dnFmkvAj6Sy9YVR.jpg" style = "max-width: 140%;transform: translate(0%, 0%);">'
+title = "JFA driven motion blur"
+details = "Godot 4 运动模糊"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/sphynx-owner/JFA_driven_motion_blur_addon' },
+]" />
 </div>
 
 ## 🙂 图标
@@ -274,12 +295,20 @@ details = "17万+ 矢量图标"
 title = "Fluent UI System Icons"
 details = "微软开源图标"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/microsoft/fluentui-system-icons?tab=readme-ov-file' },
+  { text: 'GitHub', link: 'https://github.com/microsoft/fluentui-system-icons' },
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/microsoft/fluentui-system-icons?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/1505683?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Font Awesome"
+details = "2000+ 免费矢量图标"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/FortAwesome/Font-Awesome' },
+  { text: 'Link', link: 'https://fontawesome.com/search?o=r&m=free' },
+]" />
 </div>
 
 ## 🤖 模型
@@ -308,6 +337,26 @@ details = "NASA 内部的 3D 模型"
 ## 🔤 字体
 
 <div class="VPFeature-item">
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAArlBMVEVHcEzqQzXvXSsyetoacukZZ9RHlYzqQzXqQzXqQzXrQjWsuSqGkpoCcO4ac+kadOwYaMwXT6kXTKIac+j9vgLqQzX7vAT/vwAac+jqQzX7vAQaceLqQzX8vQIac+gefdsXcO8Ta5APZ04MZS41qk81qU8MZBoHXyg2rFU0qFM0qFM0qFP8vAMZctv7vAR1jKn7vAQAb+4ac+gRaW80qFMac+j8vAMWbagOZWc3rlGHd9V2AAAAOnRSTlMANRE1T2IJ0f/+aiD/////////8sKmdv/otv//92Ov3oX////qdP/////DgVT/7OKuk5j/rp8/UGpHywe09QAAAO9JREFUeAHEzIWJBEEABdE/7m3r7u6af2jXCs0lsIXzoPCrgiCELop1SZQ6CrM8L0rIqrohhDIuaCuxKE0WAGgrZEIISkhsnrmuA3R7EikXXGHfxwGqocKR4BpJqjAcayzR1kgcQlcqyzAZDv3tFKagMyjl1OKIC4n9FF5tizImZnOf5NQhXSxX6/XGs1SSxeV2tdsfDkdv6pAutiuNh5Oz89DhZSXTuE6NhVeLt4ZtHR4qg/ehqf2gPrqpqXoQt5WZ7dVaF09CX1uLb/jTKySS0Wqrcf1vCnwIoZeXwreZfs+m79/gycTcwpJ7wJIsAJILJYrmiQ57AAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Google Fonts"
+details = "谷歌的开源字体库"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/google/fonts' },
+  { text: 'Link', link: 'https://fonts.google.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/google/fonts?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAALVBMVEVHcEw8RvY7RfU7RfU7RfU8RvU8RvY8RvU7RfU7RvU8RfY+R/U7RfU8RfY+RvXu/K4IAAAAD3RSTlMANunC/6MXVM+XLA/ecCa8+HCfAAAAwElEQVR4AWOAACFFBmRg4ozCDXFF4SapwZkVAgwMnBMYGBjbwdwWILPEHSjkAeZKJqzmPuKzYRfbRIhqVp9tKk7ZRwKgmpe4XJjiyeviBeXucVnA9YDH5TSUy32LgeF5y9kNUO42BoY7Lh4M2SC2cBj7oQm8Li7unDoFqYYMKk5TXLx4XFz8nrh4qjjBuQeWgLhwxRfAimFGnWVgyEZYBARrNyA5YwGXy2lMR2J6AeFBNO+jBw4i6DADFjPY0SIFAHPJQzrG9k/OAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Alibaba Fonts"
+details = "阿里开源的 6 款字体"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.alibabafonts.com/#/more' },
+  { text: 'iconfont', link: 'https://www.iconfont.cn/fonts/index' },
+]" />
+
 <VPFeature icon = '<img src="https://github.com/atelier-anchor/smiley-sans/raw/main/docs/images/smiley-sans.dark.svg" style = "max-width: 100%;transform: translate(0%, 0%);">'
 title = "得意黑"
 details = "中文斜体字体"
@@ -331,6 +380,85 @@ details = "开源字体"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/lxgw/LxgwWenKai?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/tonsky/FiraCode/raw/master/extras/logo.svg" style = "max-width: 720%;transform: translate(12%, 13%);">'
+title = "Fira Code"
+details = "带有连字的编程等宽字体"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/tonsky/FiraCode' },
+  { text: 'Link', link: '' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/tonsky/FiraCode?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/JetBrains/JetBrainsMono/raw/master/images/ligatures-1@2x.gif" style = "max-width: 250%;transform: translate(0%, 0%);">'
+title = "JetBrains Mono"
+details = "带有连字的编程等宽字体"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/JetBrains/JetBrainsMono' },
+  { text: 'Link', link: 'https://www.jetbrains.com/lp/mono/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/JetBrains/JetBrainsMono?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/4028872?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "思源字体"
+details = "因该是最通用常见和标准的中文开源字体了"
+:extraLinks="[
+  { text: '思源黑体', link: 'https://github.com/adobe-fonts/source-han-sans' },
+  { text: '思源宋体', link: 'https://github.com/adobe-fonts/source-han-serif' },
+  { text: '思源等宽', link: 'https://github.com/adobe-fonts/source-han-mono' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/adobe-fonts/source-han-sans?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/adobe-fonts/source-han-serif?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/TakWolf/ark-pixel-font/raw/master/docs/readme-banner.png" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "方舟像素字体"
+details = "开源的泛中日韩像素字体"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/TakWolf/ark-pixel-font' },
+  { text: 'Link', link: 'https://ark-pixel-font.takwolf.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/TakWolf/ark-pixel-font?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/106473?s=200&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "The League of Moveable Type"
+details = "专注制作开源英文字体的团队，目前制作了十几款字体"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/theleagueof' },
+  { text: 'Link', link: 'https://www.theleagueofmoveabletype.com/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEXsOzvsNzfsNTXsOTnsPT3wZWXxdHTtR0frLS361tb/+/v++fnyfX3rMDDtS0v98PD////2paXtUFDuXFzygoLzi4v4xcXxb2/2q6vrKirzkZH1mZn96+v3srL73NzrJSXrHh760ND3uLj85OT7Oe20AAAAzklEQVR4AcWQRYIDMQwEx8zDzPD/P24UVuC6KXO3SYp+CaFXGHvzuJAXhNL0xWbKWHfF+IBdEifpg0xjMwfRJtctHB0lBWimrOoUaOizSRvQWtKJ81mBzRK0PmgPY4L/G4bzSdmPMJYBfUhPIFpnT/0sCQ6lg49cmX2EzWU+qW4cxxSo8LUrfLJuimYDc1zwSdBaTkOZAivKgQJp6Ba1w+RY3nMwT/XhYDLptzDvzDn5Eol1dUxxmNtxZRvyjkQYHQhXSnHdBRK9wS5E/8EfRPsS8el0xt4AAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Beautiful Web Type"
+details = "搜罗免费英文字体的网站"
+:extraLinks="[
+  { text: 'Link', link: 'https://beautifulwebtype.com/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAZlBMVEX////Mxs+ai59yW3pgRGprUnSLepHBuMStorFWN2FVNWBbPmZdQGdZO2TSzNTZ1NthRmtOKlrGvslTM1/5+Pq0qriBbYhlS2+Fc4x2YX9mTHDq5+u9tcFPLVvi3uP08vRIIVWmmqsKioN8AAAAwklEQVR4AbXRVRaDMBBA0UAGnykR3Nn/JnvSU4n99uFcHPb/kpRDlhcxKqu6AQCs6OFTiyTegUxcUxLEL90550lhR72NCA7iYF+0Ek4wWpijh8JCDu+db8TJwhmECbP3FWplYdqY0/TAppfCwqxWSaSFYmwjg/vBHO371iwflbGCRUsqAfvG4vUEtfmwXQwHbMw1+zlipxaCds6RJvu32V8KQNCVBli/PxD2KwviaGxPIfZA60IEeLRr/G3SUgw3+3NPVMgP3jnWMP8AAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Font Squirrel"
+details = "搜罗免费英文字体的网站，数量非常多"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.fontsquirrel.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/Dl3Bngza4YkNihu.jpg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Open Foundry"
+details = "搜罗免费英文字体的网站，可以在线调节字体颜色，间距进行查看"
+:extraLinks="[
+  { text: 'Link', link: 'https://open-foundry.com/' },
+]" />
 </div>
 
 ## 🎵 音频

@@ -4,7 +4,7 @@ title: "在线工具"
 tags: ["导航"] # 标签
 author: "仟尘" # 作者
 date: "2024-07-12" # 日期
-weight: 5 # 权重用于排序
+weight: 4 # 权重用于排序
 description: "各类网站推荐" # 页面描述、面向搜索引擎用户
 head:
   - - meta
