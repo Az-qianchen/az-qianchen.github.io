@@ -556,9 +556,10 @@ details = "VUE 为程序环境生成软件，PlantFactory 为程序植物生成�
 <div class="VPFeature-item">
 <VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAD80lEQVR4AWJwL/ChKx4YC73zvWS8o7x58Sn8Xf2dB1BtPQBHsoVhGC7dUsrXtm3btq21bdu2bSu2bdvJJN0Tp/XtfrV1JjmDNavqzajnPPn7jPAY7sBP+jN4AC8zXud9fOyMQUIvvPTCmhdffHHeY++8+qBb6BN8jvcwA2/iMF5FWud4Hx/jMaeFCXp5eV1D7JVXX7ZOXIa/9NJLf4lpOYH1u7Xe/Bkl+AE4ZT+bJTyWzzntKT0BXS/QV15+ReHEK35e8yf6mVl6L8A5q7fpCL10KT4HI5vfPhXogrL33/8Au/85CG2M5TGMaXXfuMYST6h0Q+ynQJ964Sn8/013hA2PQ+tcU8qc2+YIc+1uqs92d3pdXiBrB+xb/cdn/xsE33jrLYhplw5egdgl8WhfpUlhlepUdUdrKtZzTY+gukv5LGtTW8nucb74/utfIFARp+VjtRsU6NuaHGFrhfu2F5RyTRdQTJd6GNMzDlgW2zojBF9+/g0IcUKBimnr9tTBOGCTwsE81w6nTxdTSuCKSNtdMYE4nOQPiFYu9JZQkUBb/G1gWngpLL8CMPinyYWFh9giV97lAm5J1Z73jkNaeATA4iJ15hHlfdxTYiKEJXUUFwRGsDV501MeQZ80gEUkgQmUeyqhQ4aNRKB/ANSUPDAjMVFEqKOMXblG+raX3YKr8ozMHfkAE3BUrgW21zcBRDgZcWIsPjIKBLXcBDBkH5Q7HbiyDBCod7kORjCytBmM8Kpd+4hJBXnvQ1HCNpjFB8BQvg5MK1iY4vaU8kUzprjZb3q1gcU1OghvU9okmGCyWguWUJ6DsPgwEOLk/JD4949viJ7EameANZeM9XP7ouGnTNei2sVDFANEBUyUedvrRRLKabmnt958B9j8Rf+h2VgOYqYyCLairou5tgSKPkrJ+PWrenttN8MA4SGVLR7hrbZCLI3PRf/NmXjt1wkOsHffL6FhMrT2bmhRf6rZvP3Drh4/afhF/HZ+vu83loXO6Ng8BWx6ug1sfHQlhhwrR+/dFfh3YyW+m+zLV7CY0AGWlLxxiGt6BNl1mzZ9/ayiVAmU4NBsO9jwGNvJAssdoEA5JT8KkyuntRAsU3vUzVry7k9n9Jvm1pUre76uqnYZdQ8SY13m74Z3+jxw/4iJU3lGIH8F3L1oUT+xn2xkW5M4tRLKS+5lnHYUjBMS4xpnDAr04Rkz/uKedlFr7QTn6/WO+KJhx7QkEAq377IfyZwbwtMoY2cIivjDqseexYP+jI/cNyAvJX1CeUbl3Jp0ZU11VC3bkH8wfXX82n08hsdekN+l/I+52JfjB73+16pZf3SO9/ExHnPRfghzcXZV/PI+DsOOluE/YbwqAAAAAElFTkSuQmCC" style = "max-width: 100%;transform: translate(0%, 0%);">'
 title = "Krita"
-details = "一款类似于 PS 的开源替代品，但平心而论功能性上相比 PS 还有很多的不足"
+details = "一款类似于 PS 的开源替代品，但平心而论功能性上相比 PS 还有很多的不足，也可以使用 Affinity Photo 虽然是款买断制软件，但提供 6 个月免费试用，且只需要邮箱验证"
 :extraLinks="[
   { text: '官网', link: 'https://krita.org/zh-cn/' },
+  { text: 'Photo', link: 'https://affinity.serif.com/zh-cn/photo/' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -637,10 +638,11 @@ details = "一款类似 sai 的绘画软件"
 <VPFeature
 icon = '<div class="i-devicon:inkscape w-28px h-28px"></div>'
 title = "Inkscape"
-details = "一款矢量图编辑器"
+details = "一款矢量图编辑器，也可以使用 Affinity Designer 会更强大，虽然是款买断制软件，但提供 6 个月免费试用，且只需要邮箱验证"
 :extraLinks="[
   { text: '官网', link: 'https://inkscape.org/' },
   { text: 'GitLab', link: 'https://gitlab.com/inkscape' },
+  { text: 'Designer', link: 'https://affinity.serif.com/zh-cn/designer/' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="开源" />
@@ -743,13 +745,16 @@ details = "Win 软件，用于显示当前操作按键，类似软件还有  Car
 <VPFeature
 icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADE0lEQVR4Ad2WA5AkQRBFN2ze9ljnu9DZtm3btm3btm3b5tq2G9PT/a+iNtYexl5GtPUys/+vckv+VSaJ93CHixbZje64cCndANxfujgXgPOqCiFsJsT40xCTH8GS/Axi4jUIURvA+bcF56F0FIAKfMhEyBKHwsIcfx6sZzn7AnCeJpLxWcgyj6JDhsR5gPdrbi8AhpYXkFCSsLC/wHlVsh2AC+gKWWJz5igLZBFRVJgTLoDzUFkPwHloIKY8y+fFN5Hq0xbm5KeAbC64GWIMeN86NgB4Vyfvj0SuoH99OqAWaYEjIVkSC0IAHzzOBgC/lvSvLwggY0nzqgk+5nC+9wqxh20ACOgGQCoSIGNJ9qwHSQjP2a6kO+D+Wgvg3yGjx0UDkF6LCUSqUlouX7hoPQDvWx+yJaFwAC8ThLDJkMU45BdCxHIbZOhVHhLvWQAAAyGwB6S0j0D+kqTyJfZsmw8IkasByDlNJvUDxNj9QBHOKLHfSBLlbANgPXTkg+9z54aigpgVyb67ncYC4uuSEIRihyxACF9k39GQ9awAS9p3FBFUBVzwKPKMwv7zAc6rYvpcIPkpZEs8yIosEjUgC/cb5pid4HybOHxGRHXN/lGDJQ7I+tRH2l8TOfc/zglfnFdi3Twtti3V4vUlJb7eUuDCLrXzAPau1mDLYi2enVOibq2y2L9Wg4nDDfh+R4FVs3U4tF4D76cMnpxRIv4rg8Mb1Qh4qcDGhVqc3qZG/Dd3XNmnxuW9KkR/YqwDmDZKjx3LNejQyogTW9SYMMyAnSs0uLhbhbYtTDhHKtKlrRFPz6jQp4sBi6boaNX6dzdQwBaNTTSJhG9WVoC8jGSspBlcO0AAhhowdaQeW5do0bG1kVRHhR4dDRg9QI/nZH/MQD19bs9KDc4TuPYtjYj7yljXglPb1LSEGccPTqqweKoOM8focIC0Y3AvA95eUeLCbjWaNTIh6ac7zu5UY+4EHV3eXFZiRD8DEr8zjpBh+n7sFwY7lmkwfbQuQ4r0Gtl3jgwTvjF4fFqF4DdM6fUB2ZUA/wASlikasPOXhgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Potplayer"
-details = "视频播放器，大部分情况下系统自带播放器足够"
+details = "视频播放器，大部分情况下系统自带播放器足够，另有一款最出名的开源命令行控制的媒体播放器 MPV"
 :extraLinks="[
   { text: '官网', link: 'https://potplayer.daum.net/?lang=zh_CN' },
+  { text: 'MPV', link: 'https://mpv.io/' },
+  { text: 'MPV GitHub', link: 'https://github.com/mpv-player/mpv' },
 ]">
 <template #badgeImage>
   <Badge type="warning" text="免费" />
   <Badge type="tip" text="播放器" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/mpv-player/mpv?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -999,17 +1004,17 @@ details = "Markdown 编辑器，类似的软件还有 Joplin"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://github.com/zhanglun/lettura/raw/master/src/logo.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Lettura"
+<VPFeature icon = '<img src="https://github.com/yang991178/fluent-reader/raw/master/build/icon.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Fluent Reader"
 details = "RSS 订阅，订阅一些源或是文章进行阅读"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/zhanglun/lettura' },
-  { text: 'Link', link: 'https://zhanglun.github.io/lettura/' },
+  { text: 'GitHub', link: 'https://github.com/yang991178/fluent-reader' },
+  { text: 'Link', link: 'https://hyliu.me/fluent-reader/' },
 ]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="阅读" />
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/zhanglun/lettura?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/yang991178/fluent-reader?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 

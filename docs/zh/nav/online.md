@@ -128,6 +128,19 @@ details = "在线音频编辑，如剪辑和效果器添加"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://pikimov.com/images/logo-pikimov.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "PIKIMOV"
+details = "在线 AE"
+:extraLinks="[
+  { text: 'Link', link: 'https://pikimov.com/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAP1BMVEVHcEwOqf8hs/8Pqv8LqP8itP8AoP4SpP2X1P/T7f/y+v9vxP8Wrf8vu//8/v+v3/9Bw/8is/9Axv9Iyf8cs/9eJTV2AAAAFXRSTlMANKPk/7/////////////////jNDROxtANAAABKElEQVR4AX3OCXLEIAxEURnEZuQxeHL/s6ZBlIqsP3v6jcY0OpznH3l30CrwHwXdPf+Z//f1KOLGwf92kPsfOPL7xRGnxGl7in3O5SwVwgAisf16zUpM2w0ApADjLpIBHp8cb2xaiyliTtsFSRxPAzkmiB3I9g7n+brjDGIDNes8RKk559pVUO/Yq50/caFkdN818gTSbcc8RJn7ErjQWZ8Po1YwT7GAtP31CrCjBkFXlzpX3RfQ6gRXr/r0Vll7aQvIPhtAjAAuyXYeq4FS4wSI888TpWRmAWhDSLvLHkRuLCNqQ/QOG78lOADwtEWAJFmy8uQUqOhpGEndgKM3gJE0Fdz8MT4PomCiwyRVXfRbIPQ0JcvseZoFE4YUBlq93X5lscd9EPoE9b8kSmYIGUcAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "小米云服务-笔记"
+details = "在网页端使用小米的笔记，可与手机实时同步，创建代办"
+:extraLinks="[
+  { text: 'Link', link: 'https://i.mi.com/note/h5#/' },
+]" />
 </div>
 
 ## 🖼️ 图片处理
@@ -257,6 +270,12 @@ details = "图片赛博做旧"
   { text: 'Link', link: 'https://magiconch.com/patina/' },
 ]" />
 
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAP1BMVEVHcEz////////////////////Gx8lWVlhfX2He3t9GRkh2dng0MzUAAACFhompq6+3uLqjpakZGRmWl5r09PQOu15aAAAABnRSTlMABo3h/y2ADodHAAAAzklEQVR4AXTSBRIDIRBEUWwF1/ufNdMRiknIL516q4AQQiptftJKCuowfzroPrN2roMUiuF1WzNTQjO8L+cna2G+8AoxfaYvTMAY8xZL9cDY7MQ+MdecWkQTYywLXg5sP0iDswYV4HVxpPzY40VK1R3i1yMK9twhfg/RrRuk8OxhbHIcqwfeDkiTY5hzv5/cgGZ4hjXnBHVAqixYaq25+olUmmjOCu73RLYro0Bz2iCyuVKGtRwTPJvdqdcDNkpnNyp+NC1D+RjeRI03OwAAYEAUyKGyQD0AAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "美间"
+details = "AI 图片处理工具箱，如 AI 消除，AI 抠图，图片增强，图片放大"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.meijian.com/ai?slide=1&utm-source=sucai' },
+]" />
 </div>
 
 ## ✒️ 写作相关

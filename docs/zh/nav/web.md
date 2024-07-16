@@ -42,9 +42,10 @@ details = "最大的代码托管平台，大部分的开源项目你都可以在
 
 <VPFeature icon = '<img src="https://s2.loli.net/2024/07/12/slDqK8V5wnCuXha.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "HuggingFace"
-details = "最大的 AI 托管平台"
+details = "最大的 AI 托管平台，还有一个类似的大模型微调部署演示平台 Replicate"
 :extraLinks="[
   { text: 'Link', link: 'https://huggingface.co/' },
+  { text: 'Replicate', link: 'https://replicate.com/' },
 ]" />
 
 <VPFeature icon = '<img src="https://dirms4qsy6412.cloudfront.net/assets/favicon-81bff16cada05fcff11e5711f7e6212bdc2e0a32ee57cd640a8cf66c87a6cbe6.ico" style = "max-width: 60%;transform: translate(0%, 0%);">'
@@ -124,6 +125,22 @@ details = "在这里可以找到更多的 Mac 软件推荐"
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="导航" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/jaywcjlove/awesome-mac?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" />
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/LisaDziuba/Awesome-Design-Tools/raw/master/Media/Awesome-design-tools-cover.png" style = "max-width: 500%;transform: translate(0%, 0%);">'
+title = "Awesome Design Tools"
+details = "可以在上面找到更多设计相关的资源网站，如图片，图标，视频"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/goabstract/Awesome-Design-Tools' },
+  { text: 'GitHub', link: 'https://github.com/neutraltone/awesome-stock-resources' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="导航" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/goabstract/Awesome-Design-Tools?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+  <img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" />
 </template>
 </VPFeature>
 </div>
@@ -421,6 +438,18 @@ details = "通过公交线路绘制城市脉络"
 
 <div class="VPFeature-item">
 
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/78ff76029ad956975f413b198a7ad64d73a8d7e07d127a98a5f8388950f4379b/68747470733a2f2f676974666c75656e63652e636f6d2f6170692f6f67" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "GitFluence"
+details = "借助 AI 找到 Git 正确的命令"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/geovanesantana/gitfluence' },
+  { text: 'Link', link: 'https://www.gitfluence.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/geovanesantana/gitfluence?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 <VPFeature icon = '<img src="https://ipcheck.ing/logos/logo-192.webp" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "MyIP "
 details = "IP 检测，验证链接各个主要服务的速度"
@@ -499,72 +528,6 @@ details = "类似 Auth0 的身份验证方案"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjsBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3LzU3Nzc3Nzc3NzU3Nzc3NzU3NzU3NTc1ODc3LTc3Nzc1L//AABEIABwAHAMBEQACEQEDEQH/xAAZAAEAAwEBAAAAAAAAAAAAAAAGBAUHAgH/xAArEAACAgECAwUJAAAAAAAAAAABAgMEBQARITFBBhJRYXITFTRCQ2Shs9H/xAAaAQACAwEBAAAAAAAAAAAAAAAFBgMEBwIB/8QAKhEAAQMCBAUDBQAAAAAAAAAAAQACAwQREiExQRMyUZGhBTOxJEJhcXL/2gAMAwEAAhEDEQA/AC+ZjkmzDRQI8krsFREG5Yk8AB1OlykBMYstHpnhkALjYBS6mD7QxOD7kyg2+zk/mmGhq5YTZ4Nl4a2kcPcb3CQx170MCtfoW6wJ7oaeBkBPhuRz4HTPDUMlFrqmZInOtG8H9EFSI5ii7DUE1Cx7r2UTmAm6PUVI7d4knrfg/YNIdIwsLWnqrUo+gk/k/CcCP2s8SCJrFm3bvlpJ8nYhSNIZOHBCRyPh00TtfzuUAxYQTewaGaNaTmPyqjNXKpr11r2KEjGcbitlZ7Lbd1uayDYDz58h11PBViE6jvdEaRj8Ti4HTdjW7jcfC8WIsoI0wRV7XMvdSYwFTSlKOcx+SkVmjrWY5XCDiVVgTt58NCaqgwnE0aK2GmWnfENSCPCsE7a42OzXkaC5tE+QLDuL9dt0+bp1/G+hXGDTmOvlUH+lTYSLjPB1+0Z7dkJxh2uRerQ+bkJRt/tlapj6vfqo23TQ5nrDoxhJSvLNZ5CPXI1khIYb61qRocM0YjcQ7JD7saq528dKnqkDGnEEUGYXGP8AjYfVoDLyFcS8hW2YONWxsRI0kVJPEKRKpx4pX//Z" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Replicate"
-details = "大模型微调部署演示平台"
-:extraLinks="[
-  { text: 'Link', link: 'https://replicate.com/' },
-]" />
-
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/78ff76029ad956975f413b198a7ad64d73a8d7e07d127a98a5f8388950f4379b/68747470733a2f2f676974666c75656e63652e636f6d2f6170692f6f67" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "GitFluence"
-details = "借助 AI 找到 Git 正确的命令"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/geovanesantana/gitfluence' },
-  { text: 'Link', link: 'https://www.gitfluence.com/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/geovanesantana/gitfluence?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAcCAAAAABARBCBAAABFElEQVR4AW3KIYizABiA4a/366zZLq5du7Rwi8MO62BcNl1aWjIbTObBomC+YrZYhCVBEJ4/yZB/b3x4w9te3DfLGy4c/+PlXqhyG26v1X2ZstyGj6Xpujv1Nlzf3KO51/WW02VMlHX3vG74oGyXny4exYbzbj59+8gc8MiL8lYghh3KxFfPpYEpnYQ28p+kfKaNfU83mhwE/nq7Zp4PDbqzZKzaAJ4RN9amS4Aqaly/uBX2nALOOWgbDGbSQF5ae4CmCPp0xaVaQExB1huiUAwwP+rfaAUJvmMfJ4xRN+1i5T7iCNkEBB+MEREdcitLB/J2jD+m+sXt2Vq9vFi6Pn3txZyyCeNvacOaY/L5eRlt+E3/AMWfDzhMnXJJAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Game UI Database"
-details = "游戏 UI 数据库"
-:extraLinks="[
-  { text: 'Link', link: 'https://gameuidatabase.com/' },
-]" />
-
-<VPFeature icon = '<img src="https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "mpv"
-details = "命令行控制的媒体播放器"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/mpv-player/mpv' },
-  { text: 'Link', link: 'https://mpv.io/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/microsoft/fluentui-system-icons?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://s2.loli.net/2024/07/11/VGm4A7RpdDEWlBx.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Palettemaker"
-details = "AI 配色网站"
-:extraLinks="[
-  { text: 'Link', link: 'https://palettemaker.com/' },
-]" />
-
-<VPFeature icon = '<img src="https://openclipart.org/assets/images/openclipart-logo-2019.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Openclipart"
-details = "矢量剪贴画"
-:extraLinks="[
-  { text: 'Link', link: 'https://openclipart.org/' },
-]" />
-
-<VPFeature icon = '<img src="https://interfaceingame.com/wp-content/themes/interface-in-game/dist/assets/static/images/logo.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Interface In Game"
-details = "游戏 UI 设计参考"
-:extraLinks="[
-  { text: 'Link', link: 'https://interfaceingame.com/' },
-]" />
-
-<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACAUlEQVR4AcXWA4xdQRQG4Kmi2ohq2w1r27aD2rbdsHaj2rbWjpPaWkb7/n1/NrM4eX7v7Cb5r++dLzNnJtf0mt/fbV6VwJqXJfCLe55rxOXFX93R/0VRQMZC1AGOcdjkGAN86ARoQ1wDxmA9ARgH+ADRAzCeIK+LZ+8Pm5j+agCMY1xDLhb5gr0mDHtM2Ca1IXjX4SsjIbyGLea1PsA2tMO8RVKXX2G8Zq/zGgFqQyAb2m3erLL3eX23ebfexfv6ABF9gB3rK1U+XC8MAKudU44p2IWIkfOfCIIOFonapg6QC5Gsh+r1vrQo3zw1tnKL1Fgeqy5EjARMGe5As04ZKNX4H5jKLdIiCVFbiCzATr/544HFkwDfIAqzgACLkJAKFcOgvg7YxtnYlMGpsBBjHjIagHfrXQFsgw8OobLzPMJ5LItSG/AK7PbyLdLfyobVAYwPY68LcDX2tR6vaN0wdkdcs/jdsTxWAYgiZOMRdggW48nWySlX0T5xPwMnJIIQFYCrql+AR+sX4xmYvJAKl+cu8QrIHINNEiD/fHwF1Lg5HzOTr/3jsTk6EubMxMW+APpLgPzz8RXARkvfmX9+FcLa+DwEjC9/Pr4AbPezJ3wsQt/jaw0QwJ4IOYAVv3AiYuXKJ4eg5eM1132YhiGMAJiT49YUBmCxqHx9gIyofJfJAh/FXQxa+UZTAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Fffuel"
-details = "方便的生成各种矢量的背景"
-:extraLinks="[
-  { text: 'Link', link: 'https://www.fffuel.co/' },
-]" />
-
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/80581028?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "symmetric nat test"
 details = "在线测试 NAT 类型"
@@ -572,72 +535,6 @@ details = "在线测试 NAT 类型"
   { text: 'Link', link: 'https://tomchen.github.io/symmetric-nat-test/' },
 ]" />
 
-<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/Fp1UoiPDsLgzACH.jpg" style = "max-width: 200%;transform: translate(-20%, -5%);">'
-title = "Biodiversity Heritage Library"
-details = "精美的动物插画"
-:extraLinks="[
-  { text: 'Link', link: 'https://www.flickr.com/photos/biodivlibrary/' },
-]" />
-
-<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/SZVuvD2C6KMqXPr.jpg" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Pexels"
-details = "拥有数以百万的免费图片和视频"
-:extraLinks="[
-  { text: 'Link', link: 'https://www.shopify.com/stock-photos' },
-]" />
-
-<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEUomNEhltBfrNpAoNUAkc7////r9PoAj81irdrN4/I3ndOv0+oTk8/4/P6Iv+Gr0erj7/ibyOXE3u+mzuhRp9cAisxM41EEAAAAhklEQVR4Ac3RVRbEIBQD0EFSx2H/W50wLo//ppZzbg24nDWK+W0v01obdWuG9VstgGnubZ5Y7R9i4QNqgYwrH53XAWJTasMI9+PYhwjLq4wO8J4XEQMQIy8ipgwmJxFLBVOLjC0CsQ1w9oCfB3jMwHzIGDgFnIbQUVgyZfrBqqTF5vFo58wVKRwGM1g6vFYAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "musopen"
-details = "免费古典乐曲库"
-:extraLinks="[
-  { text: 'Link', link: 'https://musopen.org/music/' },
-]" />
-
-<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAADPUlEQVRIibWWXVPjNhSG9RXLH4kYHCfGO9CSkr3osr9+pz9ie9P2KgTCMuywJbshiYkTO5ZkW71QMSFQB0I5V7KlOY/Oq68XKqXAWwZ60+wAAPL412pNz68PQvhk+wFAKVXcxXbSIYQghAgh3XgAKLNLKaWUmvGiCiCEeZ7XajVKaa1W0wxYpiiKQndvMfEyer0eIWR3d5cxphlkdfpSylcCzs/PTdMEAFBKMcYQwnuJ8jyXUr4mOwBgMBg4jsMYc13XsixQroGWuyiKVwImk4kQIkmSPM+1+A/OwX8B9FCllJCybD85Mk1Tznme52WqJ87B4+xpml5efo3jhRACQdRg7PDw0Lat1f1eTnFti28AKKUmk+lgMMiktGwbYZzLfPh9OJvddrvdVqv1mLEWVQClVBzHZ2dnGKOW3266LqWmEHw8nsxms37/lFKTsUY1o+oughBefLmQUliWdXn51bbtOI7TNN0L9jzPgxBeXHzZWEEVIEmS8DaEEBkGxQh9+vTbH3/+VRTq6uoqCPZs2+ZcxHG8PWAynTpO/eDgABOSZRnbYe+Cvc+ff1/MF73eSbPZrNfrYXi7PaBGSCZlksTvgqDb7QIFoihijDUa9f39/SiaLRZzhDZc+FWL7Hnet29/c86Xy6TVbgkhAISjH9+n01ApqBTAGLda3vYVEELqdcdxnOFwiBHa2dn5+aeDoih8v8350jSpbTsb764qgALq6OgojuNwGp6ennHOZ1HU6fwShreCi/l8/v59tzo7qJYIAkgIOT4+HgzOoyi6vr6m1CiKQsrMsqyPH4+fc/VuOMkQQsMwPnz4dToNR6MfQohazWj77abr6hfmtQBw91R5XtPzmhsHP443dxX/P2BNN1TRt0UYhkEI0Y+l/nO/BtoAjEaj8Xg8Ho+TJMmy7EWuQm+qRqNhGEbJIGW3/h4Oh/1+/+Tk5ObmZrlcPtMgaS/kOI7v+0EQMMYIIeu+CGNMKXVdt9PpmKY5n8+FEC+qgFLKGPN933VdSqm+pu59kVIqyzLOeZIkcRwLIV7qATDGhmHYtm3btmmaWiW4Okf9ouZ5nmXZFg5DC4XvQksE10Qo7eJ23vTfpCuH/B8xiNBNzCw2qgAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Sheet Music International"
-details = "最大的免费乐谱库，多为古典乐"
-:extraLinks="[
-  { text: 'Link', link: 'https://sheetmusicinternational.com/' },
-]" />
-
-
-
-<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAL0lEQVR4AWMAgv9g0N7ezgACCBE4FygFFxmEGkY1OMAARATOxdSAALi4w0gDGQAA+mGKzOd3mC0AAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Free Pats"
-details = "免费乐器音乐包"
-:extraLinks="[
-  { text: 'Link', link: 'https://freepats.zenvoid.org/index.html' },
-]" />
-
-<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAApklEQVR4AWJwL/AhiK/JaQB6rYMTgEEYjMLjuIbLOJGrZQZH8Jr+QguhlCqlvsN37QNJNVmqmHTxUxeTKnnlW7NQkSa+qElZDoZQEhP/yCTNgvH4/Cf5NRhju6L3Y/RN0lPQNgYtBq9p9M1KDDYg2EYrDAoij2AFgzUMC8JGsIPBPoJO4oP8kcJDg/8W+I+PXm345U0/T/wDzK8Y/BLFr4n8Ioyv+gcpVr+ctYJoNwAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = "由爱乐乐团音乐家录制的数千个乐器声音样本"
-:extraLinks="[
-  { text: 'Link', link: 'https://philharmonia.co.uk/resources/sound-samples/' },
-]" />
-
-<VPFeature icon = '<img src="https://s2.loli.net/2024/07/14/4ohdspEjvYCPFOf.jpg" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Karoryfer"
-details = "免费乐器音乐包"
-:extraLinks="[
-  { text: 'Link', link: 'https://shop.karoryfer.com/pages/free-samples' },
-]" />
-
-<!-- <VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" />
-
-<VPFeature icon = '<img src="" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = ""
-details = ""
-:extraLinks="[
-  { text: 'GitHub', link: '' },
-  { text: 'Link', link: '' },
-]" /> -->
 </div>
 
 ## 🎉 效果展示
