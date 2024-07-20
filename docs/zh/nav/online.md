@@ -29,6 +29,18 @@ zoom: false
 - 一些可以在线使用的工具，无需下载安装，可以直接在浏览器中使用，虽然一般没有专业软件强大但是更为便捷，通常用于一些简单的任务，如在线编辑、在线设计、在线编程等
 
 <div class="VPFeature-item">
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/59452120?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Excalidraw"
+details = "在线手绘白板，可以多人协作，有 Obsidian、VSCode 插件"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/excalidraw/excalidraw' },
+  { text: 'Link', link: 'https://excalidraw.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/excalidraw/excalidraw?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 <VPFeature icon = '<img src="https://camo.githubusercontent.com/1742280ab5f2ffc1093d7ecb4a99c279ac76a472534dfe32ccb3cf381b7815d1/68747470733a2f2f736974652e6c6f6769632d666c6f772e636e2f6c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "LogicFlow"
 details = "在线流程图绘制"

@@ -218,7 +218,24 @@ details = "来自阮一峰的 TypeScript 教程"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/wangdoc/typescript-tutorial' },
   { text: 'Link', link: 'https://wangdoc.com/typescript/' },
-]" />
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/wangdoc/typescript-tutorial?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/ZuodaoTech/everyone-can-use-english/raw/main/enjoy/assets/icon.png" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "人人都能用英语"
+details = "一个英语学习，如文章视频跟读的软件，同时网站上提供了一些英语学习相关的文章"
+:extraLinks="[
+  { text: '在线音标发音', link: 'https://1000h.org/sounds-of-american-english/1.2-phonemes.html' },
+  { text: '在线字母发音', link: 'https://1000h.org/sounds-of-american-english/1.1-alphabet.html' },
+  { text: 'GitHub', link: 'https://github.com/wangdoc/typescript-tutorial' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/wangdoc/typescript-tutorial?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
 </div>
 
 
