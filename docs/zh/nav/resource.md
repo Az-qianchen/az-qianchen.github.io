@@ -251,6 +251,16 @@ details = "开源图标集，拥有 20万+ 矢量图标"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://blog.emojipedia.org/content/images/2017/08/emojipedia300.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "emojipedia"
+details = "表情符号展示网站"
+:extraLinks="[
+  { text: 'Link', link: 'https://emojipedia.org/' },
+  { text: '微软动态表情', link: 'https://emojipedia.org/microsoft-teams' },
+  { text: '谷歌动态表情', link: 'https://emojipedia.org/animated-noto-color-emoji' },
+  { text: '电报动态表情', link: 'https://emojipedia.org/telegram' },
+]" />
+
 <VPFeature icon = '<img src="https://github.com/microsoft/fluentui-emoji/raw/main/art/readme_banner.webp" style = "max-width: 300%;transform: translate(0%, 0%);">'
 title = "Fluent Emoji"
 details = "软件开源的一套 Emoji 表情"
