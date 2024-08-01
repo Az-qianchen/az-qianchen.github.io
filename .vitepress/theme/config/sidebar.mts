@@ -53,6 +53,10 @@ const article = [
             text: "7 月",
             link: "/zh/post/log/2024/07",
           },
+          {
+            text: "8 月",
+            link: "/zh/post/log/2024/08",
+          },
         ],
       },
     ],

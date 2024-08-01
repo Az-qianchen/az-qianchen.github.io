@@ -410,6 +410,18 @@ details = "网络技术学习，网络代理，安卓项目有 FlClash"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://private-user-images.githubusercontent.com/3325447/254932576-0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0OTEwNjIsIm5iZiI6MTcyMjQ5MDc2MiwicGF0aCI6Ii8zMzI1NDQ3LzI1NDkzMjU3Ni0wZDBiNDRlMi04ZjRhLTRlOTktOWI1Mi1hNWMxYzc0MWM4ZjcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDgwMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA4MDFUMDUzOTIyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OTU0MzljYmVmZjMzNTdkYjQyMmI0YTAxODVlYzIxOTAxYjZkZTY0ZTg3OTg4MGIyNDYwN2MyYjk0ZDhhMDgzZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.OvGYIn1Kdi1QSp-xfu_UYYSbeJPhI_BGHnR-xH5fZZ8" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Ollama"
+details = "本地运行大模型"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/ollama/ollama' },
+  { text: 'Link', link: 'https://ollama.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/ollama/ollama?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
 </div>
 
 ## 🔖 博客相关
