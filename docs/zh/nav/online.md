@@ -28,6 +28,108 @@ zoom: false
 
 - 一些可以在线使用的工具，无需下载安装，可以直接在浏览器中使用，虽然一般没有专业软件强大但是更为便捷，通常用于一些简单的任务，如在线编辑、在线设计、在线编程等
 
+## 🪄 综合杂项
+
+- 一些综合性的在线工具
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="https://github.com/Yqnn/svg-path-editor/raw/master/doc/screenshot.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "SvgPathEditor"
+details = "SVG 在线编辑"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/Yqnn/svg-path-editor' },
+  { text: 'Link', link: 'https://yqnn.github.io/svg-path-editor/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/Yqnn/svg-path-editor?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://audiomass.co/about/audiomass_top.jpg" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "AudioMass"
+details = "在线音频编辑，如剪辑和效果器添加"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/pkalogiros/audiomass' },
+  { text: 'Link', link: 'https://audiomass.co/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/pkalogiros/audiomass?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/68179154?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Graphite"
+details = "矢量和光栅图形编辑器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/GraphiteEditor/Graphite' },
+  { text: 'Link', link: 'https://graphite.rs/' },
+  { text: '在线', link: 'https://editor.graphite.rs/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://pikimov.com/images/logo-pikimov.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "PIKIMOV"
+details = "在线 AE"
+:extraLinks="[
+  { text: 'Link', link: 'https://pikimov.com/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAMFBMVEUFr8gFr8gFr8gEr8gArsfW8vYruc+r4usWtcxgydq/6vHn+PqQ2eV60d/7//9QwtalnIogAAAAA3RSTlOit666YPtAAAAAuElEQVQokY3SWQ7DIAwEUFovbAbuf9s6JASIIOr8PjQyGGNgG/Niqv8j4gumBLhB5Bh5iyln2SFQCORwieijL9EvEcESM9lhpAErCJUVQtJKrU4LRGcDI3KwfaSOhURfaOrtKHQMep554NmngaP9iT6KY42TflXTLilZ3+cI5bu3IRPZK0T8QL0fuBrwd29DS3WcOhKFCdENu0LJ1zuY1tq3rDtPI4If/gdC8hPOPwvngdZ5x+/ePj+elgyjVvfB5wAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Font Compress"
+details = "在线字体精简，压缩，只支持 TTF"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.mainww.com/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABiklEQVR4Ae3VA6hYYQCG4dlLs21vaXFpznYtLd3lZiMMYWa6WYsz0824tm37u2+3/9Tff306uPrqyZ3e4xmSZvjYAtxHgXEP8zHqSernJ2AhsiBHGuZGEfAJQir2Yh9SILyIIqACwgF4Owyh1G/AcbxGF6pRY1SjEPlGAWSsg7eNkFGEPOSjENWGdzzhmRtwGzXQGLyGt7fQGGS4AXfQCuEEVmITdqMCMlwFKIQMVxG2YCvW4yiEssGuQBuE9bBXAvmUC3uLIFRMqIAkyKf/QQQsxW5sG4Pt2IUlAQQEuqkVsBKz4wq4COFSHAE3IKMbG6MMSIQsCUFcgbnYjJH2FbI8CeohvArhEQbbcuRClg9BvQWbIMsPLIS3XaiDLJ+Dfg2vQJZmrMVOyPEnrO+A+3A1GrKkYnZYAe5D5irA4rC/hPOQCjlqsSGqT/FyVENGF3ZE/S84Bhnn4/oZXUDC9O846IBWCIcwCysDNh+bIJS7AXdRB0Uk0w04hUQ0oRLVqAqSdcw2vPUC+gDo3oqVsa6DBAAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "网络剪贴板"
+details = "在线剪贴板，同步文字数据"
+:extraLinks="[
+  { text: 'Link', link: 'https://netcut.cn/' },
+]" >
+</VPFeature>
+
+</div>
+
+## 🤖 对话 AI
+
+- 一些在线的对话 AI 服务
+<div class="VPFeature-item">
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAw1BMVEVHcEzK5P/K5P8cHiCkuM7K5P/K5P/L5f/K5P/L5f8gIyXJ5f/M5f8RExQfISOtwtd/h4vK5P/N6P9EMi1HNzT/3dLQ7P/81sz1z8Ttwrb0yLxRPTg6KCMDAgI0Ih7gsqbcno9BKyYuGBGPlJwiIyVXSUfquKz/49mntcZcNS6jf3aEbGedpa8UFxnB1OhucHa9fGy9mpF/gIXJ3vW8v8sgBQC0yd/RraWzjobOiXd/VEtoZGZVXWPX093Jo5luVlLauLLEqQSHAAAAEXRSTlMATOyaDaTJFZHf1CcnGEyL7c2yTaUAAAI8SURBVDiNbVPpmpowFHVXbGfakABJCBBWFUTFfRvt+z9Vb4I4zrT5w0fOybnnbq3W8/Tao0EHoc5g1O61/j3DPkLItG3bhC/qD7/jIwWj6fqynG9MxRl9fW7AlT11I1/4UTqfKxnjReSHUjVjjDEhOPR9/7JXIj+f7zW+TTFxXZdgIbDwp4rRaCh9tFiGgKcuDkWIsdgt4M749IfMOQGBlIgoCkOXhNHabpzqAEoAuyn2Z0c+oXeB/Yu+VkH6WmCqHGD/HFiTycTKI0E2uh5QP83cxBCBAO4o3AFGpG2iXqutBRYXIIjZiVsW4A6lRRRrQvthcZsSDAbO59wC/JZXQbRULsHmoM4B8g9nq4wzB94fb1Ve1IRBq1NXEUoowsQrGHUoC44VO9YhOi3t0V4DYXa/JqQCwsH3rkWlq43QK2GVegW1LHpIvZhVwaYmdB4EDAQpOSRBnfx8YAH7qEMMHh4UIePUchhzeBYEGf+oTeo07U+CRanDWXb4o3FIs/1slZ8fGOXyJBnLqlgnqQrVawiuEIeMO5kMOLvt5nUOUGrdLBOmLRQ7rwi45dCg2O3qTqhmPdq92cfxYj9dnaQ8ponfEIbPgQEVOJuTPK0WdjP8zWgb6HHMrQyk3JrNv/E6tEpiKzPIQG4XyLafAZqxN+39NWecUs6kR65r82Xs1eKY+6XnEagTjAP3ytJbGl+371fplUl5pzBwVl4mSdn9vpxv3QROmRYFBrz79p/97r13x+Mk+T3uvr+s/1/1HlVsYHPdPQAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "豆包"
+details = "字节跳动的 AI，模态整合最佳"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.doubao.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/11/24/wd2qJAZzHNQp6Pk.jpg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "通义千问"
+details = "阿里巴巴的 AI，提供接口"
+:extraLinks="[
+  { text: 'Link', link: 'https://tongyi.aliyun.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/11/24/KpwlEazYfPX3mvJ.jpg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Poe"
+details = "多家 AI 聚合使用，方便试用"
+:extraLinks="[
+  { text: 'Link', link: 'https://poe.com/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/11/24/D6FViIhzxLTR4gU.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "ChatGPT"
+details = "OpenAI 的 AI，技术龙头"
+:extraLinks="[
+  { text: 'Link', link: 'https://chatgpt.com/' },
+]" />
+</div>
+
+## 📑 文档画图
+
+- 快速处理一些记录办公的需求，或是需要进行远程合作的场景
+
 <div class="VPFeature-item">
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/59452120?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Excalidraw"
@@ -41,7 +143,42 @@ details = "在线手绘白板，可以多人协作，有 Obsidian、VSCode 插�
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/1742280ab5f2ffc1093d7ecb4a99c279ac76a472534dfe32ccb3cf381b7815d1/68747470733a2f2f736974652e6c6f6769632d666c6f772e636e2f6c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://th.bing.com/th?id=ODLS.5fa69b1a-e09e-41e4-b11a-3a01badb3b82&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Pixso"
+details = "在线原型设计，白板合作，Figma 国内版，不支持移动端"
+:extraLinks="[
+  { text: 'Link', link: 'https://pixso.cn/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAP1BMVEVHcEwOqf8hs/8Pqv8LqP8itP8AoP4SpP2X1P/T7f/y+v9vxP8Wrf8vu//8/v+v3/9Bw/8is/9Axv9Iyf8cs/9eJTV2AAAAFXRSTlMANKPk/7/////////////////jNDROxtANAAABKElEQVR4AX3OCXLEIAxEURnEZuQxeHL/s6ZBlIqsP3v6jcY0OpznH3l30CrwHwXdPf+Z//f1KOLGwf92kPsfOPL7xRGnxGl7in3O5SwVwgAisf16zUpM2w0ApADjLpIBHp8cb2xaiyliTtsFSRxPAzkmiB3I9g7n+brjDGIDNes8RKk559pVUO/Yq50/caFkdN818gTSbcc8RJn7ErjQWZ8Po1YwT7GAtP31CrCjBkFXlzpX3RfQ6gRXr/r0Vll7aQvIPhtAjAAuyXYeq4FS4wSI888TpWRmAWhDSLvLHkRuLCNqQ/QOG78lOADwtEWAJFmy8uQUqOhpGEndgKM3gJE0Fdz8MT4PomCiwyRVXfRbIPQ0JcvseZoFE4YUBlq93X5lscd9EPoE9b8kSmYIGUcAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "小米云服务-笔记"
+details = "在网页端使用小米的笔记，可与手机实时同步，创建代办"
+:extraLinks="[
+  { text: 'Link', link: 'https://i.mi.com/note/h5#/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA1VBMVEVHcEwSTdoFcfkAX+oSTNw0sP0GX/sNVu0OVOgik/otoP8ipPw9uf4NTd8RTN0KWu8GZ/UAgv8nrf47uP42tf0AYv8bl/gFVOQAa/sJVegWS9A7uP4WjP8WmPo7uP4BYv8Bgv8AX/kAhP8eovsBgv8Bgv8trPwMUuMnqPwjpPw2tP0ysP0Af/8Xm/oMWO8eofsPT9oOTt4DXvcUTNMAefoNVOoAYf9Cvf8DXPIAYP0Ac/Q8uP4ZScwysPwAb+4AY98AWeoAVN4Aaeg7uP4Ng+0Udukdg+/HBzI+AAAAJnRSTlMAwUX6x17ExKYTGpuOkCI7bfM7Ob7n9PCQWOLmBnbe0NPd5cossU2WnQcAAAEZSURBVCiRldLpcoIwFAXgjCMUVJC61652MbQisgmIbG59/0fqTZC1MNOeX8l8nFwygNCf0+Gbrec4vQZiHBqmhob3e5LTaf80rA4bfRUyKo3uBsEqSbII8tGD5e+sstGMXMlSvrQL534WI3/regER/7bJMsF6GWfHy3qzJpkMBKxjnKNkeeExOhN7RIjDkJsrtW4VxfK8MIrO3QfYc1tIivyHAkrLdF9ChN5frpqgCskRjn6lR9fj3TQkZbIUsOq6LptRf+HGh4OnKPCUBvfYGkaKHdbeGS5wZIlzTSOK1RTFZxvUIGXTNBOctvLXGds7KMexTxBUKn5QJCVln1YFVM2MlH1Qru4X5Fnb9v22WEP0RuN5v4H+mR/n4Tu3u/hn9AAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "金山文档"
+details = "WPS 在线，在线处理 Office，远程合作"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.kdocs.cn/latest' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACL0lEQVR4Ac3XA4wkQRgF4A3PsZ1sTcyNebZt27Zt23fRxTjbWNuK1jZG716drwf91/ol33g6r10V0m/ISKneNJWuUTgVU9MvxRRO12gq9ZYuV/IjRTepjiBURzdJtaZAdzpGzYQWaqbj1N20QCjFEdpIHClpgTAqIrSxIgqzK6CohNBOSkgFKtCD4gntLIF6+CtwnGBVXlaGL+/fY+3K1W1Z4ri1QCg5CVZLFixBY0MjdNJTUrBv5y4MGja6tQWcpP4tcJMQyMHde/BvCvPz9WcYMGRUa0rc+l2gj+Qio3eDNblZWdi+aTP6t6xAHfXRBaYS7MycPhterxf+EhcViTmz5rakxFRd4AZB4vmjRwgUj8eDK+fOYcBQo91yQxcIJ0gsnLcQdon48gWjx0yUFgjXBUoJUmnJybBLVno6JkyYIlleaYjpzeb00WOQpLS4GDOmz7K9WRkX0GsGHoySRH37JipQSjCRFB8HSXjWiHZBOMHE7atXIUl1VZXoILxBMLF88TJI8uD+fdFpOJVgYvCwMXA2OxEsVZUVGDtukuBCZLkUS8VGRiJYNq5dZ7eM+t+XYu0WwcTNS5cRKDxGjG5GmiInQWrSpGloamqCNW9fvJBcjp3kCDAgkdu8bgNKior0fUCf8yaDlhOBhmQJHTQk69klB6WdOiy3Um28OxJItWRqdpychBZySqZmdhx0k+oJQg10ixx2yzednk+j6xRBJeT8pYQi6DpNM5mefweCVIXJUKizqQAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "石墨文档"
+details = "在线文档远程合作"
+:extraLinks="[
+  { text: 'Link', link: 'https://shimo.im/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABLFBMVEX////////////////////////////////////g4OCztLS6u7vu7u7q6uq3uLi0tLXi4uPP0NBPUVIhIyUkJihqa23l5ubm5udpa2wjJSdRUlTS0tP6+vp5ensUFhgVFxkaHB6fn6ChoqIbHR96e3z09PRjZWYTFRcWGBqGh4mGh4hgYmPz8/P9/f2PkJEaHB0lJymzs7S2t7cmJymQkZLh4eFNTlAXGRtwcXPx8fFub3BLTU6rrK0gIiM0NjjPz9D8/Pz7+/vMzM0xMjQgIiSpqqvo6OhHSUr4+Pi/v8B8fX7Cw8P39/drbG5ISUvn5+j5+fl3eHmXmJk2NzmZmpuSk5Oqq6urrKyRkpOSk5TCwsNHSErn5+cfISOys7QcHR+en6B5enwlJijg4OGF99KLAAAACXRSTlMDRrn1//O1RNI0Q5UQAAABcElEQVR4AZWTVYLCMBBAAwQWd4fF3d3dKe6s2/3vsOlHqKFTb17GBwAeXwAviFD0BMCTGF4RMQ+I4FXhA+F1QADgDbkbkEhlcuqvQqlSMwGNVqc3GPG6yWzRWW10wP7scDpcbgx4vOjTZ6cB/kAwFHKEMRBxhELBaIwGxBPJkDOVxkAm6wy5cnEaAPMFR7FUxkCsEnJU88woavVGk3y22uS90+31WWEOhpURhO0xQUwQMp3NFyxguVqj+2QTdGzG6GW7WrIAuNsjBQTpPtGC8HCEbOB4QA4QZLQEsrF/gRwTW3QfbxzBzQS9rDkmFvPZFNl4JYgxUjCqvL2zgH6v2yGf7RZ5bzY+WGHmq45QJYbtlktFR4GRqHgOpTqbwcBnCqU6QU91LEq6H2EUK+Cnl9uH6vvlwcC3C33+0MsNbVadxWzCgNHwq9M2mVGoVUoFPIlclv57tGkvA4Lr60LAvw6IAO/68JLjLRJeHEw+D/wDu0s8EXUr8qYAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "幕布"
+details = "在线思维导图，简单干净，但足以被大部分工具替代"
+:extraLinks="[
+  { text: 'Link', link: 'https://mubu.com/home' },
+]" />
+
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/0f709ec9742b9e6a8e3957abe2621ab955dc649009fd8b75c0c380a27f29da2c/68747470733a2f2f736974652e6c6f6769632d666c6f772e636e2f6c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "LogicFlow"
 details = "在线流程图绘制"
 :extraLinks="[
@@ -50,18 +187,6 @@ details = "在线流程图绘制"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/didi/LogicFlow?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://github.com/Yqnn/svg-path-editor/raw/master/doc/screenshot.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "SvgPathEditor"
-details = "SVG 在线编辑"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/Yqnn/svg-path-editor' },
-  { text: 'Link', link: 'https://yqnn.github.io/svg-path-editor/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/Yqnn/svg-path-editor?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -103,19 +228,6 @@ details = "在线数字白板，可共享"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/68179154?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Graphite"
-details = "矢量和光栅图形编辑器"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/GraphiteEditor/Graphite' },
-  { text: 'Link', link: 'https://graphite.rs/' },
-  { text: '在线', link: 'https://editor.graphite.rs/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
 <VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/1769238?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "draw.io"
 details = "流程图绘制"
@@ -128,31 +240,20 @@ details = "流程图绘制"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://audiomass.co/about/audiomass_top.jpg" style = "max-width: 300%;transform: translate(0%, 0%);">'
-title = "AudioMass"
-details = "在线音频编辑，如剪辑和效果器添加"
+<VPFeature icon = '<img src="https://th.bing.com/th?id=ODLS.2f080fa9-af5f-4053-8681-960b2d81f541&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Figma"
+details = "最著名的在线原型设计工具"
 :extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/pkalogiros/audiomass' },
-  { text: 'Link', link: 'https://audiomass.co/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/pkalogiros/audiomass?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://pikimov.com/images/logo-pikimov.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "PIKIMOV"
-details = "在线 AE"
-:extraLinks="[
-  { text: 'Link', link: 'https://pikimov.com/' },
+  { text: 'Link', link: 'https://www.figma.com/' },
 ]" />
 
-<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAP1BMVEVHcEwOqf8hs/8Pqv8LqP8itP8AoP4SpP2X1P/T7f/y+v9vxP8Wrf8vu//8/v+v3/9Bw/8is/9Axv9Iyf8cs/9eJTV2AAAAFXRSTlMANKPk/7/////////////////jNDROxtANAAABKElEQVR4AX3OCXLEIAxEURnEZuQxeHL/s6ZBlIqsP3v6jcY0OpznH3l30CrwHwXdPf+Z//f1KOLGwf92kPsfOPL7xRGnxGl7in3O5SwVwgAisf16zUpM2w0ApADjLpIBHp8cb2xaiyliTtsFSRxPAzkmiB3I9g7n+brjDGIDNes8RKk559pVUO/Yq50/caFkdN818gTSbcc8RJn7ErjQWZ8Po1YwT7GAtP31CrCjBkFXlzpX3RfQ6gRXr/r0Vll7aQvIPhtAjAAuyXYeq4FS4wSI888TpWRmAWhDSLvLHkRuLCNqQ/QOG78lOADwtEWAJFmy8uQUqOhpGEndgKM3gJE0Fdz8MT4PomCiwyRVXfRbIPQ0JcvseZoFE4YUBlq93X5lscd9EPoE9b8kSmYIGUcAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "小米云服务-笔记"
-details = "在网页端使用小米的笔记，可与手机实时同步，创建代办"
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAkFBMVEVHcEz9Sm7/Q2X/QmX/T3H/P2X/SHL/QGj/PmT/TW7/W3n/T3P/RW3/PWH/PV7/TW3/O17/RGP/W3j/UnD/WHj/PmL/WXP/SnT/VG//WHP/X37/TnT/Tmr/W3b/TXj/PV7/R2P/Tmr/PWD/ZID/PV7/a4f/aYb/d5X/dpX/dpX/bYr/co//a4f/co//ZH//YXrusTEdAAAAMHRSTlMABAmJt3z///BnLOL//5up6UpZNBcilvj/8D3N8v9zWf//yIrY//Svra7Y/8Vv/5paXsSmAAAA5klEQVR4AbyPRRYDIRBEGXd3R8b1/rcLxHWb3sF/ZeAvx/1GvCBK/C8oyYqq/WC6YSqW/QM6smK53nfmX4R+8IWFIhNGgRF/6aQlVCiBOM3yDxYVTMh5ZVqJH2trmQoboEGUVv57YkKFmAcRRijN3qDIhKxnAyklLyxnTGA1QwdSqf7EuILC9jLQcyl1uKc25xmXD96GEGX+6wwc3V4tjRXDGyRd1/VaSIZxmoZhyixqrN3azMuyrGBbbgepcXHttPVUGOhzd7vKgrD0LlBf9/0AZH8ctKAY3XwJ4UJyPJ0tBOC0gQEAeL8ZLXZlLYoAAAAASUVORK5CYII=" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "小画桌"
+details = "在线协作白板，相比 Pixso，免费限制更多，体验也差一些，但可移动端使用"
 :extraLinks="[
-  { text: 'Link', link: 'https://i.mi.com/note/h5#/' },
+  { text: 'Link', link: 'https://www.xiaohuazhuo.com/' },
 ]" />
+
 </div>
 
 ## 🖼️ 图片处理

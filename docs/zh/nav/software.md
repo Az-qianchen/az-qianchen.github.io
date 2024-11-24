@@ -851,7 +851,7 @@ details = "来自3Blue1Brown 著名的数学动画绘制引擎"
 
 <div class="VPFeature-item">
 <VPFeature
-icon = '<img src="https://www.audacityteam.org/_astro/Audacity_Logo.63b57726.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+icon = '<img src="https://avatars.githubusercontent.com/u/11648186?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Audacity"
 details = "轻量快捷的音频编辑工具，还有一个分叉项目 Tenacity"
 :extraLinks="[
@@ -1018,7 +1018,7 @@ details = "RSS 订阅，订阅一些源或是文章进行阅读"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/31e67e9ba1ff28338e207365a16d0a0401c4e8320de45cbce4cff1888f24261a/68747470733a2f2f646c2e6b6f6f646f7265616465722e636f6d2f73637265656e73686f74732f6c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/84b6f4ab5262ec26c2b20011876b8690ae4b78ee514833f88fe0e9324805901d/68747470733a2f2f646c2e6b6f6f646f7265616465722e636f6d2f73637265656e73686f74732f6c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Koodo Reader"
 details = "电子书阅读器"
 :extraLinks="[
@@ -1141,7 +1141,7 @@ details = "原名 Steam++，主要用于Steam、GitHub 等服务的加速，官�
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/9ea041a3795d315d60fd707db7a2163514b89fca730e3b29a97c874970e73030/68747470733a2f2f706c61796e6974652e6c696e6b2f6170706c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/a69c2c4558f22fe1eb9aea343a62dbd43e3e9e6d9497f9de7668b5373aaf23e8/68747470733a2f2f706c61796e6974652e6c696e6b2f6170706c6f676f2e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Playnite"
 details = "游戏库管理器，可以将各个平台如  Steam、Epic 添加到一个页面进行管理"
 :extraLinks="[
@@ -1449,7 +1449,7 @@ details = "历史剪贴板"
 
 </div>
 
-## 📱 Android 相关
+## 📱 移动端相关
 
 - Android 独占的软件
 
@@ -1536,7 +1536,7 @@ details = "安卓运行 Linux 虚拟机"
 </VPFeature>
 
 <VPFeature icon = '<img src="https://i0.wp.com/winlator.com/wp-content/uploads/2024/03/cropped-winlator-icon.png?fit=512%2C512&ssl=1" style = "max-width: 80%;transform: translate(0%, 0%);">'
-title = "Winlator "
+title = "Winlator"
 details = "安卓运行 Windows 虚拟机，运行 PC 游戏"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/brunodev85/winlator' },
@@ -1554,12 +1554,37 @@ title = "SmsForwarder"
 details = "监控 Android 手机短信、来电、APP通知，并根据指定规则转发到其他手机"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/pppscn/SmsForwarder' },
-  { text: 'Link', link: '' },
+  { text: 'Link', link: 'https://winlator.org/' },
 ]" >
 <template #badgeImage>
   <Badge type="warning" text="开源" />
   <Badge type="tip" text="消息" />
   <img alt="Static Badge" src="https://img.shields.io/github/stars/pppscn/SmsForwarder?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://viayoo.com/zh-cn/images/logo.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "Via"
+details = "轻量好用的手机浏览器"
+:extraLinks="[
+  { text: 'Link', link: 'https://viayoo.com/zh-cn/' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="免费" />
+  <Badge type="tip" text="浏览器" />
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://github.com/youniaogu/MangaReader/raw/master/static/demo.gif" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "MangaReader"
+details = "移动端漫画阅读器"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/youniaogu/MangaReader' },
+]" >
+<template #badgeImage>
+  <Badge type="warning" text="开源" />
+  <Badge type="tip" text="漫画" />
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/youniaogu/MangaReader?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 

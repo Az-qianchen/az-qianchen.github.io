@@ -148,7 +148,15 @@ details = "可以在上面找到更多设计相关的资源网站，如图片，
 ## 🤖 在线游戏
 
 <div class="VPFeature-item">
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/0710a74523d23728708a341142b145664bccbd333c48b9757235155fb326eb02/68747470733a2f2f692e696d6775722e636f6d2f6b6465373630792e706e67" style = "max-width: 300%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADO0lEQVR4Ac1XA7DkQBCds23btm1bSWbPVvFs27ZtW6Wzbdte3OX6/Uqq5vJns/v9u6prJ43Xk5nGhkU6cqpqAZeiFDPZrarV3A5HdZM9qlrfyXkLGUMn2sJXxAK218B6ixYxXZwvdWmaHsa8BLGswaORYiMMwoPdmrZNr1w5OjOJhAuhCFdW1fnmnWsQRARTbAVvfx8PEcT3sIFvEbiBb4wy/5YX5SU7eSj53GRuzodIsvQ5cQ1a/5HcWxM4SsBuQCeR/0FPILwXkjiDGMqBTmGRoHhIDaQcZWlpWncl/mnI3eQwlMDKOznPT89XBZ8rzrZt80FHvsNga8h/EnYXYEEHbMFn4X+lqGtaGnSqnw5HOgLZQQZfnJqmUo+ITyDFdUVJQkCdSf6DeJ3epk1yZ5s2uX9rWi6sSbbe0HUKsIUP5/GAASxgAhsxEItZid6uAhmeI3ZajglHd4r4teUIf1GQM2CsLTrYnqLgLy3y34iBWMxKBNTOJrm+kP4p/Xr8yGyPYfvFpgm1ZVYiRV+J8Vc0KvOujGuYYxN8Nmxga+QWl5Y5531kVzDUakj325BJ6JeiZMK96+3axQZjDZnM1qkojay4qLzAhpyPt9z9LhY6BOzdIjZiBTbStAmiEWa5HajOWBQcOR3nLKztbOmNq4rYiCXbwCThjj5gRPsIvliwX2TdhGTcv/e1gcnCLjcyGyL9DEkCTrX14XyD0E0nygymCGXSwevbOBzJKD/6I0fEfIEMOptNt5dsQJ4DP1u3zsB8EFquaY+1L3t0P7L9ayThGNkGRhmA15gfhPJDzYOx9sfHmB84seFWnTgVZ0gDduiQgHQn6HpWIWFhj2MHYw0ZdLDB/LDLHUxBmbKXkaGqzBkjFXp/GGXnJRG5kWM9AinR9aD0cF7XqjPa6nno/eRz8LHi4LsBevwG3p2iFDb/rYo17eQ8D8kO+xtcqPWDGNeW3rEgQOdwFJQ1i/ikdBkAb4gvUOBHeA4hPwSWgYlnJ/4nMBnRrvfCKCwZc4F5o9+KkiNg3HJ+jDL1GXYbCkGdwAImsBGDBYX09u1TkFNW5AhxMcrwSqgIjFnzoxRryKCDDWzhA18W2ekfEfm9rjV7szsAAAAASUVORK5CYII=" style = "max-width: 500%;transform: translate(0%, 5%);">'
+title = "Itch"
+details = "最著名的小游戏平台，可以上传自己的 H5 游戏，还有游戏和素材的买卖"
+:extraLinks="[
+  { text: 'Link', link: 'https://itch.io/' },
+]" >
+</VPFeature>
+
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/d5769b7b9a4f964d65459a1e643e37c82ee519ac59723381712a40d3a6c2cac6/68747470733a2f2f692e696d6775722e636f6d2f6b6465373630792e706e67" style = "max-width: 500%;transform: translate(40%, 10%);">'
 title = "信任的进化"
 details = "关于博弈论的小游戏"
 :extraLinks="[
@@ -157,6 +165,18 @@ details = "关于博弈论的小游戏"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/ncase/trust?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5Ocpe3WmkxWK6eBo7I4yov/a7d4d210ef5e1c28bfc032b011d8c23c/image8-1.png" style = "max-width: 500%;transform: translate(0%, 5%);">'
+title = "DOOM"
+details = "在线多人联机DOOM"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/cloudflare/doom-workers' },
+  { text: 'Link', link: 'https://silentspacemarine.com/' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/cloudflare/doom-workers?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
@@ -176,7 +196,7 @@ details = "人生模拟小游戏"
 ## 📖 在线教程
 
 <div class="VPFeature-item">
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/d1a84674f4cb4664ac169d7eb4a2fc0d8dd405d1c80b4fbb894d787886ee087a/68747470733a2f2f687a70742d696e65742d636c75622e6769746875622e696f2f656e676c6973682d6e6f74652f6c6f676f2f6c6f676f2e737667" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/ea7ae0f7bea761a80ae7a77d0f2347e1628605a8fe6672e4266d817ccbce5b4e/68747470733a2f2f687a70742d696e65742d636c75622e6769746875622e696f2f656e676c6973682d6e6f74652f6c6f676f2f6c6f676f2e737667" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "英语语法笔记"
 details = "简单的英语语法笔记，更详细的可以看语法俱乐部"
 :extraLinks="[
@@ -201,7 +221,7 @@ details = "Rust 中文学习教程"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://github.com/kamranahmedse/design-patterns-for-humans/raw/master/.github/banner.svg" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://github.com/kamranahmedse/design-patterns-for-humans/raw/master/.github/banner.svg" style = "max-width: 100%;transform: translate(0%, 0%);">'
 title = "Design Patterns for Humans"
 details = "设计模式解释"
 :extraLinks="[
@@ -212,7 +232,7 @@ details = "设计模式解释"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/82f5fc62e2e202c52823f16f83a585a68ed26e4a9551a164189d8351ffaa514e/68747470733a2f2f63646e2e6265656b6b612e636f6d2f626c6f67696d672f61737365742f3230323330382f6267323032333038303730352e77656270" style = "max-width: 100%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/19502297?s=48&v=4" style = "max-width: 100%;transform: translate(0%, 0%);">'
 title = "typescript tutorial"
 details = "来自阮一峰的 TypeScript 教程"
 :extraLinks="[
@@ -375,7 +395,7 @@ details = "世界最大的开源地图数据平台，可以进行地理数据的
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/95331493ea996ce66b1611008f416d73e647d7b87a3eb0e2c4959fc22d7749ce/68747470733a2f2f692e696d6775722e636f6d2f366246685833652e706e67" style = "max-width: 160%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/03a964fc375d0fbf67c35e2c80b0168cee5767505691767667016d9edd02dbbc/68747470733a2f2f692e696d6775722e636f6d2f366246685833652e706e67" style = "max-width: 160%;transform: translate(0%, 0%);">'
 title = "Draw all roads in a city"
 details = "绘制城市道路地图可以导出成 png 或 svg 格式图片"
 :extraLinks="[
@@ -455,7 +475,7 @@ details = "通过公交线路绘制城市脉络"
 
 <div class="VPFeature-item">
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/78ff76029ad956975f413b198a7ad64d73a8d7e07d127a98a5f8388950f4379b/68747470733a2f2f676974666c75656e63652e636f6d2f6170692f6f67" style = "max-width: 300%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/9ffcc5c8b721833be3eeb8a3e3ac2973afc03c1edcbf703b7c7d2f0e3528eb05/68747470733a2f2f676974666c75656e63652e636f6d2f6170692f6f67" style = "max-width: 300%;transform: translate(0%, 0%);">'
 title = "GitFluence"
 details = "借助 AI 找到 Git 正确的命令"
 :extraLinks="[
@@ -521,7 +541,7 @@ details = "软件逆向工程框架，来自美国国家安全局"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/58ae6b08a0e23bb6e352be5b7005603ef3d1e3bd60e27639e6afcf9684b93bb0/68747470733a2f2f776562746f7272656e742e696f2f696d672f576562546f7272656e742e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://camo.githubusercontent.com/8bb3d03a466d89ac771316e36791e6ed845fac85c74f7cada6fbd500af2bb6a6/68747470733a2f2f776562746f7272656e742e696f2f696d672f576562546f7272656e742e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "WebTorrent"
 details = "种子客户端，可以边下边播"
 :extraLinks="[

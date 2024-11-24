@@ -194,6 +194,7 @@ details = "godot 官方的相关链接"
   { text: '官网', link: 'https://godotengine.org/' },
   { text: '文档', link: 'https://docs.godotengine.org/zh-cn/4.x/' },
   { text: '插件', link: 'https://godotengine.org/asset-library/asset' },
+  { text: 'PR', link: 'https://godotengine.github.io/godot-interactive-changelog/#4.4' },
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/godotengine/godot?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
@@ -401,6 +402,34 @@ details = "阿里开源的 6 款字体"
   { text: 'iconfont', link: 'https://www.iconfont.cn/fonts/index' },
 ]" />
 
+<VPFeature icon = '<img src="https://s2.loli.net/2024/11/24/C4IVynuRlQEi37H.png" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "MiSans"
+details = "小米开源字体，非常全"
+:extraLinks="[
+  { text: 'Link', link: 'https://hyperos.mi.com/font/zh/' },
+]" />
+
+<VPFeature icon = '<img src="https://s2.loli.net/2024/11/24/iGbD1KNeQzYW2fM.png" style = "max-width: 200%;transform: translate(0%, 0%);">'
+title = "HarmonyOS Sans"
+details = "华为开放免费可商用字体"
+:extraLinks="[
+  { text: 'Link', link: 'https://developer.huawei.com/consumer/cn/doc/design-guides/font-0000001157868583-V1' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAyklEQVR4AWNwL/ChKx61EKIox0gBiBOBuAuIFwLxARCGsrugcgrkWYiwRBtq4Gcg/k8k/gzVo43fQkzfbAAZQCHegM3X6JZ5E+sTEnzujdVCUDzgCyY0jRgOJRD8iTC1MA12OBR2kZoKQXpwmGWHbOEjXApIxPg88AgkhyveEsm0jFAUeTNgSZGXqZXJQWahp1xswVlBRQsr0IOVAWcyphxjjS66W0j3IKV7oqF7tqBzxqd/0Ub/wpv+1RP9K2D6NzHo34iiKh61EADpp5/m6IfuiQAAAABJRU5ErkJggg==" style = "max-width: 60%;transform: translate(0%, 0%);">'
+title = "OPPO Sans"
+details = "OPPO 开放免费可商用字体"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.coloros.com/article/A00000050/' },
+]" />
+
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABwElEQVR4Ab2SA2ykURCA92wGZ19wNoPT2nZtM07Otm27tm3btoK6/TOdDWu3kzy/+YakKZdPn77OVKu198pkCkMDA2O2mbn13DEBLly6sl7fwMiPzeYSXC6/gkFnvhOLpZY6unqrRwW4d/+htUAo7qJS6UAhU4F8jgJkMrWJTmekyORKxyEVc/MKZvsHBJ+2tLIh6HQm0GgM6AXpYjBYGSKR5N+gyqVl5bOjY+Oor968y0O3AT9DL0gXrmFMBuvwoMpV1TVzs7Jz+K5uHknmltYEi8UBJpPdGxKF4ziFQps5lHXLyKiYsus3bhMisRRYbC70gpQhZC8CZva2qBkLq6qrD1ZWVf9KSUmDZ89fgY6OPmjc53B4gBXoQEgIQnYO5vL+qqpqa1T2ycjMrvvy7SfY2TuCUCgGHk+ggbSwObxfCNmLY+aggLLyCnlMbPybf04uNZevXCfkciUIBCLg84VtCLmCXmzFQRpUAgKDF/r4Bpg7u7hHvHz19pNSpd0mFEk0HuQgRI2Qxb2+Dw7w9QvYbmZmsVkqU7iJJbI8TN4NHGtJoxV0eSUOW+z3VxKp/CSOXrGOEoDK+3FdTppu6QGTDuqNfns2+AAAAABJRU5ErkJggg==" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "字由"
+details = "字库，也整理了非常多免费可商用字体"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.hellofont.cn/' },
+]" />
+
 <VPFeature icon = '<img src="https://github.com/atelier-anchor/smiley-sans/raw/main/docs/images/smiley-sans.dark.svg" style = "max-width: 100%;transform: translate(0%, 0%);">'
 title = "得意黑"
 details = "中文斜体字体"
@@ -515,7 +544,7 @@ details = "手写体"
 ## 🎵 音频
 
 <div class="VPFeature-item">
-<VPFeature icon = '<img src="https://eadn-wc01-3423425.nxedge.io/cdn/wp-content/uploads/2019/10/sonniss-logo-small.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://s2.loli.net/2024/11/24/c3QdnD5skpfwVzG.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Sonniss"
 details = "来自 Sonniss 27GB+ 高品质音效，可商用"
 :extraLinks="[
