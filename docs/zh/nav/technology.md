@@ -329,7 +329,7 @@ title = "Hoppscotch"
 details = "API 测试工具"
 :extraLinks="[
   { text: 'GitHub', link: 'https://github.com/hoppscotch/hoppscotch' },
-  { text: 'FlClash', link: 'https://hoppscotch.io/' },
+  { text: 'Link', link: 'https://hoppscotch.io/' },
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
@@ -445,7 +445,7 @@ details = "网络技术学习，网络代理，安卓项目有 FlClash"
 </template>
 </VPFeature>
 
-<VPFeature icon = '<img src="https://private-user-images.githubusercontent.com/3325447/254932576-0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI0MjUwNDEsIm5iZiI6MTczMjQyNDc0MSwicGF0aCI6Ii8zMzI1NDQ3LzI1NDkzMjU3Ni0wZDBiNDRlMi04ZjRhLTRlOTktOWI1Mi1hNWMxYzc0MWM4ZjcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTEyNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDExMjRUMDUwNTQxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjIyOWYwNzdlODY2Y2JjMDFjYTg5MjVhMDI4ZDZhYWUxY2Y2NTdiMGU5MTc2MWRkODk0MDE1OTRjZjExMDUzMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.oDPkPWCx_GgVp3PkCNovTDQBFcHaG1euxtnSoqAaijY" style = "max-width: 60%;transform: translate(0%, 0%);">'
+<VPFeature icon = '<img src="https://private-user-images.githubusercontent.com/3325447/254932576-0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI0MzkzOTEsIm5iZiI6MTczMjQzOTA5MSwicGF0aCI6Ii8zMzI1NDQ3LzI1NDkzMjU3Ni0wZDBiNDRlMi04ZjRhLTRlOTktOWI1Mi1hNWMxYzc0MWM4ZjcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTEyNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDExMjRUMDkwNDUxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9M2Q4MDY5OWI0N2Y1ZTlkNTExYWU0ZDRjNjkxNTBmYmM1YmRjNWU2MjZlOGFhMDBhNTFkMDJlOGY3OGJlNTI4OSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.4Tm4nkATjXNdCv7sGEPmtAyEDpmmzOe4I1rerYtF2Pg" style = "max-width: 60%;transform: translate(0%, 0%);">'
 title = "Ollama"
 details = "本地运行大模型"
 :extraLinks="[
