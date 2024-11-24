@@ -354,7 +354,6 @@ details = "检测 STUN 或 TURN 服务器连接，推荐使用 IceTest"
   { text: 'TrickleICE', link: 'https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/' },
 ]" >
 <template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 
