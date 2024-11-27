@@ -180,6 +180,29 @@ details = "在线多人联机DOOM"
 </template>
 </VPFeature>
 
+<VPFeature icon = '<img src="https://github.com/etched-ai/open-oasis/raw/master/media/thumb.png" style = "max-width: 500%;transform: translate(0%, 5%);">'
+title = "Open-Oasis"
+details = "AI 生成的我的世界"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/etched-ai/open-oasis' },
+  { text: 'Link', link: 'https://oasis.us.decart.ai/starting-point?journey=Village+Outpost' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/etched-ai/open-oasis?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://images.prismic.io/makemepulse/71bcb2cb-b1e4-4f65-b1b0-a7b9fd74bcaa_nomadic-tribe-full.jpg?auto=compress,format&q=60" style = "max-width: 500%;transform: translate(0%, 5%);">'
+title = "Nomadic Tribe"
+details = "一款很唯美的小作品"
+:extraLinks="[
+  { text: 'Link', link: 'https://2019.makemepulse.com/' },
+]" >
+<template #badgeImage>
+
+</template>
+</VPFeature>
+
 <VPFeature icon = '<span style="font-size: 18px;">Life</span>'
 title = "人生重开模拟器"
 details = "人生模拟小游戏"
@@ -189,6 +212,18 @@ details = "人生模拟小游戏"
 ]" >
 <template #badgeImage>
   <img alt="Static Badge" src="https://img.shields.io/github/stars/VickScarlet/lifeRestart?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
+</template>
+</VPFeature>
+
+<VPFeature icon = '<img src="https://img.itch.zone/aW1nLzE4NDg5MjYwLnBuZw==/original/2Bqvv8.png" style = "max-width: 100%;transform: translate(0%, 0%);">'
+title = "Celeste2"
+details = "蔚蓝作者的小作品用于纪念蔚蓝三周年"
+:extraLinks="[
+  { text: 'GitHub', link: 'https://github.com/ExOK/Celeste2' },
+  { text: 'Link', link: 'https://maddymakesgamesinc.itch.io/celeste-classic-2' },
+]" >
+<template #badgeImage>
+  <img alt="Static Badge" src="https://img.shields.io/github/stars/ExOK/Celeste2?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
 </div>
@@ -468,109 +503,6 @@ details = "通过公交线路绘制城市脉络"
   <img alt="Static Badge" src="https://img.shields.io/github/stars/antct/city-vein?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
 </template>
 </VPFeature>
-
-</div>
-
-## ⌨️ 编程相关
-
-<div class="VPFeature-item">
-
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/9ffcc5c8b721833be3eeb8a3e3ac2973afc03c1edcbf703b7c7d2f0e3528eb05/68747470733a2f2f676974666c75656e63652e636f6d2f6170692f6f67" style = "max-width: 300%;transform: translate(0%, 0%);">'
-title = "GitFluence"
-details = "借助 AI 找到 Git 正确的命令"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/geovanesantana/gitfluence' },
-  { text: 'Link', link: 'https://www.gitfluence.com/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/geovanesantana/gitfluence?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://ipcheck.ing/logos/logo-192.webp" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "MyIP "
-details = "IP 检测，验证链接各个主要服务的速度"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/jason5ng32/MyIP' },
-  { text: 'Link', link: 'https://ipcheck.ing/#/pingtest' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/jason5ng32/MyIP?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/101000011?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "PocketBase"
-details = "后端系统，管理用户账户"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/pocketbase/pocketbase' },
-  { text: 'Link', link: 'https://pocketbase.io/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/pocketbase/pocketbase?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/8908513?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Cypress"
-details = "Web 测试框架"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/cypress-io/cypress' },
-  { text: 'Link', link: 'https://www.cypress.io/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/cypress-io/cypress?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAwFBMVEVHcEyOM/2PMv2abqTIcXncc13rdUfwdj16Qv2DO/2XK/yqbae6b4/KcXbsdUZjUv53Rf6SMPxaXP+HadmYa8BrTv5nZv92Z/OIadlaVv5jVP6APf0XYP+RbbBIX/9QWP5ZZv+Aa80AZv8ZZP9GWv9JXP9MZf9kZ/UAZv82X/88W/9AZf9XZv8HZf8zXf81Zf9OZv8BZv8lY/8qY/8iYv8NZP8ZY/8GZf8KZf8BZv8QZP8AZv8QZP8IZf8AZv8AZv8Oj5LuAAAAQHRSTlMAjv8WwP3FHab/aP7//+2l/rwU+P///f////33DtCo///NbxP/9//KXqX//shp/v7FTqX+/pH/9KX//yS8w9jc2AMFiwAAAOlJREFUeAHVzAOSRFEMQNG0bVvftrH/XU2S8RL6Fh5OKvC+NZrNBnCtdqfb+2f9waDZHLKNxpPO9K/N5nPUBd6WqzVp749tNqQNtO1uT9r6tcOR9HRG27Jezt92vR1Yl7C83++kj+fr24Qb6RFNlAi3svKNqiaQor10XSI1FMU8f5qlkYpots3quIqivMg83yIl833Wq4spZ7IgICXDG+kVXDN8uohhFLEu4RzjFVUFSNI0TQBeWcb6wjG++h7AOaVekKdZhogGRUaKBjljDhCTkoGZYQlQMVoMAK8yLtl4bwhcXqV1Du/VB6E5K5qEVJ1oAAAAAElFTkSuQmCC" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "MarsCode"
-details = "在线 IDE 结合 AI 编程"
-:extraLinks="[
-  { text: 'Link', link: 'https://www.marscode.cn/' },
-]" />
-
-<VPFeature icon = '<img src="https://github.com/NationalSecurityAgency/ghidra/raw/master/Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "Ghidra"
-details = "软件逆向工程框架，来自美国国家安全局"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/NationalSecurityAgency/ghidra' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/NationalSecurityAgency/ghidra?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://camo.githubusercontent.com/8bb3d03a466d89ac771316e36791e6ed845fac85c74f7cada6fbd500af2bb6a6/68747470733a2f2f776562746f7272656e742e696f2f696d672f576562546f7272656e742e706e67" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "WebTorrent"
-details = "种子客户端，可以边下边播"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/webtorrent/webtorrent' },
-  { text: 'Link', link: 'https://webtorrent.io/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/webtorrent/webtorrent?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/50478857?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "SuperTokens"
-details = "类似 Auth0 的身份验证方案"
-:extraLinks="[
-  { text: 'GitHub', link: 'https://github.com/supertokens/supertokens-core' },
-  { text: 'Link', link: 'https://supertokens.com/' },
-]" >
-<template #badgeImage>
-  <img alt="Static Badge" src="https://img.shields.io/github/stars/supertokens/supertokens-core?style=flat&labelColor=rgba(128, 128, 128, 0.2)&color=rgba(128, 128, 128, 0.2)&logo=github" style=" margin-left: 2px;">
-</template>
-</VPFeature>
-
-<VPFeature icon = '<img src="https://avatars.githubusercontent.com/u/80581028?s=48&v=4" style = "max-width: 60%;transform: translate(0%, 0%);">'
-title = "symmetric nat test"
-details = "在线测试 NAT 类型"
-:extraLinks="[
-  { text: 'Link', link: 'https://tomchen.github.io/symmetric-nat-test/' },
-]" />
 
 </div>
 

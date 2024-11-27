@@ -262,6 +262,14 @@ details = "表情符号展示网站"
   { text: '电报动态表情', link: 'https://emojipedia.org/telegram' },
 ]" />
 
+<VPFeature icon = '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAqFBMVEVHcEwLVFwJU1wHXGIKWWAMWWEKVl4HVl0MXWQGXGIA+eUA/+sA++f///8GVFkIWWAHjosGSU4BAQEEwrgGtKsJn50HcnMhsfTa4OES1PEF7eYrm/keGhoIYGUF0scawO8UY28D5tWFnJ4uZ8oEg39fiY28yco3hP2vwsS5ubnK1NUYh7INiJYla7scjcIQc4oxcXEgn94vhu1OSUkZMzRpaWmbtberq6vadpuRAAAACnRSTlMAmfEkvlbVeQ45ARoSygAAAYdJREFUKJF1kul2gkAMhVmEQTIrDMguCrhvp+v7v1kD2NZWza/J+c5NJrkxjNtwHONpmHE8ecamIvPLJ1qPV0Ar7j2EbgS+D5H7iJGY+hgQkwcN+WKAdCGmd9AKwR8CQus/m8grQyr/zGMTU+BPR0ah4iaxv0eYCBkdRDz2hEUtDpEUo9oTUZal6XyvegqV2s/TNMukGMarywrZbLYv+7biNJvN52koatTagq34AVme1yGlYZ3nSM98x4RtkCVLAlWe8nx9lADyuM7zU6mChHXEMD/YZ1C88fPLumkB4mb9cuZvRbBlS9Ird0FRFIo3DSrb5qgUpqhEOL0w9h4EwWty4ZqC5pfkFdN3xkpco7VhbLvcMpYo/Gymkj5dMfZhDRvHF+tZv10a8mRIN9we/eg2u1Wnxs1DqLrVbtPxqzdEyLjV2XXzNNNtLMXPubga4McUFANEv8Z4XN+w/lZuLbV5RH/99KX158o8tw6xHKVYXpd3x+u4Qmqto1a49zeEasc0TeLcVPwC+4wkR1G78G0AAAAASUVORK5CYII=" style = "max-width: 300%;transform: translate(0%, 0%);">'
+title = "Iconfont"
+details = "阿里开放图标库，2900万+"
+:extraLinks="[
+  { text: 'Link', link: 'https://www.iconfont.cn/' },
+]" >
+</VPFeature>
+
 <VPFeature icon = '<img src="https://github.com/microsoft/fluentui-emoji/raw/main/art/readme_banner.webp" style = "max-width: 300%;transform: translate(0%, 0%);">'
 title = "Fluent Emoji"
 details = "软件开源的一套 Emoji 表情"
