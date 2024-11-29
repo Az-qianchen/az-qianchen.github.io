@@ -49,11 +49,11 @@ export default withPwa(
               timeStyle: "medium",
             },
           },
-          // editLink: {
-          //   pattern:
-          //     "https://github.com/Az-qianchen/az-qianchen.github.io/tree/main/docs/:path",
-          //   text: "编辑此页",
-          // },
+          editLink: {
+            pattern:
+              "https://github.com/Az-qianchen/az-qianchen.github.io/tree/main/docs/:path",
+            text: "编辑此页",
+          },
           docFooter: {
             prev: "« 上一页",
             next: "下一页 »",

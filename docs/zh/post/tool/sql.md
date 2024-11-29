@@ -20,8 +20,8 @@ CREATE TABLE 表名 (
     ...
 );
 ```
-data_type: 列的数据类型,TEXT(文本) INT(整数) 菜鸟文档：[链接](https://www.runoob.com/sqlite/sqlite-data-types.html)
-constraint: 列的约束设定，UNIQUE(唯一) 菜鸟文档：[链接](https://www.runoob.com/sql/sql-constraints.html)
+- data_type: 列的数据类型,TEXT(文本) INT(整数) 菜鸟文档：[链接](https://www.runoob.com/sqlite/sqlite-data-types.html)
+- constraint: 列的约束设定，UNIQUE(唯一) 菜鸟文档：[链接](https://www.runoob.com/sql/sql-constraints.html)
 
 ### 删除表
 ``` SQL
@@ -42,10 +42,10 @@ ALTER TABLE 表名 DROP COLUMN 列名;
 ``` SQL
 SELECT 选中的列1, 选中的列2 FROM 表名 WHERE 条件 > 10 ORDER BY 选中的列1 ASC;
 ```
-SELECT: 要查询的列
-FROM: 要查询的表
-WHERE: 查询条件
-ORDER BY: 排序方式，ASC(升序)，DESC(降序)
+- SELECT: 要查询的列
+- FROM: 要查询的表
+- WHERE: 查询条件
+- ORDER BY: 排序方式，ASC(升序)，DESC(降序)
 
 ### 插入数据
 ``` SQL
