@@ -15,13 +15,16 @@ head:
 ### 创建表
 ``` SQL
 CREATE TABLE 表名 (
-    列名1 data_type constraint,
+    列名1 data_type PRIMARY KEY,
     列名2 data_type constraint,
+    列名3 data_type DEFAULT 默认值,
     ...
 );
 ```
 - data_type: 列的数据类型,TEXT(文本) INT(整数) 菜鸟文档：[链接](https://www.runoob.com/sqlite/sqlite-data-types.html)
 - constraint: 列的约束设定，UNIQUE(唯一) 菜鸟文档：[链接](https://www.runoob.com/sql/sql-constraints.html)
+- PRIMARY KEY：主键
+- DEFAULT：默认值
 
 ### 删除表
 ``` SQL
