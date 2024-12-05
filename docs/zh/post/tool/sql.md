@@ -43,12 +43,14 @@ ALTER TABLE 表名 DROP COLUMN 列名;
 
 ### 查询数据
 ``` SQL
-SELECT 选中的列1, 选中的列2 FROM 表名 WHERE 条件 > 10 ORDER BY 选中的列1 ASC;
+SELECT 选中的列1, 选中的列2 FROM 表名 WHERE 条件 > 10 ORDER BY 选中的列1 ASC LIMIT 10  5;;
 ```
 - SELECT: 要查询的列
 - FROM: 要查询的表
 - WHERE: 查询条件
 - ORDER BY: 排序方式，ASC(升序)，DESC(降序)
+- LIMIT：返回数量
+- OFFSET：开始偏移（分页）
 
 ### 插入数据
 ``` SQL
