@@ -43,7 +43,11 @@ ALTER TABLE 表名 DROP COLUMN 列名;
 
 ### 查询数据
 ``` SQL
-SELECT 选中的列1, 选中的列2 FROM 表名 WHERE 条件 > 10 ORDER BY 选中的列1 ASC LIMIT 10  5;;
+SELECT 选中的列1, 选中的列2
+FROM 表名
+WHERE 条件 > 10
+ORDER BY 选中的列1 ASC
+LIMIT 10 OFFSET 5;;
 ```
 - SELECT: 要查询的列
 - FROM: 要查询的表
