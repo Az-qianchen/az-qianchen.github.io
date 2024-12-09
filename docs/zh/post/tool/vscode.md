@@ -50,6 +50,8 @@ VS Code 是一款轻量的代码编辑器，且通过插件支持可以提供强
 4. 打开设置
 5. 搜索 `editor.defaultFormatter`
 6. 选择格式化程序
+推荐安装使用 Prettier 插件
+[Prettier](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode)
 
 ### 隐藏文件
 1. 打开设置
