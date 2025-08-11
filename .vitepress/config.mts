@@ -94,7 +94,7 @@ export default withPwa(
           icon: {
             svg: '<svg viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg"><rect fill="none" x="1.3333" y="6" width="21.333" height="15.333" rx="4" ry="4"/><path d="m8 12.4v1.2"/><path d="m16 12.4v1.2"/><path d="m5.8853 2.6667L8.552 5.3334"/><path d="m18.115 2.6667-2.6667 2.6667"/></svg>',
           },
-          link: "https://b23.tv/Dy49jbs",
+          link: "https://space.bilibili.com/3493262625081631",
         },
         {
           icon: {
